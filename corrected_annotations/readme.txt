@@ -1,0 +1,1 @@
+Diese Annotationen wurden am 23.11. mit dem hier beiliegenden Julia-Programm update_syntax_0.5.1.jl aus den ursprünglichen, vom Annotator erstellten Textdateien erzeugt. Das Programm greift auf das ebenfalls enthaltene spelled_pitch0.5.jl zurück.
