@@ -3,7 +3,9 @@
 | A | https://musicalion.com |
 | B  | http://kern.humdrum.org  |
 | C  | Transcribed by Tom Schreyer  |
+| D | https://musescore.com/sheetmusic |
 
+A: Downloaded with our lab account. Don't distribute.
 B: Original krn-files from http://kern.humdrum.org/search?s=t&keyword=lyric%20p and converted with hum2xml
 
 files conversion to mscx via the command
@@ -12,9 +14,10 @@ files conversion to mscx via the command
 
 | File | Origin | Comment |
 |------|--------|---------|
-| op12n01.mscx | A | CAP-file|
+| op12n01.mscx | A | CAP-file, MSCZ available|
 | op12n02.mscx | A | CAP-file|
 | op12n03.mscx | A | |
+| op12n04.mscx | D | |
 | op12n05 | - | missing, unable to convert PMX |
 | op12n06.mscx | A | CAP-file|
 | op12n07.mscx | A | |
@@ -37,16 +40,16 @@ files conversion to mscx via the command
 | op43n06.mscx | B | |
 | | | |
 | op47n01.mscx | - | missing, corrupted XML
-| op47n02.mscx | A | |
+| op47n02.mscx | A | MSCZ available |
 | op47n03.mscx | C | |
 | op47n04.mscx | A | CAP|
 | op47n05.mscx | A | |
 | op47n06.mscx | A | |
-| op47n07.mscx | A | |
+| op47n07.mscx | A | MSCZ available|
 | | | |
 | op54n01.mscx | A | |
 | op54n02.mscx | A | |
-| op54n03.mscx | A | |
+| op54n03.mscx | A | MSCZ available|
 | op54n05.mscx | A | +CAP: scherzo vs. nocturne|
 | op54n06.mscx  | A | |
 | | | |
@@ -64,13 +67,14 @@ files conversion to mscx via the command
 | op62n05.mscx | A | |
 | op62n06.mscx | A | |
 | | | |
+| op65n01.mscx | D | |
 | op65n02.mscx | C | |
 | op65n03.mscx | C | |
 | op65n04.mscx | A | |
 | op65n05.mscx | C | |
-| op65n06.mscx | A | +CAP: hochzeitstage-auf-troldhaugen vs. wedding-on-trollhaugen|
+| op65n06.mscx | A | +CAP: hochzeitstage-auf-troldhaugen vs. wedding-on-trollhaugen, MSCZ available|
 | | | |
-| op68n01.mscx | A | |
+| op68n01.mscx | A | MSCZ available |
 | op68n02.mscx | A | |
 | op68n03.mscx | A | |
 | op68n04.mscx | A | |
