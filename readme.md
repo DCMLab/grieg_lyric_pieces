@@ -40,12 +40,12 @@ files conversion to mscx via the command
 | op43n06.mscx | B | |
 | | | |
 | op47n01.mscx | - | missing, corrupted XML
-| op47n02.mscx | A | MSCZ available |
+| op47n02.mscx | D | preferred over A version |
 | op47n03.mscx | C | |
 | op47n04.mscx | A | CAP|
 | op47n05.mscx | A | |
 | op47n06.mscx | A | |
-| op47n07.mscx | A | MSCZ available|
+| op47n07.mscx | A | preferred over D version although pedal marks are missing |
 | | | |
 | op54n01.mscx | A | |
 | op54n02.mscx | A | |
