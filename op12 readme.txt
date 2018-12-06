@@ -1,1 +1,0 @@
-Original annotations by Adrian Nagel, corrected manually by JH and added to the scores with an earlier version of the add_annotations script.

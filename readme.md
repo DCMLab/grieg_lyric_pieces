@@ -4,6 +4,12 @@
 | B  | http://kern.humdrum.org  |
 | C  | Transcribed by Tom Schreyer  |
 
+B: Original krn-files from http://kern.humdrum.org/search?s=t&keyword=lyric%20p and converted with hum2xml
+
+files conversion to mscx via the command
+"mscore" -o mscx/op12-1.mscx op12-1.mscz 
+
+
 | File | Origin | Comment |
 |------|--------|---------|
 | op12n01.mscx | A | CAP-file|
