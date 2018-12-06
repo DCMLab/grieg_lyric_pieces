@@ -5,7 +5,7 @@
 | C  | Transcribed by Tom Schreyer  |
 | D | https://musescore.com/sheetmusic |
 
-A: Downloaded with our lab account. Don't distribute.
+A: Downloaded with our lab account. Don't distribute.  
 B: Original krn-files from http://kern.humdrum.org/search?s=t&keyword=lyric%20p and converted with hum2xml
 
 files conversion to mscx via the command
