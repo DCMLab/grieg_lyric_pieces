@@ -51,7 +51,7 @@ files conversion to mscx via the command
 | op54n02.mscx | A | |
 | op54n03.mscx | D | preferred over A version |
 | op54n04.mscx | A | CAP, Arpeggios not going over both staves |
-| op54n05.mscx | A | +CAP: scherzo vs. nocturne|
+| op54n05.mscx | A | |
 | op54n06.mscx  | A | |
 | | | |
 | op57n01.mscx | A | |
