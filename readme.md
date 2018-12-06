@@ -49,7 +49,7 @@ files conversion to mscx via the command
 | | | |
 | op54n01.mscx | A | |
 | op54n02.mscx | A | |
-| op54n03.mscx | A | MSCZ available|
+| op54n03.mscx | D | preferred over A version |
 | op54n05.mscx | A | +CAP: scherzo vs. nocturne|
 | op54n06.mscx  | A | |
 | | | |
