@@ -65,7 +65,7 @@ files conversion to mscx via the command
 | op62n02.mscx | A | |
 | op62n03.mscx | A | CAP|
 | op62n04.mscx | A | |
-| op62n05.mscx | A | |
+| op62n05.mscx | A | Arpeggios missing |
 | op62n06.mscx | A | |
 | | | |
 | op65n01.mscx | D | |
