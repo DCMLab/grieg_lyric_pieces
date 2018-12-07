@@ -1,9 +1,12 @@
+The basis for all corrections was the complete edition vol. 1 by Dag Schjelderup-Ebbe (*Samlede verker, Band 1: Lyriske stykker, Frankfurt: C.F. Peters, 1977. Plate 31071.*) https://imslp.org/wiki/Samlede_verker_(Grieg,_Edvard)
+
 | Letter | Origin |
 |--------|--------|
 | A | https://musicalion.com |
 | B  | http://kern.humdrum.org  |
 | C  | Transcribed by Tom Schreyer  |
 | D | https://musescore.com/sheetmusic |
+| E | scanned PDF with PhotoScore 8 and corrected manually |
 
 **A**: Downloaded with our lab account. Don't distribute.\
 Most of the files have been engraved in Capella 7 or 8 and exported to XML by the original transcriber. The XML files, when opened in MuseScore showed the following mistakes which had to be corrected manually:
@@ -25,7 +28,7 @@ files conversion to mscx via the command
 | op12n02.mscx | A | CAP-file|
 | op12n03.mscx | A | |
 | op12n04.mscx | D | |
-| op12n05 | - | missing, unable to convert PMX |
+| op12n05 | E | scanned from http://hz.imslp.info/files/imglnks/usimg/f/fe/IMSLP203702-WIMA.c9a6-volksweise.pdf |
 | op12n06.mscx | A | CAP-file|
 | op12n07.mscx | A | |
 | op12n08.mscx | A | |
@@ -46,7 +49,7 @@ files conversion to mscx via the command
 | op43n05.mscx | B | |
 | op43n06.mscx | B | |
 | | | |
-| op47n01.mscx | - | missing, corrupted XML
+| op47n01.mscx | A | Capella 8 produced corrupted XML file --> opened with Finale and exported to XML again, then corrected manually |
 | op47n02.mscx | D | preferred over A version |
 | op47n03.mscx | C | |
 | op47n04.mscx | A | CAP|
