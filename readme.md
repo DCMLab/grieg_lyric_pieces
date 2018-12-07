@@ -5,9 +5,16 @@
 | C  | Transcribed by Tom Schreyer  |
 | D | https://musescore.com/sheetmusic |
 
-A: Downloaded with our lab account. Don't distribute.\
-B: Original krn-files from http://kern.humdrum.org/search?s=t&keyword=lyric%20p and converted with hum2xml
+**A**: Downloaded with our lab account. Don't distribute.\
+Most of the files have been engraved in Capella 7 or 8 and exported to XML by the original transcriber. The XML files, when opened in MuseScore showed the following mistakes which had to be corrected manually:
+* missing arpeggios (not corrected)
+* missing 8va-lines (partially corrected)
+* missing trills
+* missing voltas
+* missing fermatas on bar lines (not corrected)
+* too little spacing ( Style -> General -> Page -> Min. system distance --> set to aroung 8sp)
 
+**B**: Original krn-files from http://kern.humdrum.org/search?s=t&keyword=lyric%20p and converted with hum2xml\
 files conversion to mscx via the command
 "mscore" -o mscx/op12-1.mscx op12-1.mscz 
 
