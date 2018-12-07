@@ -73,7 +73,7 @@ files conversion to mscx via the command
 | op65n03.mscx | C | |
 | op65n04.mscx | A | |
 | op65n05.mscx | C | |
-| op65n06.mscx | A | +CAP: hochzeitstage-auf-troldhaugen vs. wedding-on-trollhaugen, MSCZ available|
+| op65n06.mscx | D | preferred over both A versions (1 CAP, 1 XML)|
 | | | |
 | op68n01.mscx | A | MSCZ available |
 | op68n02.mscx | A | |
