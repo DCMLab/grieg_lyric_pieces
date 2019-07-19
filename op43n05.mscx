@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,6 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <minSystemDistance>15.5</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -57,8 +60,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
@@ -69,10 +70,12 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         </Page>
@@ -139,7 +142,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I(6)</name>
+          <name>I(13)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -159,7 +162,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V(4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -169,6 +172,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <tick>720</tick>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <tick>0</tick>
         <Chord>
           <track>1</track>
@@ -198,7 +205,7 @@
         </Measure>
       <Measure number="2">
         <Harmony>
-          <name>I(6)</name>
+          <name>I(13)</name>
           </Harmony>
         <Beam id="2">
           <StemDirection>up</StemDirection>
@@ -255,7 +262,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V]</name>
+          <name>V(4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -265,6 +272,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <tick>1680</tick>
+        <Harmony>
+          <name>V]</name>
+          </Harmony>
         <tick>960</tick>
         <Chord>
           <track>1</track>
@@ -537,6 +548,7 @@
         <tick>4560</tick>
         <Harmony>
           <name>#viio65/vi</name>
+          <pos x="0" y="-8.41057"/>
           </Harmony>
         <tick>4680</tick>
         <Chord>
@@ -678,7 +690,7 @@
           </Chord>
         <tick>5520</tick>
         <Harmony>
-          <name>.Ger6/iii</name>
+          <name>.Ger6/vi</name>
           </Harmony>
         <tick>5640</tick>
         <Chord>
@@ -804,7 +816,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vi6(9)</name>
+          <name>vi6(2)</name>
           </Harmony>
         <Beam id="12">
           <StemDirection>up</StemDirection>
@@ -1061,7 +1073,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V(4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1071,6 +1083,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <tick>8400</tick>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <tick>7680</tick>
         <Chord>
           <track>1</track>
@@ -1157,7 +1173,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V]</name>
+          <name>V(4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1167,6 +1183,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <tick>9360</tick>
+        <Harmony>
+          <name>V]</name>
+          </Harmony>
         <tick>8640</tick>
         <Chord>
           <track>1</track>
@@ -1595,7 +1615,7 @@
           </Chord>
         <tick>13200</tick>
         <Harmony>
-          <name>.Ger6/iii</name>
+          <name>.Ger6/vi</name>
           </Harmony>
         <tick>13320</tick>
         <Chord>
@@ -1717,7 +1737,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>vi6(9)</name>
+          <name>vi6(2)</name>
           </Harmony>
         <Beam id="26">
           <StemDirection>up</StemDirection>
@@ -1990,7 +2010,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii(#5)</name>
+          <name>ii+</name>
           <track>1</track>
           </Harmony>
         <Chord>
@@ -3142,7 +3162,7 @@
         </Measure>
       <Measure number="27">
         <Harmony>
-          <name>.Ger6/vi</name>
+          <name>.Ger6/ii</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -3156,7 +3176,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.Ger6(4)/vi</name>
+          <name>.Ger6(4)/ii</name>
+          <pos x="-1.90308" y="-5.87313"/>
           </Harmony>
         <Beam id="51">
           <StemDirection>up</StemDirection>
@@ -3414,7 +3435,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>.Fr6</name>
           <track>1</track>
           </Harmony>
         <Chord>
@@ -3449,6 +3470,9 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>I64(6)</name>
+          </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>16th</durationType>
@@ -4448,7 +4472,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.Fr6/iii</name>
+          <name>.Fr6/vi</name>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -4501,7 +4525,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>ii7(b5)</name>
+          <name>ii%7</name>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>

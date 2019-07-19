@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.55</page-height>
         <page-width>1190.1</page-width>
@@ -54,8 +56,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
@@ -66,6 +66,10 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -124,6 +128,7 @@
       <VBox>
         <height>10</height>
         <Text>
+          <pos x="-0.699339" y="-6.01432"/>
           <style>Title</style>
           <text><font size="10"></font>Albumblatt   #</text>
           </Text>
@@ -144,10 +149,14 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
+          <pos x="-10.0705" y="-16.0874"/>
           <xoffset>0</xoffset>
           <yoffset>-2.8</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Allegretto e dolce</b></text>
           </StaffText>
+        <Harmony>
+          <name>.e.i[i</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -157,9 +166,6 @@
           </Chord>
         </Measure>
       <Measure number="1">
-        <Harmony>
-          <name>.e.i[i</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <dots>1</dots>
@@ -199,6 +205,7 @@
         </Measure>
       <Measure number="2">
         <StaffText>
+          <pos x="0.979075" y="-21.0562"/>
           <xoffset>0</xoffset>
           <yoffset>-17</yoffset>
           <text><font size="21"></font><font face="Times New Roman"></font><b>Albumblatt</b></text>
@@ -237,6 +244,7 @@
             </Note>
           </Chord>
         <StaffText>
+          <pos x="-7.413" y="-16.4548"/>
           <xoffset>0</xoffset>
           <yoffset>-11</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
@@ -254,6 +262,7 @@
         </Measure>
       <Measure number="3">
         <StaffText>
+          <pos x="21.6795" y="-16.3705"/>
           <xoffset>0</xoffset>
           <yoffset>-6.3</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 12 No.7</b></text>
@@ -637,13 +646,13 @@
           </Chord>
         </Measure>
       <Measure number="10">
-        <Harmony>
-          <name>III(7)</name>
-          </Harmony>
         <endSpanner id="6"/>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
@@ -880,7 +889,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>III(7)</name>
+          <name>III</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -964,7 +973,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>V2(b5)/V</name>
+          <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1125,12 +1134,12 @@
           </Rest>
         </Measure>
       <Measure number="18">
-        <Harmony>
-          <name>III(7)</name>
-          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
@@ -1371,7 +1380,7 @@
         </Measure>
       <Measure number="22">
         <Harmony>
-          <name>i(#7)</name>
+          <name>i</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -1435,7 +1444,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>It6/V</name>
+          <name>.It6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1478,7 +1487,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -1997,12 +2006,12 @@
           </Rest>
         </Measure>
       <Measure number="34">
-        <Harmony>
-          <name>III(7)</name>
-          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
@@ -2236,12 +2245,12 @@
           </Rest>
         </Measure>
       <Measure number="38">
-        <Harmony>
-          <name>III(7)</name>
-          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <HairPin id="14">
           <subtype>0</subtype>
           <Segment>
@@ -2321,7 +2330,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>V2(b5)/V</name>
+          <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2471,12 +2480,12 @@
           </Rest>
         </Measure>
       <Measure number="42">
-        <Harmony>
-          <name>III(7)</name>
-          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>up</StemDirection>
@@ -2717,7 +2726,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>i(#7)</name>
+          <name>i</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -2780,7 +2789,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>It6/V</name>
+          <name>.It6</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2812,7 +2821,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>

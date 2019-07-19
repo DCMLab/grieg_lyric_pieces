@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,6 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
+      <minSystemDistance>15.5</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -57,14 +60,18 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         <System>
@@ -123,7 +130,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Harmony>
-          <name>.d.i(6)</name>
+          <name>.d.i(+6)</name>
           </Harmony>
         <Beam id="1">
           <StemDirection>down</StemDirection>
@@ -168,6 +175,9 @@
           </Chord>
         </Measure>
       <Measure number="1">
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -192,7 +202,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>IV(6)</name>
+          <name>IV(+6)</name>
           </Harmony>
         <Beam id="2">
           <StemDirection>down</StemDirection>
@@ -234,6 +244,9 @@
           </Chord>
         </Measure>
       <Measure number="2">
+        <Harmony>
+          <name>IV</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -258,7 +271,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>i(6)</name>
+          <name>i(+6)</name>
           </Harmony>
         <Beam id="3">
           <StemDirection>down</StemDirection>
@@ -318,7 +331,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>VI(6)</name>
+          <name>VI(+6)</name>
           </Harmony>
         <Beam id="4">
           <StemDirection>down</StemDirection>
@@ -376,7 +389,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(6)</name>
+          <name>i(+6)</name>
           </Harmony>
         <Beam id="5">
           <StemDirection>down</StemDirection>
@@ -418,6 +431,9 @@
           </Chord>
         </Measure>
       <Measure number="4">
+        <Harmony>
+          <name>i</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -442,7 +458,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>III(6)</name>
+          <name>III(+6)</name>
           </Harmony>
         <Beam id="6">
           <StemDirection>down</StemDirection>
@@ -484,6 +500,9 @@
           </Chord>
         </Measure>
       <Measure number="5">
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -508,7 +527,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>v(6)</name>
+          <name>v(+6)</name>
           </Harmony>
         <Beam id="7">
           <StemDirection>down</StemDirection>
@@ -568,7 +587,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>v64</name>
+          <name>V(6)/v</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -739,7 +758,7 @@
       <Measure number="9" len="1/8">
         <irregular/>
         <Harmony>
-          <name>ii%43(6)</name>
+          <name>ii%43(+6)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -1002,7 +1021,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>V6(#9)</name>
+          <name>V6(+#2)</name>
           </Harmony>
         <Beam id="13">
           <StemDirection>up</StemDirection>
@@ -1078,7 +1097,7 @@
           <Beam>14</Beam>
           </Rest>
         <Harmony>
-          <name>IV6(9)</name>
+          <name>IV6(+2)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1147,7 +1166,7 @@
           <Beam>15</Beam>
           </Rest>
         <Harmony>
-          <name>III6(9)</name>
+          <name>III6(+2)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1215,7 +1234,7 @@
           <Beam>16</Beam>
           </Rest>
         <Harmony>
-          <name>I6(9)</name>
+          <name>I6(+2)</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1348,7 +1367,7 @@
           <Beam>18</Beam>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -1407,6 +1426,9 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1414,7 +1436,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Beam id="19">
           <StemDirection>down</StemDirection>
@@ -1479,6 +1501,9 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1486,7 +1511,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Beam id="20">
           <StemDirection>down</StemDirection>
@@ -1548,6 +1573,9 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
+        <Harmony>
+          <name>V</name>
+          </Harmony>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -1555,7 +1583,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Beam id="21">
           <StemDirection>down</StemDirection>
@@ -1621,7 +1649,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Beam id="22">
           <StemDirection>down</StemDirection>
@@ -1682,7 +1710,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Beam id="23">
           <StemDirection>down</StemDirection>
@@ -1745,7 +1773,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>.Fr6/V</name>
+          <name>V2(b5)/V</name>
           </Harmony>
         <Beam id="24">
           <StemDirection>up</StemDirection>
@@ -1806,7 +1834,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(6)</name>
+          <name>i(+6)</name>
           </Harmony>
         <Beam id="25">
           <StemDirection>down</StemDirection>
@@ -1939,7 +1967,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>IV(6)</name>
+          <name>IV(+6)</name>
           </Harmony>
         <Beam id="27">
           <StemDirection>down</StemDirection>
@@ -2069,7 +2097,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(6)</name>
+          <name>i(+6)</name>
           </Harmony>
         <Beam id="29">
           <StemDirection>down</StemDirection>
@@ -2132,7 +2160,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>VI(6)</name>
+          <name>VI(+6)</name>
           </Harmony>
         <Beam id="30">
           <StemDirection>down</StemDirection>
@@ -2190,7 +2218,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>i(6)</name>
+          <name>i(+6)</name>
           </Harmony>
         <Beam id="31">
           <StemDirection>down</StemDirection>
@@ -2317,7 +2345,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>.bI+(6)</name>
+          <name>.bI+(+6)</name>
           </Harmony>
         <Beam id="33">
           <StemDirection>down</StemDirection>
@@ -2447,7 +2475,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <Harmony>
-          <name>III(6)</name>
+          <name>III(+6)</name>
           </Harmony>
         <Beam id="35">
           <StemDirection>down</StemDirection>
@@ -2596,6 +2624,9 @@
         <Rest>
           <durationType>16th</durationType>
           </Rest>
+        <Harmony>
+          <name>V7(6)</name>
+          </Harmony>
         <Beam id="37">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -2624,9 +2655,6 @@
           </Chord>
         </Measure>
       <Measure number="27">
-        <Harmony>
-          <name>V7(6)</name>
-          </Harmony>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>eighth</durationType>
@@ -2767,7 +2795,7 @@
       <Measure number="29" len="1/8">
         <irregular/>
         <Harmony>
-          <name>v%43(6)</name>
+          <name>v%43(+6)</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>

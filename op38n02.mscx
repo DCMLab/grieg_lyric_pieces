@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.55</page-height>
         <page-width>1190.1</page-width>
@@ -54,14 +56,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         </Page>
@@ -119,10 +115,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <Text>
-          <style>Title</style>
-          <text><font size="10"></font>Volksweise    #</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -139,7 +131,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
-          <pos x="0.446743" y="-5.18263"/>
+          <pos x="-10.3231" y="-17.7707"/>
           <xoffset>0</xoffset>
           <yoffset>-2.8</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b>Allegro con moto</b></text>
@@ -154,6 +146,7 @@
         </Measure>
       <Measure number="2">
         <StaffText>
+          <pos x="13.4273" y="-20.2555"/>
           <xoffset>0</xoffset>
           <yoffset>-15.5</yoffset>
           <text><font size="21"></font><font face="Times New Roman"></font><b>Volksweise</b></text>
@@ -165,13 +158,11 @@
         </Measure>
       <Measure number="3">
         <StaffText>
+          <pos x="-9.93062" y="-16.413"/>
           <xoffset>0</xoffset>
           <yoffset>-9</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
           </StaffText>
-        <Harmony>
-          <name>i(6)</name>
-          </Harmony>
         <Slur id="2">
           <track>0</track>
           <up>2</up>
@@ -234,6 +225,7 @@
             </Note>
           </Chord>
         <StaffText>
+          <pos x="12.5881" y="-18.6672"/>
           <xoffset>0</xoffset>
           <yoffset>-5.1</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 38 No.2</b></text>
@@ -272,11 +264,8 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>i64</name>
+          <name>i</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -309,9 +298,6 @@
           </Chord>
         </Measure>
       <Measure number="5">
-        <Harmony>
-          <name>i(#64)</name>
-          </Harmony>
         <Slur id="3">
           <track>0</track>
           <up>2</up>
@@ -377,7 +363,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(6)</name>
+          <name>V</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -411,7 +397,7 @@
         </Measure>
       <Measure number="6">
         <Harmony>
-          <name>i64</name>
+          <name>i</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -451,7 +437,7 @@
           <text><font size="9"></font><font face="Times New Roman"></font><i>cresc.</i></text>
           </StaffText>
         <Harmony>
-          <name>v</name>
+          <name>v6</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -489,6 +475,10 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <tick>9600</tick>
+        <Harmony>
+          <name>v</name>
+          </Harmony>
         </Measure>
       <Measure number="8">
         <Harmony>
@@ -530,11 +520,12 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <tick>11040</tick>
+        <Harmony>
+          <name>i64</name>
+          </Harmony>
         </Measure>
       <Measure number="9">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>iv6(9)</name>
           </Harmony>
@@ -641,7 +632,7 @@
           <yoffset>9.5</yoffset>
           </Dynamic>
         <Harmony>
-          <name>VIM7(6)</name>
+          <name>VIM7</name>
           </Harmony>
         <Slur id="4">
           <track>0</track>
@@ -777,7 +768,7 @@
         </Measure>
       <Measure number="13">
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Slur id="5">
           <track>0</track>
@@ -880,9 +871,6 @@
           </Chord>
         </Measure>
       <Measure number="14">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>i\\</name>
           </Harmony>
@@ -916,16 +904,12 @@
             </Note>
           </Chord>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>start-repeat</subtype>
           <span>2</span>
           </BarLine>
         </Measure>
       <Measure number="15">
         <startRepeat/>
-        <BarLine>
-          <subtype>start-repeat</subtype>
-          <span>2</span>
-          </BarLine>
         <Dynamic>
           <subtype>mf</subtype>
           <velocity>90</velocity>
@@ -1273,9 +1257,6 @@
           </Chord>
         </Measure>
       <Measure number="18">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V43(94)/III</name>
           </Harmony>
@@ -1427,7 +1408,7 @@
         </Measure>
       <Measure number="19">
         <Harmony>
-          <name>i7(#6)</name>
+          <name>i7</name>
           </Harmony>
         <Slur id="11">
           <track>0</track>
@@ -1566,7 +1547,7 @@
         </Measure>
       <Measure number="21">
         <Harmony>
-          <name>V7(6)/III</name>
+          <name>V7/III</name>
           </Harmony>
         <Slur id="12">
           <track>0</track>
@@ -1662,9 +1643,6 @@
           </Chord>
         </Measure>
       <Measure number="22">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>f</subtype>
           <velocity>100</velocity>
@@ -1673,7 +1651,7 @@
           <yoffset>10.2</yoffset>
           </Dynamic>
         <Harmony>
-          <name>I[III</name>
+          <name>III</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1948,7 +1926,7 @@
         </Measure>
       <Measure number="26">
         <Harmony>
-          <name>III]</name>
+          <name>III</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2005,9 +1983,6 @@
           </Chord>
         </Measure>
       <Measure number="27">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -2089,7 +2064,7 @@
           <yoffset>8.2</yoffset>
           </Dynamic>
         <Harmony>
-          <name>i(6)</name>
+          <name>i</name>
           </Harmony>
         <Slur id="13">
           <track>0</track>
@@ -2187,7 +2162,7 @@
         </Measure>
       <Measure number="31">
         <Harmony>
-          <name>i64</name>
+          <name>i</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2220,12 +2195,6 @@
           </Chord>
         </Measure>
       <Measure number="32">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Harmony>
-          <name>i(#64)</name>
-          </Harmony>
         <Slur id="14">
           <track>0</track>
           <up>2</up>
@@ -2291,7 +2260,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V(6)</name>
+          <name>V</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -2326,7 +2295,7 @@
         </Measure>
       <Measure number="33">
         <Harmony>
-          <name>i64</name>
+          <name>i</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2444,6 +2413,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <tick>49920</tick>
+        <Harmony>
+          <name>i64</name>
+          </Harmony>
         </Measure>
       <Measure number="36">
         <Harmony>
@@ -2503,9 +2476,6 @@
           </Chord>
         </Measure>
       <Measure number="37">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>f</subtype>
           <velocity>100</velocity>
@@ -2565,7 +2535,7 @@
           <yoffset>10</yoffset>
           </Dynamic>
         <Harmony>
-          <name>VIM7(6)</name>
+          <name>VIM7</name>
           </Harmony>
         <Slur id="15">
           <track>0</track>
@@ -2698,7 +2668,7 @@
         </Measure>
       <Measure number="40">
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Slur id="16">
           <track>0</track>

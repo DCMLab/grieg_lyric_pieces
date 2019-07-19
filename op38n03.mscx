@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.55</page-height>
         <page-width>1190.1</page-width>
@@ -22,7 +24,7 @@
         </page-layout>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -54,8 +56,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
@@ -68,14 +68,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -135,10 +129,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <Text>
-          <style>Title</style>
-          <text><font size="10"></font>Melodie  #</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -152,6 +142,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
+          <pos x="-8.95154" y="-16.2064"/>
           <xoffset>0</xoffset>
           <yoffset>-1.8</yoffset>
           <text><font size="10"></font><font face="Times New Roman"></font><b>Allegretto</b></text>
@@ -200,12 +191,14 @@
           <durationType>half</durationType>
           </Rest>
         <StaffText>
+          <pos x="11.7489" y="-22.109"/>
           <xoffset>0</xoffset>
           <yoffset>-10.5</yoffset>
           <text><font size="21"></font><font face="Times New Roman"></font><b>Melodie</b></text>
           </StaffText>
         <Harmony>
-          <name>viio2/V</name>
+          <name>viio2(+2)/V</name>
+          <pos x="-1" y="-6"/>
           </Harmony>
         <Slur id="3">
           <track>0</track>
@@ -248,6 +241,7 @@
         </Measure>
       <Measure number="3">
         <StaffText>
+          <pos x="0.139868" y="-17.9881"/>
           <xoffset>0</xoffset>
           <yoffset>-5.4</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
@@ -319,6 +313,7 @@
             </Note>
           </Chord>
         <StaffText>
+          <pos x="22.9383" y="-17.7482"/>
           <xoffset>0</xoffset>
           <yoffset>-5.3</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 38 No.3</b></text>
@@ -353,7 +348,8 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2/ii</name>
+          <name>#viio2(+2)/ii</name>
+          <pos x="-2" y="-6"/>
           </Harmony>
         <Slur id="5">
           <track>0</track>
@@ -465,6 +461,9 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
@@ -484,6 +483,9 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="stop" id="7"/>
@@ -544,7 +546,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="41.1076" y="6.5"/>
+            <pos x="47.7957" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -754,9 +756,6 @@
           </Rest>
         </Measure>
       <Measure number="10">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -775,7 +774,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio2(6)/V</name>
+          <name>viio2(6+2)/V</name>
           </Harmony>
         <Slur id="11">
           <track>0</track>
@@ -792,15 +791,14 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio2/V</name>
+          <name>viio2(+2)/V</name>
+          <pos x="-3" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="11"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="12">
-              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -932,7 +930,7 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Slur id="13">
+        <Slur id="12">
           <track>0</track>
           <up>1</up>
           </Slur>
@@ -941,7 +939,7 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="13"/>
+          <Slur type="start" id="12"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -952,7 +950,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2(6)/ii</name>
+          <name>#viio2(6+2)/ii</name>
           </Harmony>
         <Tuplet id="1">
           <normalNotes>2</normalNotes>
@@ -974,7 +972,8 @@
           </Chord>
         <tick>22396</tick>
         <Harmony>
-          <name>#viio2/ii</name>
+          <name>#viio2(+2)/ii</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <tick>22400</tick>
         <Chord>
@@ -989,7 +988,7 @@
         <Chord>
           <Tuplet>1</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="13"/>
+          <Slur type="stop" id="12"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>77</pitch>
@@ -1049,13 +1048,13 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <Slur id="14">
+        <Slur id="13">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="14"/>
+          <Slur type="start" id="13"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>77</pitch>
@@ -1160,6 +1159,11 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <tick>26400</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>26560</tick>
         <Chord>
           <Tuplet>3</Tuplet>
           <durationType>quarter</durationType>
@@ -1193,18 +1197,15 @@
           </Rest>
         </Measure>
       <Measure number="15">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I(9)</name>
           </Harmony>
-        <HairPin id="15">
+        <HairPin id="14">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="98.999" y="6.5"/>
+            <pos x="97.9134" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1226,15 +1227,14 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="14"/>
+          <Slur type="stop" id="13"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="12"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <endSpanner id="15"/>
+        <endSpanner id="14"/>
         <Rest>
           <durationType>half</durationType>
           </Rest>
@@ -1271,13 +1271,13 @@
           <durationType>half</durationType>
           </Rest>
         <Harmony>
-          <name>vi64(#6)-V65(4)/iii</name>
+          <name>ii%2/iii</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="16">
+            <Tie id="15">
               </Tie>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1292,7 +1292,7 @@
           <durationType>eighth</durationType>
           <Beam>3</Beam>
           <Note>
-            <endSpanner id="16"/>
+            <endSpanner id="15"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -1350,15 +1350,15 @@
         </Measure>
       <Measure number="17">
         <Harmony>
-          <name>VII-V/iii</name>
+          <name>V/iii</name>
           </Harmony>
-        <Slur id="17">
+        <Slur id="16">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="start" id="17"/>
+          <Slur type="start" id="16"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -1374,7 +1374,7 @@
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="17"/>
+          <Slur type="stop" id="16"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -1414,13 +1414,13 @@
         <Harmony>
           <name>V7(9)/vi</name>
           </Harmony>
-        <Slur id="18">
+        <Slur id="17">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="18"/>
+          <Slur type="start" id="17"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -1511,7 +1511,7 @@
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="18"/>
+          <Slur type="stop" id="17"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -1542,9 +1542,6 @@
           </Rest>
         </Measure>
       <Measure number="20">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -1557,13 +1554,13 @@
         <Harmony>
           <name>V7(b9)/V</name>
           </Harmony>
-        <Slur id="19">
+        <Slur id="18">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="19"/>
+          <Slur type="start" id="18"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -1589,7 +1586,7 @@
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="19"/>
+          <Slur type="stop" id="18"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>66</pitch>
@@ -1628,13 +1625,13 @@
         <Harmony>
           <name>V(9)</name>
           </Harmony>
-        <Slur id="20">
+        <Slur id="19">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="20"/>
+          <Slur type="start" id="19"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>69</pitch>
@@ -1777,10 +1774,10 @@
           </Harmony>
         <Chord>
           <durationType>whole</durationType>
-          <Slur type="stop" id="20"/>
+          <Slur type="stop" id="19"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="21">
+            <Tie id="20">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1803,41 +1800,24 @@
           </Rest>
         </Measure>
       <Measure number="24">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <StaffText>
           <pos x="0" y="18.4219"/>
           <xoffset>0</xoffset>
           <yoffset>8.5</yoffset>
           <text><font size="9"></font><font face="Times New Roman"></font><i>ritard.</i></text>
           </StaffText>
-        <HairPin id="22">
-          <subtype>1</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="94.2413" y="6.5"/>
-            </Segment>
-          <beginText>
-            <text>dim.</text>
-            </beginText>
-          <continueText>
-            <text>(dim.)</text>
-            </continueText>
-          </HairPin>
         <Chord>
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="23">
+            <Tie id="21">
               </Tie>
-            <endSpanner id="21"/>
+            <endSpanner id="20"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Slur id="24">
+        <Slur id="22">
           <track>0</track>
           <up>1</up>
           </Slur>
@@ -1853,10 +1833,10 @@
         <Chord>
           <Tuplet>4</Tuplet>
           <durationType>half</durationType>
-          <Slur type="start" id="24"/>
+          <Slur type="start" id="22"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="23"/>
+            <endSpanner id="21"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1869,7 +1849,7 @@
         <Chord>
           <Tuplet>4</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="24"/>
+          <Slur type="stop" id="22"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -1892,7 +1872,6 @@
         <Harmony>
           <name>I</name>
           </Harmony>
-        <endSpanner id="22"/>
         <Rest>
           <durationType>whole</durationType>
           </Rest>
@@ -1920,6 +1899,9 @@
           </Rest>
         </Measure>
       <Measure number="26">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -1938,15 +1920,15 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio2/V</name>
+          <name>viio2(+2)/V</name>
           </Harmony>
-        <Slur id="25">
+        <Slur id="23">
           <track>0</track>
           </Slur>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
-          <Slur type="start" id="25"/>
+          <Slur type="start" id="23"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>72</pitch>
@@ -1955,7 +1937,7 @@
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="25"/>
+          <Slur type="stop" id="23"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>71</pitch>
@@ -2002,12 +1984,12 @@
         <Harmony>
           <name>V</name>
           </Harmony>
-        <HairPin id="26">
+        <HairPin id="24">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="50.7076" y="6.5"/>
+            <pos x="-1.4273" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -2115,9 +2097,9 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2(6)/ii</name>
+          <name>#viio2(6+2)/ii</name>
           </Harmony>
-        <endSpanner id="26"/>
+        <endSpanner id="24"/>
         <Beam id="5">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -2131,7 +2113,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2/ii</name>
+          <name>#viio2(+2)/ii</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -2261,7 +2243,7 @@
           </Chord>
         <tick>55036</tick>
         <Harmony>
-          <name>iv(6)</name>
+          <name>ii%2</name>
           </Harmony>
         <tick>55200</tick>
         <Chord>
@@ -2279,7 +2261,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>1</track>
-            <Tie id="27">
+            <Tie id="25">
               <track>1</track>
               </Tie>
             <pitch>69</pitch>
@@ -2304,7 +2286,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>1</track>
-            <endSpanner id="27"/>
+            <endSpanner id="25"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -2387,12 +2369,12 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <HairPin id="28">
+        <HairPin id="26">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="10.6986" y="6.5"/>
+            <pos x="11.0616" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -2454,6 +2436,11 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <tick>57120</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>57280</tick>
         <Chord>
           <Tuplet>9</Tuplet>
           <durationType>quarter</durationType>
@@ -2486,7 +2473,7 @@
         <Harmony>
           <name>I(9)</name>
           </Harmony>
-        <endSpanner id="28"/>
+        <endSpanner id="26"/>
         <Chord>
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
@@ -2531,7 +2518,7 @@
           <durationType>half</durationType>
           </Rest>
         <Harmony>
-          <name>vi64(#6)-V65(4)/iii</name>
+          <name>ii%2/iii</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -2574,7 +2561,7 @@
         </Measure>
       <Measure number="33">
         <Harmony>
-          <name>VII-V/iii</name>
+          <name>V/iii</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2591,13 +2578,13 @@
             <Accidental>
               <subtype>sharp</subtype>
               </Accidental>
-            <Tie id="29">
+            <Tie id="27">
               </Tie>
             <pitch>63</pitch>
             <tpc>23</tpc>
             </Note>
           <Note>
-            <Tie id="30">
+            <Tie id="28">
               </Tie>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -2627,9 +2614,6 @@
           </Rest>
         </Measure>
       <Measure number="34">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2696,16 +2680,16 @@
         <Harmony>
           <name>vi(9)</name>
           </Harmony>
-        <Slur id="31">
+        <Slur id="29">
           <track>0</track>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="31"/>
+          <Slur type="start" id="29"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="30"/>
+            <endSpanner id="28"/>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -2723,7 +2707,7 @@
           </Chord>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="31"/>
+          <Slur type="stop" id="29"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
@@ -2749,14 +2733,14 @@
         <Harmony>
           <name>V7(b9)/V</name>
           </Harmony>
-        <Slur id="32">
+        <Slur id="30">
           <track>0</track>
           <track2>4</track2>
           <up>1</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="32"/>
+          <Slur type="start" id="30"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -2873,9 +2857,6 @@
           </Chord>
         </Measure>
       <Measure number="38">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>IV(9)</name>
           </Harmony>
@@ -2921,7 +2902,7 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="29"/>
+            <endSpanner id="27"/>
             <pitch>63</pitch>
             <tpc>23</tpc>
             </Note>
@@ -2956,7 +2937,7 @@
           <durationType>whole</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="33">
+            <Tie id="31">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2985,12 +2966,12 @@
           </Rest>
         </Measure>
       <Measure number="40">
-        <HairPin id="34">
+        <HairPin id="32">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="35.4086" y="6.5"/>
+            <pos x="95.2667" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -3003,14 +2984,14 @@
           <durationType>half</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="35">
+            <Tie id="33">
               </Tie>
-            <endSpanner id="33"/>
+            <endSpanner id="31"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Slur id="36">
+        <Slur id="34">
           <track>0</track>
           <up>1</up>
           </Slur>
@@ -3026,10 +3007,10 @@
         <Chord>
           <Tuplet>10</Tuplet>
           <durationType>half</durationType>
-          <Slur type="start" id="36"/>
+          <Slur type="start" id="34"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="35"/>
+            <endSpanner id="33"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -3042,7 +3023,7 @@
         <Chord>
           <Tuplet>10</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="36"/>
+          <Slur type="stop" id="34"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -3054,7 +3035,7 @@
           <yoffset>-1.1</yoffset>
           <text><font size="10"></font><font face="Times New Roman"></font><i>a tempo</i></text>
           </StaffText>
-        <endSpanner id="34"/>
+        <endSpanner id="32"/>
         <tick>74880</tick>
         <Rest>
           <track>1</track>
@@ -3077,7 +3058,7 @@
         <Harmony>
           <name>I</name>
           </Harmony>
-        <endSpanner id="34"/>
+        <endSpanner id="32"/>
         <Rest>
           <durationType>whole</durationType>
           </Rest>
@@ -3132,7 +3113,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>viio2/V</name>
+          <name>viio2(+2)/V</name>
           <track>1</track>
           </Harmony>
         <Chord>
@@ -3183,9 +3164,6 @@
           </Chord>
         </Measure>
       <Measure number="43">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -3271,7 +3249,7 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Slur id="37">
+        <Slur id="35">
           <track>0</track>
           <up>1</up>
           </Slur>
@@ -3280,7 +3258,7 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="37"/>
+          <Slur type="start" id="35"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -3291,7 +3269,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2(6)/ii</name>
+          <name>#viio2(6+2)/ii</name>
           </Harmony>
         <Beam id="7">
           <StemDirection>up</StemDirection>
@@ -3306,7 +3284,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>#viio2/ii</name>
+          <name>#viio2(+2)/ii</name>
           </Harmony>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -3329,7 +3307,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>7</Beam>
-          <Slur type="stop" id="37"/>
+          <Slur type="stop" id="35"/>
           <Note>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -3375,7 +3353,7 @@
         <Harmony>
           <name>ii(4)</name>
           </Harmony>
-        <Slur id="38">
+        <Slur id="36">
           <track>0</track>
           <up>1</up>
           </Slur>
@@ -3391,7 +3369,7 @@
         <Chord>
           <Tuplet>11</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="start" id="38"/>
+          <Slur type="start" id="36"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>79</pitch>
@@ -3439,7 +3417,7 @@
           </Chord>
         <tick>85756</tick>
         <Harmony>
-          <name>iv(6)</name>
+          <name>ii%2</name>
           </Harmony>
         <tick>85920</tick>
         <Chord>
@@ -3457,7 +3435,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>1</track>
-            <Tie id="39">
+            <Tie id="37">
               <track>1</track>
               </Tie>
             <pitch>69</pitch>
@@ -3482,7 +3460,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>1</track>
-            <endSpanner id="39"/>
+            <endSpanner id="37"/>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
@@ -3618,6 +3596,11 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <tick>87840</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>88000</tick>
         <Chord>
           <Tuplet>15</Tuplet>
           <durationType>quarter</durationType>
@@ -3720,7 +3703,7 @@
           </Dynamic>
         <Rest>
           <durationType>whole</durationType>
-          <Slur type="stop" id="38"/>
+          <Slur type="stop" id="36"/>
           </Rest>
         <BarLine>
           <subtype>end</subtype>
@@ -3733,7 +3716,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <track>1</track>
-            <endSpanner id="40"/>
+            <endSpanner id="38"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -3767,7 +3750,7 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <Slur id="41">
+        <Slur id="39">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -3777,7 +3760,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>8</Beam>
-          <Slur type="start" id="41"/>
+          <Slur type="start" id="39"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -3825,7 +3808,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
-          <Slur type="stop" id="41"/>
+          <Slur type="stop" id="39"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -3873,7 +3856,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Slur id="42">
+        <Slur id="40">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -3881,7 +3864,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>10</Beam>
-          <Slur type="start" id="42"/>
+          <Slur type="start" id="40"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -3899,7 +3882,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>10</Beam>
-          <Slur type="stop" id="42"/>
+          <Slur type="stop" id="40"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -3921,7 +3904,7 @@
           </Rest>
         </Measure>
       <Measure number="5">
-        <Slur id="43">
+        <Slur id="41">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -3931,7 +3914,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>11</Beam>
-          <Slur type="start" id="43"/>
+          <Slur type="start" id="41"/>
           <Note>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -3970,7 +3953,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>12</Beam>
-          <Slur type="stop" id="43"/>
+          <Slur type="stop" id="41"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -4010,7 +3993,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="44">
+        <Slur id="42">
           <track>4</track>
           <up>2</up>
           </Slur>
@@ -4020,7 +4003,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>13</Beam>
-          <Slur type="start" id="44"/>
+          <Slur type="start" id="42"/>
           <Note>
             <pitch>31</pitch>
             <tpc>15</tpc>
@@ -4075,7 +4058,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>14</Beam>
-          <Slur type="stop" id="44"/>
+          <Slur type="stop" id="42"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -4086,7 +4069,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="45">
+        <Slur id="43">
           <track>4</track>
           </Slur>
         <Beam id="15">
@@ -4095,7 +4078,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>15</Beam>
-          <Slur type="start" id="45"/>
+          <Slur type="start" id="43"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -4113,7 +4096,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>15</Beam>
-          <Slur type="stop" id="45"/>
+          <Slur type="stop" id="43"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4122,7 +4105,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="46">
+        <Slur id="44">
           <track>4</track>
           </Slur>
         <Beam id="16">
@@ -4131,7 +4114,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>16</Beam>
-          <Slur type="start" id="46"/>
+          <Slur type="start" id="44"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -4152,7 +4135,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>16</Beam>
-          <Slur type="stop" id="46"/>
+          <Slur type="stop" id="44"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4163,7 +4146,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="47">
+        <Slur id="45">
           <track>4</track>
           </Slur>
         <Beam id="17">
@@ -4172,7 +4155,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>17</Beam>
-          <Slur type="start" id="47"/>
+          <Slur type="start" id="45"/>
           <Note>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -4190,7 +4173,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>17</Beam>
-          <Slur type="stop" id="47"/>
+          <Slur type="stop" id="45"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -4199,7 +4182,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="48">
+        <Slur id="46">
           <track>4</track>
           </Slur>
         <Beam id="18">
@@ -4208,7 +4191,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>18</Beam>
-          <Slur type="start" id="48"/>
+          <Slur type="start" id="46"/>
           <Note>
             <pitch>31</pitch>
             <tpc>15</tpc>
@@ -4218,7 +4201,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>18</Beam>
-          <Slur type="stop" id="48"/>
+          <Slur type="stop" id="46"/>
           <Note>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -4237,7 +4220,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="49">
+        <Slur id="47">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -4247,7 +4230,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>19</Beam>
-          <Slur type="start" id="49"/>
+          <Slur type="start" id="47"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -4277,7 +4260,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>20</Beam>
-          <Slur type="stop" id="49"/>
+          <Slur type="stop" id="47"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -4335,12 +4318,12 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <HairPin id="50">
+        <HairPin id="48">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="9.86096" y="-2.5"/>
+            <pos x="10.0117" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -4349,7 +4332,7 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
-        <Slur id="51">
+        <Slur id="49">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -4357,7 +4340,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>21</Beam>
-          <Slur type="start" id="51"/>
+          <Slur type="start" id="49"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -4375,13 +4358,13 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>21</Beam>
-          <Slur type="stop" id="51"/>
+          <Slur type="stop" id="49"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <endSpanner id="50"/>
+        <endSpanner id="48"/>
         <Rest>
           <visible>0</visible>
           <durationType>half</durationType>
@@ -4398,7 +4381,7 @@
           </Rest>
         </Measure>
       <Measure number="13">
-        <Slur id="52">
+        <Slur id="50">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -4408,7 +4391,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>22</Beam>
-          <Slur type="start" id="52"/>
+          <Slur type="start" id="50"/>
           <Note>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -4427,7 +4410,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>22</Beam>
-          <Slur type="stop" id="52"/>
+          <Slur type="stop" id="50"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -4487,7 +4470,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="53">
+        <Slur id="51">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -4497,7 +4480,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>24</Beam>
-          <Slur type="start" id="53"/>
+          <Slur type="start" id="51"/>
           <Note>
             <pitch>31</pitch>
             <tpc>15</tpc>
@@ -4552,7 +4535,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>25</Beam>
-          <Slur type="stop" id="53"/>
+          <Slur type="stop" id="51"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -4646,7 +4629,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="54">
+        <Slur id="52">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -4656,7 +4639,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>28</Beam>
-          <Slur type="start" id="54"/>
+          <Slur type="start" id="52"/>
           <Note>
             <pitch>35</pitch>
             <tpc>19</tpc>
@@ -4732,7 +4715,7 @@
       <Measure number="18">
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="54"/>
+          <Slur type="stop" id="52"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -4761,7 +4744,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="55">
+        <Slur id="53">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -4771,7 +4754,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>30</Beam>
-          <Slur type="start" id="55"/>
+          <Slur type="start" id="53"/>
           <Note>
             <pitch>33</pitch>
             <tpc>17</tpc>
@@ -4836,7 +4819,7 @@
       <Measure number="20">
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="55"/>
+          <Slur type="stop" id="53"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -4862,7 +4845,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="56">
+        <Slur id="54">
           <track>4</track>
           </Slur>
         <Beam id="32">
@@ -4872,7 +4855,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>32</Beam>
-          <Slur type="start" id="56"/>
+          <Slur type="start" id="54"/>
           <Note>
             <pitch>43</pitch>
             <tpc>15</tpc>
@@ -4890,7 +4873,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>32</Beam>
-          <Slur type="stop" id="56"/>
+          <Slur type="stop" id="54"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -4944,7 +4927,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="57">
+        <Slur id="55">
           <track>4</track>
           </Slur>
         <Beam id="34">
@@ -4954,7 +4937,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>34</Beam>
-          <Slur type="start" id="57"/>
+          <Slur type="start" id="55"/>
           <Note>
             <Accidental>
               <bracket>1</bracket>
@@ -4977,7 +4960,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>34</Beam>
-          <Slur type="stop" id="57"/>
+          <Slur type="stop" id="55"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -4986,7 +4969,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="58">
+        <Slur id="56">
           <track>4</track>
           <up>2</up>
           </Slur>
@@ -4997,7 +4980,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>35</Beam>
-          <Slur type="start" id="58"/>
+          <Slur type="start" id="56"/>
           <Note>
             <pitch>35</pitch>
             <tpc>19</tpc>
@@ -5015,7 +4998,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>35</Beam>
-          <Slur type="stop" id="58"/>
+          <Slur type="stop" id="56"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -5037,7 +5020,7 @@
           </Rest>
         </Measure>
       <Measure number="23">
-        <Slur id="59">
+        <Slur id="57">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -5053,7 +5036,7 @@
         <Chord>
           <Tuplet>16</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="start" id="59"/>
+          <Slur type="start" id="57"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -5129,7 +5112,7 @@
             </Note>
           </Chord>
         <tick>42240</tick>
-        <Slur id="60">
+        <Slur id="58">
           <track>5</track>
           <up>2</up>
           </Slur>
@@ -5148,7 +5131,7 @@
           <track>5</track>
           <Tuplet>18</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="start" id="60"/>
+          <Slur type="start" id="58"/>
           <StemDirection>down</StemDirection>
           <Note>
             <track>5</track>
@@ -5321,7 +5304,7 @@
         <Chord>
           <Tuplet>21</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="59"/>
+          <Slur type="stop" id="57"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -5430,7 +5413,7 @@
           <track>5</track>
           <Tuplet>23</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="60"/>
+          <Slur type="stop" id="58"/>
           <StemDirection>down</StemDirection>
           <Note>
             <track>5</track>
@@ -5447,7 +5430,7 @@
           <xoffset>0</xoffset>
           <yoffset>-4</yoffset>
           </Dynamic>
-        <Slur id="61">
+        <Slur id="59">
           <track>4</track>
           </Slur>
         <Beam id="36">
@@ -5456,7 +5439,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>36</Beam>
-          <Slur type="start" id="61"/>
+          <Slur type="start" id="59"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -5508,7 +5491,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>37</Beam>
-          <Slur type="stop" id="61"/>
+          <Slur type="stop" id="59"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5601,7 +5584,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="62">
+        <Slur id="60">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -5611,7 +5594,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>39</Beam>
-          <Slur type="start" id="62"/>
+          <Slur type="start" id="60"/>
           <Note>
             <pitch>38</pitch>
             <tpc>16</tpc>
@@ -5666,7 +5649,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>40</Beam>
-          <Slur type="stop" id="62"/>
+          <Slur type="stop" id="60"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -5677,7 +5660,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="63">
+        <Slur id="61">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -5687,7 +5670,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>41</Beam>
-          <Slur type="start" id="63"/>
+          <Slur type="start" id="61"/>
           <Note>
             <pitch>31</pitch>
             <tpc>15</tpc>
@@ -5742,7 +5725,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>42</Beam>
-          <Slur type="stop" id="63"/>
+          <Slur type="stop" id="61"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -5750,7 +5733,7 @@
           </Chord>
         </Measure>
       <Measure number="31">
-        <Slur id="64">
+        <Slur id="62">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -5760,7 +5743,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>43</Beam>
-          <Slur type="start" id="64"/>
+          <Slur type="start" id="62"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -5808,7 +5791,7 @@
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>44</Beam>
-          <Slur type="stop" id="64"/>
+          <Slur type="stop" id="62"/>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5848,7 +5831,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="65">
+        <Slur id="63">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -5858,7 +5841,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>45</Beam>
-          <Slur type="start" id="65"/>
+          <Slur type="start" id="63"/>
           <Note>
             <pitch>35</pitch>
             <tpc>19</tpc>
@@ -5934,7 +5917,7 @@
       <Measure number="34">
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="65"/>
+          <Slur type="stop" id="63"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -5963,7 +5946,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="66">
+        <Slur id="64">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -5973,7 +5956,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>47</Beam>
-          <Slur type="start" id="66"/>
+          <Slur type="start" id="64"/>
           <Note>
             <pitch>33</pitch>
             <tpc>17</tpc>
@@ -6043,7 +6026,7 @@
           </StaffText>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="66"/>
+          <Slur type="stop" id="64"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -6092,7 +6075,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>49</Beam>
-          <Slur type="stop" id="32"/>
+          <Slur type="stop" id="30"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -6101,7 +6084,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="67">
+        <Slur id="65">
           <track>4</track>
           </Slur>
         <Beam id="50">
@@ -6110,7 +6093,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>50</Beam>
-          <Slur type="start" id="67"/>
+          <Slur type="start" id="65"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -6128,7 +6111,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>50</Beam>
-          <Slur type="stop" id="67"/>
+          <Slur type="stop" id="65"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -6139,7 +6122,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="68">
+        <Slur id="66">
           <track>4</track>
           </Slur>
         <Beam id="51">
@@ -6148,7 +6131,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>51</Beam>
-          <Slur type="start" id="68"/>
+          <Slur type="start" id="66"/>
           <Note>
             <Accidental>
               <bracket>1</bracket>
@@ -6171,7 +6154,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>51</Beam>
-          <Slur type="stop" id="68"/>
+          <Slur type="stop" id="66"/>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -6180,7 +6163,7 @@
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
-        <Slur id="69">
+        <Slur id="67">
           <track>4</track>
           </Slur>
         <Beam id="52">
@@ -6189,7 +6172,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>52</Beam>
-          <Slur type="start" id="69"/>
+          <Slur type="start" id="67"/>
           <Note>
             <pitch>35</pitch>
             <tpc>19</tpc>
@@ -6207,7 +6190,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>52</Beam>
-          <Slur type="stop" id="69"/>
+          <Slur type="stop" id="67"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -6218,7 +6201,7 @@
           </Chord>
         </Measure>
       <Measure number="39">
-        <Slur id="70">
+        <Slur id="68">
           <track>4</track>
           <up>1</up>
           </Slur>
@@ -6234,7 +6217,7 @@
         <Chord>
           <Tuplet>24</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="start" id="70"/>
+          <Slur type="start" id="68"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -6492,7 +6475,7 @@
         <Chord>
           <Tuplet>29</Tuplet>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="70"/>
+          <Slur type="stop" id="68"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -6511,6 +6494,12 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Slur id="69">
+          <track>4</track>
+          </Slur>
+        <Slur id="70">
+          <track>4</track>
+          </Slur>
         <Slur id="71">
           <track>4</track>
           </Slur>
@@ -6521,6 +6510,12 @@
           <track>4</track>
           </Slur>
         <Slur id="74">
+          <track>4</track>
+          </Slur>
+        <Slur id="75">
+          <track>4</track>
+          </Slur>
+        <Slur id="76">
           <track>4</track>
           </Slur>
         <tick>74880</tick>
@@ -6629,6 +6624,12 @@
           <xoffset>0</xoffset>
           <yoffset>-3.8</yoffset>
           </Dynamic>
+        <Slur id="69">
+          <track>4</track>
+          </Slur>
+        <Slur id="70">
+          <track>4</track>
+          </Slur>
         <Slur id="71">
           <track>4</track>
           </Slur>
@@ -6641,6 +6642,12 @@
         <Slur id="74">
           <track>4</track>
           </Slur>
+        <Slur id="75">
+          <track>4</track>
+          </Slur>
+        <Slur id="76">
+          <track>4</track>
+          </Slur>
         <Beam id="53">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -6648,10 +6655,14 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>53</Beam>
+          <Slur type="start" id="69"/>
+          <Slur type="start" id="70"/>
           <Slur type="start" id="71"/>
           <Slur type="start" id="72"/>
           <Slur type="start" id="73"/>
           <Slur type="start" id="74"/>
+          <Slur type="start" id="75"/>
+          <Slur type="start" id="76"/>
           <Note>
             <pitch>36</pitch>
             <tpc>14</tpc>
@@ -6709,7 +6720,7 @@
           <move>-1</move>
           <durationType>eighth</durationType>
           <Beam>54</Beam>
-          <Slur type="stop" id="74"/>
+          <Slur type="stop" id="76"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -6766,14 +6777,14 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Slur id="75">
+        <Slur id="77">
           <track>4</track>
           </Slur>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Beam>55</Beam>
-          <Slur type="start" id="75"/>
+          <Slur type="start" id="77"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -6791,7 +6802,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Beam>55</Beam>
-          <Slur type="stop" id="75"/>
+          <Slur type="stop" id="77"/>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -6887,12 +6898,12 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <HairPin id="76">
+        <HairPin id="78">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="56.1361" y="-2.5"/>
+            <pos x="26.6471" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -6981,7 +6992,7 @@
           </Chord>
         </Measure>
       <Measure number="47">
-        <endSpanner id="76"/>
+        <endSpanner id="78"/>
         <Beam id="60">
           </Beam>
         <Chord>
@@ -6993,12 +7004,12 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <HairPin id="77">
+        <HairPin id="79">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="86.2494" y="-2.5"/>
+            <pos x="64.4366" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -7033,7 +7044,7 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <endSpanner id="77"/>
+        <endSpanner id="79"/>
         <Beam id="61">
           </Beam>
         <Chord>
@@ -7071,7 +7082,7 @@
           <durationType>eighth</durationType>
           <Beam>61</Beam>
           <Note>
-            <Tie id="40">
+            <Tie id="38">
               </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,10 +9,11 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
-      <maxSystemDistance>12</maxSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
       <measureSpacing>1</measureSpacing>
-      <smallStaffMag>0.842857</smallStaffMag>
+      <harmonyY>6</harmonyY>
+      <smallStaffMag>0.843</smallStaffMag>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -63,6 +64,8 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -117,7 +120,7 @@
           <text>leggiero</text>
           </StaffText>
         <StaffText>
-          <pos x="45.1562" y="-16"/>
+          <pos x="59.2229" y="-24.472"/>
           <halign>center</halign>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
@@ -127,7 +130,7 @@
           <text>Frühlingstanz</text>
           </StaffText>
         <StaffText>
-          <pos x="-5.25" y="-2.78125"/>
+          <pos x="-10.0455" y="-21.8033"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -135,16 +138,6 @@
           <size>15</size>
           <bold>1</bold>
           <text>Allegro giocoso</text>
-          </StaffText>
-        <StaffText>
-          <pos x="-18.2812" y="9.09375"/>
-          <halign>center</halign>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>12</size>
-          <text>Piano</text>
           </StaffText>
         <Harmony>
           <name>.G.I[I</name>
@@ -285,7 +278,7 @@
         </Measure>
       <Measure number="5">
         <Harmony>
-          <name>V[I6</name>
+          <name>I64</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -319,7 +312,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I6</name>
+          <name>I64</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -398,7 +391,7 @@
           <velocity>49</velocity>
           </Dynamic>
         <Harmony>
-          <name>I6]</name>
+          <name>I64</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -409,7 +402,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -436,7 +429,7 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <StaffText>
-          <pos x="-16.0312" y="-8.90625"/>
+          <pos x="-8.1986" y="-26.4896"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -456,7 +449,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <text>.</text>
           </StaffText>
         <Harmony>
-          <name>i[iii</name>
+          <name>iii[iii</name>
           </Harmony>
         <Slur id="5">
           <track>0</track>
@@ -559,6 +552,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         <Harmony>
           <name>V7/iii]</name>
+          <pos x="-0.900269" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -724,7 +718,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iii</name>
+          <name>iii\\</name>
           </Harmony>
         <Rest>
           <durationType>quarter</durationType>
@@ -788,7 +782,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V2(94)</name>
+          <name>V2(42)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1143,7 +1137,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V2(94)</name>
+          <name>V2(42)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1555,7 +1549,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         </Measure>
       <Measure number="20">
         <Harmony>
-          <name>IV(6)</name>
+          <name>ii65</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1704,7 +1698,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <transposingClefType>G</transposingClefType>
           </Clef>
         <Harmony>
-          <name>I(6)</name>
+          <name>vi65</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1855,7 +1849,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         </Measure>
       <Measure number="24">
         <Harmony>
-          <name>IV(6)</name>
+          <name>ii65</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2002,7 +1996,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         </Measure>
       <Measure number="26">
         <Harmony>
-          <name>I[I(6)</name>
+          <name>I[vi65</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2082,7 +2076,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(64)</name>
+          <name>I(134)</name>
           </Harmony>
         <Tuplet id="1">
           <normalNotes>2</normalNotes>
@@ -2158,7 +2152,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <text>dim. poco a poco</text>
           </StaffText>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -2233,8 +2227,8 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <durationType>eighth</durationType>
           <Note>
             <track>1</track>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -2541,7 +2535,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <subtype>line</subtype>
           </LayoutBreak>
         <Harmony>
-          <name>I64-V</name>
+          <name>I64-V\\</name>
           </Harmony>
         <Rest>
           <durationType>measure</durationType>
@@ -4200,8 +4194,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="54">
-              </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4222,9 +4214,8 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <durationType>half</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="54"/>
-            <pitch>55</pitch>
-            <tpc>15</tpc>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>

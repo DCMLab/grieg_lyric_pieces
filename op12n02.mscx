@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,10 +9,11 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
-      <maxSystemDistance>12</maxSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
       <measureSpacing>1</measureSpacing>
-      <smallStaffMag>0.662921</smallStaffMag>
+      <harmonyY>6</harmonyY>
+      <smallStaffMag>0.663</smallStaffMag>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -61,16 +62,18 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         <System>
@@ -115,7 +118,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
-          <pos x="-13" y="-4.6875"/>
+          <pos x="-9.15145" y="-11.9405"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -148,9 +151,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#6)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -164,9 +164,6 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#7)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -180,9 +177,6 @@
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -196,7 +190,7 @@
         </Measure>
       <Measure number="4">
         <StaffText>
-          <pos x="-2.28125" y="-7.15625"/>
+          <pos x="1.86334" y="-14.8533"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -320,9 +314,6 @@
           </Rest>
         </Measure>
       <Measure number="7">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -336,9 +327,6 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#6)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -352,9 +340,6 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#7)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -380,7 +365,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-10.3438" y="-8.1875"/>
+          <pos x="-9.01161" y="-15.5886"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -390,9 +375,6 @@
 Lyrische Stücke
 Op. 12, Nr. 2</text>
           </StaffText>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="4"/>
@@ -503,7 +485,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i]\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -554,7 +536,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V6(69)</name>
+          <name>III+(+4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -575,7 +557,8 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i6(#6)</name>
+          <name>vii%43/VII</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -594,8 +577,11 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="12">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
-          <name>VII(6)</name>
+          <name>VII(13)</name>
           </Harmony>
         <Tuplet id="1">
           <normalNotes>2</normalNotes>
@@ -675,7 +661,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iv64(7)</name>
+          <name>iv43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -694,6 +680,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Harmony>
           <name>#viio2/v</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -715,11 +702,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="14">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>v(6)</name>
+          <name>v(13)</name>
           </Harmony>
         <Tuplet id="2">
           <normalNotes>2</normalNotes>
@@ -780,10 +764,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="15">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>VI(4)</name>
           </Harmony>
@@ -956,7 +936,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>III6(6)</name>
+          <name>i43</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1002,8 +982,11 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="18">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
-          <name>iv6(6)</name>
+          <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1020,7 +1003,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -1061,9 +1044,6 @@ Op. 12, Nr. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#6)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1074,9 +1054,6 @@ Op. 12, Nr. 2</text>
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#7)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1087,9 +1064,6 @@ Op. 12, Nr. 2</text>
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1099,9 +1073,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="22">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1131,6 +1102,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Harmony>
           <name>V7(#9)</name>
+          <pos x="-1" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1144,10 +1116,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="23">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>i(#6)</name>
           </Harmony>
@@ -1209,9 +1177,6 @@ Op. 12, Nr. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#6)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1222,9 +1187,6 @@ Op. 12, Nr. 2</text>
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#7)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1242,9 +1204,6 @@ Op. 12, Nr. 2</text>
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1328,7 +1287,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i]\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -1357,9 +1316,6 @@ Op. 12, Nr. 2</text>
           </Rest>
         </Measure>
       <Measure number="29">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -1375,7 +1331,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V6(69)</name>
+          <name>III+(+4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1392,7 +1348,8 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i6(#6)</name>
+          <name>vii%43/VII</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1407,12 +1364,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="30">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
-          <name>VII(6)</name>
+          <name>VII(13)</name>
           </Harmony>
         <Tuplet id="5">
           <normalNotes>2</normalNotes>
@@ -1470,6 +1423,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="31">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -1485,7 +1441,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iv64(7)</name>
+          <name>iv43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1518,7 +1474,7 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="32">
         <Harmony>
-          <name>v(6)</name>
+          <name>v(13)</name>
           </Harmony>
         <Tuplet id="6">
           <normalNotes>2</normalNotes>
@@ -1646,6 +1602,10 @@ Op. 12, Nr. 2</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <tick>48000</tick>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <tick>47520</tick>
         <Tuplet id="8">
           <track>1</track>
@@ -1688,10 +1648,6 @@ Op. 12, Nr. 2</text>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>III</name>
-          <track>1</track>
-          </Harmony>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
@@ -1718,7 +1674,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>III6(6)</name>
+          <name>i43</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1761,11 +1717,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="36">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>iv6(6)</name>
+          <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -1779,7 +1732,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -1794,10 +1747,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="37">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <KeySig>
           <accidental>3</accidental>
           </KeySig>
@@ -1901,7 +1850,7 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>I6(9)</name>
+          <name>I6</name>
           </Harmony>
         <Slur id="13">
           <track>0</track>
@@ -1922,7 +1871,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(6)</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2015,7 +1964,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I64(6)</name>
+          <name>I64</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2075,9 +2024,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="43">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <StaffText>
           <pos x="-1.1875" y="7.15625"/>
           <valign>baseline</valign>
@@ -2091,7 +2037,7 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>I(9)</name>
+          <name>I</name>
           </Harmony>
         <Slur id="17">
           <track>0</track>
@@ -2112,7 +2058,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I64(6)</name>
+          <name>I64</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2131,10 +2077,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="44">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2203,7 +2145,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(9)</name>
+          <name>I6(9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2256,11 +2198,14 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="47">
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>I6(9)</name>
+          <name>I6</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2274,7 +2219,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I(6)</name>
+          <name>I</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2327,9 +2272,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="49">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -2357,7 +2299,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I64(6)</name>
+          <name>I64</name>
           </Harmony>
         <endSpanner id="19"/>
         <Chord>
@@ -2373,10 +2315,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="50">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <HairPin id="20">
           <subtype>0</subtype>
           <beginText>
@@ -2464,7 +2402,7 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2515,9 +2453,6 @@ Op. 12, Nr. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#6)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2528,9 +2463,6 @@ Op. 12, Nr. 2</text>
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#7)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2541,9 +2473,6 @@ Op. 12, Nr. 2</text>
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2553,9 +2482,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="56">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2668,9 +2594,6 @@ Op. 12, Nr. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#6)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2681,9 +2604,6 @@ Op. 12, Nr. 2</text>
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i(#7)</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2701,9 +2621,6 @@ Op. 12, Nr. 2</text>
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>i</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2792,7 +2709,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i]\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -2821,9 +2738,6 @@ Op. 12, Nr. 2</text>
           </Rest>
         </Measure>
       <Measure number="63">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>III</name>
           </Harmony>
@@ -2839,7 +2753,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V6(69)</name>
+          <name>III+(+4)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2856,7 +2770,8 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>i6(#6)</name>
+          <name>vii%43/VII</name>
+          <pos x="-1.6" y="-8.5"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2876,7 +2791,7 @@ Op. 12, Nr. 2</text>
           <transposingClefType>G</transposingClefType>
           </Clef>
         <Harmony>
-          <name>VII(6)</name>
+          <name>VII(13)</name>
           </Harmony>
         <Tuplet id="9">
           <normalNotes>2</normalNotes>
@@ -2949,7 +2864,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>iv64(7)</name>
+          <name>iv43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2964,6 +2879,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Harmony>
           <name>#viio2/v</name>
+          <pos x="0" y="-9"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -2982,7 +2898,7 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="66">
         <Harmony>
-          <name>v(6)</name>
+          <name>v(13)</name>
           </Harmony>
         <Tuplet id="10">
           <normalNotes>2</normalNotes>
@@ -3110,6 +3026,10 @@ Op. 12, Nr. 2</text>
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <tick>96960</tick>
+        <Harmony>
+          <name>III</name>
+          </Harmony>
         <tick>96480</tick>
         <Tuplet id="12">
           <track>1</track>
@@ -3152,10 +3072,6 @@ Op. 12, Nr. 2</text>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>III</name>
-          <track>1</track>
-          </Harmony>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
@@ -3182,7 +3098,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>III6(6)</name>
+          <name>i43</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3225,11 +3141,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="70">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>iv6(6)</name>
+          <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -3243,7 +3156,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V</name>
+          <name>V\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
@@ -3335,7 +3248,7 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="72">
         <Harmony>
-          <name>I(64)</name>
+          <name>I(134)</name>
           </Harmony>
         <Slur id="26">
           <track>0</track>
@@ -3450,7 +3363,7 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="74">
         <Harmony>
-          <name>I(64)</name>
+          <name>I(134)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3499,7 +3412,7 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="75">
         <Harmony>
-          <name>I(6)</name>
+          <name>I(13)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3585,7 +3498,7 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="77">
         <Harmony>
-          <name>i(b6)</name>
+          <name>i(b13)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3602,21 +3515,18 @@ Op. 12, Nr. 2</text>
             </Articulation>
           <Note>
             <Accidental>
-              <subtype>sharp</subtype>
+              <subtype>natural</subtype>
               </Accidental>
             <pitch>65</pitch>
-            <tpc>25</tpc>
+            <tpc>13</tpc>
             </Note>
           </Chord>
         <Harmony>
-          <name>i]</name>
+          <name>i]\\</name>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <Tie id="30">
               </Tie>
             <pitch>64</pitch>
@@ -3671,9 +3581,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="79">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <visible>0</visible>
           <durationType>measure</durationType>
@@ -4134,10 +4041,10 @@ Op. 12, Nr. 2</text>
             </Note>
           <Note>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>11</tpc>
+            <tpc>23</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -4160,10 +4067,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="15">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -4403,10 +4306,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="23">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -4631,10 +4530,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="30">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -5107,10 +5002,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="44">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <HairPin id="46">
           <subtype>0</subtype>
           <beginText>
@@ -5331,10 +5222,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="50">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Slur id="53">
           <track>4</track>
           </Slur>
@@ -5354,10 +5241,10 @@ Op. 12, Nr. 2</text>
           <Slur type="stop" id="53"/>
           <Note>
             <Accidental>
-              <subtype>natural</subtype>
+              <subtype>double sharp</subtype>
               </Accidental>
             <pitch>67</pitch>
-            <tpc>15</tpc>
+            <tpc>27</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -5366,8 +5253,12 @@ Op. 12, Nr. 2</text>
             <subtype>sforzato</subtype>
             </Articulation>
           <Note>
+            <Accidental>
+              <role>1</role>
+              <subtype>double sharp</subtype>
+              </Accidental>
             <pitch>67</pitch>
-            <tpc>15</tpc>
+            <tpc>27</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -5376,18 +5267,15 @@ Op. 12, Nr. 2</text>
           <durationType>eighth</durationType>
           <Note>
             <Accidental>
-              <subtype>natural</subtype>
+              <subtype>double sharp</subtype>
               </Accidental>
             <pitch>67</pitch>
-            <tpc>15</tpc>
+            <tpc>27</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Accidental>
-              <subtype>sharp</subtype>
-              </Accidental>
             <pitch>68</pitch>
             <tpc>22</tpc>
             </Note>
