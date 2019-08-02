@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.55</page-height>
         <page-width>1190.1</page-width>
@@ -22,7 +24,7 @@
         </page-layout>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -54,8 +56,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
@@ -68,12 +68,10 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
+        <System>
+          </System>
         <System>
           </System>
         </Page>
@@ -131,10 +129,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <Text>
-          <style>Title</style>
-          <text><font size="10"></font>Traumgesicht   #</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -151,12 +145,13 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
+          <pos x="-12.1685" y="-15.7881"/>
           <xoffset>0</xoffset>
           <yoffset>-3.2</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b>Poco Andante ed espressivo</b></text>
           </StaffText>
         <Harmony>
-          <name>.A.I(6)</name>
+          <name>.A.I(+6)</name>
           </Harmony>
         <Rest>
           <visible>0</visible>
@@ -166,6 +161,7 @@
         </Measure>
       <Measure number="2">
         <StaffText>
+          <pos x="16.6443" y="-22.6326"/>
           <xoffset>0</xoffset>
           <yoffset>-14.8</yoffset>
           <text><font size="21"></font><font face="Times New Roman"></font><b>Traumgesicht</b></text>
@@ -215,6 +211,7 @@
         </Measure>
       <Measure number="3">
         <StaffText>
+          <pos x="3.07709" y="-17.3313"/>
           <xoffset>0</xoffset>
           <yoffset>-8.1</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
@@ -259,10 +256,8 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <StaffText>
+          <pos x="30.6311" y="-16.6718"/>
           <xoffset>0</xoffset>
           <yoffset>-8</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 62 No. 5</b></text>
@@ -313,15 +308,12 @@
           </Chord>
         </Measure>
       <Measure number="5">
-        <Harmony>
-          <name>IM7(6)</name>
-          </Harmony>
         <HairPin id="4">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="10.8269" y="6.5"/>
+            <pos x="83.101" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -379,7 +371,7 @@
           <yoffset>7.5</yoffset>
           </Dynamic>
         <Harmony>
-          <name>.bI7(4)-bi7(4)</name>
+          <name>.bI7(4)</name>
           </Harmony>
         <Beam id="3">
           </Beam>
@@ -424,7 +416,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="49.5281" y="-2.5"/>
+            <pos x="112.596" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -485,14 +477,14 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.bI7(64)</name>
+          <name>.bI7(+64)</name>
           </Harmony>
         <HairPin id="8">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="78.3617" y="-2.5"/>
+            <pos x="23.5436" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -516,9 +508,6 @@
           </Chord>
         </Measure>
       <Measure number="8">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <endSpanner id="8"/>
         <Tuplet id="3">
           <normalNotes>3</normalNotes>
@@ -639,7 +628,7 @@
         </Measure>
       <Measure number="10">
         <Harmony>
-          <name>.bi(#6)</name>
+          <name>.bi(+#6)</name>
           </Harmony>
         <Beam id="5">
           </Beam>
@@ -683,7 +672,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="53.888" y="6.5"/>
+            <pos x="90.5976" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -760,9 +749,6 @@
           </Chord>
         </Measure>
       <Measure number="12">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <endSpanner id="12"/>
         <Tuplet id="4">
           <normalNotes>3</normalNotes>
@@ -818,13 +804,6 @@
           </Chord>
         </Measure>
       <Measure number="13">
-        <KeySig>
-          <accidental>3</accidental>
-          <mode>major</mode>
-          </KeySig>
-        <Harmony>
-          <name>.bi7(#6)</name>
-          </Harmony>
         <Tuplet id="5">
           <normalNotes>3</normalNotes>
           <actualNotes>4</actualNotes>
@@ -883,6 +862,9 @@
           </Harmony>
         <Slur id="16">
           <track>0</track>
+          <SlurSegment no="2">
+            <pos x="0" y="5.17511"/>
+            </SlurSegment>
           <up>1</up>
           </Slur>
         <Chord>
@@ -965,14 +947,14 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.bVII7(64)</name>
+          <name>.bVII7(+64)</name>
           </Harmony>
         <HairPin id="17">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="65.8951" y="-2.5"/>
+            <pos x="87.5851" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1070,15 +1052,12 @@
           </Chord>
         </Measure>
       <Measure number="17">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <HairPin id="19">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="102.495" y="6.5"/>
+            <pos x="12.2717" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1157,7 +1136,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="32.5499" y="6.5"/>
+            <pos x="48.4759" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1408,9 +1387,6 @@
           </Chord>
         </Measure>
       <Measure number="22">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -1662,7 +1638,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="48.4402" y="6.5"/>
+            <pos x="41.8299" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -1895,7 +1871,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>I(6)</name>
+          <name>I(+6)</name>
           </Harmony>
         <Beam id="20">
           <StemDirection>down</StemDirection>
@@ -2012,9 +1988,6 @@
           </Rest>
         </Measure>
       <Measure number="26">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <endSpanner id="24"/>
         <Slur id="30">
           <track>0</track>
@@ -2123,7 +2096,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="10.8269" y="6.5"/>
+            <pos x="105.187" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -2261,15 +2234,12 @@
           </Chord>
         </Measure>
       <Measure number="29">
-        <Harmony>
-          <name>IM7(6)</name>
-          </Harmony>
         <HairPin id="35">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="51.8252" y="6.5"/>
+            <pos x="28.7664" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -2339,7 +2309,7 @@
           <yoffset>7.9</yoffset>
           </Dynamic>
         <Harmony>
-          <name>.bI7(4)-bi7(4)</name>
+          <name>.bI7(4)</name>
           </Harmony>
         <Slur id="38">
           <track>0</track>
@@ -2426,9 +2396,6 @@
           </Chord>
         </Measure>
       <Measure number="31">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="24">
           </Beam>
         <Chord>
@@ -2488,7 +2455,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.bI7(64)</name>
+          <name>.bI7(+64)</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -2716,7 +2683,7 @@
         </Measure>
       <Measure number="34">
         <Harmony>
-          <name>.bi(#6)</name>
+          <name>.bi(+#6)</name>
           </Harmony>
         <Slur id="46">
           <track>0</track>
@@ -2787,7 +2754,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="83.5565" y="6.5"/>
+            <pos x="46.4581" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -2816,9 +2783,6 @@
           </Chord>
         </Measure>
       <Measure number="35">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="27">
           </Beam>
         <Chord>
@@ -2991,15 +2955,12 @@
           </Chord>
         </Measure>
       <Measure number="37">
-        <Harmony>
-          <name>.bi7(#6)</name>
-          </Harmony>
         <HairPin id="51">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="41.0345" y="6.5"/>
+            <pos x="103.252" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -3172,9 +3133,6 @@
           </Chord>
         </Measure>
       <Measure number="39">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="29">
           </Beam>
         <Chord>
@@ -3228,7 +3186,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>.bVII7(64)</name>
+          <name>.bVII7(+64)</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -3409,7 +3367,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="81.6189" y="6.5"/>
+            <pos x="13.71" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -3429,9 +3387,6 @@
           </Chord>
         </Measure>
       <Measure number="44">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -3552,9 +3507,6 @@
           </Chord>
         </Measure>
       <Measure number="48">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V7/IV</name>
           </Harmony>
@@ -3705,9 +3657,6 @@
           </Rest>
         </Measure>
       <Measure number="52">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>70</velocity>
@@ -4210,11 +4159,8 @@
           </Chord>
         </Measure>
       <Measure number="57">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>iv(6)</name>
+          <name>ii%65</name>
           </Harmony>
         <Slur id="67">
           <track>0</track>
@@ -4288,7 +4234,7 @@
         </Measure>
       <Measure number="59">
         <Harmony>
-          <name>iv(6)</name>
+          <name>ii%65</name>
           </Harmony>
         <Slur id="68">
           <track>0</track>
@@ -4335,7 +4281,7 @@
         </Measure>
       <Measure number="60">
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Rest>
           <durationType>eighth</durationType>
@@ -4526,7 +4472,7 @@
         <Dynamic>
           <subtype>p</subtype>
           <velocity>70</velocity>
-          <pos x="0.329141" y="-13.5014"/>
+          <pos x="-0.063656" y="-3.06895"/>
           <xoffset>0</xoffset>
           <yoffset>-3.8</yoffset>
           </Dynamic>
@@ -4649,7 +4595,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="60.8179" y="-2.5"/>
+            <pos x="42.8057" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -5377,16 +5323,12 @@
           </Chord>
         </Measure>
       <Measure number="13">
-        <KeySig>
-          <accidental>3</accidental>
-          <mode>major</mode>
-          </KeySig>
         <HairPin id="70">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="12.654" y="-2.5"/>
+            <pos x="36.0438" y="-2.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -5794,7 +5736,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="22.0579" y="-2.5"/>
+            <pos x="39.3196" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -6054,7 +5996,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="106.549" y="-2.5"/>
+            <pos x="92.2048" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -7189,7 +7131,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="60.4718" y="-2.5"/>
+            <pos x="104.303" y="-2.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>

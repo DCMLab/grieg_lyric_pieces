@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,10 +9,11 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
-      <maxSystemDistance>12</maxSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
       <measureSpacing>1</measureSpacing>
-      <smallStaffMag>0.842857</smallStaffMag>
+      <harmonyY>6</harmonyY>
+      <smallStaffMag>0.843</smallStaffMag>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -63,10 +64,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
@@ -81,16 +78,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -125,11 +114,6 @@
     <Staff id="1">
       <VBox>
         <height>15</height>
-        <Text>
-          <style>Title</style>
-          <size>13</size>
-          <text>- # -</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -142,7 +126,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
-          <pos x="-5.875" y="-1.75"/>
+          <pos x="-8.91213" y="-20.4523"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -156,17 +140,7 @@
           <velocity>49</velocity>
           </Dynamic>
         <StaffText>
-          <pos x="-18.625" y="8.0625"/>
-          <halign>center</halign>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>12</size>
-          <text>Piano</text>
-          </StaffText>
-        <StaffText>
-          <pos x="41.375" y="-12.5312"/>
+          <pos x="58.1591" y="-23.5992"/>
           <halign>center</halign>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
@@ -216,9 +190,6 @@
           </Rest>
         </Measure>
       <Measure number="2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -255,7 +226,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-1.5625" y="-6.46875"/>
+          <pos x="9.14738" y="-22.9332"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -400,9 +371,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Harmony>
         </Measure>
       <Measure number="5">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>#iv%43</name>
           </Harmony>
@@ -484,10 +452,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="6">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>vii%7(#9)</name>
           </Harmony>
@@ -664,9 +628,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="8">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>vi%7(9)</name>
           </Harmony>
@@ -723,7 +684,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>.Ger6/V</name>
+          <name>.Ger6</name>
           <track>1</track>
           </Harmony>
         <Chord>
@@ -748,7 +709,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           <transposingClefType>G</transposingClefType>
           </Clef>
         <Harmony>
-          <name>V7(6)/V</name>
+          <name>V7/V</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -1100,11 +1061,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="11">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>V7(6)/V</name>
+          <name>V7/V</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -1325,10 +1283,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="12">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>V43/vi</name>
           </Harmony>
@@ -1363,7 +1317,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>vi%7(4)</name>
+          <name>vi%7</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -1519,7 +1473,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
         </Measure>
       <Measure number="13">
         <Harmony>
-          <name>V7(6)/V</name>
+          <name>V7/V</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -1722,9 +1676,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="14">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V(9b6)</name>
           </Harmony>
@@ -1873,10 +1824,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="15">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -2165,9 +2112,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="17">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -2490,9 +2434,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="20">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -2710,9 +2651,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="23">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V7(#94)/vi</name>
           </Harmony>
@@ -2796,10 +2734,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="24">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Slur id="64">
           <track>0</track>
           </Slur>
@@ -2958,9 +2892,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="26">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Slur id="65">
           <track>0</track>
           </Slur>
@@ -3037,10 +2968,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="27">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <StaffText>
           <pos x="-1.25" y="7.5"/>
           <valign>baseline</valign>
@@ -3310,15 +3237,12 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="29">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
           </Dynamic>
         <Harmony>
-          <name>V7(964)</name>
+          <name>V7(9+64)</name>
           </Harmony>
         <Chord>
           <durationType>16th</durationType>
@@ -3726,9 +3650,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="33">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <TimeSig>
           <sigN>3</sigN>
           <sigD>8</sigD>
@@ -3849,9 +3770,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Harmony>
         </Measure>
       <Measure number="36">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -4050,9 +3968,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="39">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>vii%7(#9)</name>
           </Harmony>
@@ -4143,10 +4058,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="40">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>iii%43</name>
           </Harmony>
@@ -4283,7 +4194,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>.Ger6/V</name>
+          <name>.Ger6</name>
           <track>1</track>
           </Harmony>
         <endSpanner id="88"/>
@@ -4304,11 +4215,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="42">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>V7(6)/V</name>
+          <name>V7/V</name>
           </Harmony>
         <Slur id="90">
           <track>0</track>
@@ -4524,7 +4432,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           <transposingClefType>G</transposingClefType>
           </Clef>
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Slur id="95">
           <track>0</track>
@@ -4889,11 +4797,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="45">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Slur id="104">
           <track>0</track>
@@ -5108,10 +5013,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="46">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Dynamic>
           <subtype>ff</subtype>
           <velocity>112</velocity>
@@ -5152,7 +5053,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>ii%7(4)</name>
+          <name>ii%7</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -5306,7 +5207,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
         </Measure>
       <Measure number="47">
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -5514,9 +5415,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="48">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V43(9)/IV</name>
           </Harmony>
@@ -5654,6 +5552,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         <Harmony>
           <name>V43(b5)/IV</name>
+          <pos x="0" y="-8.52042"/>
           <track>1</track>
           </Harmony>
         <Chord>
@@ -5706,12 +5605,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="49">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
-          <name>V7(6)/bVII</name>
+          <name>V7/bVII</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -6100,11 +5995,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="51">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>V7(6)/bVI</name>
+          <name>V7/bVI</name>
           </Harmony>
         <Slur id="132">
           <track>0</track>
@@ -6265,12 +6157,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="52">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
-          <name>V7(6)/bV</name>
+          <name>V7/bV</name>
           </Harmony>
         <Slur id="135">
           <track>0</track>
@@ -6422,7 +6310,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
         </Measure>
       <Measure number="53">
         <Harmony>
-          <name>V7(6)/iii</name>
+          <name>V7/iii</name>
           </Harmony>
         <Slur id="139">
           <track>0</track>
@@ -6470,7 +6358,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(#6)/ii</name>
+          <name>V7/ii</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -6546,9 +6434,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="54">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V7/bII</name>
           </Harmony>
@@ -6572,7 +6457,7 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(6)</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <dots>1</dots>
@@ -6633,10 +6518,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="55">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>measure</durationType>
           <duration z="9" n="8"/>
@@ -6655,9 +6536,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Harmony>
         </Measure>
       <Measure number="56">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -6836,12 +6714,13 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="57">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Volta id="145">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-3.02451"/>
+            </Segment>
           <beginText>
             <text>0.</text>
             </beginText>
@@ -6916,9 +6795,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="59">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Clef>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
@@ -7267,11 +7143,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="63">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <HairPin id="155">
           <subtype>1</subtype>
@@ -7609,10 +7482,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="3">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8075,10 +7944,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="6">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -8906,10 +8771,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="12">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -9710,10 +9571,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="18">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -10472,10 +10329,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Rest>
         </Measure>
       <Measure number="24">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Slur id="280">
           <track>4</track>
           </Slur>
@@ -11770,12 +11623,8 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           <Slur type="start" id="314"/>
           <Note>
             <track>5</track>
-            <Accidental>
-              <subtype>sharp</subtype>
-              <track>5</track>
-              </Accidental>
-            <pitch>56</pitch>
-            <tpc>22</tpc>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -11784,6 +11633,10 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           <durationType>quarter</durationType>
           <Note>
             <track>5</track>
+            <Accidental>
+              <subtype>sharp</subtype>
+              <track>5</track>
+              </Accidental>
             <pitch>56</pitch>
             <tpc>22</tpc>
             </Note>
@@ -12123,10 +11976,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="40">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -12137,16 +11986,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="-12.25" y="10.5938"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <italic>1</italic>
-          <text>Grieg: Nocturne (Lyrische Stücke)</text>
-          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -12930,10 +12769,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="46">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13199,10 +13034,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="49">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -13437,10 +13268,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="52">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -13923,10 +13750,6 @@ op. 54, No. 4 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="57">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>eighth</durationType>
           <Note>

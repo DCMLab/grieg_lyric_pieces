@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>21</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.55</page-height>
         <page-width>1190.1</page-width>
@@ -22,7 +24,7 @@
         </page-layout>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -54,6 +56,16 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         </Page>
@@ -68,22 +80,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -143,10 +141,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <Text>
-          <style>Title</style>
-          <text><font size="10"></font>Sylphe   #</text>
-          </Text>
         </VBox>
       <Measure number="1" len="1/16">
         <irregular/>
@@ -164,6 +158,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
+          <pos x="-11.0496" y="-16.3874"/>
           <xoffset>0</xoffset>
           <yoffset>-3.1</yoffset>
           <text><font size="13"></font><font face="Times New Roman"></font><b>Allegretto con moto</b></text>
@@ -196,6 +191,9 @@
           </Rest>
         </Measure>
       <Measure number="1">
+        <Harmony>
+          <name>.b.#viio7</name>
+          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <StemDirection>down</StemDirection>
@@ -231,6 +229,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
+          <pos x="15.1057" y="-22.415"/>
           <xoffset>0</xoffset>
           <yoffset>-17.1</yoffset>
           <text><font size="21"></font><font face="Times New Roman"></font><b>Sylphide</b></text>
@@ -298,6 +297,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
+          <pos x="-1.25332e-14" y="-17.6137"/>
           <xoffset>0</xoffset>
           <yoffset>-10.9</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
@@ -307,6 +307,7 @@
           <durationType>eighth</durationType>
           </Rest>
         <StaffText>
+          <pos x="2.65749" y="-10.3731"/>
           <xoffset>0</xoffset>
           <yoffset>-3.1</yoffset>
           <text><font size="13"></font><font face="Times New Roman"></font><b>Allegro</b></text>
@@ -343,9 +344,6 @@
           <yoffset>8.4</yoffset>
           <text><font size="10"></font><font face="Times New Roman"></font><i>leggiero</i></text>
           </StaffText>
-        <Harmony>
-          <name>.h.#viio7</name>
-          </Harmony>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="5"/>
@@ -390,6 +388,7 @@
             </Note>
           </Chord>
         <StaffText>
+          <pos x="27.6938" y="-16.4894"/>
           <xoffset>0</xoffset>
           <yoffset>-5.3</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 62 No.1</b></text>
@@ -431,9 +430,6 @@
           </Rest>
         </Measure>
       <Measure number="4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>i</name>
           </Harmony>
@@ -811,9 +807,6 @@
           </Rest>
         </Measure>
       <Measure number="9">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>i6</name>
           </Harmony>
@@ -1208,9 +1201,6 @@
           </Rest>
         </Measure>
       <Measure number="14">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>IIIM7</name>
           </Harmony>
@@ -1590,9 +1580,6 @@
           </Rest>
         </Measure>
       <Measure number="19">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="1">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -1619,7 +1606,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="106.464" y="6.5"/>
+            <pos x="16.0904" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -1786,7 +1773,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="33.3695" y="6.5"/>
+            <pos x="47.3383" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -1892,7 +1879,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="73.373" y="6.5"/>
+            <pos x="81.7052" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -2021,9 +2008,6 @@
           </Rest>
         </Measure>
       <Measure number="24">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>60</velocity>
@@ -2635,9 +2619,6 @@
           </Clef>
         </Measure>
       <Measure number="31">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="2">
           </Beam>
         <Chord>
@@ -3463,9 +3444,6 @@
           </Chord>
         </Measure>
       <Measure number="41">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <TimeSig>
           <sigN>3</sigN>
           <sigD>4</sigD>
@@ -3687,9 +3665,6 @@
           </Chord>
         </Measure>
       <Measure number="45">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <StaffText>
           <pos x="0" y="18.6219"/>
           <xoffset>0</xoffset>
@@ -4014,9 +3989,6 @@
           </Rest>
         </Measure>
       <Measure number="50">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>iv(9)</name>
           </Harmony>
@@ -4348,9 +4320,6 @@
           </Rest>
         </Measure>
       <Measure number="55">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>ii6</name>
           </Harmony>
@@ -4738,9 +4707,6 @@
           </Rest>
         </Measure>
       <Measure number="61">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="3">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -5089,9 +5055,6 @@
           </Rest>
         </Measure>
       <Measure number="66">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V43/VI</name>
           </Harmony>
@@ -5466,9 +5429,6 @@
           </Rest>
         </Measure>
       <Measure number="72">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <StaffText>
           <pos x="0" y="17.0219"/>
           <xoffset>0</xoffset>
@@ -5905,9 +5865,6 @@
           </Rest>
         </Measure>
       <Measure number="78">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <StaffText>
           <pos x="0" y="16.9219"/>
           <xoffset>0</xoffset>
@@ -6333,9 +6290,6 @@
           </Rest>
         </Measure>
       <Measure number="84">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>60</velocity>
@@ -6344,7 +6298,7 @@
           <yoffset>9.7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>I</name>
+          <name>I\\</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>

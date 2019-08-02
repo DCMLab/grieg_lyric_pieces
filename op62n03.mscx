@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,10 +9,11 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>8</minSystemDistance>
-      <maxSystemDistance>12</maxSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
       <measureSpacing>1</measureSpacing>
-      <smallStaffMag>0.842857</smallStaffMag>
+      <harmonyY>6</harmonyY>
+      <smallStaffMag>0.843</smallStaffMag>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -51,10 +52,6 @@
     <metaTag name="workTitle"></metaTag>
     <PageList>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -122,7 +119,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
-          <pos x="-4.84375" y="-3.125"/>
+          <pos x="-12.5165" y="-24.8645"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -132,7 +129,7 @@
           <text>Andante grazioso</text>
           </StaffText>
         <StaffText>
-          <pos x="-19.3438" y="8.65625"/>
+          <pos x="-17.1059" y="7.69716"/>
           <halign>center</halign>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
@@ -142,7 +139,7 @@
           <text>Piano</text>
           </StaffText>
         <StaffText>
-          <pos x="41.5938" y="-18.4062"/>
+          <pos x="56.6196" y="-28.1032"/>
           <halign>center</halign>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
@@ -152,7 +149,7 @@
           <text>Französische Serenade</text>
           </StaffText>
         <StaffText>
-          <pos x="41.6875" y="-11.7188"/>
+          <pos x="56.0739" y="-25.306"/>
           <halign>center</halign>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
@@ -161,16 +158,9 @@
           <size>13</size>
           <text>Lyrisches Klavierstück aus der Sammlung Band VII</text>
           </StaffText>
-        <StaffText>
-          <pos x="41.375" y="-15.3437"/>
-          <halign>center</halign>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>13</size>
-          <text>(Fransk serenade)</text>
-          </StaffText>
+        <Harmony>
+          <name>.A.I</name>
+          </Harmony>
         <Rest>
           <visible>0</visible>
           <durationType>measure</durationType>
@@ -197,7 +187,7 @@
         </Measure>
       <Measure number="2">
         <Harmony>
-          <name>.A.IV(6)</name>
+          <name>ii65</name>
           </Harmony>
         <Slur id="3">
           <track>0</track>
@@ -395,7 +385,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -442,9 +432,6 @@
           </Chord>
         </Measure>
       <Measure number="6">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I]</name>
           </Harmony>
@@ -484,7 +471,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="-18.9062" y="-8.9375"/>
+          <pos x="21.3757" y="-24.1232"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -522,10 +509,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="7">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>vi7</name>
           </Harmony>
@@ -619,7 +602,7 @@ op. 62, No. 3</text>
         </Measure>
       <Measure number="8">
         <Harmony>
-          <name>V43</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -717,7 +700,7 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -842,9 +825,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="11">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>vi7</name>
           </Harmony>
@@ -934,10 +914,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="12">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>V64</name>
           </Harmony>
@@ -1395,9 +1371,6 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="16">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <visible>0</visible>
           <durationType>measure</durationType>
@@ -1435,10 +1408,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="17">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Slur id="24">
           <track>0</track>
           </Slur>
@@ -1472,7 +1441,7 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1672,7 +1641,7 @@ op. 62, No. 3</text>
         </Measure>
       <Measure number="20">
         <Harmony>
-          <name>V43</name>
+          <name>V7</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1761,7 +1730,8 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)</name>
+          <name>V7</name>
+          <pos x="0.1" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -1803,9 +1773,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="22">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I]</name>
           </Harmony>
@@ -1865,10 +1832,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="23">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>vi7</name>
           </Harmony>
@@ -2327,9 +2290,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="27">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -2419,10 +2379,6 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="28">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -2628,9 +2584,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="32">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>IVM2</name>
           </Harmony>
@@ -2684,16 +2637,6 @@ op. 62, No. 3</text>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
           </Clef>
-        <StaffText>
-          <pos x="-14" y="-4.6875"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <italic>1</italic>
-          <text>Grieg: Französische Serenade</text>
-          </StaffText>
         <Harmony>
           <name>V43</name>
           </Harmony>
@@ -2800,7 +2743,7 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I64(64)</name>
+          <name>vi7(6)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -2851,16 +2794,6 @@ op. 62, No. 3</text>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="1.65625" y="-3.28125"/>
-          <halign>center</halign>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Arial</family>
-          <size>16</size>
-          <text>- 2 -</text>
-          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -2928,9 +2861,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="36">
-        <Harmony>
-          <name>@none</name>
-          </Harmony>
         <Slur id="45">
           <track>0</track>
           </Slur>
@@ -3014,9 +2944,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="37">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Slur id="47">
           <track>0</track>
           </Slur>
@@ -3119,10 +3046,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="38">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>V7/IV</name>
           </Harmony>
@@ -3301,7 +3224,7 @@ op. 62, No. 3</text>
           <velocity>49</velocity>
           </Dynamic>
         <Harmony>
-          <name>I[IV</name>
+          <name>IV[IV</name>
           </Harmony>
         <Slur id="49">
           <track>0</track>
@@ -3336,7 +3259,7 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)/IV</name>
+          <name>V7/IV</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -3526,9 +3449,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="42">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I64</name>
           </Harmony>
@@ -3618,10 +3538,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="43">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>I64</name>
           </Harmony>
@@ -3968,6 +3884,9 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="46">
+        <Harmony>
+          <name>vii%43</name>
+          </Harmony>
         <Rest>
           <visible>0</visible>
           <durationType>measure</durationType>
@@ -3979,10 +3898,6 @@ op. 62, No. 3</text>
           <velocity>49</velocity>
           <track>1</track>
           </Dynamic>
-        <Harmony>
-          <name>vii%43</name>
-          <track>1</track>
-          </Harmony>
         <Rest>
           <track>1</track>
           <durationType>half</durationType>
@@ -4014,9 +3929,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="47">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <visible>0</visible>
           <durationType>measure</durationType>
@@ -4103,10 +4015,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="48">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
           <name>V2</name>
           </Harmony>
@@ -4353,9 +4261,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="52">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V65</name>
           </Harmony>
@@ -4393,7 +4298,7 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>I64(64)</name>
+          <name>vi7(6)</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -4514,9 +4419,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="54">
-        <Harmony>
-          <name>@none</name>
-          </Harmony>
         <Slur id="67">
           <track>0</track>
           </Slur>
@@ -4720,9 +4622,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="56">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V7/IV</name>
           </Harmony>
@@ -4881,12 +4780,8 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="57">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Harmony>
-          <name>I[IV</name>
+          <name>IV[IV</name>
           </Harmony>
         <Slur id="71">
           <track>0</track>
@@ -4921,7 +4816,7 @@ op. 62, No. 3</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)/IV</name>
+          <name>V7/IV</name>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
@@ -5144,6 +5039,11 @@ op. 62, No. 3</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <tick>114240</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>114480</tick>
         <Slur id="73">
           <track>0</track>
           </Slur>
@@ -5179,10 +5079,6 @@ op. 62, No. 3</text>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V7</name>
-          <track>1</track>
-          </Harmony>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
@@ -5199,9 +5095,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="61">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I64</name>
           </Harmony>
@@ -5243,6 +5136,11 @@ op. 62, No. 3</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <tick>116160</tick>
+        <Harmony>
+          <name>V7</name>
+          </Harmony>
+        <tick>116400</tick>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -5276,10 +5174,6 @@ op. 62, No. 3</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <Harmony>
-          <name>V7</name>
-          <track>1</track>
-          </Harmony>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
@@ -5296,10 +5190,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="62">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -5617,9 +5507,6 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="65">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -5888,10 +5775,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="7">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Slur id="85">
           <track>4</track>
           </Slur>
@@ -6182,10 +6065,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="12">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
         <StaffText>
           <pos x="-2.28125" y="-5.09375"/>
           <valign>baseline</valign>
@@ -6604,13 +6483,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="17">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
-        <KeySig>
-          <accidental>2</accidental>
-          </KeySig>
         <Slur id="105">
           <track>4</track>
           </Slur>
@@ -6652,6 +6524,9 @@ op. 62, No. 3</text>
             <tpc>18</tpc>
             </Note>
           <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -6720,6 +6595,9 @@ op. 62, No. 3</text>
           <durationType>quarter</durationType>
           <Slur type="stop" id="108"/>
           <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
@@ -6796,6 +6674,9 @@ op. 62, No. 3</text>
             <tpc>18</tpc>
             </Note>
           <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -6883,6 +6764,9 @@ op. 62, No. 3</text>
             <tpc>18</tpc>
             </Note>
           <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -6951,19 +6835,15 @@ op. 62, No. 3</text>
           <durationType>quarter</durationType>
           <Slur type="stop" id="116"/>
           <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="23">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
-        <KeySig>
-          <accidental>3</accidental>
-          </KeySig>
         <Slur id="117">
           <track>4</track>
           </Slur>
@@ -7362,10 +7242,6 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="28">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Slur id="127">
           <track>4</track>
           </Slur>
@@ -7925,10 +7801,6 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="38">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -8224,10 +8096,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="43">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Slur id="155">
           <track>4</track>
           </Slur>
@@ -8613,10 +8481,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="48">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Slur id="165">
           <track>4</track>
           </Slur>
@@ -9102,10 +8966,6 @@ op. 62, No. 3</text>
           </Rest>
         </Measure>
       <Measure number="57">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
@@ -9393,10 +9253,6 @@ op. 62, No. 3</text>
           </Chord>
         </Measure>
       <Measure number="62">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
