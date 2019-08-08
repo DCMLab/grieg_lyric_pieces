@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programRevision>4592407</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -9,7 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <minSystemDistance>7</minSystemDistance>
+      <minSystemDistance>15</minSystemDistance>
+      <maxSystemDistance>20</maxSystemDistance>
+      <harmonyY>6</harmonyY>
       <page-layout>
         <page-height>1683.55</page-height>
         <page-width>1190.1</page-width>
@@ -54,6 +56,14 @@
           </System>
         <System>
           </System>
+        </Page>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -70,20 +80,8 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
-        <System>
-          </System>
         </Page>
       <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         </Page>
@@ -141,10 +139,6 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <Text>
-          <style>Title</style>
-          <text><font size="10"></font>Großmutters Menuett   #</text>
-          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -161,6 +155,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
+          <pos x="-13.1476" y="-17.2293"/>
           <xoffset>0</xoffset>
           <yoffset>-5.9</yoffset>
           <text><font size="13"></font><font face="Times New Roman"></font><b>Allegretto grazioso e leggierissimo</b></text>
@@ -170,6 +165,9 @@
           <velocity>60</velocity>
           <pos x="0.658281" y="7.33854"/>
           </Dynamic>
+        <Harmony>
+          <name>.G.I</name>
+          </Harmony>
         <Slur id="2">
           <track>0</track>
           <up>2</up>
@@ -218,6 +216,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -230,12 +231,14 @@
             </Note>
           </Chord>
         <StaffText>
+          <pos x="17.2037" y="-22.0542"/>
           <xoffset>0</xoffset>
           <yoffset>-15.9</yoffset>
           <text><font size="21"></font><font face="Times New Roman"></font><b>Großmutters Menuett</b></text>
           </StaffText>
         <Harmony>
-          <name>.G.V7(9)/V</name>
+          <name>V7(9)/V</name>
+          <pos x="-1.39868" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -353,12 +356,13 @@
         </Measure>
       <Measure number="3">
         <StaffText>
+          <pos x="-14.2665" y="-17.3934"/>
           <xoffset>0</xoffset>
           <yoffset>-10.4</yoffset>
           <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
           </StaffText>
         <Harmony>
-          <name>@none</name>
+          <name>I</name>
           </Harmony>
         <Slur id="3">
           <track>0</track>
@@ -408,6 +412,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -420,12 +427,14 @@
             </Note>
           </Chord>
         <StaffText>
+          <pos x="9.79075" y="-15.2313"/>
           <xoffset>0</xoffset>
           <yoffset>-6</yoffset>
           <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 68 No.2</b></text>
           </StaffText>
         <Harmony>
           <name>V7(9)/V</name>
+          <pos x="-1.11894" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -525,6 +534,9 @@
           </Harmony>
         </Measure>
       <Measure number="5">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="4">
           <track>0</track>
           <up>1</up>
@@ -611,6 +623,9 @@
           </Chord>
         </Measure>
       <Measure number="6">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="5">
           <track>0</track>
           <up>1</up>
@@ -697,6 +712,9 @@
           </Chord>
         </Measure>
       <Measure number="7">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="6">
           <track>0</track>
           <up>1</up>
@@ -842,7 +860,7 @@
           <yoffset>7.5</yoffset>
           </Dynamic>
         <Harmony>
-          <name>@none</name>
+          <name>I</name>
           </Harmony>
         <Beam id="9">
           <StemDirection>up</StemDirection>
@@ -886,6 +904,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -1020,7 +1041,7 @@
         </Measure>
       <Measure number="11">
         <Harmony>
-          <name>@none</name>
+          <name>I</name>
           </Harmony>
         <Beam id="11">
           <StemDirection>up</StemDirection>
@@ -1064,6 +1085,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -1180,6 +1204,9 @@
           </Harmony>
         </Measure>
       <Measure number="13">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="7">
           <track>0</track>
           <up>2</up>
@@ -1266,6 +1293,9 @@
           </Chord>
         </Measure>
       <Measure number="14">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="8">
           <track>0</track>
           <up>2</up>
@@ -1352,6 +1382,9 @@
           </Chord>
         </Measure>
       <Measure number="15">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="9">
           <track>0</track>
           <up>2</up>
@@ -1517,7 +1550,7 @@
           <yoffset>7</yoffset>
           </Dynamic>
         <Harmony>
-          <name>@none</name>
+          <name>iii-I6</name>
           </Harmony>
         <Beam id="17">
           </Beam>
@@ -1692,9 +1725,6 @@
           </Chord>
         </Measure>
       <Measure number="20">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="20">
           </Beam>
         <Chord>
@@ -1982,9 +2012,6 @@
           </Chord>
         </Measure>
       <Measure number="24">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="24">
           </Beam>
         <Chord>
@@ -2257,7 +2284,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7/vi</name>
+          <name>V/vi</name>
           </Harmony>
         <Beam id="28">
           </Beam>
@@ -2293,9 +2320,6 @@
           </Chord>
         </Measure>
       <Measure number="28">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>vi</name>
           </Harmony>
@@ -2325,7 +2349,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7/vi</name>
+          <name>V/vi</name>
           </Harmony>
         <Beam id="30">
           </Beam>
@@ -2428,7 +2452,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="26.3491" y="6.5"/>
+            <pos x="82.5899" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -2544,7 +2568,7 @@
         </Measure>
       <Measure number="31">
         <Harmony>
-          <name>V/vi</name>
+          <name>V/vi\\</name>
           </Harmony>
         <Beam id="33">
           </Beam>
@@ -2572,6 +2596,13 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
+        <Dynamic>
+          <subtype>fz</subtype>
+          <velocity>0</velocity>
+          <pos x="0.895695" y="2.74493"/>
+          <xoffset>0</xoffset>
+          <yoffset>-5.2</yoffset>
+          </Dynamic>
         <endSpanner id="10"/>
         <Chord>
           <BeamMode>mid</BeamMode>
@@ -2588,9 +2619,14 @@
         <HairPin id="11">
           <subtype>1</subtype>
           <Segment>
-            <subtype>0</subtype>
+            <subtype>1</subtype>
             <off2 x="0" y="0"/>
-            <pos x="78.7551" y="6.5"/>
+            <pos x="113.084" y="6.5"/>
+            </Segment>
+          <Segment>
+            <subtype>3</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="7.07687" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -2636,9 +2672,6 @@
           </Chord>
         </Measure>
       <Measure number="32">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="34">
           </Beam>
         <Chord>
@@ -2714,9 +2747,6 @@
           </Chord>
         </Measure>
       <Measure number="33">
-        <Harmony>
-          <name>@none</name>
-          </Harmony>
         <endSpanner id="11"/>
         <Beam id="35">
           </Beam>
@@ -2876,6 +2906,7 @@
         </Measure>
       <Measure number="37">
         <StaffText>
+          <pos x="-2.51762" y="-4.87907"/>
           <xoffset>0</xoffset>
           <yoffset>-3.9</yoffset>
           <text><font size="13"></font><font face="Times New Roman"></font><b>Tempo I.</b></text>
@@ -2887,6 +2918,9 @@
           <xoffset>0</xoffset>
           <yoffset>8.1</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Slur id="12">
           <track>0</track>
           <up>2</up>
@@ -2935,6 +2969,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -3069,7 +3106,7 @@
         </Measure>
       <Measure number="39">
         <Harmony>
-          <name>@none</name>
+          <name>I</name>
           </Harmony>
         <Slur id="13">
           <track>0</track>
@@ -3119,6 +3156,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -3202,6 +3242,9 @@
           </Chord>
         </Measure>
       <Measure number="40">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -3232,9 +3275,9 @@
           </Harmony>
         </Measure>
       <Measure number="41">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="14">
           <track>0</track>
           <up>2</up>
@@ -3321,6 +3364,9 @@
           </Chord>
         </Measure>
       <Measure number="42">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="15">
           <track>0</track>
           <up>2</up>
@@ -3407,6 +3453,9 @@
           </Chord>
         </Measure>
       <Measure number="43">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="16">
           <track>0</track>
           <up>2</up>
@@ -3523,6 +3572,9 @@
           </Chord>
         </Measure>
       <Measure number="44">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -3556,6 +3608,9 @@
           <xoffset>0</xoffset>
           <yoffset>7.8</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="17">
           <track>0</track>
           <up>2</up>
@@ -3648,9 +3703,9 @@
           </Chord>
         </Measure>
       <Measure number="46">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="18">
           <track>0</track>
           <up>2</up>
@@ -3737,6 +3792,9 @@
           </Chord>
         </Measure>
       <Measure number="47">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="19">
           <track>0</track>
           <up>2</up>
@@ -3859,6 +3917,9 @@
           </Rest>
         </Measure>
       <Measure number="49">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Beam id="50">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -3969,12 +4030,18 @@
           </Chord>
         </Measure>
       <Measure number="50">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
           </Rest>
         </Measure>
       <Measure number="51">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="20">
           <track>0</track>
           <up>2</up>
@@ -4083,9 +4150,6 @@
           </Chord>
         </Measure>
       <Measure number="52">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
@@ -4120,7 +4184,7 @@
           <yoffset>6.1</yoffset>
           </Dynamic>
         <Harmony>
-          <name>@none</name>
+          <name>iii-I6</name>
           </Harmony>
         <Slur id="21">
           <track>0</track>
@@ -4307,6 +4371,9 @@
           </Chord>
         </Measure>
       <Measure number="56">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="57">
           </Beam>
         <Chord>
@@ -4354,9 +4421,6 @@
           </Chord>
         </Measure>
       <Measure number="57">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>ii</name>
           </Harmony>
@@ -4756,9 +4820,6 @@
           </Chord>
         </Measure>
       <Measure number="62">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Beam id="63">
           </Beam>
         <Chord>
@@ -4872,7 +4933,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7/vi</name>
+          <name>V/vi</name>
           </Harmony>
         <Beam id="65">
           </Beam>
@@ -4940,7 +5001,7 @@
             </Note>
           </Chord>
         <Harmony>
-          <name>V7/vi</name>
+          <name>V/vi</name>
           </Harmony>
         <Beam id="67">
           </Beam>
@@ -5034,7 +5095,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="62.8669" y="6.5"/>
+            <pos x="31.5678" y="6.5"/>
             </Segment>
           <beginText>
             <text>cresc.</text>
@@ -5164,11 +5225,8 @@
           </Chord>
         </Measure>
       <Measure number="67">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
-          <name>V/vi</name>
+          <name>V/vi\\</name>
           </Harmony>
         <Beam id="70">
           </Beam>
@@ -5221,7 +5279,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="109.949" y="6.5"/>
+            <pos x="65.8108" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -5273,7 +5331,7 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="8.82688" y="6.5"/>
+            <pos x="75.0523" y="6.5"/>
             </Segment>
           <beginText>
             <text>dim.</text>
@@ -5357,9 +5415,6 @@
           </Chord>
         </Measure>
       <Measure number="69">
-        <Harmony>
-          <name>@none</name>
-          </Harmony>
         <endSpanner id="25"/>
         <Beam id="72">
           </Beam>
@@ -5508,9 +5563,6 @@
           </Chord>
         </Measure>
       <Measure number="72">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -5536,6 +5588,9 @@
           <xoffset>0</xoffset>
           <yoffset>7.3</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>I</name>
+          </Harmony>
         <Slur id="26">
           <track>0</track>
           <up>2</up>
@@ -5584,6 +5639,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -5597,6 +5655,7 @@
           </Chord>
         <Harmony>
           <name>V7(9)/V</name>
+          <pos x="-2.09802" y="-6"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -5718,7 +5777,7 @@
         </Measure>
       <Measure number="75">
         <Harmony>
-          <name>@none</name>
+          <name>I</name>
           </Harmony>
         <Slur id="27">
           <track>0</track>
@@ -5768,6 +5827,9 @@
             <tpc>20</tpc>
             </Note>
           </Chord>
+        <Harmony>
+          <name>vi</name>
+          </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -5781,6 +5843,7 @@
           </Chord>
         <Harmony>
           <name>V7(9)/V</name>
+          <pos x="-2.09802" y="-5.96013"/>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -5851,6 +5914,9 @@
           </Chord>
         </Measure>
       <Measure number="76">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V</name>
           </Harmony>
@@ -5881,9 +5947,9 @@
           </Harmony>
         </Measure>
       <Measure number="77">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="28">
           <track>0</track>
           <up>2</up>
@@ -5970,6 +6036,9 @@
           </Chord>
         </Measure>
       <Measure number="78">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="29">
           <track>0</track>
           <up>2</up>
@@ -6056,6 +6125,9 @@
           </Chord>
         </Measure>
       <Measure number="79">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="30">
           <track>0</track>
           <up>2</up>
@@ -6205,6 +6277,9 @@
           <xoffset>0</xoffset>
           <yoffset>8.4</yoffset>
           </Dynamic>
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="31">
           <track>0</track>
           <up>2</up>
@@ -6291,9 +6366,9 @@
           </Chord>
         </Measure>
       <Measure number="82">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="32">
           <track>0</track>
           <up>2</up>
@@ -6380,6 +6455,9 @@
           </Chord>
         </Measure>
       <Measure number="83">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="33">
           <track>0</track>
           <up>2</up>
@@ -6505,6 +6583,9 @@
           </Rest>
         </Measure>
       <Measure number="85">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Beam id="87">
           <StemDirection>down</StemDirection>
           </Beam>
@@ -6621,6 +6702,9 @@
           </Rest>
         </Measure>
       <Measure number="87">
+        <Harmony>
+          <name>vi-IV6</name>
+          </Harmony>
         <Slur id="34">
           <track>0</track>
           <up>2</up>
@@ -8385,13 +8469,6 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>fz</subtype>
-          <velocity>0</velocity>
-          <pos x="0.329141" y="-14.9014"/>
-          <xoffset>0</xoffset>
-          <yoffset>-5.2</yoffset>
-          </Dynamic>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
