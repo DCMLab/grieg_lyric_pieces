@@ -62,10 +62,16 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         </Page>
@@ -81,6 +87,7 @@
         <StaffType group="pitched">
           </StaffType>
         <barLineSpan>0</barLineSpan>
+        <distOffset>1.93962</distOffset>
         </Staff>
       <trackName>unbenannt</trackName>
       <Instrument>
@@ -94,6 +101,14 @@
     <Staff id="1">
       <VBox>
         <height>18</height>
+        <Text>
+          <style>Title</style>
+          <text>Frühlingstanz</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Edvard H. Grieg, op. 38, No. 5</text>
+          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -109,7 +124,7 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
-          <pos x="-1.9375" y="9.125"/>
+          <pos x="2.16964" y="7.83419"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -120,17 +135,7 @@
           <text>leggiero</text>
           </StaffText>
         <StaffText>
-          <pos x="59.2229" y="-24.472"/>
-          <halign>center</halign>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>31</size>
-          <text>Frühlingstanz</text>
-          </StaffText>
-        <StaffText>
-          <pos x="-10.0455" y="-21.8033"/>
+          <pos x="0.930929" y="-2.1372"/>
           <valign>baseline</valign>
           <xoffset>0</xoffset>
           <yoffset>2</yoffset>
@@ -157,12 +162,11 @@
         <Harmony>
           <name>I</name>
           </Harmony>
-        <Slur id="2">
-          <track>0</track>
-          </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="2"/>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -172,8 +176,12 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="start" id="2"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -215,11 +223,17 @@
           </Chord>
         </Measure>
       <Measure number="4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Slur type="stop" id="2"/>
           <Note>
             <pitch>59</pitch>
@@ -425,19 +439,6 @@
           </Rest>
         </Measure>
       <Measure number="7">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <StaffText>
-          <pos x="-8.1986" y="-26.4896"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>12</size>
-          <text>Edvard H. Grieg, 1843 - 1907
-op. 38, No. 5 (Lyrische Stücke)</text>
-          </StaffText>
         <StaffText>
           <pos x="0.15625" y="-1.9375"/>
           <valign>baseline</valign>
@@ -505,24 +506,26 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Note>
             <track>1</track>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               <track>1</track>
               </Accidental>
             <pitch>70</pitch>
-            <tpc>12</tpc>
+            <tpc>24</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="8">
-        <Clef>
-          <concertClefType>G</concertClefType>
-          <transposingClefType>G</transposingClefType>
-          </Clef>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>iii</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -575,11 +578,11 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Note>
             <track>1</track>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               <track>1</track>
               </Accidental>
             <pitch>70</pitch>
-            <tpc>12</tpc>
+            <tpc>24</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -587,6 +590,15 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Harmony>
           <name>iii64</name>
           </Harmony>
+        <HairPin id="7">
+          <subtype>0</subtype>
+          <beginText>
+            <text>cresc.</text>
+            </beginText>
+          <continueText>
+            <text>(cresc.)</text>
+            </continueText>
+          </HairPin>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -624,9 +636,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -654,11 +663,11 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Note>
             <track>1</track>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               <track>1</track>
               </Accidental>
             <pitch>70</pitch>
-            <tpc>12</tpc>
+            <tpc>24</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -675,15 +684,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Harmony>
           <name>V7/iii</name>
           </Harmony>
-        <HairPin id="7">
-          <subtype>0</subtype>
-          <beginText>
-            <text>cresc.</text>
-            </beginText>
-          <continueText>
-            <text>(cresc.)</text>
-            </continueText>
-          </HairPin>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -691,7 +691,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <tpc>20</tpc>
             </Note>
           </Chord>
-        <endSpanner id="7"/>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -702,17 +701,16 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
+          <pos x="0.852243" y="6.44831"/>
           </Dynamic>
         <Harmony>
           <name>iii64</name>
           </Harmony>
+        <endSpanner id="7"/>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="stop" id="6"/>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -730,14 +728,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Note>
             <track>1</track>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               <track>1</track>
               </Accidental>
             <pitch>70</pitch>
-            <tpc>12</tpc>
+            <tpc>24</tpc>
             </Note>
           </Chord>
-        <tick>13920</tick>
+        <Chord>
+          <track>1</track>
+          <durationType>quarter</durationType>
+          <Note>
+            <track>1</track>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
         <Rest>
           <track>1</track>
           <durationType>quarter</durationType>
@@ -763,9 +769,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
-          <Arpeggio>
-            <subtype>0</subtype>
-            </Arpeggio>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
@@ -786,6 +789,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -836,21 +842,28 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <Tie id="10">
+              <track>1</track>
+              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="12">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V65(9)</name>
           </Harmony>
-        <Slur id="10">
+        <Slur id="11">
           <track>0</track>
+          <up>1</up>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="10"/>
+          <Slur type="start" id="11"/>
           <grace16/>
           <Note>
             <pitch>76</pitch>
@@ -867,7 +880,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="10"/>
+          <Slur type="stop" id="11"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -883,8 +896,8 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>76</pitch>
-            <tpc>18</tpc>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         <Harmony>
@@ -892,8 +905,11 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
-            <Tie id="11">
+            <Tie id="12">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -912,21 +928,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <endSpanner id="10"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="12">
+        <Slur id="13">
           <track>1</track>
           </Slur>
-        <Slur id="13">
+        <Slur id="14">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="12"/>
           <Slur type="start" id="13"/>
+          <Slur type="start" id="14"/>
           <Note>
             <track>1</track>
             <pitch>67</pitch>
@@ -934,6 +951,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <Tie id="15">
+              <track>1</track>
+              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -946,7 +966,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="11"/>
+            <endSpanner id="12"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -974,7 +994,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <subtype>sforzato</subtype>
             </Articulation>
           <Note>
-            <Tie id="14">
+            <Tie id="16">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -984,8 +1004,8 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="12"/>
           <Slur type="stop" id="13"/>
+          <Slur type="stop" id="14"/>
           <Note>
             <track>1</track>
             <pitch>66</pitch>
@@ -993,21 +1013,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <endSpanner id="15"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="15">
-          <track>1</track>
-          </Slur>
-        <Slur id="16">
+        <Slur id="17">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="15"/>
-          <Slur type="start" id="16"/>
+          <Slur type="start" id="17"/>
           <Note>
             <track>1</track>
             <pitch>67</pitch>
@@ -1015,22 +1032,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <Tie id="18">
+              <track>1</track>
+              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="14">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>V65(9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="14"/>
+            <endSpanner id="16"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1066,8 +1083,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="15"/>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="17"/>
           <Note>
             <track>1</track>
             <pitch>69</pitch>
@@ -1075,13 +1091,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <endSpanner id="18"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Slur id="19">
+          <track>1</track>
+          </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
+          <Slur type="start" id="19"/>
           <Note>
             <track>1</track>
             <pitch>67</pitch>
@@ -1089,6 +1110,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <Tie id="20">
+              <track>1</track>
+              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -1118,9 +1142,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
-          <Arpeggio>
-            <subtype>0</subtype>
-            </Arpeggio>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
@@ -1139,6 +1160,10 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Harmony>
           <name>V2(42)</name>
           </Harmony>
+        <StaffText>
+          <pos x="-1.45471" y="6.76487"/>
+          <text>cresc.</text>
+          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1165,6 +1190,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
+          <Slur type="stop" id="19"/>
           <Note>
             <track>1</track>
             <pitch>66</pitch>
@@ -1172,31 +1198,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <endSpanner id="20"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <HairPin id="17">
-          <subtype>0</subtype>
-          <track>1</track>
-          <beginText>
-            <text>cresc.</text>
-            </beginText>
-          <continueText>
-            <text>(cresc.)</text>
-            </continueText>
-          </HairPin>
-        <Slur id="18">
-          <track>1</track>
-          </Slur>
-        <Slur id="19">
+        <Slur id="21">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="18"/>
-          <Slur type="start" id="19"/>
+          <Slur type="start" id="21"/>
           <Note>
             <track>1</track>
             <pitch>67</pitch>
@@ -1204,6 +1217,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <Tie id="22">
+              <track>1</track>
+              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -1215,15 +1231,19 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="16">
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V65(9)</name>
           </Harmony>
-        <Slur id="20">
+        <Slur id="23">
           <track>0</track>
+          <up>1</up>
           </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="20"/>
+          <Slur type="start" id="23"/>
           <grace16/>
           <Note>
             <pitch>76</pitch>
@@ -1240,7 +1260,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="20"/>
+          <Slur type="stop" id="23"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1269,7 +1289,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <subtype>sforzato</subtype>
             </Articulation>
           <Note>
-            <Tie id="21">
+            <Tie id="24">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1279,8 +1299,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="18"/>
-          <Slur type="stop" id="19"/>
+          <Slur type="stop" id="21"/>
           <Note>
             <track>1</track>
             <pitch>69</pitch>
@@ -1288,21 +1307,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <endSpanner id="22"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="22">
+        <Slur id="25">
           <track>1</track>
           </Slur>
-        <Slur id="23">
+        <Slur id="26">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="22"/>
-          <Slur type="start" id="23"/>
+          <Slur type="start" id="25"/>
+          <Slur type="start" id="26"/>
           <Note>
             <track>1</track>
             <pitch>67</pitch>
@@ -1310,6 +1330,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <Tie id="27">
+              <track>1</track>
+              </Tie>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -1322,7 +1345,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="21"/>
+            <endSpanner id="24"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1344,7 +1367,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Harmony>
           <name>V2(94)</name>
           </Harmony>
-        <Slur id="24">
+        <Slur id="28">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1352,9 +1375,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="24"/>
+          <Slur type="start" id="28"/>
           <Note>
-            <Tie id="25">
+            <Tie id="29">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1364,8 +1387,8 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="22"/>
-          <Slur type="stop" id="23"/>
+          <Slur type="stop" id="25"/>
+          <Slur type="stop" id="26"/>
           <Note>
             <track>1</track>
             <pitch>66</pitch>
@@ -1373,17 +1396,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           <Note>
             <track>1</track>
+            <endSpanner id="27"/>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Slur id="26">
+        <Slur id="30">
           <track>1</track>
           </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="26"/>
+          <Slur type="start" id="30"/>
           <Note>
             <track>1</track>
             <pitch>67</pitch>
@@ -1402,9 +1426,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="24"/>
+          <Slur type="stop" id="28"/>
           <Note>
-            <endSpanner id="25"/>
+            <endSpanner id="29"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1435,15 +1459,12 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
-          <Arpeggio>
-            <subtype>0</subtype>
-            </Arpeggio>
           </Chord>
         <tick>24480</tick>
         <Chord>
           <track>1</track>
           <durationType>half</durationType>
-          <Slur type="stop" id="26"/>
+          <Slur type="stop" id="30"/>
           <Note>
             <track>1</track>
             <pitch>69</pitch>
@@ -1455,7 +1476,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <endSpanner id="17"/>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
@@ -1482,6 +1502,10 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <bold>1</bold>
           <text>.</text>
           </StaffText>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>112</velocity>
+          </Dynamic>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1553,6 +1577,14 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>prall</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            <pos x="0.746446" y="-4.90942"/>
+            <anchor>3</anchor>
+            </Articulation>
           <Note>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -1668,6 +1700,10 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Accidental>
+              <role>1</role>
+              <subtype>sharp</subtype>
+              </Accidental>
             <pitch>78</pitch>
             <tpc>20</tpc>
             </Note>
@@ -1702,6 +1738,14 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>prall</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            <pos x="0.746446" y="-4.02657"/>
+            <anchor>3</anchor>
+            </Articulation>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1787,6 +1831,11 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Harmony>
           <name>V7(9)/IV</name>
           </Harmony>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.97521" y="8.15424"/>
+          </Dynamic>
         <Chord>
           <durationType>eighth</durationType>
           <Articulation>
@@ -1819,11 +1868,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             </Note>
           </Chord>
         <tick>31680</tick>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <track>1</track>
-          </Dynamic>
         <Rest>
           <track>1</track>
           <durationType>quarter</durationType>
@@ -1853,6 +1897,14 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>prall</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            <pos x="0.922774" y="-3.4372"/>
+            <anchor>3</anchor>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1995,11 +2047,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="26">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I[vi65</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>prall</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            <pos x="0.746446" y="-3.08334"/>
+            <anchor>3</anchor>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2024,6 +2087,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2049,15 +2115,17 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <durationType>quarter</durationType>
           <Note>
             <track>1</track>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            </Note>
+          <Note>
+            <track>1</track>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="27">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2140,17 +2208,6 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
           </Clef>
-        <StaffText>
-          <pos x="-0.59375" y="10.1562"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>12</size>
-          <bold>1</bold>
-          <italic>1</italic>
-          <text>dim. poco a poco</text>
-          </StaffText>
         <Harmony>
           <name>I\\</name>
           </Harmony>
@@ -2158,7 +2215,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <Tie id="27">
+            <Tie id="31">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2171,31 +2228,44 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <durationType>half</durationType>
           <Note>
             <track>1</track>
+            <Tie id="32">
+              <track>1</track>
+              </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="29">
+        <StaffText>
+          <pos x="-0.241093" y="10.2444"/>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>2</yoffset>
+          <family>Times New Roman</family>
+          <size>12</size>
+          <bold>1</bold>
+          <italic>1</italic>
+          <text>dim. poco a poco</text>
+          </StaffText>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="27"/>
+            <Tie id="33">
+              </Tie>
+            <endSpanner id="31"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <tick>40320</tick>
-        <Slur id="28">
-          <track>1</track>
-          </Slur>
         <Chord>
           <track>1</track>
           <durationType>quarter</durationType>
-          <Slur type="start" id="28"/>
           <Note>
             <track>1</track>
+            <endSpanner id="32"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -2242,11 +2312,17 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="30">
-        <Rest>
-          <visible>0</visible>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
-          </Rest>
+        <Chord>
+          <dots>1</dots>
+          <durationType>half</durationType>
+          <Note>
+            <Tie id="34">
+              </Tie>
+            <endSpanner id="33"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
         <tick>42240</tick>
         <Harmony>
           <name>I</name>
@@ -2255,29 +2331,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Harmony>
           <name>I(9)</name>
           </Harmony>
-        <tick>41760</tick>
+        </Measure>
+      <Measure number="31">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
-          <track>1</track>
           <dots>1</dots>
           <durationType>half</durationType>
-          <Slur type="stop" id="28"/>
-          <StemDirection>up</StemDirection>
           <Note>
-            <track>1</track>
-            <Tie id="29">
-              <track>1</track>
+            <Tie id="35">
               </Tie>
+            <endSpanner id="34"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="31">
-        <Rest>
-          <visible>0</visible>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
-          </Rest>
         <tick>44160</tick>
         <Harmony>
           <name>I(9)</name>
@@ -2287,110 +2356,69 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <name>I</name>
           <track>1</track>
           </Harmony>
+        </Measure>
+      <Measure number="32">
         <Chord>
-          <track>1</track>
           <dots>1</dots>
           <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
           <Note>
-            <track>1</track>
-            <endSpanner id="29"/>
+            <Tie id="36">
+              </Tie>
+            <endSpanner id="35"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="32">
-        <Rest>
-          <visible>0</visible>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
-          </Rest>
         <tick>44640</tick>
         <Harmony>
           <name>I</name>
           <track>1</track>
           </Harmony>
+        </Measure>
+      <Measure number="33">
         <Chord>
-          <track>1</track>
-          <dots>1</dots>
           <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
           <Note>
-            <track>1</track>
-            <Tie id="30">
-              <track>1</track>
+            <endSpanner id="36"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
+          <Note>
+            <Tie id="37">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="33">
-        <Rest>
-          <visible>0</visible>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
-          </Rest>
-        <tick>46080</tick>
-        <Chord>
-          <track>1</track>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <track>1</track>
-            <endSpanner id="30"/>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
+        <tick>47040</tick>
         <Harmony>
           <name>I(9)</name>
           <track>1</track>
           </Harmony>
+        </Measure>
+      <Measure number="34">
         <Chord>
-          <track>1</track>
-          <durationType>quarter</durationType>
-          <StemDirection>up</StemDirection>
+          <dots>1</dots>
+          <durationType>half</durationType>
           <Note>
-            <track>1</track>
-            <Tie id="31">
-              <track>1</track>
+            <Tie id="38">
               </Tie>
+            <endSpanner id="37"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="34">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <Rest>
-          <visible>0</visible>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
-          </Rest>
         <tick>47520</tick>
         <Harmony>
           <name>I</name>
           <track>1</track>
           </Harmony>
-        <Chord>
-          <track>1</track>
-          <dots>1</dots>
-          <durationType>half</durationType>
-          <StemDirection>up</StemDirection>
-          <Note>
-            <track>1</track>
-            <Tie id="32">
-              <track>1</track>
-              </Tie>
-            <endSpanner id="31"/>
-            <pitch>62</pitch>
-            <tpc>16</tpc>
-            </Note>
-          </Chord>
         </Measure>
       <Measure number="35">
         <Clef>
@@ -2400,7 +2428,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="32"/>
+            <endSpanner id="38"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -2410,8 +2438,11 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
-            <Tie id="33">
+            <Tie id="39">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2419,21 +2450,27 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="36">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="33"/>
+            <endSpanner id="39"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
-            <Tie id="34">
+            <Tie id="40">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2451,15 +2488,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="34"/>
+            <endSpanner id="40"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
-            <Tie id="35">
+            <Tie id="41">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2477,15 +2517,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="35"/>
+            <endSpanner id="41"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
-            <Tie id="36">
+            <Tie id="42">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2504,13 +2547,16 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="36"/>
+            <endSpanner id="42"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2564,7 +2610,24 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
+          <pos x="0.125413" y="-1.35924"/>
           </Dynamic>
+        <Pedal id="43">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -2637,6 +2700,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="4">
+        <endSpanner id="43"/>
+        <Pedal id="44">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -2661,6 +2741,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="5">
+        <endSpanner id="44"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2707,6 +2788,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <Pedal id="45">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2731,6 +2828,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="7">
+        <endSpanner id="45"/>
+        <Pedal id="46">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -2755,10 +2869,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="8">
-        <Clef>
-          <concertClefType>F</concertClefType>
-          <transposingClefType>F</transposingClefType>
-          </Clef>
+        <endSpanner id="46"/>
+        <Pedal id="47">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -2783,6 +2910,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="9">
+        <endSpanner id="47"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2829,6 +2957,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <Pedal id="48">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2853,6 +2997,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="11">
+        <endSpanner id="48"/>
+        <Pedal id="49">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -2868,32 +3029,30 @@ op. 38, No. 5 (Lyrische Stücke)</text>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="37">
-          <track>4</track>
-          </Slur>
-        <Slur id="38">
-          <track>4</track>
-          </Slur>
-        <Slur id="39">
+        <endSpanner id="49"/>
+        <Slur id="50">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            <anchor>3</anchor>
             </Articulation>
-          <Slur type="start" id="37"/>
-          <Slur type="start" id="38"/>
-          <Slur type="start" id="39"/>
+          <Slur type="start" id="50"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
+            <Tie id="51">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="52">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -2902,29 +3061,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
       <Measure number="12">
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="37"/>
-          <Slur type="stop" id="38"/>
-          <Slur type="stop" id="39"/>
+          <Slur type="stop" id="50"/>
           <Note>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
+            <endSpanner id="51"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="52"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="40">
-          <track>4</track>
-          </Slur>
-        <Slur id="41">
-          <track>4</track>
-          </Slur>
-        <Slur id="42">
+        <Slur id="53">
           <track>4</track>
           </Slur>
         <Chord>
@@ -2932,57 +3085,45 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="40"/>
-          <Slur type="start" id="41"/>
-          <Slur type="start" id="42"/>
+          <Slur type="start" id="53"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
+            <Tie id="54">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="55">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="13">
-        <StaffText>
-          <pos x="-0.15625" y="7.59375"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>12</size>
-          <bold>1</bold>
-          <italic>1</italic>
-          <text>simile</text>
-          </StaffText>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="40"/>
-          <Slur type="stop" id="41"/>
-          <Slur type="stop" id="42"/>
+          <Slur type="stop" id="53"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
+            <endSpanner id="54"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="55"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="43">
-          <track>4</track>
-          </Slur>
-        <Slur id="44">
+        <Slur id="56">
           <track>4</track>
           </Slur>
         <Chord>
@@ -2990,17 +3131,20 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="43"/>
-          <Slur type="start" id="44"/>
+          <Slur type="start" id="56"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
+            <Tie id="57">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="58">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3009,35 +3153,44 @@ op. 38, No. 5 (Lyrische Stücke)</text>
       <Measure number="14">
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="43"/>
-          <Slur type="stop" id="44"/>
+          <Slur type="stop" id="56"/>
           <Note>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
+            <endSpanner id="57"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="58"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Slur id="59">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Slur type="start" id="59"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
+            <Tie id="60">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="61">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3048,28 +3201,42 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
           </Clef>
+        <Pedal id="62">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
+          <Slur type="stop" id="59"/>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
           <Note>
+            <endSpanner id="60"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="61"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="45">
-          <track>4</track>
-          </Slur>
-        <Slur id="46">
-          <track>4</track>
-          </Slur>
-        <Slur id="47">
+        <endSpanner id="62"/>
+        <Slur id="63">
           <track>4</track>
           </Slur>
         <Chord>
@@ -3077,18 +3244,20 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="45"/>
-          <Slur type="start" id="46"/>
-          <Slur type="start" id="47"/>
+          <Slur type="start" id="63"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
           <Note>
+            <Tie id="64">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="65">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3097,26 +3266,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
       <Measure number="16">
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="45"/>
-          <Slur type="stop" id="46"/>
-          <Slur type="stop" id="47"/>
+          <Slur type="stop" id="63"/>
           <Note>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
+            <endSpanner id="64"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="65"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="48">
-          <track>4</track>
-          </Slur>
-        <Slur id="49">
+        <Slur id="66">
           <track>4</track>
           </Slur>
         <Chord>
@@ -3124,17 +3290,20 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="48"/>
-          <Slur type="start" id="49"/>
+          <Slur type="start" id="66"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
+            <Tie id="67">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="68">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3143,25 +3312,23 @@ op. 38, No. 5 (Lyrische Stücke)</text>
       <Measure number="17">
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="48"/>
-          <Slur type="stop" id="49"/>
+          <Slur type="stop" id="66"/>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
+            <endSpanner id="67"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="68"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="50">
-          <track>4</track>
-          </Slur>
-        <Slur id="51">
+        <Slur id="69">
           <track>4</track>
           </Slur>
         <Chord>
@@ -3169,17 +3336,20 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="start" id="50"/>
-          <Slur type="start" id="51"/>
+          <Slur type="start" id="69"/>
           <Note>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
           <Note>
+            <Tie id="70">
+              </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <Tie id="71">
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3188,17 +3358,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
       <Measure number="18">
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="50"/>
-          <Slur type="stop" id="51"/>
+          <Slur type="stop" id="69"/>
           <Note>
             <pitch>54</pitch>
             <tpc>20</tpc>
             </Note>
           <Note>
+            <endSpanner id="70"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
           <Note>
+            <endSpanner id="71"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3223,6 +3394,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Pedal id="72">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -3243,6 +3430,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="20">
+        <endSpanner id="72"/>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -3284,6 +3472,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Pedal id="73">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -3308,6 +3512,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
           </Clef>
+        <endSpanner id="73"/>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -3349,6 +3554,22 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Pedal id="74">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -3369,6 +3590,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="24">
+        <endSpanner id="74"/>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -3402,10 +3624,27 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <Pedal id="75">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            <anchor>3</anchor>
             </Articulation>
           <Note>
             <pitch>38</pitch>
@@ -3422,10 +3661,12 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="26">
+        <endSpanner id="75"/>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            <anchor>3</anchor>
             </Articulation>
           <Note>
             <pitch>43</pitch>
@@ -3547,6 +3788,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -3606,6 +3850,9 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -3679,7 +3926,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <Tie id="52">
+            <Tie id="76">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -3719,7 +3966,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="52"/>
+            <endSpanner id="76"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3792,7 +4039,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <Tie id="53">
+            <Tie id="77">
               </Tie>
             <pitch>55</pitch>
             <tpc>15</tpc>
@@ -3836,7 +4083,7 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="53"/>
+            <endSpanner id="77"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4189,9 +4436,18 @@ op. 38, No. 5 (Lyrische Stücke)</text>
           </Chord>
         </Measure>
       <Measure number="40">
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>33</velocity>
+          <pos x="1.47871" y="-2.09598"/>
+          </Dynamic>
+        <Slur id="78">
+          <track>4</track>
+          </Slur>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
+          <Slur type="start" id="78"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>55</pitch>
@@ -4212,6 +4468,10 @@ op. 38, No. 5 (Lyrische Stücke)</text>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Slur type="stop" id="78"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>50</pitch>

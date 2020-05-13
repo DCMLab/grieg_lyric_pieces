@@ -14,6 +14,378 @@
       <measureSpacing>1</measureSpacing>
       <harmonyY>6</harmonyY>
       <smallStaffMag>0.663</smallStaffMag>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <family>FreeSerif</family>
+        <size>10</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Title</name>
+        <family>FreeSerif</family>
+        <size>24</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>10</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Subtitle</name>
+        <family>FreeSerif</family>
+        <size>14</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Composer</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Lyricist</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Odd Lines</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Even Lines</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <xoffset>-0.5</xoffset>
+        <yoffset>0</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>LH Guitar Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>RH Guitar Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Long)</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Short)</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Part)</name>
+        <family>FreeSerif</family>
+        <size>18</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>8</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Dynamics</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Technique</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Tempo</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Metronome</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Measure Number</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Translator</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Tuplet</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>System</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Staff</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Chord Symbol</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Left</name>
+        <family>FreeSerif</family>
+        <size>20</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Right</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0.5</xoffset>
+        <yoffset>1.9</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Volta</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Frame</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Text Line</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Glissando</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Ottava</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>0.15</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Pedal</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Hairpin</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <offsetType>spatium</offsetType>
+        <name>Bend</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Header</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>5</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Footer</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Instrument Change</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
       <page-layout>
         <page-height>1683.78</page-height>
         <page-width>1190.55</page-width>
@@ -30,7 +402,7 @@
           <bottom-margin>113.386</bottom-margin>
           </page-margins>
         </page-layout>
-      <Spatium>1.78</Spatium>
+      <Spatium>1.18</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -62,18 +434,16 @@
           </System>
         <System>
           </System>
-        </Page>
-      <Page>
-        <System>
-          </System>
-        <System>
-          </System>
-        <System>
-          </System>
         <System>
           </System>
         </Page>
       <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -93,6 +463,7 @@
         <StaffType group="pitched">
           </StaffType>
         <barLineSpan>0</barLineSpan>
+        <distOffset>4.07947</distOffset>
         </Staff>
       <trackName>unbenannt</trackName>
       <Instrument>
@@ -106,6 +477,15 @@
     <Staff id="1">
       <VBox>
         <height>7</height>
+        <Text>
+          <style>Title</style>
+          <text>Walzer</text>
+          </Text>
+        <Text>
+          <pos x="-0.1" y="-0.1"/>
+          <style>Composer</style>
+          <text>Edvard Grieg Op. 12, Nr. 2</text>
+          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -117,18 +497,13 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <StaffText>
-          <pos x="-9.15145" y="-11.9405"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <text>Allegro moderato</text>
-          </StaffText>
         <Harmony>
           <name>.a.i[i</name>
           </Harmony>
+        <StaffText>
+          <style>Tempo</style>
+          <text>Allegro moderato</text>
+          </StaffText>
         <Rest>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
@@ -189,15 +564,6 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <StaffText>
-          <pos x="1.86334" y="-14.8533"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>16</size>
-          <text>Walzer</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -261,7 +627,7 @@
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="start" id="2"/>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -314,6 +680,9 @@
           </Rest>
         </Measure>
       <Measure number="7">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Rest>
           <durationType>eighth</durationType>
           </Rest>
@@ -328,6 +697,7 @@
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
@@ -341,6 +711,7 @@
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
@@ -357,6 +728,7 @@
           <track>0</track>
           </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Slur type="start" id="4"/>
           <Note>
@@ -364,17 +736,6 @@
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="-9.01161" y="-15.5886"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <text>Edvard Grieg
-Lyrische Stücke
-Op. 12, Nr. 2</text>
-          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="4"/>
@@ -406,6 +767,7 @@ Op. 12, Nr. 2</text>
           <name>V7</name>
           </Harmony>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Articulation>
             <subtype>staccato</subtype>
@@ -435,6 +797,7 @@ Op. 12, Nr. 2</text>
           <track>0</track>
           </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Slur type="start" id="5"/>
           <Note>
@@ -464,7 +827,7 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="start" id="6"/>
-          <appoggiatura/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -577,9 +940,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="12">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>VII(13)</name>
           </Harmony>
@@ -649,8 +1009,9 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <anchor>4</anchor>
             </Articulation>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -667,8 +1028,9 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <anchor>4</anchor>
             </Articulation>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -686,8 +1048,9 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
+            <anchor>4</anchor>
             </Articulation>
-          <StemDirection>down</StemDirection>
+          <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -702,6 +1065,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="14">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>v(13)</name>
           </Harmony>
@@ -818,9 +1184,11 @@ Op. 12, Nr. 2</text>
           <subtype>0</subtype>
           <track>1</track>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -912,15 +1280,6 @@ Op. 12, Nr. 2</text>
           <subtype>f</subtype>
           <velocity>96</velocity>
           </Dynamic>
-        <StaffText>
-          <pos x="3" y="8"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <text>rit.</text>
-          </StaffText>
         <Harmony>
           <name>iv7</name>
           </Harmony>
@@ -938,6 +1297,11 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i43</name>
           </Harmony>
+        <StaffText>
+          <pos x="0.0521344" y="8.46629"/>
+          <style>Tempo</style>
+          <text>ritard.</text>
+          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -982,9 +1346,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="18">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>ii%43</name>
           </Harmony>
@@ -1005,6 +1366,10 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V\\</name>
           </Harmony>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          </Dynamic>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -1039,6 +1404,9 @@ Op. 12, Nr. 2</text>
       <Measure number="21">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1046,6 +1414,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1056,6 +1427,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1066,6 +1440,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1073,8 +1450,14 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="22">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1085,6 +1468,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -1092,6 +1478,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1106,6 +1495,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1119,9 +1511,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i(#6)</name>
           </Harmony>
+        <Slur id="9">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <Slur type="start" id="9"/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1129,6 +1525,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="9"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1142,8 +1542,11 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
-            <Tie id="9">
+            <Tie id="10">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1154,7 +1557,7 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="9"/>
+            <endSpanner id="10"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1172,13 +1575,20 @@ Op. 12, Nr. 2</text>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1189,6 +1599,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1197,8 +1610,13 @@ Op. 12, Nr. 2</text>
             <tpc>22</tpc>
             </Note>
           </Chord>
+        <Slur id="11">
+          <track>0</track>
+          </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Slur type="start" id="11"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -1206,6 +1624,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="11"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1217,7 +1636,11 @@ Op. 12, Nr. 2</text>
           <durationType>eighth</durationType>
           </Rest>
         <Chord>
+          <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1227,14 +1650,22 @@ Op. 12, Nr. 2</text>
           <name>V7</name>
           </Harmony>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1246,8 +1677,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V7(#9)</name>
           </Harmony>
+        <Slur id="12">
+          <track>0</track>
+          </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Slur type="start" id="12"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -1255,6 +1691,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="12"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1268,9 +1705,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i(#6)</name>
           </Harmony>
+        <Slur id="13">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <Slur type="start" id="13"/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1278,6 +1719,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="13"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1291,8 +1736,11 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
-            <Tie id="10">
+            <Tie id="14">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1303,7 +1751,7 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="10"/>
+            <endSpanner id="14"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -1316,11 +1764,17 @@ Op. 12, Nr. 2</text>
           </Rest>
         </Measure>
       <Measure number="29">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>III</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -1335,6 +1789,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1353,6 +1810,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1379,6 +1839,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <Tuplet>5</Tuplet>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -1423,14 +1886,14 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="31">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <Harmony>
           <name>i</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -1445,6 +1908,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -1459,6 +1925,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -1488,6 +1957,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <Tuplet>6</Tuplet>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1535,6 +2007,17 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>VI(4)</name>
           </Harmony>
+        <HairPin id="15">
+          <subtype>0</subtype>
+          <beginText>
+            <style>Hairpin</style>
+            <text>cresc.</text>
+            </beginText>
+          <continueText>
+            <style>Hairpin</style>
+            <text>(cresc.)</text>
+            </continueText>
+          </HairPin>
         <Tuplet id="7">
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
@@ -1547,6 +2030,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <Tuplet>7</Tuplet>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -1597,6 +2083,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -1662,6 +2151,11 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>iv7</name>
           </Harmony>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>96</velocity>
+          </Dynamic>
+        <endSpanner id="15"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -1676,6 +2170,11 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i43</name>
           </Harmony>
+        <StaffText>
+          <pos x="0.0521344" y="8.46629"/>
+          <style>Tempo</style>
+          <text>ritard.</text>
+          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -1706,6 +2205,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -1717,11 +2219,17 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="36">
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -1734,8 +2242,15 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V\\</name>
           </Harmony>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          </Dynamic>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -1753,10 +2268,15 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I.I</name>
           </Harmony>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.809869" y="8.62834"/>
+          </Dynamic>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Slur id="11">
+        <Slur id="16">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1764,7 +2284,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="11"/>
+          <Slur type="start" id="16"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -1782,7 +2302,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="11"/>
+          <Slur type="stop" id="16"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -1800,7 +2320,7 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V7</name>
           </Harmony>
-        <Slur id="12">
+        <Slur id="17">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1808,7 +2328,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="12"/>
+          <Slur type="start" id="17"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -1827,7 +2347,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="12"/>
+          <Slur type="stop" id="17"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -1852,7 +2372,7 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I6</name>
           </Harmony>
-        <Slur id="13">
+        <Slur id="18">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1860,7 +2380,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="13"/>
+          <Slur type="start" id="18"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -1878,7 +2398,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="13"/>
+          <Slur type="stop" id="18"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -1896,7 +2416,7 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V7</name>
           </Harmony>
-        <Slur id="14">
+        <Slur id="19">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1904,7 +2424,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="14"/>
+          <Slur type="start" id="19"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -1923,7 +2443,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="14"/>
+          <Slur type="stop" id="19"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -1945,7 +2465,7 @@ Op. 12, Nr. 2</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <Slur id="15">
+        <Slur id="20">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1953,7 +2473,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="15"/>
+          <Slur type="start" id="20"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -1971,7 +2491,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="15"/>
+          <Slur type="stop" id="20"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -1989,7 +2509,7 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>iii64</name>
           </Harmony>
-        <Slur id="16">
+        <Slur id="21">
           <track>0</track>
           </Slur>
         <Chord>
@@ -1997,7 +2517,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="16"/>
+          <Slur type="start" id="21"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -2012,7 +2532,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="21"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -2024,22 +2544,21 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="43">
-        <StaffText>
-          <pos x="-1.1875" y="7.15625"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <text>rit.</text>
-          </StaffText>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
           <name>I</name>
           </Harmony>
-        <Slur id="17">
+        <StaffText>
+          <pos x="-0.261671" y="8.46629"/>
+          <style>Tempo</style>
+          <text>ritard.</text>
+          </StaffText>
+        <Slur id="22">
           <track>0</track>
           </Slur>
         <Chord>
@@ -2047,7 +2566,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="17"/>
+          <Slur type="start" id="22"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -2065,7 +2584,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="17"/>
+          <Slur type="stop" id="22"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -2077,13 +2596,24 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="44">
+        <HairPin id="23">
+          <subtype>1</subtype>
+          <beginText>
+            <style>Hairpin</style>
+            <text>dim.</text>
+            </beginText>
+          <continueText>
+            <style>Hairpin</style>
+            <text>(dim.)</text>
+            </continueText>
+          </HairPin>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
         <Harmony>
           <name>iii64</name>
           </Harmony>
-        <Slur id="18">
+        <Slur id="24">
           <track>0</track>
           </Slur>
         <Chord>
@@ -2091,7 +2621,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="start" id="18"/>
+          <Slur type="start" id="24"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -2106,7 +2636,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="18"/>
+          <Slur type="stop" id="24"/>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
@@ -2119,17 +2649,14 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="45">
         <StaffText>
-          <pos x="-1.65625" y="7.34375"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
+          <pos x="0.436335" y="8.40189"/>
+          <style>Tempo</style>
           <text>a tempo</text>
           </StaffText>
         <Harmony>
           <name>I</name>
           </Harmony>
+        <endSpanner id="23"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2272,21 +2799,26 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="49">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>I</name>
           </Harmony>
-        <HairPin id="19">
-          <subtype>0</subtype>
-          <beginText>
-            <text>cresc.</text>
-            </beginText>
-          <continueText>
-            <text>(cresc.)</text>
-            </continueText>
-          </HairPin>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <HairPin id="25">
+          <subtype>0</subtype>
+          <beginText>
+            <style>Hairpin</style>
+            <text>cresc.</text>
+            </beginText>
+          <continueText>
+            <style>Hairpin</style>
+            <text>(cresc.)</text>
+            </continueText>
+          </HairPin>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2301,7 +2833,6 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I64</name>
           </Harmony>
-        <endSpanner id="19"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2315,15 +2846,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="50">
-        <HairPin id="20">
-          <subtype>0</subtype>
-          <beginText>
-            <text>cresc.</text>
-            </beginText>
-          <continueText>
-            <text>(cresc.)</text>
-            </continueText>
-          </HairPin>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2355,13 +2877,9 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="51">
         <StaffText>
-          <pos x="-0.84375" y="6.84375"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <text>rit.</text>
+          <pos x="-0.366273" y="10.9767"/>
+          <style>Tempo</style>
+          <text>ritard.</text>
           </StaffText>
         <Rest>
           <durationType>quarter</durationType>
@@ -2380,7 +2898,6 @@ Op. 12, Nr. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <endSpanner id="20"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -2397,7 +2914,9 @@ Op. 12, Nr. 2</text>
         <Dynamic>
           <subtype>f</subtype>
           <velocity>96</velocity>
+          <pos x="0.186023" y="8.63918"/>
           </Dynamic>
+        <endSpanner id="25"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -2426,6 +2945,10 @@ Op. 12, Nr. 2</text>
             <tpc>18</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>double</subtype>
+          <span>2</span>
+          </BarLine>
         </Measure>
       <Measure number="53">
         <KeySig>
@@ -2448,6 +2971,9 @@ Op. 12, Nr. 2</text>
       <Measure number="55">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2455,6 +2981,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2465,6 +2994,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2475,6 +3007,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2482,8 +3017,14 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="56">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2494,6 +3035,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -2501,6 +3045,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2514,6 +3061,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2531,13 +3081,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i(#6)</name>
           </Harmony>
-        <Slur id="21">
+        <Slur id="26">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="21"/>
-          <appoggiatura/>
+          <Slur type="start" id="26"/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2545,7 +3095,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="21"/>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="26"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2559,8 +3112,11 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
-            <Tie id="22">
+            <Tie id="27">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2571,7 +3127,7 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="22"/>
+            <endSpanner id="27"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -2589,13 +3145,20 @@ Op. 12, Nr. 2</text>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2606,6 +3169,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2614,8 +3180,13 @@ Op. 12, Nr. 2</text>
             <tpc>22</tpc>
             </Note>
           </Chord>
+        <Slur id="28">
+          <track>0</track>
+          </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Slur type="start" id="28"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -2623,6 +3194,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="28"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2635,6 +3207,9 @@ Op. 12, Nr. 2</text>
           </Rest>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2644,7 +3219,11 @@ Op. 12, Nr. 2</text>
           <name>V7</name>
           </Harmony>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -2652,6 +3231,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2663,8 +3245,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V7(#9)</name>
           </Harmony>
+        <Slur id="29">
+          <track>0</track>
+          </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Slur type="start" id="29"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -2672,6 +3259,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="29"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2685,13 +3273,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i(#6)</name>
           </Harmony>
-        <Slur id="23">
+        <Slur id="30">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="23"/>
-          <appoggiatura/>
+          <Slur type="start" id="30"/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2699,7 +3287,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="23"/>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="30"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2713,8 +3304,11 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>tenuto</subtype>
+            </Articulation>
           <Note>
-            <Tie id="24">
+            <Tie id="31">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2725,7 +3319,7 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="24"/>
+            <endSpanner id="31"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -2738,11 +3332,17 @@ Op. 12, Nr. 2</text>
           </Rest>
         </Measure>
       <Measure number="63">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>III</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2757,6 +3357,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2775,6 +3378,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2805,6 +3411,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <Tuplet>9</Tuplet>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -2854,6 +3463,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2868,6 +3480,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -2883,6 +3498,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2912,6 +3530,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <Tuplet>10</Tuplet>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -2936,6 +3557,17 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>v</name>
           </Harmony>
+        <HairPin id="32">
+          <subtype>0</subtype>
+          <beginText>
+            <style>Hairpin</style>
+            <text>cresc.</text>
+            </beginText>
+          <continueText>
+            <style>Hairpin</style>
+            <text>(cresc.)</text>
+            </continueText>
+          </HairPin>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -2971,6 +3603,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <Tuplet>11</Tuplet>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -3021,6 +3656,9 @@ Op. 12, Nr. 2</text>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -3086,6 +3724,11 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>iv7</name>
           </Harmony>
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>96</velocity>
+          </Dynamic>
+        <endSpanner id="32"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -3100,6 +3743,11 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>i43</name>
           </Harmony>
+        <StaffText>
+          <pos x="-0.261671" y="8.46629"/>
+          <style>Tempo</style>
+          <text>ritard.</text>
+          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -3130,6 +3778,9 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -3141,11 +3792,17 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="70">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>ii%43</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -3158,8 +3815,15 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>V\\</name>
           </Harmony>
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          </Dynamic>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
           <Note>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -3171,6 +3835,17 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="71">
+        <MeasureNumber>
+          <pos x="0.115062" y="-1.88494"/>
+          <style>Measure Number</style>
+          <text>71</text>
+          </MeasureNumber>
+        <Marker>
+          <pos x="2.26344" y="-3.03556"/>
+          <style>Repeat Text Left</style>
+          <text><sym>coda</sym></text>
+          <label>codab</label>
+          </Marker>
         <Clef>
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
@@ -3178,24 +3853,29 @@ Op. 12, Nr. 2</text>
         <KeySig>
           <accidental>3</accidental>
           </KeySig>
-        <StaffText>
-          <pos x="-6.3125" y="-3.8125"/>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9.216</size>
-          <text>Coda</text>
-          </StaffText>
         <Harmony>
           <name>I.I[I</name>
           </Harmony>
-        <Slur id="25">
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.213029" y="8.91423"/>
+          </Dynamic>
+        <StaffText>
+          <pos x="4.60248" y="9.49581"/>
+          <style>Dynamics</style>
+          <text>dolce</text>
+          </StaffText>
+        <StaffText>
+          <pos x="-3.56692" y="-5.03556"/>
+          <text>Coda</text>
+          </StaffText>
+        <Slur id="33">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="start" id="25"/>
+          <Slur type="start" id="33"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -3219,22 +3899,6 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <tick>100800</tick>
-        <Dynamic>
-          <subtype>p</subtype>
-          <velocity>49</velocity>
-          <track>1</track>
-          </Dynamic>
-        <StaffText>
-          <pos x="0.6875" y="9.3125"/>
-          <track>1</track>
-          <valign>baseline</valign>
-          <xoffset>0</xoffset>
-          <yoffset>2</yoffset>
-          <family>Times New Roman</family>
-          <size>9</size>
-          <italic>1</italic>
-          <text>dolce</text>
-          </StaffText>
         <Chord>
           <track>1</track>
           <dots>1</dots>
@@ -3250,13 +3914,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I(134)</name>
           </Harmony>
-        <Slur id="26">
+        <Slur id="34">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="26"/>
-          <appoggiatura/>
+          <Slur type="start" id="34"/>
+          <acciaccatura/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -3264,7 +3928,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="26"/>
+          <Slur type="stop" id="34"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -3282,7 +3946,7 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="25"/>
+          <Slur type="stop" id="33"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3304,12 +3968,12 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I</name>
           </Harmony>
-        <Slur id="27">
+        <Slur id="35">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="27"/>
+          <Slur type="start" id="35"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -3336,6 +4000,7 @@ Op. 12, Nr. 2</text>
           <name>I</name>
           </Harmony>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Note>
             <pitch>69</pitch>
@@ -3365,9 +4030,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I(134)</name>
           </Harmony>
+        <Slur id="36">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <Slur type="start" id="36"/>
+          <acciaccatura/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -3375,6 +4044,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="stop" id="36"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -3392,7 +4062,7 @@ Op. 12, Nr. 2</text>
           </Harmony>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="stop" id="27"/>
+          <Slur type="stop" id="35"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3414,9 +4084,13 @@ Op. 12, Nr. 2</text>
         <Harmony>
           <name>I(13)</name>
           </Harmony>
+        <Slur id="37">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <Slur type="start" id="37"/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -3427,6 +4101,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
+          <Slur type="stop" id="37"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -3438,7 +4113,7 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="28">
+            <Tie id="38">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3451,7 +4126,7 @@ Op. 12, Nr. 2</text>
           <durationType>half</durationType>
           <Note>
             <track>1</track>
-            <Tie id="29">
+            <Tie id="39">
               <track>1</track>
               </Tie>
             <pitch>61</pitch>
@@ -3463,17 +4138,17 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="28"/>
+            <endSpanner id="38"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <Rest>
-          <visible>0</visible>
+          <offset x="0" y="2"/>
           <durationType>quarter</durationType>
           </Rest>
         <Rest>
-          <visible>0</visible>
+          <offset x="0" y="2"/>
           <durationType>quarter</durationType>
           </Rest>
         <tick>108000</tick>
@@ -3482,27 +4157,28 @@ Op. 12, Nr. 2</text>
           <durationType>quarter</durationType>
           <Note>
             <track>1</track>
-            <endSpanner id="29"/>
+            <endSpanner id="39"/>
             <pitch>61</pitch>
             <tpc>21</tpc>
             </Note>
           </Chord>
-        <Rest>
-          <track>1</track>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <track>1</track>
-          <durationType>quarter</durationType>
-          </Rest>
         </Measure>
       <Measure number="77">
         <Harmony>
           <name>i(b13)</name>
           </Harmony>
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>33</velocity>
+          <pos x="0.386408" y="9.14435"/>
+          </Dynamic>
+        <Slur id="40">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <appoggiatura/>
+          <Slur type="start" id="40"/>
+          <acciaccatura/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -3513,6 +4189,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
+          <Slur type="stop" id="40"/>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -3527,18 +4204,13 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="30">
+            <Tie id="41">
               </Tie>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
         <tick>109440</tick>
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>33</velocity>
-          <track>1</track>
-          </Dynamic>
         <Chord>
           <track>1</track>
           <dots>1</dots>
@@ -3549,7 +4221,7 @@ Op. 12, Nr. 2</text>
               <subtype>natural</subtype>
               <track>1</track>
               </Accidental>
-            <Tie id="31">
+            <Tie id="42">
               <track>1</track>
               </Tie>
             <pitch>60</pitch>
@@ -3562,7 +4234,7 @@ Op. 12, Nr. 2</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="30"/>
+            <endSpanner id="41"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -3574,7 +4246,7 @@ Op. 12, Nr. 2</text>
           <durationType>half</durationType>
           <Note>
             <track>1</track>
-            <endSpanner id="31"/>
+            <endSpanner id="42"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -3582,7 +4254,6 @@ Op. 12, Nr. 2</text>
         </Measure>
       <Measure number="79">
         <Rest>
-          <visible>0</visible>
           <durationType>measure</durationType>
           <duration z="3" n="4"/>
           </Rest>
@@ -3590,12 +4261,6 @@ Op. 12, Nr. 2</text>
           <subtype>end</subtype>
           <span>2</span>
           </BarLine>
-        <tick>112320</tick>
-        <Rest>
-          <track>1</track>
-          <durationType>measure</durationType>
-          <duration z="3" n="4"/>
-          </Rest>
         </Measure>
       </Staff>
     <Staff id="2">
@@ -3612,21 +4277,26 @@ Op. 12, Nr. 2</text>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>49</velocity>
+          <pos x="0.945277" y="-3.19393"/>
           </Dynamic>
-        <Slur id="32">
+        <Slur id="43">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="32"/>
+          <Slur type="start" id="43"/>
           <Note>
+            <Symbol>
+              <name>keyboardPedalPed</name>
+              <pos x="-0.599962" y="5.09968"/>
+              </Symbol>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="32"/>
+          <Slur type="stop" id="43"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3649,12 +4319,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="2">
-        <Slur id="33">
+        <Slur id="44">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="33"/>
+          <Slur type="start" id="44"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3662,7 +4332,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="33"/>
+          <Slur type="stop" id="44"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3685,8 +4355,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="3">
+        <Slur id="45">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="45"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3694,6 +4368,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="45"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3716,8 +4391,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="4">
+        <Slur id="46">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="46"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3725,6 +4404,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="46"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3747,8 +4427,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="5">
+        <Slur id="47">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="47"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3756,6 +4440,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="47"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3778,8 +4463,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="6">
+        <Slur id="48">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="48"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3787,6 +4476,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="48"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3809,8 +4499,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="7">
+        <Slur id="49">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="49"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3818,6 +4512,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="49"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3844,8 +4539,12 @@ Op. 12, Nr. 2</text>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
           </Clef>
+        <Slur id="50">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="50"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3853,6 +4552,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="50"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3875,8 +4575,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="9">
+        <Slur id="51">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="51"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3884,6 +4588,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="51"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -3906,8 +4611,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="10">
+        <Slur id="52">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="52"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -3915,6 +4624,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="52"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4182,15 +4892,29 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="19">
+        <Dynamic>
+          <subtype>p</subtype>
+          <velocity>49</velocity>
+          <pos x="0.753374" y="-2.65036"/>
+          </Dynamic>
+        <Slur id="53">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="53"/>
           <Note>
+            <Symbol>
+              <name>keyboardPedalPed</name>
+              <pos x="-0.599962" y="5.09968"/>
+              </Symbol>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="53"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4213,8 +4937,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="20">
+        <Slur id="54">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="54"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4222,6 +4950,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="54"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4244,8 +4973,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="21">
+        <Slur id="55">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="55"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4253,6 +4986,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="55"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4275,8 +5009,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="22">
+        <Slur id="56">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="56"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4284,6 +5022,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="56"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4306,8 +5045,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="23">
+        <Slur id="57">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="57"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4315,6 +5058,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="57"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4337,8 +5081,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="24">
+        <Slur id="58">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="58"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4346,6 +5094,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="58"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4368,8 +5117,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="25">
+        <Slur id="59">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="59"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4377,6 +5130,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="59"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4399,8 +5153,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="26">
+        <Slur id="60">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="60"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4408,6 +5166,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="60"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4430,8 +5189,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="27">
+        <Slur id="61">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="61"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4439,6 +5202,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="61"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4461,8 +5225,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="28">
+        <Slur id="62">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="62"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -4470,6 +5238,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="62"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4494,6 +5263,9 @@ Op. 12, Nr. 2</text>
       <Measure number="29">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -4505,6 +5277,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -4516,6 +5291,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -4550,6 +5328,9 @@ Op. 12, Nr. 2</text>
       <Measure number="31">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -4561,6 +5342,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -4572,16 +5356,19 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>11</tpc>
+            <tpc>23</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -4671,6 +5458,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -4684,6 +5474,9 @@ Op. 12, Nr. 2</text>
       <Measure number="36">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -4695,6 +5488,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -4716,12 +5512,12 @@ Op. 12, Nr. 2</text>
         <KeySig>
           <accidental>3</accidental>
           </KeySig>
-        <Slur id="34">
+        <Slur id="63">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="start" id="34"/>
+          <Slur type="start" id="63"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -4736,7 +5532,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="34"/>
+          <Slur type="stop" id="63"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -4744,16 +5540,16 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="38">
-        <Slur id="35">
+        <Slur id="64">
           <track>4</track>
           </Slur>
-        <Slur id="36">
+        <Slur id="65">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="35"/>
-          <appoggiatura/>
+          <Slur type="start" id="64"/>
+          <acciaccatura/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -4761,8 +5557,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="35"/>
-          <Slur type="start" id="36"/>
+          <Slur type="stop" id="64"/>
+          <Slur type="start" id="65"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -4773,7 +5569,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="36"/>
+          <Slur type="stop" id="65"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -4791,33 +5587,42 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="39">
-        <Slur id="37">
+        <Slur id="66">
           <track>4</track>
+          <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="37"/>
+          <Slur type="start" id="66"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
+        <Beam id="1">
+          <StemDirection>up</StemDirection>
+          </Beam>
         <Chord>
           <durationType>eighth</durationType>
+          <Beam>1</Beam>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Beam>1</Beam>
           <Note>
             <pitch>73</pitch>
             <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
+          <Beam>1</Beam>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -4825,7 +5630,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="37"/>
+          <Beam>1</Beam>
+          <Slur type="stop" id="66"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -4833,16 +5639,19 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="40">
-        <Slur id="38">
+        <Slur id="67">
           <track>4</track>
           </Slur>
-        <Slur id="39">
+        <Slur id="68">
+          <track>4</track>
+          </Slur>
+        <Slur id="69">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="38"/>
-          <appoggiatura/>
+          <Slur type="start" id="68"/>
+          <acciaccatura/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -4850,8 +5659,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="38"/>
-          <Slur type="start" id="39"/>
+          <Slur type="start" id="67"/>
+          <Slur type="stop" id="68"/>
+          <Slur type="start" id="69"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -4859,7 +5669,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="39"/>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="69"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -4884,12 +5697,12 @@ Op. 12, Nr. 2</text>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Slur id="40">
+        <Slur id="70">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="40"/>
+          <Slur type="start" id="70"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -4897,7 +5710,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="40"/>
+          <Slur type="stop" id="70"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -4905,12 +5718,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="42">
-        <Slur id="41">
+        <Slur id="71">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="41"/>
+          <Slur type="start" id="71"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -4918,7 +5731,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="41"/>
+          <Slur type="stop" id="71"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -4933,21 +5746,28 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="43">
-        <HairPin id="42">
+        <HairPin id="72">
           <subtype>0</subtype>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="139.447" y="-3.58103"/>
+            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
-        <Slur id="43">
+        <Slur id="73">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="43"/>
+          <Slur type="start" id="73"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -4955,18 +5775,19 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="43"/>
+          <Slur type="stop" id="73"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <Slur id="44">
+        <Slur id="74">
           <track>4</track>
           </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
-          <Slur type="start" id="44"/>
+          <Slur type="start" id="74"/>
           <Note>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -4974,27 +5795,28 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="44"/>
+          <Slur type="stop" id="74"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Slur id="45">
+        <Slur id="75">
           <track>4</track>
           </Slur>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
-          <Slur type="start" id="45"/>
+          <Slur type="start" id="75"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <endSpanner id="42"/>
+        <endSpanner id="72"/>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="45"/>
+          <Slur type="stop" id="75"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -5002,21 +5824,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="44">
-        <HairPin id="46">
-          <subtype>0</subtype>
-          <beginText>
-            <text>cresc.</text>
-            </beginText>
-          <continueText>
-            <text>(cresc.)</text>
-            </continueText>
-          </HairPin>
-        <Slur id="47">
+        <Slur id="76">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="47"/>
+          <Slur type="start" id="76"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -5024,15 +5837,17 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="47"/>
+          <Slur type="stop" id="76"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <endSpanner id="46"/>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -5040,12 +5855,13 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="45">
-        <Slur id="48">
+        <Slur id="77">
           <track>4</track>
+          <up>2</up>
           </Slur>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="start" id="48"/>
+          <Slur type="start" id="77"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -5067,13 +5883,16 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="46">
-        <Slur id="49">
+        <Slur id="78">
+          <track>4</track>
+          </Slur>
+        <Slur id="79">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="49"/>
-          <appoggiatura/>
+          <Slur type="start" id="78"/>
+          <acciaccatura/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -5081,7 +5900,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="49"/>
+          <Slur type="stop" id="78"/>
+          <Slur type="start" id="79"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -5092,7 +5912,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="48"/>
+          <Slur type="stop" id="77"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -5110,12 +5930,13 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="47">
-        <Slur id="50">
+        <Slur id="80">
           <track>4</track>
+          <up>2</up>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="50"/>
+          <Slur type="start" id="80"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -5136,6 +5957,7 @@ Op. 12, Nr. 2</text>
             </Note>
           </Chord>
         <Chord>
+          <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
           <Note>
             <pitch>69</pitch>
@@ -5151,21 +5973,21 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="48">
-        <Slur id="51">
+        <Slur id="81">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="51"/>
-          <appoggiatura/>
+          <Slur type="start" id="81"/>
+          <acciaccatura/>
           <Note>
-            <pitch>68</pitch>
-            <tpc>22</tpc>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="51"/>
+          <Slur type="stop" id="81"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -5176,7 +5998,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="50"/>
+          <Slur type="stop" id="80"/>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -5194,12 +6016,13 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="49">
-        <Slur id="52">
+        <Slur id="82">
           <track>4</track>
+          <up>2</up>
           </Slur>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="start" id="52"/>
+          <Slur type="start" id="82"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -5214,7 +6037,6 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="52"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -5222,12 +6044,8 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="50">
-        <Slur id="53">
-          <track>4</track>
-          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="53"/>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -5238,7 +6056,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="53"/>
+          <Slur type="stop" id="82"/>
           <Note>
             <Accidental>
               <subtype>double sharp</subtype>
@@ -5263,8 +6081,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="51">
+        <Slur id="83">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="start" id="83"/>
           <Note>
             <Accidental>
               <subtype>double sharp</subtype>
@@ -5275,6 +6097,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="83"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -5292,8 +6118,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="52">
+        <Slur id="84">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
+          <Slur type="start" id="84"/>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -5301,6 +6131,10 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
+          <Slur type="stop" id="84"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -5328,9 +6162,14 @@ Op. 12, Nr. 2</text>
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>33</velocity>
+          <pos x="1.07669" y="-4.1338"/>
           </Dynamic>
+        <Slur id="85">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="85"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5338,6 +6177,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="85"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5360,8 +6200,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="54">
+        <Slur id="86">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="86"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5369,6 +6213,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="86"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5391,8 +6236,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="55">
+        <Slur id="87">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="87"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5400,6 +6249,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="87"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5422,8 +6272,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="56">
+        <Slur id="88">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="88"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5431,6 +6285,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="88"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5457,8 +6312,12 @@ Op. 12, Nr. 2</text>
           <concertClefType>F</concertClefType>
           <transposingClefType>F</transposingClefType>
           </Clef>
+        <Slur id="89">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="89"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5466,6 +6325,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="89"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5488,8 +6348,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="58">
+        <Slur id="90">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="90"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5497,6 +6361,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="90"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5519,8 +6384,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="59">
+        <Slur id="91">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="91"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5528,6 +6397,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="91"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5550,8 +6420,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="60">
+        <Slur id="92">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="92"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5559,6 +6433,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="92"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5581,8 +6456,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="61">
+        <Slur id="93">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="93"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5590,6 +6469,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="93"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5612,8 +6492,12 @@ Op. 12, Nr. 2</text>
           </Chord>
         </Measure>
       <Measure number="62">
+        <Slur id="94">
+          <track>4</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="start" id="94"/>
           <Note>
             <pitch>45</pitch>
             <tpc>17</tpc>
@@ -5621,6 +6505,7 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Slur type="stop" id="94"/>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5645,6 +6530,9 @@ Op. 12, Nr. 2</text>
       <Measure number="63">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5656,6 +6544,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5667,6 +6558,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5705,6 +6599,9 @@ Op. 12, Nr. 2</text>
       <Measure number="65">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -5716,6 +6613,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
@@ -5727,16 +6627,19 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>57</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
             <Accidental>
-              <subtype>flat</subtype>
+              <subtype>sharp</subtype>
               </Accidental>
             <pitch>63</pitch>
-            <tpc>11</tpc>
+            <tpc>23</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -5826,6 +6729,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -5839,6 +6745,9 @@ Op. 12, Nr. 2</text>
       <Measure number="70">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>53</pitch>
             <tpc>13</tpc>
@@ -5850,6 +6759,9 @@ Op. 12, Nr. 2</text>
           </Chord>
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
           <Note>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5875,13 +6787,13 @@ Op. 12, Nr. 2</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <Tie id="54">
+            <Tie id="95">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="55">
+            <Tie id="96">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5893,12 +6805,12 @@ Op. 12, Nr. 2</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="54"/>
+            <endSpanner id="95"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="55"/>
+            <endSpanner id="96"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
@@ -5909,13 +6821,13 @@ Op. 12, Nr. 2</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <Tie id="56">
+            <Tie id="97">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="57">
+            <Tie id="98">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5927,12 +6839,12 @@ Op. 12, Nr. 2</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="56"/>
+            <endSpanner id="97"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="57"/>
+            <endSpanner id="98"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
@@ -5943,13 +6855,13 @@ Op. 12, Nr. 2</text>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <Tie id="58">
+            <Tie id="99">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="59">
+            <Tie id="100">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -5960,12 +6872,12 @@ Op. 12, Nr. 2</text>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="58"/>
+            <endSpanner id="99"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="59"/>
+            <endSpanner id="100"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
@@ -5978,17 +6890,22 @@ Op. 12, Nr. 2</text>
           </Rest>
         </Measure>
       <Measure number="77">
+        <Slur id="101">
+          <track>4</track>
+          <up>2</up>
+          </Slur>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
+          <Slur type="start" id="101"/>
           <Note>
-            <Tie id="60">
+            <Tie id="102">
               </Tie>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <Tie id="61">
+            <Tie id="103">
               </Tie>
             <pitch>52</pitch>
             <tpc>18</tpc>
@@ -6005,16 +6922,39 @@ Op. 12, Nr. 2</text>
           <size>18</size>
           <text>a  b</text>
           </StaffText>
+        <Pedal id="104">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="136.243" y="11.3368"/>
+            </Segment>
+          <beginText>
+            <style>Pedal</style>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <style>Pedal</style>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
           <Note>
-            <endSpanner id="60"/>
+            <endSpanner id="102"/>
             <pitch>45</pitch>
             <tpc>17</tpc>
             </Note>
           <Note>
-            <endSpanner id="61"/>
+            <endSpanner id="103"/>
             <pitch>52</pitch>
             <tpc>18</tpc>
             </Note>
@@ -6026,6 +6966,7 @@ Op. 12, Nr. 2</text>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
+          <Slur type="stop" id="101"/>
           <Note>
             <pitch>33</pitch>
             <tpc>17</tpc>
@@ -6037,6 +6978,7 @@ Op. 12, Nr. 2</text>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
+        <endSpanner id="104"/>
         </Measure>
       </Staff>
     </Score>

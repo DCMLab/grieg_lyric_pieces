@@ -11,18 +11,398 @@
     <Style>
       <minSystemDistance>15</minSystemDistance>
       <maxSystemDistance>20</maxSystemDistance>
+      <measureSpacing>1</measureSpacing>
       <harmonyY>6</harmonyY>
+      <smallStaffMag>0.663</smallStaffMag>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <family>FreeSerif</family>
+        <size>10</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Title</name>
+        <family>FreeSerif</family>
+        <size>24</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>10</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Subtitle</name>
+        <family>FreeSerif</family>
+        <size>14</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Composer</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Lyricist</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Odd Lines</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Even Lines</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <xoffset>-0.5</xoffset>
+        <yoffset>0</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>LH Guitar Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>RH Guitar Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Long)</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Short)</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Part)</name>
+        <family>FreeSerif</family>
+        <size>18</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>8</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Dynamics</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Technique</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Tempo</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Metronome</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Measure Number</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Translator</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Tuplet</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>System</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Staff</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Chord Symbol</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Left</name>
+        <family>FreeSerif</family>
+        <size>20</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Right</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0.5</xoffset>
+        <yoffset>1.9</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Volta</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Frame</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Text Line</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Glissando</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Ottava</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>0.15</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Pedal</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Hairpin</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <offsetType>spatium</offsetType>
+        <name>Bend</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Header</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>5</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Footer</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Instrument Change</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
       <page-layout>
-        <page-height>1683.55</page-height>
-        <page-width>1190.1</page-width>
-        <page-margins type="both">
-          <left-margin>45.3543</left-margin>
-          <right-margin>45.3543</right-margin>
-          <top-margin>56.2394</top-margin>
-          <bottom-margin>56.2394</bottom-margin>
+        <page-height>1683.78</page-height>
+        <page-width>1190.55</page-width>
+        <page-margins type="even">
+          <left-margin>56.6929</left-margin>
+          <right-margin>56.6929</right-margin>
+          <top-margin>56.6929</top-margin>
+          <bottom-margin>113.386</bottom-margin>
+          </page-margins>
+        <page-margins type="odd">
+          <left-margin>56.6929</left-margin>
+          <right-margin>56.6929</right-margin>
+          <top-margin>56.6929</top-margin>
+          <bottom-margin>113.386</bottom-margin>
           </page-margins>
         </page-layout>
-      <Spatium>1.6</Spatium>
+      <Spatium>1.18</Spatium>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -54,8 +434,6 @@
           </System>
         <System>
           </System>
-        <System>
-          </System>
         </Page>
       <Page>
         <System>
@@ -70,6 +448,10 @@
           </System>
         </Page>
       <Page>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -89,6 +471,7 @@
         <StaffType group="pitched">
           </StaffType>
         <bracket type="-1" span="0"/>
+        <distOffset>3.79834</distOffset>
         </Staff>
       <trackName>Midi_1</trackName>
       <Instrument>
@@ -131,6 +514,14 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <Text>
+          <style>Composer</style>
+          <text>Edvard Grieg, Op. 71 No. 3</text>
+          </Text>
+        <Text>
+          <style>Title</style>
+          <text>Kobold</text>
+          </Text>
         </VBox>
       <Measure number="1">
         <Clef>
@@ -148,10 +539,10 @@
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <StaffText>
-          <pos x="-15.1238" y="-17.1597"/>
+          <pos x="-0.81393" y="-4.94179"/>
           <xoffset>0</xoffset>
           <yoffset>-2.5</yoffset>
-          <text><font size="13"></font><font face="Times New Roman"></font><b>Allegro molto            = 176</b></text>
+          <text><b><font size="13"/><font face="Times New Roman"/>Allegro molto           <sym>unicodeNoteHalfUp</sym> = 176</b></text>
           </StaffText>
         <Harmony>
           <name>.eb.V[i</name>
@@ -164,12 +555,6 @@
         <Rest>
           <durationType>half</durationType>
           </Rest>
-        <StaffText>
-          <pos x="19.1619" y="-22.0725"/>
-          <xoffset>0</xoffset>
-          <yoffset>-14.1</yoffset>
-          <text><font size="21"></font><font face="Times New Roman"></font><b>Kobold</b></text>
-          </StaffText>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -209,12 +594,6 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="7.8326" y="-17.4914"/>
-          <xoffset>0</xoffset>
-          <yoffset>-8.4</yoffset>
-          <text><font size="12"></font><font face="Times New Roman"></font><b><i>Lyrische Stücke</i></b></text>
-          </StaffText>
         <Chord>
           <BeamMode>mid</BeamMode>
           <durationType>eighth</durationType>
@@ -284,12 +663,6 @@
           </Chord>
         </Measure>
       <Measure number="4">
-        <StaffText>
-          <pos x="33.5683" y="-16.1711"/>
-          <xoffset>0</xoffset>
-          <yoffset>-6.8</yoffset>
-          <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 71 No. 3</b></text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -348,6 +721,9 @@
           </Chord>
         </Measure>
       <Measure number="5">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V2/V</name>
           </Harmony>
@@ -671,6 +1047,9 @@
           </Chord>
         </Measure>
       <Measure number="10">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -957,6 +1336,9 @@
           </Chord>
         </Measure>
       <Measure number="14">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="14">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -1048,7 +1430,8 @@
         </Measure>
       <Measure number="17">
         <Rest>
-          <durationType>whole</durationType>
+          <durationType>measure</durationType>
+          <duration z="2" n="2"/>
           </Rest>
         </Measure>
       <Measure number="18">
@@ -1057,41 +1440,23 @@
           <durationType>measure</durationType>
           <duration z="1" n="1"/>
           </Rest>
-        <tick>32880</tick>
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>60</velocity>
-          <pos x="-0.955624" y="6.32038"/>
-          <xoffset>0</xoffset>
-          <yoffset>-4.5</yoffset>
-          </Dynamic>
         </Measure>
       <Measure number="19">
         <Harmony>
           <name>v\\</name>
           </Harmony>
-        <Dynamic>
-          <subtype>f</subtype>
-          <velocity>100</velocity>
-          <pos x="0.800288" y="6.8372"/>
-          <xoffset>0</xoffset>
-          <yoffset>-4.3</yoffset>
-          </Dynamic>
         <Rest>
           <visible>0</visible>
           <durationType>half</durationType>
           </Rest>
         <HairPin id="2">
           <subtype>0</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="99.4072" y="6.5"/>
-            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1134,10 +1499,13 @@
           </Chord>
         </Measure>
       <Measure number="20" len="3/4">
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <Dynamic>
           <subtype>fz</subtype>
           <velocity>0</velocity>
-          <pos x="0.329141" y="7.43854"/>
+          <pos x="0.407418" y="7.90603"/>
           <xoffset>0</xoffset>
           <yoffset>8.1</yoffset>
           </Dynamic>
@@ -1168,7 +1536,7 @@
           <transposingClefType>F</transposingClefType>
           </Clef>
         <BarLine>
-          <subtype>double</subtype>
+          <subtype>start-repeat</subtype>
           <span>2</span>
           </BarLine>
         </Measure>
@@ -1179,13 +1547,6 @@
           <subtype>start-repeat</subtype>
           <span>2</span>
           </BarLine>
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>60</velocity>
-          <pos x="0.533281" y="6.83854"/>
-          <xoffset>0</xoffset>
-          <yoffset>7.5</yoffset>
-          </Dynamic>
         <Harmony>
           <name>#viio43</name>
           </Harmony>
@@ -1314,15 +1675,12 @@
           </Chord>
         <HairPin id="6">
           <subtype>0</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="87.7163" y="6.5"/>
-            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1373,15 +1731,12 @@
         <endSpanner id="6"/>
         <HairPin id="7">
           <subtype>1</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="98.7623" y="6.5"/>
-            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -1460,6 +1815,9 @@
           </Rest>
         </Measure>
       <Measure number="25">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>whole</durationType>
           <Note>
@@ -1562,15 +1920,12 @@
           </Harmony>
         <HairPin id="11">
           <subtype>0</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="62.7259" y="6.5"/>
-            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1639,15 +1994,12 @@
         <endSpanner id="11"/>
         <HairPin id="12">
           <subtype>1</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="74.7214" y="6.5"/>
-            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -1785,12 +2137,14 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="98.1796" y="6.5"/>
+            <pos x="96.6681" y="8.89225"/>
             </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1865,12 +2219,14 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="4.04586" y="6.5"/>
+            <pos x="115.837" y="9.58837"/>
             </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -1972,6 +2328,9 @@
           </Chord>
         </Measure>
       <Measure number="31">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -2004,12 +2363,14 @@
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="107.71" y="6.5"/>
+            <pos x="145.23" y="8.89225"/>
             </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -2131,7 +2492,7 @@
             </Note>
           </Chord>
         <StaffText>
-          <pos x="0" y="19.9219"/>
+          <pos x="0.27845" y="8.3293"/>
           <xoffset>0</xoffset>
           <yoffset>10</yoffset>
           <text><font size="9"></font><font face="Times New Roman"></font><i>più cresc.</i></text>
@@ -2492,6 +2853,13 @@
         <Harmony>
           <name>#VI[#VI</name>
           </Harmony>
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>60</velocity>
+          <pos x="0.182205" y="8.03254"/>
+          <xoffset>0</xoffset>
+          <yoffset>8.3</yoffset>
+          </Dynamic>
         <Beam id="16">
           </Beam>
         <Chord>
@@ -2506,13 +2874,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>60</velocity>
-          <pos x="0.329141" y="7.63854"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.3</yoffset>
-          </Dynamic>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>16</Beam>
@@ -2523,6 +2884,9 @@
           </Chord>
         </Measure>
       <Measure number="37">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="17">
           </Beam>
         <Chord>
@@ -2624,6 +2988,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -2693,6 +3060,9 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
             </Articulation>
           <Note>
             <pitch>77</pitch>
@@ -2938,8 +3308,10 @@
           </Chord>
         </Measure>
       <Measure number="43">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <StaffText>
-          <pos x="0" y="17.4219"/>
           <xoffset>0</xoffset>
           <yoffset>7.5</yoffset>
           <text><font size="9"></font><font face="Times New Roman"></font><i>cresc-  molto</i></text>
@@ -3116,6 +3488,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -3151,7 +3526,7 @@
         <Dynamic>
           <subtype>f</subtype>
           <velocity>100</velocity>
-          <pos x="0.329141" y="6.33854"/>
+          <pos x="0.0506911" y="7.17389"/>
           <xoffset>0</xoffset>
           <yoffset>7</yoffset>
           </Dynamic>
@@ -3162,6 +3537,9 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
             </Articulation>
           <Note>
             <Accidental>
@@ -3208,6 +3586,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -3248,6 +3629,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>natural</subtype>
@@ -3263,25 +3647,6 @@
             <tpc>21</tpc>
             </Note>
           </Chord>
-        <HairPin id="16">
-          <subtype>0</subtype>
-          <Segment>
-            <subtype>1</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="101.023" y="6.5"/>
-            </Segment>
-          <Segment>
-            <subtype>3</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="11.8278" y="6.5"/>
-            </Segment>
-          <beginText>
-            <text>cresc.</text>
-            </beginText>
-          <continueText>
-            <text>(cresc.)</text>
-            </continueText>
-          </HairPin>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -3307,10 +3672,22 @@
         <Harmony>
           <name>#I]</name>
           </Harmony>
+        <HairPin id="16">
+          <subtype>0</subtype>
+          <beginText>
+            <text>cresc.</text>
+            </beginText>
+          <continueText>
+            <text>(cresc.)</text>
+            </continueText>
+          </HairPin>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
             </Articulation>
           <Note>
             <Accidental>
@@ -3348,6 +3725,9 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
             </Articulation>
           <Note>
             <pitch>80</pitch>
@@ -3379,6 +3759,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -3416,6 +3799,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>80</pitch>
             <tpc>22</tpc>
@@ -3441,6 +3827,9 @@
           </Chord>
         </Measure>
       <Measure number="49">
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <Dynamic>
           <subtype>p</subtype>
           <velocity>70</velocity>
@@ -3456,6 +3845,7 @@
           <durationType>whole</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            <anchor>3</anchor>
             </Articulation>
           <Note>
             <Accidental>
@@ -3562,6 +3952,12 @@
         <Harmony>
           <name>#I</name>
           </Harmony>
+        <StaffText>
+          <pos x="-0.696125" y="6.05567"/>
+          <xoffset>0</xoffset>
+          <yoffset>-5.5</yoffset>
+          <text><font size="9"></font><font face="Times New Roman"></font><i>dim.</i></text>
+          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -3632,7 +4028,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>60</velocity>
-          <pos x="0.658281" y="8.33854"/>
+          <pos x="0.658281" y="9.59156"/>
           <xoffset>0</xoffset>
           <yoffset>9</yoffset>
           </Dynamic>
@@ -3670,6 +4066,9 @@
           </Chord>
         </Measure>
       <Measure number="55">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>whole</durationType>
           <Note>
@@ -3742,13 +4141,6 @@
           </Chord>
         </Measure>
       <Measure number="61">
-        <Dynamic>
-          <subtype>pp</subtype>
-          <velocity>60</velocity>
-          <pos x="0.658281" y="7.63854"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.3</yoffset>
-          </Dynamic>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -3761,7 +4153,7 @@
           <durationType>quarter</durationType>
           </Rest>
         <StaffText>
-          <pos x="0" y="18.5219"/>
+          <pos x="1.6707" y="6.9293"/>
           <xoffset>0</xoffset>
           <yoffset>8.6</yoffset>
           <text><font size="9"></font><font face="Times New Roman"></font><i>sempre</i></text>
@@ -3769,6 +4161,13 @@
         <Harmony>
           <name>i</name>
           </Harmony>
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>60</velocity>
+          <pos x="0.0143187" y="7.90479"/>
+          <xoffset>0</xoffset>
+          <yoffset>8.3</yoffset>
+          </Dynamic>
         <Beam id="20">
           </Beam>
         <Chord>
@@ -3790,6 +4189,9 @@
           </Chord>
         </Measure>
       <Measure number="62">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V[i</name>
           </Harmony>
@@ -4194,6 +4596,9 @@
           </Chord>
         </Measure>
       <Measure number="68">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Harmony>
           <name>V(+4)]</name>
           </Harmony>
@@ -4553,6 +4958,9 @@
           </Chord>
         </Measure>
       <Measure number="73">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="33">
           </Beam>
         <Chord>
@@ -4600,8 +5008,6 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="25">
-              </Tie>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -4660,18 +5066,8 @@
             <tpc>7</tpc>
             </Note>
           </Chord>
-        <HairPin id="26">
+        <HairPin id="25">
           <subtype>1</subtype>
-          <Segment>
-            <subtype>1</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="108.317" y="6.5"/>
-            </Segment>
-          <Segment>
-            <subtype>3</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="11.8856" y="6.5"/>
-            </Segment>
           <beginText>
             <text>dim.</text>
             </beginText>
@@ -4778,7 +5174,6 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
-        <endSpanner id="26"/>
         <Chord>
           <durationType>eighth</durationType>
           <Beam>38</Beam>
@@ -4799,8 +5194,10 @@
           </Chord>
         </Measure>
       <Measure number="76">
+        <endSpanner id="25"/>
         <Rest>
-          <durationType>whole</durationType>
+          <durationType>measure</durationType>
+          <duration z="2" n="2"/>
           </Rest>
         </Measure>
       <Measure number="77">
@@ -4858,16 +5255,16 @@
           </Clef>
         </Measure>
       <Measure number="78">
-        <Dynamic>
-          <subtype>ff</subtype>
-          <velocity>110</velocity>
-          <pos x="0.658281" y="7.93854"/>
-          <xoffset>0</xoffset>
-          <yoffset>8.6</yoffset>
-          </Dynamic>
         <Harmony>
           <name>i\\</name>
           </Harmony>
+        <Dynamic>
+          <subtype>ff</subtype>
+          <velocity>110</velocity>
+          <pos x="0.797728" y="10.098"/>
+          <xoffset>0</xoffset>
+          <yoffset>8.6</yoffset>
+          </Dynamic>
         <Beam id="40">
           </Beam>
         <Chord>
@@ -4916,17 +5313,14 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <HairPin id="27">
+        <HairPin id="26">
           <subtype>0</subtype>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="0" y="0"/>
-            <pos x="91.8498" y="6.5"/>
-            </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -4935,7 +5329,6 @@
           <durationType>eighth</durationType>
           <Beam>41</Beam>
           <Note>
-            <endSpanner id="25"/>
             <pitch>75</pitch>
             <tpc>11</tpc>
             </Note>
@@ -4960,7 +5353,11 @@
         </Measure>
       <Measure number="79" len="3/4">
         <endRepeat>2</endRepeat>
-        <endSpanner id="27"/>
+        <Dynamic>
+          <subtype>other-dynamics</subtype>
+          <text><sym>dynamicForte</sym><sym>dynamicForte</sym><sym>dynamicZ</sym></text>
+          </Dynamic>
+        <endSpanner id="26"/>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -5003,7 +5400,7 @@
         <Dynamic>
           <subtype>pp</subtype>
           <velocity>60</velocity>
-          <pos x="0.279586" y="-3.02366"/>
+          <pos x="0.418811" y="-2.18831"/>
           <xoffset>0</xoffset>
           <yoffset>-2.5</yoffset>
           </Dynamic>
@@ -5431,13 +5828,13 @@
             </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
-            <Tie id="28">
+            <Tie id="27">
               </Tie>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
           <Note>
-            <Tie id="29">
+            <Tie id="28">
               </Tie>
             <pitch>73</pitch>
             <tpc>9</tpc>
@@ -5447,12 +5844,12 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <endSpanner id="28"/>
+            <endSpanner id="27"/>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
           <Note>
-            <endSpanner id="29"/>
+            <endSpanner id="28"/>
             <pitch>73</pitch>
             <tpc>9</tpc>
             </Note>
@@ -5469,13 +5866,13 @@
             </Articulation>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="30">
+            <Tie id="29">
               </Tie>
             <pitch>61</pitch>
             <tpc>9</tpc>
             </Note>
           <Note>
-            <Tie id="31">
+            <Tie id="30">
               </Tie>
             <pitch>68</pitch>
             <tpc>10</tpc>
@@ -5485,12 +5882,12 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="30"/>
+            <endSpanner id="29"/>
             <pitch>61</pitch>
             <tpc>9</tpc>
             </Note>
           <Note>
-            <endSpanner id="31"/>
+            <endSpanner id="30"/>
             <pitch>68</pitch>
             <tpc>10</tpc>
             </Note>
@@ -5500,21 +5897,20 @@
           </Rest>
         </Measure>
       <Measure number="13">
-        <Slur id="32">
-          <track>4</track>
-          </Slur>
         <Chord>
           <durationType>half</durationType>
-          <Slur type="start" id="32"/>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="33">
+            <Tie id="31">
               </Tie>
             <pitch>59</pitch>
             <tpc>7</tpc>
             </Note>
           <Note>
-            <Tie id="34">
+            <Tie id="32">
               </Tie>
             <pitch>66</pitch>
             <tpc>8</tpc>
@@ -5522,15 +5918,14 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="32"/>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="33"/>
+            <endSpanner id="31"/>
             <pitch>59</pitch>
             <tpc>7</tpc>
             </Note>
           <Note>
-            <endSpanner id="34"/>
+            <endSpanner id="32"/>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
@@ -5542,15 +5937,18 @@
       <Measure number="14">
         <Chord>
           <durationType>half</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            </Articulation>
           <StemDirection>up</StemDirection>
           <Note>
-            <Tie id="35">
+            <Tie id="33">
               </Tie>
             <pitch>54</pitch>
             <tpc>8</tpc>
             </Note>
           <Note>
-            <Tie id="36">
+            <Tie id="34">
               </Tie>
             <pitch>61</pitch>
             <tpc>9</tpc>
@@ -5560,12 +5958,12 @@
           <durationType>quarter</durationType>
           <StemDirection>up</StemDirection>
           <Note>
-            <endSpanner id="35"/>
+            <endSpanner id="33"/>
             <pitch>54</pitch>
             <tpc>8</tpc>
             </Note>
           <Note>
-            <endSpanner id="36"/>
+            <endSpanner id="34"/>
             <pitch>61</pitch>
             <tpc>9</tpc>
             </Note>
@@ -5656,17 +6054,19 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <HairPin id="37">
+        <HairPin id="35">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
             <off2 x="0" y="0"/>
-            <pos x="39.8896" y="-2.5"/>
+            <pos x="24.3133" y="-6.42249"/>
             </Segment>
           <beginText>
+            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
+            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -5950,12 +6350,20 @@
           </Chord>
         </Measure>
       <Measure number="17">
-        <endSpanner id="37"/>
+        <endSpanner id="35"/>
         <Rest>
-          <durationType>whole</durationType>
+          <durationType>measure</durationType>
+          <duration z="2" n="2"/>
           </Rest>
         </Measure>
       <Measure number="18">
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>60</velocity>
+          <pos x="0.777796" y="-4.58239"/>
+          <xoffset>0</xoffset>
+          <yoffset>-4.5</yoffset>
+          </Dynamic>
         <Beam id="52">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -6047,6 +6455,34 @@
           </Rest>
         </Measure>
       <Measure number="19">
+        <Dynamic>
+          <subtype>f</subtype>
+          <velocity>100</velocity>
+          <pos x="0.943692" y="-4.02549"/>
+          <xoffset>0</xoffset>
+          <yoffset>-4.3</yoffset>
+          </Dynamic>
+        <Pedal id="36">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <pos x="111.188" y="10.3668"/>
+            </Segment>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Beam id="54">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -6097,6 +6533,10 @@
         <Chord>
           <track>5</track>
           <durationType>whole</durationType>
+          <Articulation>
+            <subtype>sforzato</subtype>
+            <track>5</track>
+            </Articulation>
           <StemDirection>down</StemDirection>
           <Note>
             <track>5</track>
@@ -6123,6 +6563,7 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
+        <endSpanner id="36"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
@@ -6135,6 +6576,13 @@
           </Clef>
         </Measure>
       <Measure number="21" len="1/4">
+        <Dynamic>
+          <subtype>pp</subtype>
+          <velocity>60</velocity>
+          <pos x="0.440768" y="-3.73679"/>
+          <xoffset>0</xoffset>
+          <yoffset>7.5</yoffset>
+          </Dynamic>
         <Beam id="55">
           </Beam>
         <Chord>
@@ -6496,6 +6944,9 @@
       <Measure number="28">
         <Chord>
           <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <Accidental>
               <subtype>double flat</subtype>
@@ -6642,6 +7093,9 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
+            </Articulation>
           <Note>
             <pitch>58</pitch>
             <tpc>12</tpc>
@@ -6669,6 +7123,9 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
             </Articulation>
           <Note>
             <pitch>61</pitch>
@@ -6700,6 +7157,9 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>sforzato</subtype>
+            </Articulation>
+          <Articulation>
+            <subtype>staccato</subtype>
             </Articulation>
           <Note>
             <pitch>64</pitch>
@@ -6751,13 +7211,6 @@
           <yoffset>-5.2</yoffset>
           <text><font size="9"></font><font face="Times New Roman"></font><i>dolce</i></text>
           </StaffText>
-        <Dynamic>
-          <subtype>mp</subtype>
-          <velocity>80</velocity>
-          <pos x="0.658281" y="6.93854"/>
-          <xoffset>0</xoffset>
-          <yoffset>7.6</yoffset>
-          </Dynamic>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -7602,15 +8055,11 @@
         </Measure>
       <Measure number="51">
         <Rest>
-          <durationType>whole</durationType>
+          <durationType>measure</durationType>
+          <duration z="2" n="2"/>
           </Rest>
         </Measure>
       <Measure number="52">
-        <StaffText>
-          <xoffset>0</xoffset>
-          <yoffset>-5.5</yoffset>
-          <text><font size="9"></font><font face="Times New Roman"></font><i>dim.</i></text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -8288,13 +8737,13 @@
             <subtype>sforzato</subtype>
             </Articulation>
           <Note>
-            <Tie id="38">
+            <Tie id="37">
               </Tie>
             <pitch>71</pitch>
             <tpc>7</tpc>
             </Note>
           <Note>
-            <Tie id="39">
+            <Tie id="38">
               </Tie>
             <pitch>78</pitch>
             <tpc>8</tpc>
@@ -8303,12 +8752,12 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="38"/>
+            <endSpanner id="37"/>
             <pitch>71</pitch>
             <tpc>7</tpc>
             </Note>
           <Note>
-            <endSpanner id="39"/>
+            <endSpanner id="38"/>
             <pitch>78</pitch>
             <tpc>8</tpc>
             </Note>
@@ -8324,13 +8773,13 @@
             <subtype>sforzato</subtype>
             </Articulation>
           <Note>
-            <Tie id="40">
+            <Tie id="39">
               </Tie>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
           <Note>
-            <Tie id="41">
+            <Tie id="40">
               </Tie>
             <pitch>73</pitch>
             <tpc>9</tpc>
@@ -8339,12 +8788,12 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="40"/>
+            <endSpanner id="39"/>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
           <Note>
-            <endSpanner id="41"/>
+            <endSpanner id="40"/>
             <pitch>73</pitch>
             <tpc>9</tpc>
             </Note>
@@ -8364,7 +8813,7 @@
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="42">
+            <Tie id="41">
               </Tie>
             <pitch>64</pitch>
             <tpc>6</tpc>
@@ -8375,7 +8824,7 @@
               <role>1</role>
               <subtype>flat</subtype>
               </Accidental>
-            <Tie id="43">
+            <Tie id="42">
               </Tie>
             <pitch>71</pitch>
             <tpc>7</tpc>
@@ -8384,12 +8833,12 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="42"/>
+            <endSpanner id="41"/>
             <pitch>64</pitch>
             <tpc>6</tpc>
             </Note>
           <Note>
-            <endSpanner id="43"/>
+            <endSpanner id="42"/>
             <pitch>71</pitch>
             <tpc>7</tpc>
             </Note>
@@ -8405,13 +8854,13 @@
             <subtype>sforzato</subtype>
             </Articulation>
           <Note>
-            <Tie id="44">
+            <Tie id="43">
               </Tie>
             <pitch>59</pitch>
             <tpc>7</tpc>
             </Note>
           <Note>
-            <Tie id="45">
+            <Tie id="44">
               </Tie>
             <pitch>66</pitch>
             <tpc>8</tpc>
@@ -8420,12 +8869,12 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <endSpanner id="44"/>
+            <endSpanner id="43"/>
             <pitch>59</pitch>
             <tpc>7</tpc>
             </Note>
           <Note>
-            <endSpanner id="45"/>
+            <endSpanner id="44"/>
             <pitch>66</pitch>
             <tpc>8</tpc>
             </Note>
@@ -8588,7 +9037,8 @@
         </Measure>
       <Measure number="76">
         <Rest>
-          <durationType>whole</durationType>
+          <durationType>measure</durationType>
+          <duration z="2" n="2"/>
           </Rest>
         </Measure>
       <Measure number="77">
@@ -8632,6 +9082,22 @@
           </Rest>
         </Measure>
       <Measure number="78">
+        <Pedal id="45">
+          <lineVisible>0</lineVisible>
+          <beginHookHeight>-1.2</beginHookHeight>
+          <endHookHeight>-1.2</endHookHeight>
+          <beginText>
+            <text><sym>keyboardPedalPed</sym></text>
+            </beginText>
+          <continueText>
+            <text>(<sym>keyboardPedalPed</sym>)</text>
+            </continueText>
+          <endText>
+            <style>Pedal</style>
+            <halign>center</halign>
+            <text><sym>keyboardPedalUp</sym></text>
+            </endText>
+          </Pedal>
         <Chord>
           <durationType>whole</durationType>
           <Note>
@@ -8649,13 +9115,6 @@
           <concertClefType>G</concertClefType>
           <transposingClefType>G</transposingClefType>
           </Clef>
-        <Dynamic>
-          <subtype>fz</subtype>
-          <velocity>0</velocity>
-          <pos x="0.658281" y="-12.7014"/>
-          <xoffset>0</xoffset>
-          <yoffset>-3</yoffset>
-          </Dynamic>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -8667,6 +9126,7 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <endSpanner id="45"/>
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
