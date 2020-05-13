@@ -515,6 +515,10 @@
           <style>Subtitle</style>
           <text>lyrische Stücke</text>
           </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Edvard Grieg, Op. 54 No.1</text>
+          </Text>
         </VBox>
       <Measure number="1" len="1/8">
         <irregular/>
@@ -665,11 +669,7 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Slur id="4">
-          <track>0</track>
-          <up>1</up>
-          </Slur>
-        <HairPin id="5">
+        <HairPin id="4">
           <subtype>0</subtype>
           <beginText>
             <text>cresc.</text>
@@ -678,9 +678,13 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="5">
+          <track>0</track>
+          <up>1</up>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="4"/>
+          <Slur type="start" id="5"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -700,7 +704,7 @@
           </Rest>
         </Measure>
       <Measure number="3">
-        <endSpanner id="5"/>
+        <endSpanner id="4"/>
         <HairPin id="6">
           <subtype>1</subtype>
           <beginText>
@@ -800,12 +804,6 @@
           </Rest>
         </Measure>
       <Measure number="4">
-        <StaffText>
-          <pos x="15.2456" y="-5.6"/>
-          <xoffset>0</xoffset>
-          <yoffset>-5.6</yoffset>
-          <text><font size="11"></font><font face="Times New Roman"></font><b>Edvard Grieg, Op. 54 No.1</b></text>
-          </StaffText>
         <Slur id="7">
           <track>0</track>
           <up>1</up>
@@ -816,7 +814,7 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="stop" id="4"/>
+          <Slur type="stop" id="5"/>
           <Slur type="start" id="7"/>
           <StemDirection>up</StemDirection>
           <Note>
@@ -829,11 +827,9 @@
         <HairPin id="9">
           <subtype>0</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1034,10 +1030,7 @@
         <Harmony>
           <name>VI(9)</name>
           </Harmony>
-        <Slur id="13">
-          <track>0</track>
-          </Slur>
-        <HairPin id="14">
+        <HairPin id="13">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
@@ -1051,6 +1044,9 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="14">
+          <track>0</track>
+          </Slur>
         <Beam id="4">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -1058,7 +1054,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>4</Beam>
-          <Slur type="start" id="13"/>
+          <Slur type="start" id="14"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -1087,7 +1083,7 @@
         <Harmony>
           <name>V7(4)/V</name>
           </Harmony>
-        <endSpanner id="14"/>
+        <endSpanner id="13"/>
         <HairPin id="15">
           <subtype>1</subtype>
           <Segment>
@@ -1096,11 +1092,9 @@
             <pos x="44.8928" y="11.2021"/>
             </Segment>
           <beginText>
-            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -1192,7 +1186,7 @@
           </Dynamic>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="13"/>
+          <Slur type="stop" id="14"/>
           <StemDirection>up</StemDirection>
           <Note>
             <endSpanner id="17"/>
@@ -1357,11 +1351,9 @@
         <HairPin id="21">
           <subtype>0</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1412,11 +1404,9 @@
             <pos x="125.355" y="7.56495"/>
             </Segment>
           <beginText>
-            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -1523,11 +1513,9 @@
         <HairPin id="26">
           <subtype>0</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -1719,10 +1707,7 @@
         <Harmony>
           <name>VI(9)</name>
           </Harmony>
-        <Slur id="29">
-          <track>0</track>
-          </Slur>
-        <HairPin id="30">
+        <HairPin id="29">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
@@ -1736,6 +1721,9 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="30">
+          <track>0</track>
+          </Slur>
         <Beam id="9">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -1743,7 +1731,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>9</Beam>
-          <Slur type="start" id="29"/>
+          <Slur type="start" id="30"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -1772,7 +1760,7 @@
         <Harmony>
           <name>V7(4)/V</name>
           </Harmony>
-        <endSpanner id="30"/>
+        <endSpanner id="29"/>
         <HairPin id="31">
           <subtype>1</subtype>
           <Segment>
@@ -1781,11 +1769,9 @@
             <pos x="64.6794" y="10.8774"/>
             </Segment>
           <beginText>
-            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -1869,7 +1855,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="29"/>
+          <Slur type="stop" id="30"/>
           <StemDirection>up</StemDirection>
           <Note>
             <endSpanner id="33"/>
@@ -2243,11 +2229,9 @@
             <pos x="32.7404" y="10.4877"/>
             </Segment>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -2330,11 +2314,7 @@
           <name>#VI(4)</name>
           </Harmony>
         <endSpanner id="41"/>
-        <Slur id="43">
-          <track>0</track>
-          <up>1</up>
-          </Slur>
-        <HairPin id="44">
+        <HairPin id="43">
           <subtype>1</subtype>
           <Segment>
             <subtype>0</subtype>
@@ -2348,6 +2328,10 @@
             <text>(dim.)</text>
             </continueText>
           </HairPin>
+        <Slur id="44">
+          <track>0</track>
+          <up>1</up>
+          </Slur>
         <Beam id="13">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -2355,7 +2339,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>13</Beam>
-          <Slur type="start" id="43"/>
+          <Slur type="start" id="44"/>
           <Note>
             <endSpanner id="42"/>
             <pitch>57</pitch>
@@ -2388,13 +2372,13 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
-        <endSpanner id="44"/>
+        <endSpanner id="43"/>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>staccato</subtype>
             </Articulation>
-          <Slur type="stop" id="43"/>
+          <Slur type="stop" id="44"/>
           <StemDirection>up</StemDirection>
           <Note>
             <Accidental>
@@ -2743,11 +2727,9 @@
             <pos x="152.296" y="9.77323"/>
             </Segment>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -2824,11 +2806,9 @@
         <HairPin id="53">
           <subtype>1</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
@@ -3359,11 +3339,9 @@
         <HairPin id="61">
           <subtype>0</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -3649,7 +3627,7 @@
         <StaffText>
           <xoffset>0</xoffset>
           <yoffset>7.1</yoffset>
-          <text><i><font size="8"/><font face="Times New Roman"/>più dim.     e    ritard. molto</i></text>
+          <text><i><font size="8"></font><font face="Times New Roman"></font>più dim.     e    ritard. molto</i></text>
           </StaffText>
         <Chord>
           <durationType>eighth</durationType>
@@ -3883,11 +3861,9 @@
         <HairPin id="72">
           <subtype>0</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -4716,10 +4692,7 @@
         <Harmony>
           <name>VI(9)</name>
           </Harmony>
-        <Slur id="91">
-          <track>0</track>
-          </Slur>
-        <HairPin id="92">
+        <HairPin id="91">
           <subtype>0</subtype>
           <Segment>
             <subtype>0</subtype>
@@ -4733,6 +4706,9 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="92">
+          <track>0</track>
+          </Slur>
         <Beam id="32">
           <StemDirection>up</StemDirection>
           </Beam>
@@ -4740,7 +4716,7 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>32</Beam>
-          <Slur type="start" id="91"/>
+          <Slur type="start" id="92"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -4769,7 +4745,7 @@
         <Harmony>
           <name>V7(4)/V</name>
           </Harmony>
-        <endSpanner id="92"/>
+        <endSpanner id="91"/>
         <HairPin id="93">
           <subtype>1</subtype>
           <Segment>
@@ -4859,7 +4835,6 @@
         <Volta id="95">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1.</text>
             </beginText>
           <endings>1</endings>
@@ -4877,7 +4852,7 @@
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="stop" id="91"/>
+          <Slur type="stop" id="92"/>
           <StemDirection>up</StemDirection>
           <Note>
             <endSpanner id="96"/>
@@ -4944,11 +4919,9 @@
             <pos x="8.95135" y="11.3037"/>
             </Segment>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -4960,7 +4933,6 @@
             <offset x="0.432239" y="-1.55606"/>
             </Segment>
           <beginText>
-            <style>Volta</style>
             <text>2.</text>
             </beginText>
           <endings>2</endings>
@@ -6609,11 +6581,7 @@
         <Harmony>
           <name>i</name>
           </Harmony>
-        <Slur id="125">
-          <track>0</track>
-          <up>1</up>
-          </Slur>
-        <HairPin id="126">
+        <HairPin id="125">
           <subtype>0</subtype>
           <beginText>
             <text>cresc.</text>
@@ -6622,9 +6590,13 @@
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
+        <Slur id="126">
+          <track>0</track>
+          <up>1</up>
+          </Slur>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="125"/>
+          <Slur type="start" id="126"/>
           <StemDirection>down</StemDirection>
           <Note>
             <pitch>74</pitch>
@@ -6652,7 +6624,7 @@
         <Harmony>
           <name>i(#4)</name>
           </Harmony>
-        <endSpanner id="126"/>
+        <endSpanner id="125"/>
         <HairPin id="127">
           <subtype>1</subtype>
           <beginText>
@@ -6743,7 +6715,7 @@
           <Articulation>
             <subtype>sforzato</subtype>
             </Articulation>
-          <Slur type="stop" id="125"/>
+          <Slur type="stop" id="126"/>
           <StemDirection>up</StemDirection>
           <Note>
             <pitch>62</pitch>
@@ -8580,11 +8552,9 @@
         <HairPin id="160">
           <subtype>0</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>cresc.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(cresc.)</text>
             </continueText>
           </HairPin>
@@ -8609,11 +8579,9 @@
         <HairPin id="162">
           <subtype>1</subtype>
           <beginText>
-            <style>Hairpin</style>
             <text>dim.</text>
             </beginText>
           <continueText>
-            <style>Hairpin</style>
             <text>(dim.)</text>
             </continueText>
           </HairPin>
