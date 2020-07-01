@@ -1,3 +1,42 @@
 Attempting to parse op57n02.mscx
 Done parsing op57n02.mscx
 
+The following chords could not be parsed:
+     mc  mn onset           label
+ix                               
+49   25  25     0          .bVIM2
+52   29  29     0         .bIIM65
+59   33  33   3/8          .bI+64
+60   33  33   3/4           .bI64
+61   34  34   3/4       .bV+(+b4)
+62   35  35   1/4            .bV+
+63   35  35   3/4         .bVII64
+64   36  36   3/4  .bbVII+64(+#8)
+65   37  37   1/4       .bbVII+64
+66   37  37   3/4        .bbVII64
+67   38  38   3/4      .bIV+(+b4)
+68   39  39   1/4           .bIV+
+69   39  39   3/4          .bVI64
+70   40  40   3/4            .bVI
+71   41  41     0        .bVI64\\
+72   41  41   3/4          .bVI64
+73   42  42     0            .bVI
+130  74  74     0          .bVIM2
+133  78  78     0         .bIIM65
+140  82  82   3/8          .bI+64
+141  82  82   3/4           .bI64
+142  83  83   3/4       .bV+(+b4)
+143  84  84   1/4            .bV+
+144  84  84   3/4         .bVII64
+145  85  85   3/4  .bbVII+64(+#8)
+146  86  86   1/4       .bbVII+64
+147  86  86   3/4        .bbVII64
+148  87  87   3/4      .bIV+(+b4)
+149  88  88   1/4           .bIV+
+150  88  88   3/4          .bVI64
+151  89  89   3/4            .bVI
+152  90  90     0        .bVI64\\
+153  90  90   3/4          .bVI64
+154  91  91     0            .bVI
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'
