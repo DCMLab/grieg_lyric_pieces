@@ -1,11 +1,4 @@
-Attempting to parse op38n08.mscx
-Done parsing op38n08.mscx
+INFO     op38n08.ms3 -- Attempting to parse op38n08.mscx
+INFO     op38n08.ms3 -- Done parsing op38n08.mscx
 
-The following chords could not be parsed:
-     mc  mn onset    label
-27    6   6   1/2  .bI+(2)
-28    6   6   5/8     .bI+
-67   19  19   1/8     .bII
-122  45  45     0   .bvii6
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+WARNING  op38n08.expand_labels -- The change 5 has no effect in vo64

@@ -1,9 +1,7 @@
-Attempting to parse op12n03.mscx
-Done parsing op12n03.mscx
+INFO     op12n03.ms3 -- Attempting to parse op12n03.mscx
+WARNING  op12n03.ms3 -- Event 15 in MC 26 has has duration 1/56 and starts on 943/960, surpassing the measure length of 1
+WARNING  op12n03.ms3 -- Event 57 in MC 30 has has duration 1/56 and starts on 943/960, surpassing the measure length of 1
+WARNING  op12n03.ms3 -- Event 100 in MC 34 has has duration 1/56 and starts on 943/960, surpassing the measure length of 1
+WARNING  op12n03.ms3 -- Event 142 in MC 38 has has duration 1/56 and starts on 943/960, surpassing the measure length of 1
+INFO     op12n03.ms3 -- Done parsing op12n03.mscx
 
-The following chords could not be parsed:
-    mc  mn onset label
-63  30  29     0  .bII
-68  38  37     0  .bII
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
