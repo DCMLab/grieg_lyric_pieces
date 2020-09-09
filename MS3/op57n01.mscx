@@ -228,7 +228,7 @@
             <text><font size="11"></font><font face="Times New Roman"></font><b>Andantino</b></text>
             </StaffText>
           <Harmony>
-            <name>.d.i6</name>
+            <name>.d.i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -576,7 +576,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V(94)</name>
+            <name>V(94)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -617,7 +617,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1050,7 +1050,7 @@
       <Measure len="2/4">
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1083,6 +1083,9 @@
             <velocity>60</velocity>
             <offset x="1.30089" y="4.51209"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -2046,7 +2049,7 @@
             <text><font size="11"></font><font face="Times New Roman"></font><i>poco a poco cresc.</i></text>
             </StaffText>
           <Harmony>
-            <name>#viio7</name>
+            <name>#viio6</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2236,7 +2239,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>.It6</name>
+            <name>.Fr7</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -2260,9 +2263,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>.Ger6</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -2329,7 +2329,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -2395,7 +2395,7 @@
             <fractions>3/8</fractions>
             </location>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -2739,7 +2739,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V(94)</name>
+            <name>V(94)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2758,7 +2758,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V]\\</name>
+            <name>V]</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2780,7 +2780,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -4460,7 +4460,7 @@
         <voice>
           <Harmony>
             <name>i6</name>
-            <offset x="0" y="-7.83148"/>
+            <offset x="-0.15197" y="-5.7039"/>
             </Harmony>
           <Dynamic>
             <subtype>f</subtype>
@@ -5272,7 +5272,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(4)</name>
+            <name>V(4)}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5340,7 +5340,7 @@
             <text><font size="10"></font><font face="Times New Roman"></font><i>poco dim.  e molto rit.</i></text>
             </StaffText>
           <Harmony>
-            <name>V\\</name>
+            <name>V</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5409,7 +5409,7 @@
             </Chord>
           <endTuplet/>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -5838,7 +5838,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -5891,7 +5891,7 @@
             <offset x="0.329141" y="4.03854"/>
             </Dynamic>
           <Harmony>
-            <name>I.I[I</name>
+            <name>I.I[I{</name>
             <offset x="0" y="-7.73991"/>
             </Harmony>
           <Beam>
@@ -6110,7 +6110,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#i%7</name>
+            <name>#vii%7/ii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -6257,7 +6257,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#iio7</name>
+            <name>#viio7/iii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -6403,7 +6403,7 @@
             </Chord>
           <endTuplet/>
           <Harmony>
-            <name>I64</name>
+            <name>I64}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6422,7 +6422,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6646,7 +6646,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#i%7</name>
+            <name>#vii%7/ii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -6878,7 +6878,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V(64)</name>
+            <name>V(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6928,7 +6928,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7140,7 +7140,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#i%7</name>
+            <name>#vii%7/ii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -7287,7 +7287,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#iio7</name>
+            <name>#viio7/iii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -7427,7 +7427,7 @@
             </Chord>
           <endTuplet/>
           <Harmony>
-            <name>I64</name>
+            <name>I64}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7446,7 +7446,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7672,7 +7672,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#i%7</name>
+            <name>#vii%7/ii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -7901,7 +7901,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(64)</name>
+            <name>V(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7951,7 +7951,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V7(9)</name>
+            <name>V7(9){</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -8836,7 +8836,7 @@
             <offset x="0.329141" y="0.43854"/>
             </Dynamic>
           <Harmony>
-            <name>vo43</name>
+            <name>vo43}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8872,7 +8872,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>.bI.I[I</name>
+            <name>.bI.I[I{</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -9018,7 +9018,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I]</name>
+            <name>I]}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9079,7 +9079,7 @@
             <text><font size="12"></font><font face="Times New Roman"></font><b>Molto vivo</b></text>
             </StaffText>
           <Harmony>
-            <name>I.I[I</name>
+            <name>I.I[I{</name>
             <offset x="0" y="-5.80981"/>
             </Harmony>
           <Dynamic>
@@ -9312,7 +9312,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#i%7</name>
+            <name>#vii%7/ii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -9454,7 +9454,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#iio7</name>
+            <name>#viio7/iii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -9677,7 +9677,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V43(9)/V</name>
+            <name>vii%65/V</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9990,9 +9990,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <name>viio</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -10048,7 +10045,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I(64)</name>
+            <name>I(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10098,7 +10095,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V7(9)</name>
+            <name>V7(9){</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10967,7 +10964,7 @@
             <offset x="0.32914" y="3.33854"/>
             </Dynamic>
           <Harmony>
-            <name>vo43</name>
+            <name>vo43}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11014,7 +11011,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>.bI.I[I</name>
+            <name>.bI.I[I{</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -11178,7 +11175,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I]</name>
+            <name>I]}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -11240,7 +11237,7 @@
             <text><font size="11"></font><font face="Times New Roman"></font><b>Molto vivo</b></text>
             </StaffText>
           <Harmony>
-            <name>I.I[I</name>
+            <name>I.I[I{</name>
             </Harmony>
           <Dynamic>
             <subtype>ff</subtype>
@@ -11468,7 +11465,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#i%7</name>
+            <name>#vii%7/ii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11608,7 +11605,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#iio7</name>
+            <name>#viio7/iii</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11830,7 +11827,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V43(9)/V</name>
+            <name>vii%65/V</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -12144,9 +12141,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <name>viio</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -12209,7 +12203,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I(64)</name>
+            <name>I(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -12285,7 +12279,7 @@
             <offset x="0.329141" y="5.13854"/>
             </Dynamic>
           <Harmony>
-            <name>i.i6</name>
+            <name>i.i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -12620,7 +12614,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(94)</name>
+            <name>V(94)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -12661,7 +12655,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13095,7 +13089,7 @@
       <Measure len="2/4">
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -13130,6 +13124,9 @@
       <Measure len="1/4">
         <irregular>1</irregular>
         <voice>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -14105,7 +14102,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#viio7</name>
+            <name>#viio6</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14315,7 +14312,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>.It6</name>
+            <name>.Fr7</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -14339,9 +14336,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>.Ger6</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -14408,7 +14402,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -14480,7 +14474,7 @@
             <offset x="0.329141" y="4.79437"/>
             </Dynamic>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -14822,7 +14816,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(94)</name>
+            <name>V(94)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14841,7 +14835,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V]\\</name>
+            <name>V]</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -14863,7 +14857,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -17298,8 +17292,8 @@
             <fractions>-1/24</fractions>
             </location>
           <Harmony>
-            <name>viio7(b3)/V</name>
-            <offset x="0" y="-8.95583"/>
+            <name>.Ger7</name>
+            <offset x="-0.15197" y="-4.24475"/>
             </Harmony>
           <location>
             <fractions>1/24</fractions>
@@ -17328,7 +17322,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V(4)</name>
+            <name>V(4)}</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -17395,7 +17389,7 @@
             <text><font size="10"></font><font face="Times New Roman"></font><i>poco dim. e molto  rit.</i></text>
             </StaffText>
           <Harmony>
-            <name>V\\</name>
+            <name>V</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -17463,7 +17457,7 @@
             </Chord>
           <endTuplet/>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -17877,7 +17871,7 @@
       <Measure len="2/4">
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>

@@ -201,7 +201,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>.C.I</name>
+            <name>.C.I{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -448,9 +448,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>viM7</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2411,6 +2408,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2460,6 +2458,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2490,6 +2489,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2884,6 +2884,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2933,6 +2934,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2963,6 +2965,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3209,7 +3212,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <Harmony>
-            <name>V7(#9)/vi</name>
+            <name>V7(#9)/vi}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4107,7 +4110,7 @@
             <velocity>112</velocity>
             </Dynamic>
           <Harmony>
-            <name>V7(9+64)</name>
+            <name>V7(9+64)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -4602,7 +4605,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8065,7 +8068,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V7</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8149,7 +8152,7 @@
             <fractions>-1/1</fractions>
             </location>
           <Harmony>
-            <name>I</name>
+            <name>I{</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -8281,6 +8284,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -8320,6 +8324,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -8350,6 +8355,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -8386,21 +8392,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="Ottava">
-            <Ottava>
-              <subtype>8va</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-7.71533"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </Ottava>
-            <next>
-              <location>
-                <fractions>7/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -8413,6 +8404,21 @@
             <next>
               <location>
                 <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-7.71533"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <fractions>7/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -8646,6 +8652,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -8685,6 +8692,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -8715,6 +8723,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -8759,21 +8768,6 @@
             <offset x="1.14311" y="-7.07222"/>
             <text>♭</text>
             </StaffText>
-          <Spanner type="Ottava">
-            <Ottava>
-              <subtype>8va</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-8.144"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </Ottava>
-            <next>
-              <location>
-                <fractions>7/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
@@ -8786,6 +8780,21 @@
             <next>
               <location>
                 <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-8.144"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <fractions>7/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -8973,7 +8982,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -19678,8 +19687,6 @@
             <durationType>eighth</durationType>
             <appoggiatura/>
             <Note>
-              <Spanner type="Tie">
-                </Spanner>
               <pitch>24</pitch>
               <tpc>14</tpc>
               </Note>
@@ -19688,8 +19695,6 @@
             <durationType>eighth</durationType>
             <appoggiatura/>
             <Note>
-              <Spanner type="Tie">
-                </Spanner>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -19698,8 +19703,6 @@
             <durationType>eighth</durationType>
             <appoggiatura/>
             <Note>
-              <Spanner type="Tie">
-                </Spanner>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>

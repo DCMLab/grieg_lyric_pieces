@@ -224,7 +224,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="-2.55428" y="-5.06903"/>
+            <offset x="-5.68539" y="-12.8817"/>
             <text><font size="13"></font><font face="Times New Roman"></font><b>Andante espressivo</b></text>
             </StaffText>
           <Dynamic>
@@ -237,6 +237,10 @@
             <offset x="5.27331" y="3.23636"/>
             <text><font size="9"></font><font face="Times New Roman"></font><i>dolce</i></text>
             </StaffText>
+          <Harmony>
+            <name>.G.V7{</name>
+            <offset x="-0.447302" y="-3.66923"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -294,9 +298,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>.G.V7</name>
-            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>up</StemDirection>
@@ -652,7 +653,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -739,7 +740,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1516,7 +1517,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I(9)</name>
+            <name>I(9)}</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -1536,7 +1537,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1580,7 +1581,7 @@
       <Measure>
         <voice>
           <StaffText>
-            <offset x="0.523009" y="-2.97823"/>
+            <offset x="-4.69551" y="-8.86069"/>
             <text><font size="12"></font><font face="Times New Roman"></font>Più mosso</text>
             </StaffText>
           <Dynamic>
@@ -1589,7 +1590,7 @@
             <offset x="0.658281" y="5.03854"/>
             </Dynamic>
           <Harmony>
-            <name>iii</name>
+            <name>iii{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -2921,7 +2922,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7(+9+6)/vi</name>
+            <name>V7(+9+6)/vi}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -3527,7 +3528,7 @@
             <offset x="0.658281" y="3.43854"/>
             </Dynamic>
           <Harmony>
-            <name>iv</name>
+            <name>iv{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4064,15 +4065,6 @@
                 </Slur>
               <next>
                 <location>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                <up>up</up>
-                </Slur>
-              <next>
-                <location>
                   <measures>1</measures>
                   <fractions>-1/2</fractions>
                   </location>
@@ -4177,7 +4169,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>ii%7</name>
+            <name>ii%7}</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -4384,6 +4376,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>V(4){</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4466,9 +4461,6 @@
             <offset x="0.0864477" y="-2.45236"/>
             <text><i><font size="9"></font><font face="Times New Roman"></font>poco a poco a tempo</i></text>
             </StaffText>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -4834,7 +4826,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4917,7 +4909,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5666,7 +5658,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I(9)</name>
+            <name>I(9)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -5689,7 +5681,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5736,7 +5728,7 @@
             <text><font size="11"></font><font face="Times New Roman"></font><b>Più  mosso</b></text>
             </StaffText>
           <Harmony>
-            <name>iii</name>
+            <name>iii{</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -6943,7 +6935,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7(+9+6)/vi</name>
+            <name>V7(+9+6)/vi}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7465,7 +7457,7 @@
             <offset x="0.658281" y="3.43854"/>
             </Dynamic>
           <Harmony>
-            <name>iv</name>
+            <name>iv{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8016,7 +8008,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>ii%7</name>
+            <name>ii%7}</name>
             </Harmony>
           <StaffText>
             <placement>below</placement>
@@ -8217,6 +8209,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>V(4){</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -8301,9 +8296,6 @@
             <offset x="-3.76566" y="-4.5954"/>
             <text><i><font size="9"></font><font face="Times New Roman"></font>poco a poco a tempo</i></text>
             </StaffText>
-          <Harmony>
-            <name>V(4)</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -8667,7 +8659,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8753,7 +8745,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9490,7 +9482,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I(9)</name>
+            <name>I(9)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -9531,7 +9523,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9588,6 +9580,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -9986,7 +9981,7 @@
             <offset x="0.658281" y="3.33854"/>
             </Dynamic>
           <Harmony>
-            <name>I(9)</name>
+            <name>I(9)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -10044,7 +10039,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -15599,8 +15594,8 @@
               <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               </Note>
             <Note>
               <pitch>47</pitch>

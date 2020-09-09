@@ -199,7 +199,7 @@
             <text>Allegro</text>
             </StaffText>
           <Harmony>
-            <name>.D.I[I(+#4)</name>
+            <name>.D.I[I{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -254,10 +254,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IM7(+#4)</name>
-            <offset x="-1" y="-6"/>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -295,9 +291,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -392,9 +385,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IM7(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -435,9 +425,6 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Harmony>
-            <name>I(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -484,7 +471,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VM2</name>
+            <name>V</name>
             </Harmony>
           <StaffText>
             <placement>below</placement>
@@ -731,7 +718,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>VM2(9)</name>
+            <name>V(9)</name>
             </Harmony>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -847,7 +834,7 @@
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Harmony>
-            <name>V7(+#7)</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -898,7 +885,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -925,6 +912,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -943,9 +933,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>VM2</name>
-            </Harmony>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -1065,7 +1052,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VM2(9)</name>
+            <name>V(9)</name>
             </Harmony>
           <Dynamic>
             <subtype>f</subtype>
@@ -1177,7 +1164,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7(+#7)</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -1235,7 +1222,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -1251,6 +1238,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -1272,9 +1262,6 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>VM2</name>
-            </Harmony>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -1404,7 +1391,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7(+#7)</name>
+            <name>V7</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -1451,7 +1438,7 @@
             <durationType>16th</durationType>
             </Rest>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -1581,7 +1568,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V7(+#7)</name>
+            <name>V7</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -1628,7 +1615,7 @@
             <durationType>16th</durationType>
             </Rest>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -1758,7 +1745,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VM2</name>
+            <name>V</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -1874,7 +1861,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V7(+#7)</name>
+            <name>V7</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -1937,7 +1924,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -2004,7 +1991,7 @@
             <transposingClefType>G</transposingClefType>
             </Clef>
           <Harmony>
-            <name>V7(+#7)</name>
+            <name>V7</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -2063,7 +2050,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I</name>
             </Harmony>
           <Dynamic>
             <subtype>fz</subtype>
@@ -2126,7 +2113,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VM2</name>
+            <name>V</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -2239,7 +2226,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I(+#4)</name>
+            <name>I]}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2262,10 +2249,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IM7(+#4)</name>
-            <offset x="-1" y="-6"/>
-            </Harmony>
           <StaffText>
             <placement>below</placement>
             <offset x="0.0950925" y="3.72092"/>
@@ -2312,9 +2295,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2409,9 +2389,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IM7(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2471,9 +2448,6 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Harmony>
-            <name>I(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2566,9 +2540,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IM7(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2624,9 +2595,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -2655,9 +2623,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IM7(+#4)</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2923,9 +2888,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I]\\</name>
-            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>

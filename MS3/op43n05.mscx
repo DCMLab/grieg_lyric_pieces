@@ -227,7 +227,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Harmony>
-            <name>.F.I[I</name>
+            <name>.F.I[I{</name>
             </Harmony>
           <StaffText>
             <offset x="-4.26557" y="-5.61098"/>
@@ -265,9 +265,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I(13)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -347,7 +344,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I(13)</name>
+            <name>I</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -815,6 +812,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -880,7 +878,7 @@
             <fractions>-1/16</fractions>
             </location>
           <Harmony>
-            <name>.Ger6/vi</name>
+            <name>.Ger7/vi</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -1181,7 +1179,7 @@
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <StaffText>
             <placement>below</placement>
@@ -1268,7 +1266,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -1298,9 +1296,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I(6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -1380,7 +1375,8 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I(6)</name>
+            <name>I</name>
+            <offset x="0.147344" y="-7.36236"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1859,6 +1855,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1924,7 +1921,7 @@
             <fractions>-1/16</fractions>
             </location>
           <Harmony>
-            <name>.Ger6/vi</name>
+            <name>.Ger7/vi</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -2230,7 +2227,7 @@
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2309,6 +2306,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -2470,9 +2470,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>quarter</durationType>
@@ -2614,9 +2611,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="-0.0785889" y="-2.81418e-17"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2948,9 +2942,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Harmony>
             <name>IV6</name>
@@ -3818,7 +3809,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I64</name>
+            <name>I64}{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -3852,9 +3843,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>I64(6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -3871,7 +3859,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>ii7(4)</name>
+            <name>ii7(11)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4010,7 +3998,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V[I64(6)</name>
+            <name>V[I64</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4047,7 +4035,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>IV</name>
+            <name>IV]</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -4060,9 +4048,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>IV(4)]</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -4075,9 +4060,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-1.02166" y="0.550122"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4108,7 +4090,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>ii7(4)</name>
+            <name>ii7(11)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4128,12 +4110,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <name>ii7(64)</name>
-            </Harmony>
           </voice>
         <voice>
           <Rest>
@@ -4252,11 +4228,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4.99319"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4316,11 +4287,6 @@
             <HairPin>
               <subtype>0</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3.73821"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4368,11 +4334,6 @@
             <HairPin>
               <subtype>1</subtype>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3.73821"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4555,11 +4516,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.0934"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4710,12 +4666,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>I6(6)</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -4825,9 +4775,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="1.88613" y="0.471533"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -4871,7 +4818,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>I6(6)</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4953,10 +4900,6 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-1.17883" y="-0.0785889"/>
-                  <offset x="0" y="0.0981634"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5283,7 +5226,7 @@
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6734,11 +6677,6 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.3577"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>
@@ -6864,13 +6802,8 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="5.4146"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -7721,11 +7654,6 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="6.3577"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </Pedal>
             <next>
               <location>

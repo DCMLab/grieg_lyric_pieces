@@ -225,7 +225,7 @@
             <text><font size="12"></font><font face="Times New Roman"></font><b>Allegro con moto</b></text>
             </StaffText>
           <Harmony>
-            <name>.e.i</name>
+            <name>.e.i{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -991,7 +991,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1042,7 +1042,7 @@
             <offset x="0.658281" y="3.43854"/>
             </Dynamic>
           <Harmony>
-            <name>III6</name>
+            <name>I6/III{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1254,13 +1254,14 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>IIIM65</name>
+            <name>IM65/III</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1306,6 +1307,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1341,6 +1343,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1404,6 +1407,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1449,6 +1453,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1540,7 +1545,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i7</name>
+            <name>vi7/III</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -1636,7 +1641,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V/VII</name>
+            <name>V/V/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1663,7 +1668,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V7/VII</name>
+            <name>V7/V/III</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1794,7 +1799,7 @@
             <offset x="0.658281" y="5.53854"/>
             </Dynamic>
           <Harmony>
-            <name>III</name>
+            <name>I/III}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1836,7 +1841,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VIM43</name>
+            <name>IVM43/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1905,7 +1910,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1960,7 +1965,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VIM43</name>
+            <name>IVM43/III</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2058,7 +2063,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2188,7 +2193,7 @@
             <offset x="0.658281" y="3.53854"/>
             </Dynamic>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -2931,7 +2936,7 @@
         <endRepeat>2</endRepeat>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>

@@ -229,7 +229,7 @@
             <offset x="0.658281" y="4.13854"/>
             </Dynamic>
           <Harmony>
-            <name>.E.V</name>
+            <name>.E.V{</name>
             </Harmony>
           <SystemText>
             <style>Tempo</style>
@@ -438,7 +438,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -461,7 +461,7 @@
             <offset x="0.658281" y="4.08916"/>
             </Dynamic>
           <Harmony>
-            <name>V/vi</name>
+            <name>V/vi{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -686,7 +686,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -707,6 +707,9 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>V{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -857,7 +860,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -867,6 +870,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -1077,7 +1083,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1094,6 +1100,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -1317,7 +1326,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1338,6 +1347,9 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>V{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1491,7 +1503,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1501,6 +1513,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -1708,7 +1723,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1725,6 +1740,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -1952,7 +1970,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1984,14 +2002,14 @@
             <accidental>1</accidental>
             </KeySig>
           <Harmony>
-            <name>i.i</name>
+            <name>i.i{</name>
             </Harmony>
           <StaffText>
-            <offset x="-0.5569" y="-5.06586"/>
+            <offset x="-0.5569" y="-8.12869"/>
             <text><font size="13"></font><font face="Times New Roman"></font><b>Intermezzo</b></text>
             </StaffText>
           <StaffText>
-            <offset x="4.49198e-6" y="-1.86588"/>
+            <offset x="-0.639561" y="-10.6826"/>
             <text><font size="9"></font><font face="Times New Roman"></font><b>(Geister der Nacht)</b></text>
             </StaffText>
           <Rest>
@@ -2029,6 +2047,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2081,6 +2100,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2315,6 +2335,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2373,6 +2394,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2608,6 +2630,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2660,6 +2683,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2899,6 +2923,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2957,6 +2982,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3125,7 +3151,7 @@
             <mode>major</mode>
             </KeySig>
           <Harmony>
-            <name>I.V</name>
+            <name>I.V}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3151,6 +3177,9 @@
             <velocity>70</velocity>
             <offset x="0.658281" y="2.63854"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -3339,7 +3368,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3349,6 +3378,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -3589,7 +3621,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3599,6 +3631,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -4139,7 +4174,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -5288,6 +5323,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -5381,8 +5417,11 @@
             </location>
           <Rest>
             <durationType>measure</durationType>
-            <duration>1/6720</duration>
+            <duration>2/2</duration>
             </Rest>
+          <location>
+            <fractions>-6719/6720</fractions>
+            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5394,6 +5433,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -5604,6 +5644,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -5700,8 +5741,11 @@
             </location>
           <Rest>
             <durationType>measure</durationType>
-            <duration>1/6720</duration>
+            <duration>2/2</duration>
             </Rest>
+          <location>
+            <fractions>-6719/6720</fractions>
+            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5713,6 +5757,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -5917,6 +5962,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -6010,8 +6056,11 @@
             </location>
           <Rest>
             <durationType>measure</durationType>
-            <duration>1/6720</duration>
+            <duration>2/2</duration>
             </Rest>
+          <location>
+            <fractions>-6719/6720</fractions>
+            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -6023,6 +6072,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -6233,6 +6283,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>
@@ -6329,8 +6380,11 @@
             </location>
           <Rest>
             <durationType>measure</durationType>
-            <duration>1/6720</duration>
+            <duration>2/2</duration>
             </Rest>
+          <location>
+            <fractions>-6719/6720</fractions>
+            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -6342,6 +6396,7 @@
             <actualNotes>7</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>7</text>
               </Number>
             </Tuplet>

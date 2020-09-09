@@ -271,10 +271,11 @@
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
           <Harmony>
-            <name>.f#.i</name>
+            <name>.f#.V{</name>
             </Harmony>
           <SystemText>
             <style>Tempo</style>
+            <offset x="0" y="-6.36609"/>
             <text>Con moto</text>
             </SystemText>
           <Dynamic>
@@ -303,6 +304,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>i</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -427,6 +431,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -645,6 +650,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -808,7 +814,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i(9#74)</name>
+            <name>i(9#74)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -863,7 +869,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -904,7 +910,7 @@
             <offset x="0.658281" y="4"/>
             </Dynamic>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -1401,6 +1407,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1469,7 +1476,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V(64)</name>
+            <name>V(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1494,7 +1501,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -1528,6 +1535,9 @@
             <velocity>49</velocity>
             <offset x="0.658281" y="4"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -1681,6 +1691,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1906,6 +1917,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2065,7 +2077,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i(9#74)</name>
+            <name>i(9#74)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -2135,7 +2147,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -2189,7 +2201,7 @@
             <offset x="0.658281" y="4"/>
             </Dynamic>
           <Harmony>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2686,6 +2698,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2757,7 +2770,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V(64)</name>
+            <name>V(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2781,7 +2794,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V\\</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2810,6 +2823,9 @@
             <BeamMode>auto</BeamMode>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2960,6 +2976,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3192,6 +3209,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3348,7 +3366,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i(9#74)</name>
+            <name>i(9#74)}</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -3419,7 +3437,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>

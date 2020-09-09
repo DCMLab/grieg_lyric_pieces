@@ -196,11 +196,11 @@ op. 62, No. 3</b></text>
             <family>Times New Roman</family>
             <size>14</size>
             <bold>1</bold>
-            <offset x="-11.0275" y="-3.52431"/>
+            <offset x="-12.7484" y="-10.8767"/>
             <text>Andantino grazioso</text>
             </StaffText>
           <Harmony>
-            <name>.A.I</name>
+            <name>.A.I{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -300,7 +300,7 @@ op. 62, No. 3</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V7</name>
+            <name>V7}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -404,7 +404,7 @@ op. 62, No. 3</b></text>
           </voice>
         <voice>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           </voice>
         </Measure>
@@ -1573,7 +1573,7 @@ op. 62, No. 3</b></text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -1654,7 +1654,7 @@ op. 62, No. 3</b></text>
           </voice>
         <voice>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -1824,6 +1824,16 @@ op. 62, No. 3</b></text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-7/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
                 <SlurSegment no="0">
                   <o4 x="-0.230124" y="-0.57531"/>
                   </SlurSegment>
@@ -1832,16 +1842,6 @@ op. 62, No. 3</b></text>
                 <location>
                   <measures>2</measures>
                   <fractions>-5/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-7/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2813,7 +2813,7 @@ op. 62, No. 3</b></text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2851,7 +2851,7 @@ op. 62, No. 3</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>vii%43</name>
+            <name>vii%43{</name>
             </Harmony>
           <Rest>
             <durationType>half</durationType>
@@ -3190,10 +3190,6 @@ op. 62, No. 3</b></text>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <name>V43</name>
             </Harmony>
@@ -3738,7 +3734,7 @@ op. 62, No. 3</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V7/IV</name>
+            <name>V7/IV}</name>
             </Harmony>
           <Dynamic>
             <subtype>f</subtype>
@@ -3916,7 +3912,7 @@ op. 62, No. 3</b></text>
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>IV[IV</name>
+            <name>IV[IV{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -4702,7 +4698,7 @@ op. 62, No. 3</b></text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4738,7 +4734,7 @@ op. 62, No. 3</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>vii%43</name>
+            <name>vii%43{</name>
             </Harmony>
           <Rest>
             <durationType>half</durationType>
@@ -5300,10 +5296,6 @@ op. 62, No. 3</b></text>
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <name>V7</name>
             </Harmony>
@@ -5649,7 +5641,7 @@ op. 62, No. 3</b></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V7/IV</name>
+            <name>V7/IV}</name>
             </Harmony>
           <Dynamic>
             <subtype>f</subtype>
@@ -5833,7 +5825,7 @@ op. 62, No. 3</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>IV[IV</name>
+            <name>IV[IV{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -6608,7 +6600,7 @@ op. 62, No. 3</b></text>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6696,6 +6688,7 @@ op. 62, No. 3</b></text>
           <Dynamic>
             <subtype>ppp</subtype>
             <velocity>16</velocity>
+            <offset x="0.156447" y="3.84355"/>
             </Dynamic>
           <Harmony>
             <name>V7</name>
@@ -6729,7 +6722,7 @@ op. 62, No. 3</b></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9693,10 +9686,6 @@ op. 62, No. 3</b></text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -11561,10 +11550,6 @@ op. 62, No. 3</b></text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -12579,7 +12564,7 @@ op. 62, No. 3</b></text>
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
-              <userLen1>16.4924</userLen1>
+              <userLen1>1.47346</userLen1>
               </Arpeggio>
             </Chord>
           <Spanner type="Pedal">
@@ -12673,7 +12658,7 @@ op. 62, No. 3</b></text>
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
-              <userLen1>21.8664</userLen1>
+              <userLen1>2.93628</userLen1>
               </Arpeggio>
             </Chord>
           <Spanner type="Pedal">
@@ -12724,7 +12709,7 @@ op. 62, No. 3</b></text>
               </Note>
             <Arpeggio>
               <subtype>0</subtype>
-              <userLen1>24.4607</userLen1>
+              <userLen1>2.55808</userLen1>
               </Arpeggio>
             </Chord>
           <Spanner type="Pedal">

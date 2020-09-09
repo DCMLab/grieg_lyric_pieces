@@ -242,7 +242,7 @@
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
           <Harmony>
-            <name>.bb.i6</name>
+            <name>.bb.i6{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -297,6 +297,7 @@
       <Measure>
         <voice>
           <StaffText>
+            <offset x="0" y="-8.33817"/>
             <text><font size="9.8903"></font><font face="Plantin MT Std"></font>cantabile</text>
             </StaffText>
           <Harmony>
@@ -323,9 +324,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -337,9 +335,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#7)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -361,9 +356,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -485,9 +477,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#7)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -516,9 +505,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>i(#6)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -534,9 +520,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -554,7 +537,7 @@
             </Rest>
           <Harmony>
             <name>i(4#7)</name>
-            <offset x="-0.831703" y="-5.86138"/>
+            <offset x="-1.11968" y="-2.2617"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -599,9 +582,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -613,9 +593,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#7)</name>
-            </Harmony>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -637,9 +614,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -803,9 +777,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6</name>
-            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -834,9 +805,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>i(#6)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -852,9 +820,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -916,9 +881,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -931,7 +893,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V(6)</name>
+            <name>i64</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -944,9 +906,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i64</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -956,7 +915,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>.bI+(2)</name>
+            <name>III64(b6)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -966,9 +925,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>.bI+</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1039,9 +995,6 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>III64(#6)</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -1062,14 +1015,17 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <name>III</name>
+            </Harmony>
           </voice>
         <voice>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>III64(6)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -1085,9 +1041,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>III64</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -1100,15 +1053,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V6/III</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -1157,7 +1104,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv2</name>
+            <name>ii2/III</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1168,7 +1115,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vii[V7/III</name>
+            <name>V/III[V7/III</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1190,7 +1137,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv6</name>
+            <name>ii6/III</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1202,7 +1149,7 @@
             </Chord>
           <Harmony>
             <name>V(6)/III]</name>
-            <offset x="0" y="-9"/>
+            <offset x="-0.863923" y="-6.12026"/>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -1291,9 +1238,6 @@
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>III(7)</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -1315,9 +1259,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>III(6)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -1333,9 +1274,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>III</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -1374,7 +1312,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>III</name>
+            <name>III}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -1450,7 +1388,7 @@
             <subtype>start-repeat</subtype>
             </BarLine>
           <Harmony>
-            <name>V7(9)</name>
+            <name>V7(9){</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1812,7 +1750,7 @@
             <fractions>-1/4</fractions>
             </location>
           <Harmony>
-            <name>#viio2</name>
+            <name>#viio2}</name>
             </Harmony>
           </voice>
         <voice>
@@ -1869,7 +1807,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>#viio65/iv</name>
+            <name>#viio65/iv{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2247,7 +2185,7 @@
             <fractions>-1/4</fractions>
             </location>
           <Harmony>
-            <name>#viio2/iv</name>
+            <name>#viio2/iv}</name>
             </Harmony>
           </voice>
         <voice>
@@ -2305,6 +2243,10 @@
             <offset x="6.44347" y="5.31582"/>
             <text><font size="9.8903"></font><font face="Plantin MT Std"></font>agitato</text>
             </StaffText>
+          <Harmony>
+            <name>{</name>
+            <offset x="0" y="-7.10759"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3378,6 +3320,10 @@
             <offset x="2.20049" y="3.51679"/>
             <text><font size="9.8903"></font><font face="Plantin MT Std"></font>a tempo</text>
             </StaffText>
+          <Harmony>
+            <name>{</name>
+            <offset x="0" y="-5.37974"/>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -3399,9 +3345,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv64(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3415,7 +3358,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv(#7)</name>
+            <name>iv</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3428,9 +3371,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3439,9 +3379,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv6(9#7)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3450,9 +3387,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3505,9 +3439,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>iv(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3519,9 +3450,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -3545,16 +3473,13 @@
             <fractions>-1/4</fractions>
             </location>
           <Harmony>
-            <name>iv(6)</name>
+            <name>ii%7</name>
             </Harmony>
           </voice>
         <voice>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -3620,9 +3545,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3635,7 +3557,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i64(#7)</name>
+            <name>i64</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3648,9 +3570,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i6(#6)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3660,7 +3579,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i6(9#7)</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3670,9 +3589,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3725,9 +3641,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>i(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -3739,9 +3652,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -3772,9 +3682,6 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <name>i6</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -3909,7 +3816,7 @@
             <fractions>-1/8</fractions>
             </location>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -3929,64 +3836,8 @@
           <label>fine</label>
           </Marker>
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
         <voice>
           <Dynamic>
             <subtype>ppp</subtype>
@@ -4032,9 +3883,10 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>I.I</name>
+            <name>I.I{</name>
             </Harmony>
           <StaffText>
+            <offset x="-1.43987" y="-9.00557"/>
             <text>Piú mosso, ma tranquillo <sym>unicodeNoteQuarterUp</sym>=126</text>
             </StaffText>
           <Chord>
@@ -4172,7 +4024,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I+</name>
+            <name>I(b6)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4423,7 +4275,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V</name>
+            <name>V}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -4434,7 +4286,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>ii</name>
+            <name>ii{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4826,7 +4678,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>vi</name>
+            <name>vi}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -4841,7 +4693,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <Harmony>
-            <name>i(+6)</name>
+            <name>ii%65/V{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5194,7 +5046,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V43</name>
+            <name>V43}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5221,7 +5073,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I64</name>
+            <name>I64{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5591,7 +5443,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -5606,7 +5458,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <Harmony>
-            <name>i(+6)</name>
+            <name>ii%65/V{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5950,7 +5802,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V43</name>
+            <name>V43}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5977,7 +5829,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I64</name>
+            <name>I64{</name>
             </Harmony>
           <Dynamic>
             <subtype>mf</subtype>
@@ -6343,12 +6195,12 @@
         <voice>
           <StaffText>
             <style>Repeat Text Right</style>
-            <placement>below</placement>
-            <offset x="16.4075" y="23.2091"/>
+            <minDistance>-999</minDistance>
+            <offset x="13.9597" y="-5.76395"/>
             <text>Minore Da Capo al Fine</text>
             </StaffText>
           <Harmony>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -8605,55 +8457,6 @@
           </voice>
         </Measure>
       <Measure>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
         <Marker>
           <style>Repeat Text Right</style>
           <placement>below</placement>

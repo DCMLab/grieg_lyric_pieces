@@ -165,7 +165,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Harmony>
-            <name>.Eb.I[I</name>
+            <name>.Eb.I[I{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -468,7 +468,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vi2(9)</name>
+            <name>iii6(+6)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -586,7 +586,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vi2(9)</name>
+            <name>iii6(+6)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1067,6 +1067,12 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <name>V(64)}</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -1091,9 +1097,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>V(64)\\</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -1117,7 +1120,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I</name>
+            <name>I[I{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1258,9 +1261,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <name>I[viio2</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1946,11 +1946,11 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <SystemText>
             <style>Tempo</style>
-            <offset x="0.824675" y="-4"/>
+            <offset x="-0.00397299" y="-8.98595"/>
             <text>ritard.</text>
             </SystemText>
           <Dynamic>
