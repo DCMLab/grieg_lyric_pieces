@@ -237,7 +237,7 @@
             <offset x="0.329141" y="2.33854"/>
             </Dynamic>
           <Harmony>
-            <name>.e.V</name>
+            <name>.e.V{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -431,7 +431,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V(6)</name>
+            <name>V64(6)</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -1345,7 +1345,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1385,7 +1385,7 @@
             <offset x="0.658281" y="3.33854"/>
             </Dynamic>
           <Harmony>
-            <name>V/III</name>
+            <name>V/III{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1404,7 +1404,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -1427,7 +1427,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vii%43/VII</name>
+            <name>vii%43/V/III</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1575,7 +1575,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>VI</name>
+            <name>IV/III</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -1624,7 +1624,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>III[III</name>
+            <name>III[I/III</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -1746,7 +1746,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V6/III</name>
+            <name>VII6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1787,7 +1787,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>v6-IIIM7</name>
+            <name>v6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -1846,7 +1846,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>iv2</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2121,7 +2121,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V(6)</name>
+            <name>V64(6)</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2241,7 +2241,7 @@ tranquillo</i></text>
             </location>
           <Harmony>
             <name>#viio65</name>
-            <offset x="0" y="-9"/>
+            <offset x="-0.441997" y="-5.02202"/>
             </Harmony>
           </voice>
         <voice>
@@ -2476,7 +2476,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -2502,9 +2502,6 @@ tranquillo</i></text>
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
-          <Harmony>
-            <name>V</name>
-            </Harmony>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -2527,6 +2524,9 @@ tranquillo</i></text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>V}</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -2580,7 +2580,7 @@ tranquillo</i></text>
             <text><font size="11"></font><font face="Times New Roman"></font><b>Allegro brioso</b></text>
             </StaffText>
           <Harmony>
-            <name>I.I[I</name>
+            <name>I.I[I{</name>
             </Harmony>
           <Spanner type="Volta">
             <prev>
@@ -2673,7 +2673,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>ii64</name>
+            <name>ii64(+4)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2914,7 +2914,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>ii6</name>
+            <name>ii6(+4)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3048,7 +3048,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>I]\\</name>
+            <name>I]}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3095,7 +3095,7 @@ tranquillo</i></text>
         <startRepeat/>
         <voice>
           <Harmony>
-            <name>V[V</name>
+            <name>V[I/V{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -3163,7 +3163,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>vi64</name>
+            <name>ii64(+4)/V</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3295,7 +3295,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>VM7</name>
+            <name>IM7/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3409,7 +3409,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>vi6</name>
+            <name>ii6(+4)/V</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3554,7 +3554,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V]\\</name>
+            <name>I/V]}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3611,7 +3611,7 @@ tranquillo</i></text>
             <mode>major</mode>
             </KeySig>
           <Harmony>
-            <name>.bi.i</name>
+            <name>.bi.i{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -3863,7 +3863,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>v</name>
+            <name>i/v</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -3954,7 +3954,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>I</name>
+            <name>IV/v</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4030,7 +4030,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>v</name>
+            <name>i/v</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -4095,7 +4095,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V/V</name>
+            <name>V/v</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4143,7 +4143,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>ii</name>
+            <name>i/ii</name>
             </Harmony>
           <Spanner type="Ottava">
             <prev>
@@ -4224,7 +4224,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V</name>
+            <name>IV/ii</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4300,7 +4300,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>ii</name>
+            <name>i/ii</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -4416,7 +4416,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>#vi</name>
+            <name>i/#vi</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -4489,7 +4489,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>II</name>
+            <name>IV/#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4568,7 +4568,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>#vi</name>
+            <name>i/#vi</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -4636,7 +4636,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>II</name>
+            <name>IV/#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4717,7 +4717,7 @@ tranquillo</i></text>
             <offset x="0.468096" y="4.06002"/>
             </Dynamic>
           <Harmony>
-            <name>#vi</name>
+            <name>i/#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4741,7 +4741,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>II</name>
+            <name>IV/#vi</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4781,7 +4781,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>#vi</name>
+            <name>i/#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4805,7 +4805,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>II</name>
+            <name>IV/#vi</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4845,7 +4845,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>#vi</name>
+            <name>i/#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4869,7 +4869,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>II</name>
+            <name>IV/#vi</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4912,7 +4912,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>#vi</name>
+            <name>i/#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4936,7 +4936,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>II</name>
+            <name>IV/#vi</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5260,7 +5260,7 @@ tranquillo</i></text>
             <mode>major</mode>
             </KeySig>
           <Harmony>
-            <name>I.V</name>
+            <name>I.V}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5534,7 +5534,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>I[I</name>
+            <name>I[I{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -5602,7 +5602,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>ii64</name>
+            <name>ii64(+4)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5847,7 +5847,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>ii6</name>
+            <name>ii6(+4)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5986,7 +5986,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>I\\</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -6164,7 +6164,7 @@ tranquillo</i></text>
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>V</name>
+            <name>V]}</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -6238,15 +6238,9 @@ tranquillo</i></text>
             <velocity>50</velocity>
             <offset x="1.24773" y="5.81021"/>
             </Dynamic>
-          <Harmony>
-            <name>I</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <name>V]\\</name>
-            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -6317,6 +6311,7 @@ tranquillo</i></text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
+            <offset x="-3.66663" y="-9.47865"/>
             <text><font size="10"></font><font face="Times New Roman"></font><b>Andante</b></text>
             </StaffText>
           <Rest>
@@ -6328,9 +6323,12 @@ tranquillo</i></text>
             <offset x="0.329141" y="3.33854"/>
             </Dynamic>
           <StaffText>
-            <offset x="-5.71555" y="-3.21422"/>
+            <offset x="-8.7445" y="-12.0745"/>
             <text>(Wie zu Anfang)</text>
             </StaffText>
+          <Harmony>
+            <name>V{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -6515,7 +6513,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V(6)</name>
+            <name>V64(6)</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -6563,7 +6561,7 @@ tranquillo</i></text>
             </location>
           <Harmony>
             <name>#viio65</name>
-            <offset x="0" y="-9"/>
+            <offset x="-0.797093" y="-5.17396"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7401,7 +7399,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7425,7 +7423,7 @@ tranquillo</i></text>
             <offset x="0.872614" y="5.19587"/>
             </Dynamic>
           <Harmony>
-            <name>V/III</name>
+            <name>V/III{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7447,7 +7445,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <StaffText>
             <text>animato</text>
@@ -7470,7 +7468,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>vii%43/VII</name>
+            <name>vii%43/V/III</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -7611,7 +7609,7 @@ tranquillo</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>VI</name>
+            <name>IV/III</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -7659,7 +7657,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>III[III</name>
+            <name>III[I/III</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7758,7 +7756,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V6/III</name>
+            <name>VII6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7796,7 +7794,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>v6-IIIM7</name>
+            <name>v6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7855,7 +7853,7 @@ tranquillo</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>iv2</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8128,7 +8126,7 @@ tranquillo</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V(6)</name>
+            <name>V64(6)</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -8168,7 +8166,7 @@ tranquillo</i></text>
             </location>
           <Harmony>
             <name>#viio65</name>
-            <offset x="0" y="-9"/>
+            <offset x="-0.159419" y="-5.81163"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -8460,7 +8458,7 @@ tranquillo</i></text>
             <offset x="0.658281" y="4.73854"/>
             </Dynamic>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

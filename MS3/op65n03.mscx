@@ -233,7 +233,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="-1.89852" y="-4.77823"/>
+            <offset x="-6.02276" y="-10.9993"/>
             <text><b><font size="13.0217"></font><font face="Plantin MT Std"></font>Andante espressivo</b></text>
             </StaffText>
           <Rest>
@@ -244,7 +244,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>.b.v</name>
+            <name>.b.v{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -441,7 +441,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>i</name>
+            <name>i}{</name>
             </Harmony>
           <StaffText>
             <placement>below</placement>
@@ -531,6 +531,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -633,6 +634,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -701,6 +703,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -974,7 +977,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -1008,7 +1011,7 @@
             <velocity>49</velocity>
             </Dynamic>
           <Harmony>
-            <name>v.i[i</name>
+            <name>v.i[i{</name>
             </Harmony>
           <Chord>
             <dots>2</dots>
@@ -1096,6 +1099,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -1201,6 +1205,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -1264,6 +1269,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -1516,7 +1522,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -1546,7 +1552,7 @@
             <text><font size="11.9365"></font><font face="Plantin MT Std"></font>a tempo</text>
             </StaffText>
           <Harmony>
-            <name>i.i%43</name>
+            <name>i.i%43{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -2872,7 +2878,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>#viio2</name>
+            <name>#viio2}</name>
             </Harmony>
           </voice>
         </Measure>
@@ -2901,7 +2907,7 @@
             <text><font size="13.0217"></font><font face="Plantin MT Std"></font><b>Tempo I</b></text>
             </StaffText>
           <Harmony>
-            <name>i[i</name>
+            <name>i[i{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -3042,6 +3048,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -3195,6 +3202,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -3285,6 +3293,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -3788,7 +3797,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -3909,7 +3918,7 @@
             <text><font size="11.9365"></font><font face="Plantin MT Std"></font> a tempo</text>
             </StaffText>
           <Harmony>
-            <name>i%43</name>
+            <name>i%43{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -5161,7 +5170,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
-            <name>#viio2</name>
+            <name>#viio2}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5260,7 +5269,7 @@
             <text><font size="13.0217"></font><font face="Plantin MT Std"></font><b>Tempo I</b></text>
             </StaffText>
           <Harmony>
-            <name>i[i</name>
+            <name>i[i{</name>
             </Harmony>
           <Dynamic>
             <subtype>p</subtype>
@@ -5404,6 +5413,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -5560,6 +5570,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -5650,6 +5661,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -6164,7 +6176,7 @@
             <velocity>33</velocity>
             </Dynamic>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -8636,6 +8648,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -9196,6 +9209,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -10795,6 +10809,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -11358,6 +11373,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>

@@ -232,8 +232,8 @@
             <offset x="0.658281" y="2.53854"/>
             </Dynamic>
           <Harmony>
-            <name>.e.III-i6</name>
-            <offset x="-0.306295" y="-6.0902"/>
+            <name>.e.III{-i6{</name>
+            <offset x="-0.454353" y="-3.2771"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -405,7 +405,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>.Ger6/iv</name>
+            <name>.Ger43/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -655,7 +655,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>iv6(4)</name>
+            <name>iv6</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -700,15 +700,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>iv6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <name>V7</name>
             </Harmony>
@@ -721,7 +712,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -746,7 +737,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>VI</name>
+            <name>VI{-iv6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -893,12 +884,12 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.0714444" y="1.286"/>
+                  <o4 x="0.0714444" y="0.0714444"/>
                   </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <voices>1</voices>
                   <measures>1</measures>
                   <fractions>-3/4</fractions>
                   </location>
@@ -907,12 +898,12 @@
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="0.0714444" y="0.0714444"/>
+                  <o4 x="-0.0714444" y="1.286"/>
                   </SlurSegment>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
+                  <voices>1</voices>
                   <measures>1</measures>
                   <fractions>-3/4</fractions>
                   </location>
@@ -976,7 +967,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>.Ger6/VII</name>
+            <name>.Ger43/VII</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -1009,7 +1000,7 @@
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>iv\\</name>
+            <name>i/iv</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -1112,7 +1103,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>vii6</name>
+            <name>iv6/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1148,7 +1139,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv\\</name>
+            <name>i/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1240,7 +1231,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>vii6(4)</name>
+            <name>iv6/iv</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -1277,15 +1268,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vii6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <name>V7/iv</name>
             </Harmony>
@@ -1298,7 +1280,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv\\</name>
+            <name>i/iv}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -1322,6 +1304,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1340,8 +1325,8 @@
               </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1382,7 +1367,7 @@
             <text><font size="9"></font><font face="Times New Roman"></font><i>ben tenuto</i></text>
             </StaffText>
           <Harmony>
-            <name>II+</name>
+            <name>II(b6)</name>
             </Harmony>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -1452,7 +1437,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>V7(b5)/v</name>
+            <name>.Fr7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1547,7 +1532,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>v(64)</name>
+            <name>i(64)/v}</name>
             </Harmony>
           <StaffText>
             <placement>below</placement>
@@ -1585,7 +1570,7 @@
             <fractions>-3/8</fractions>
             </location>
           <Harmony>
-            <name>V(6)</name>
+            <name>I(6)/v</name>
             </Harmony>
           <location>
             <fractions>3/8</fractions>
@@ -1629,7 +1614,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>v\\</name>
+            <name>i/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1655,7 +1640,7 @@
         <irregular>1</irregular>
         <voice>
           <StaffText>
-            <offset x="-0.928777" y="-5.60022"/>
+            <offset x="-1.37295" y="-9.79191"/>
             <text><font size="9"></font><font face="Times New Roman"></font><i>a tempo
 con moto</i></text>
             </StaffText>
@@ -1664,6 +1649,9 @@ con moto</i></text>
             <velocity>70</velocity>
             <offset x="0.658281" y="1.83854"/>
             </Dynamic>
+          <Harmony>
+            <name>{</name>
+            </Harmony>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -1695,7 +1683,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>V</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1829,7 +1817,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>VII\\</name>
+            <name>I/VII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1881,7 +1869,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>III6</name>
+            <name>IV6/VII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1912,7 +1900,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>VII\\</name>
+            <name>I/VII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2030,7 +2018,7 @@ con moto</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>III6(#4)</name>
+            <name>IV6/VII</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2057,15 +2045,6 @@ con moto</i></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>III6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <name>V7/VII</name>
             </Harmony>
@@ -2093,7 +2072,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>VII\\</name>
+            <name>I/VII}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2118,7 +2097,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>VII6-iio</name>
+            <name>VII6{-iio{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2181,7 +2160,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>III-i6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2303,7 +2282,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>IV\\</name>
+            <name>I/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2347,7 +2326,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>VII6</name>
+            <name>IV6/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2367,7 +2346,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V7/iv</name>
+            <name>V7/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2378,7 +2357,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>IV\\</name>
+            <name>I/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2498,7 +2477,7 @@ con moto</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>VII6(#4)</name>
+            <name>IV6/IV</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2526,7 +2505,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V7/iv</name>
+            <name>V7/IV</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -2552,7 +2531,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>IV\\</name>
+            <name>I/IV}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -2580,7 +2559,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>IV6-#vi</name>
+            <name>IV6{-#vi{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2668,7 +2647,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>#III-V/#vi</name>
+            <name>V/#vi</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2689,7 +2668,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>#vi(2)</name>
+            <name>#vi</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2718,9 +2697,6 @@ con moto</i></text>
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>#vi</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -2808,9 +2784,6 @@ con moto</i></text>
           <StaffText>
             <text><font size="9"></font><font face="Times New Roman"></font><i>più cresc.</i></text>
             </StaffText>
-          <Harmony>
-            <name>#vi(2)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -2828,17 +2801,8 @@ con moto</i></text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
           <Harmony>
-            <name>#vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>ii6(#6)</name>
+            <name>ii6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2848,17 +2812,8 @@ con moto</i></text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
           <Harmony>
-            <name>ii6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <name>#III(6)-V(6)/#vi</name>
+            <name>V/#vi</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2878,9 +2833,6 @@ con moto</i></text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <name>#III-V/#vi</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -3006,7 +2958,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V+</name>
+            <name>V(6)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3114,7 +3066,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I(#7)</name>
+            <name>I(#7)}</name>
             </Harmony>
           <StaffText>
             <placement>below</placement>
@@ -3157,7 +3109,7 @@ con moto</i></text>
             <offset x="0.329141" y="3.53854"/>
             </Dynamic>
           <Harmony>
-            <name>VI</name>
+            <name>VI{</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -3246,7 +3198,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>I\\</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3434,7 +3386,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>.Ger6/VII</name>
+            <name>.Ger2/VII</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -3472,7 +3424,7 @@ con moto</i></text>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>iv\\</name>
+            <name>i/iv</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -3581,7 +3533,7 @@ con moto</i></text>
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>vii6</name>
+            <name>iv6/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3612,7 +3564,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>iv\\</name>
+            <name>i/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3722,7 +3674,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>vii6(4)</name>
+            <name>iv6/iv</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -3749,15 +3701,6 @@ con moto</i></text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>vii6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <name>V7/iv</name>
             </Harmony>
@@ -3770,7 +3713,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>iv\\</name>
+            <name>i/iv}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3793,7 +3736,7 @@ con moto</i></text>
             <offset x="0.543474" y="5.08198"/>
             </Dynamic>
           <Harmony>
-            <name>.bII</name>
+            <name>.bII{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3944,13 +3887,10 @@ con moto</i></text>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o4 x="0.285778" y="0.285778"/>
-                  </SlurSegment>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <voices>1</voices>
                   <measures>1</measures>
                   <fractions>-3/4</fractions>
                   </location>
@@ -3958,10 +3898,13 @@ con moto</i></text>
               </Spanner>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
+                <SlurSegment no="0">
+                  <o4 x="0.285778" y="0.285778"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
+                  <voices>1</voices>
                   <measures>1</measures>
                   <fractions>-3/4</fractions>
                   </location>
@@ -4052,7 +3995,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>.Ger6/III</name>
+            <name>.Ger2/III</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -4085,7 +4028,7 @@ con moto</i></text>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
-            <name>vii\\</name>
+            <name>i/vii</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -4186,7 +4129,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>iii6</name>
+            <name>iv6/vii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4217,7 +4160,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>vii\\</name>
+            <name>vii</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -4344,7 +4287,7 @@ con moto</i></text>
       <Measure>
         <voice>
           <Harmony>
-            <name>iii6(4)</name>
+            <name>iv6/vii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4363,15 +4306,6 @@ con moto</i></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <name>iii6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <name>V7/vii</name>
             </Harmony>
@@ -4399,7 +4333,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>vii\\</name>
+            <name>i/vii}</name>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -4426,6 +4360,10 @@ con moto</i></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>{</name>
+            <offset x="0" y="-3.79117"/>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -4477,10 +4415,11 @@ con moto</i></text>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <offset x="0" y="-7.59871"/>
             <text><font size="9"></font><font face="Times New Roman"></font><i>ben ten.</i></text>
             </StaffText>
           <Harmony>
-            <name>V+</name>
+            <name>V(6)</name>
             </Harmony>
           <Dynamic>
             <subtype>other-dynamics</subtype>
@@ -4639,7 +4578,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>i(64)</name>
+            <name>i(64)}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4702,7 +4641,7 @@ con moto</i></text>
               </Note>
             </Chord>
           <Harmony>
-            <name>i\\</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

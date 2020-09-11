@@ -227,7 +227,7 @@
             <text><b><font size="13"></font><font face="Times New Roman"></font>Allegro molto           <sym>unicodeNoteHalfUp</sym> = 176</b></text>
             </StaffText>
           <Harmony>
-            <name>.eb.V[i</name>
+            <name>.eb.V[i{</name>
             </Harmony>
           <Rest>
             <durationType>whole</durationType>
@@ -405,7 +405,7 @@
           </LayoutBreak>
         <voice>
           <Harmony>
-            <name>V2/V</name>
+            <name>V2(+4)/V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -492,7 +492,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv64</name>
+            <name>iv64(+2)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -1058,7 +1058,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iio</name>
+            <name>iio-VII6</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -1077,14 +1077,14 @@
             <fractions>-1/2</fractions>
             </location>
           <Harmony>
-            <name>i</name>
+            <name>i-VI6</name>
             </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
-            <name>VII</name>
+            <name>VII-v6</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -1095,7 +1095,7 @@
             <fractions>-1/2</fractions>
             </location>
           <Harmony>
-            <name>VI</name>
+            <name>VI-iv6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -1119,7 +1119,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>v\\</name>
+            <name>v}-V}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -1214,9 +1214,6 @@
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure len="1/4">
@@ -1227,7 +1224,7 @@
             <subtype>start-repeat</subtype>
             </BarLine>
           <Harmony>
-            <name>#viio43</name>
+            <name>#viio43{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -2644,7 +2641,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#III</name>
+            <name>#III}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2680,7 +2677,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>#VI[#VI</name>
+            <name>#VI[#VI{</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -3850,7 +3847,7 @@
             <offset x="0.658281" y="5.59156"/>
             </Dynamic>
           <Harmony>
-            <name>V\\</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -4095,7 +4092,7 @@
             <text><font size="9"></font><font face="Times New Roman"></font><i>sempre</i></text>
             </StaffText>
           <Harmony>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
@@ -4268,7 +4265,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>V2/V</name>
+            <name>V2(+4)/V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4355,7 +4352,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iv64</name>
+            <name>iv64(+2)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4935,7 +4932,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Harmony>
-            <name>v</name>
+            <name>v-III6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5000,7 +4997,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>IV</name>
+            <name>IV-iio6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5037,7 +5034,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>III</name>
+            <name>III-i6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5070,7 +5067,7 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>iio</name>
+            <name>iio-VII6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5128,7 +5125,7 @@
             <offset x="0.329141" y="3.53854"/>
             </Dynamic>
           <Harmony>
-            <name>.bII</name>
+            <name>.bII-vii6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5175,7 +5172,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <name>i\\</name>
+            <name>i}</name>
             </Harmony>
           <Dynamic>
             <subtype>ff</subtype>
@@ -6566,9 +6563,6 @@
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure len="1/4">
