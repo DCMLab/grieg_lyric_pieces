@@ -1,5 +1,5 @@
 mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	special	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	0	3/4	.A.V	A	I		V	V							M	0	0	1, 5, 2		1	1
+1	0	3/4	.A.V{	A	I		V	V						{	M	0	0	1, 5, 2		1	1
 2	1	0	I[I	A	I	I	I	I							M	0	0	0, 4, 1		0	0
 2	1	1/2	ii	A	I	I	ii	ii							m	0	0	2, -1, 3		2	2
 2	1	3/4	V	A	I	I	V	V							M	0	0	1, 5, 2		1	1
@@ -34,8 +34,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	special	form	figbass	ch
 8	7	7/8	ii7(9)	A	I		ii7(9)	ii			7	9			mm7	0	0	2, -1, 3, 0	4	2	2
 9	8	0	V	A	I		V	V							M	0	0	1, 5, 2		1	1
 9	8	1/8	V7(9)	A	I		V7(9)	V			7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
-9	8	1/4	I\\	A	I		I	I						\\	M	0	0	0, 4, 1		0	0
-9	8	3/4	V/vi	A	I		V/vi	V					vi		M	0	0	4, 8, 5		4	4
+9	8	1/4	I}	A	I		I	I						}	M	0	0	0, 4, 1		0	0
+9	8	3/4	V/vi{	A	I		V/vi	V					vi	{	M	0	0	4, 8, 5		4	4
 10	9	0	vi	A	I		vi	vi							m	0	0	3, 0, 4		3	3
 10	9	1/4	vii%2	A	I		vii%2	vii		%	2				%7	0	0	3, 5, 4, 11		5	3
 10	9	1/2	I+64	A	I		I+64	I		+	64				+	0	0	8, 0, 4		0	8
@@ -76,8 +76,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	special	form	figbass	ch
 16	15	7/8	vi6	A	I	I	vi6	vi			6				m	0	0	0, 4, 3		3	0
 17	16	0	V6	A	I	I	V6	V			6				M	0	0	5, 2, 1		1	5
 17	16	1/8	I(964)	A	I	I	I(964)	I				964			M	0	0	0, -1, 3	2	0	0
-17	16	1/4	I]\\	A	I	I	I	I						\\	M	0	0	0, 4, 1		0	0
-17	16	3/4	V/vi	A	I		V/vi	V					vi		M	0	0	4, 8, 5		4	4
+17	16	1/4	I]}	A	I	I	I	I						}	M	0	0	0, 4, 1		0	0
+17	16	3/4	V/vi{	A	I		V/vi	V					vi	{	M	0	0	4, 8, 5		4	4
 18	17	0	vi	A	I		vi	vi							m	0	0	3, 0, 4		3	3
 18	17	1/4	vii%2	A	I		vii%2	vii		%	2				%7	0	0	3, 5, 4, 11		5	3
 18	17	1/2	I+64	A	I		I+64	I		+	64				+	0	0	8, 0, 4		0	8
@@ -118,9 +118,9 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	special	form	figbass	ch
 24	23	7/8	vi6	A	I	I	vi6	vi			6				m	0	0	0, 4, 3		3	0
 25	24	0	V6	A	I	I	V6	V			6				M	0	0	5, 2, 1		1	5
 25	24	1/8	I(964)	A	I	I	I(964)	I				964			M	0	0	0, -1, 3	2	0	0
-25	24	1/4	I]\\	A	I	I	I	I						\\	M	0	0	0, 4, 1		0	0
+25	24	1/4	I]}	A	I	I	I	I						}	M	0	0	0, 4, 1		0	0
 25	24	5/8	ii7	A	I		ii7	ii			7				mm7	0	0	2, -1, 3, 0		2	2
 25	24	7/8	ii7(9)	A	I		ii7(9)	ii			7	9			mm7	0	0	2, -1, 3, 0	4	2	2
 26	25	0	V	A	I		V	V							M	0	0	1, 5, 2		1	1
 26	25	1/8	V7(9)	A	I		V7(9)	V			7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
-26	25	1/4	I\\	A	I		I	I						\\	M	0	0	0, 4, 1		0	0
+26	25	1/4	I	A	I		I	I							M	0	0	0, 4, 1		0	0

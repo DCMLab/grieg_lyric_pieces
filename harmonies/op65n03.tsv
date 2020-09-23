@@ -1,10 +1,10 @@
 mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	1	1/4	.b.v	b	i		v	v						m	1	1	1, -2, 2		1	1
+1	1	1/4	.b.v{	b	i		v	v					{	m	1	1	1, -2, 2		1	1
 2	2	1/4	i6	b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
 2	2	3/4	iio	b	i		iio	ii	o					o	1	1	2, -1, -4		2	2
 3	3	0	i[i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
 3	3	1/2	v	b	i	i	v	v						m	1	1	1, -2, 2		1	1
-4	4	0	i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
+4	4	0	i}{	b	i	i	i	i					}{	m	1	1	0, -3, 1		0	0
 4	4	1/2	v	b	i	i	v	v						m	1	1	1, -2, 2		1	1
 5	5	0	i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
 5	5	1/2	v	b	i	i	v	v						m	1	1	1, -2, 2		1	1
@@ -14,8 +14,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 7	7	1/2	i%7]	b	i	i	i%7	i	%	7				%7	1	1	0, -1, 6, -2		0	0
 8	8	0	IV	b	i		IV	IV						M	1	1	-1, 3, 0		-1	-1
 8	8	1/2	VI	b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
-9	9	0	i\\	b	i		i	i					\\	m	1	1	0, -3, 1		0	0
-10	10	0	v.i[i	b	v	i	i	i						m	1	1	0, -3, 1		0	0
+9	9	0	i}	b	i		i	i					}	m	1	1	0, -3, 1		0	0
+10	10	0	v.i[i{	b	v	i	i	i					{	m	1	1	0, -3, 1		0	0
 10	10	1/2	v	b	v	i	v	v						m	1	1	1, -2, 2		1	1
 11	11	0	i	b	v	i	i	i						m	1	1	0, -3, 1		0	0
 11	11	1/2	v	b	v	i	v	v						m	1	1	1, -2, 2		1	1
@@ -25,8 +25,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 13	13	1/2	i%7]	b	v	i	i%7	i	%	7				%7	1	1	0, -1, 6, -2		0	0
 14	14	0	IV	b	v		IV	IV						M	1	1	-1, 3, 0		-1	-1
 14	14	1/2	VI	b	v		VI	VI						M	1	1	-4, 0, -3		-4	-4
-15	15	0	i\\	b	v		i	i					\\	m	1	1	0, -3, 1		0	0
-16	16	0	i.i%43	b	i		i%43	i	%	43				%7	1	1	6, -2, 0, -1		0	6
+15	15	0	i}	b	v		i	i					}	m	1	1	0, -3, 1		0	0
+16	16	0	i.i%43{	b	i		i%43	i	%	43			{	%7	1	1	6, -2, 0, -1		0	6
 16	16	1/2	iv(4)	b	i		iv(4)	iv			4			m	1	1	-1, -2, 0		-1	-1
 17	17	0	i%43	b	i		i%43	i	%	43				%7	1	1	6, -2, 0, -1		0	6
 17	17	1/2	iv(4)	b	i		iv(4)	iv			4			m	1	1	-1, -2, 0		-1	-1
@@ -45,8 +45,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 25	25	0	i6	b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
 25	25	1/4	V7/V	b	i		V7/V	V		7		V		Mm7	1	1	2, 6, 3, 0		2	2
 25	25	7/8	viio2/V	b	i		viio2/V	vii	o	2		V		o7	1	1	-3, 6, 3, 0		6	-3
-28	28	1/4	#viio2	b	i		#viio2	#vii	o	2				o7	1	1	-4, 5, 2, -1		5	-4
-31	31	0	i[i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
+28	28	1/4	#viio2}	b	i		#viio2	#vii	o	2			}	o7	1	1	-4, 5, 2, -1		5	-4
+31	31	0	i[i{	b	i	i	i	i					{	m	1	1	0, -3, 1		0	0
 31	31	5/8	v7	b	i	i	v7	v		7				mm7	1	1	1, -2, 2, -1		1	1
 32	32	0	i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
 32	32	5/8	v7	b	i	i	v7	v		7				mm7	1	1	1, -2, 2, -1		1	1
@@ -56,8 +56,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 34	34	1/2	i%7]	b	i	i	i%7	i	%	7				%7	1	1	0, -1, 6, -2		0	0
 35	35	0	IV	b	i		IV	IV						M	1	1	-1, 3, 0		-1	-1
 35	35	1/2	VI	b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
-36	36	0	i\\	b	i		i	i					\\	m	1	1	0, -3, 1		0	0
-37	37	0	i%43	b	i		i%43	i	%	43				%7	1	1	6, -2, 0, -1		0	6
+36	36	0	i}	b	i		i	i					}	m	1	1	0, -3, 1		0	0
+37	37	0	i%43{	b	i		i%43	i	%	43			{	%7	1	1	6, -2, 0, -1		0	6
 37	37	1/2	iv(4)	b	i		iv(4)	iv			4			m	1	1	-1, -2, 0		-1	-1
 38	38	0	i%43	b	i		i%43	i	%	43				%7	1	1	6, -2, 0, -1		0	6
 38	38	1/2	iv(4)	b	i		iv(4)	iv			4			m	1	1	-1, -2, 0		-1	-1
@@ -76,8 +76,8 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 46	46	0	i6	b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
 46	46	1/4	V7/V	b	i		V7/V	V		7		V		Mm7	1	1	2, 6, 3, 0		2	2
 46	46	7/8	viio2/V	b	i		viio2/V	vii	o	2		V		o7	1	1	-3, 6, 3, 0		6	-3
-49	49	1/4	#viio2	b	i		#viio2	#vii	o	2				o7	1	1	-4, 5, 2, -1		5	-4
-52	52	0	i[i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
+49	49	1/4	#viio2}	b	i		#viio2	#vii	o	2			}	o7	1	1	-4, 5, 2, -1		5	-4
+52	52	0	i[i{	b	i	i	i	i					{	m	1	1	0, -3, 1		0	0
 52	52	5/8	v7	b	i	i	v7	v		7				mm7	1	1	1, -2, 2, -1		1	1
 53	53	0	i	b	i	i	i	i						m	1	1	0, -3, 1		0	0
 53	53	5/8	v7	b	i	i	v7	v		7				mm7	1	1	1, -2, 2, -1		1	1
@@ -87,4 +87,4 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 55	55	1/2	i%7]	b	i	i	i%7	i	%	7				%7	1	1	0, -1, 6, -2		0	0
 56	56	0	IV	b	i		IV	IV						M	1	1	-1, 3, 0		-1	-1
 56	56	1/2	VI	b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
-57	57	0	i\\	b	i		i	i					\\	m	1	1	0, -3, 1		0	0
+57	57	0	i}	b	i		i	i					}	m	1	1	0, -3, 1		0	0

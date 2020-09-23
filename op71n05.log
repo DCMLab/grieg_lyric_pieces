@@ -3,3 +3,29 @@ WARNING  op71n05.ms3 -- Event 87 in MC 98 has has duration 1/4 and starts on 1/2
 WARNING  op71n05.ms3 -- Event 93 in MC 99 has has duration 1/2 and starts on 1/2, surpassing the measure length of 1/2
 INFO     op71n05.ms3 -- Done parsing op71n05.mscx
 
+WARNING  op71n05.expand_labels -- The following chords could not be parsed:
+    mc  mn onset      label
+15  13  13   1/4    V/V[V/V
+20  17  17   1/4  V/II[V/II
+38  29  29     0  V/V[V7/V{
+ERROR    op71n05 -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "scripts/parallel_parse.py", line 93, in parse
+    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 7 organ points started, 11 ended:
+      mc pedal  mc pedalend
+0      3     I  12        ]
+1     37     V  17        ]
+2     61     I  20        ]
+3     69    IV  36        ]
+4     73     I  45        ]
+5     77    IV  68        ]
+6     81     I  72        ]
+7   <NA>   NaN  76        ]
+8   <NA>   NaN  80        ]
+9   <NA>   NaN  84        ]
+10  <NA>   NaN  87        ]

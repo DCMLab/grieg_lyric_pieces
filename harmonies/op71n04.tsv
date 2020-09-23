@@ -1,49 +1,49 @@
 mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	1	1/4	.B.ii	B	I		ii	ii						m	0	0	2, -1, 3		2	2
+1	1	1/4	.B.ii{	B	I		ii	ii					{	m	0	0	2, -1, 3		2	2
 2	2	1/4	V	B	I		V	V						M	0	0	1, 5, 2		1	1
 3	3	0	I[I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-5	5	0	ii	B	I	I	ii	ii						m	0	0	2, -1, 3		2	2
+5	5	0	ii(+4)	B	I	I	ii(+4)	ii			+4			m	0	0	2, -1, 3	1	2	2
 6	6	0	I(94)	B	I	I	I(94)	I			94			M	0	0	0, -1, 1	2	0	0
 6	6	1/2	I]	B	I	I	I	I						M	0	0	0, 4, 1		0	0
 7	7	0	V43/V	B	I		V43/V	V		43		V		Mm7	0	0	3, 0, 2, 6		2	3
 7	7	1/2	V7(9)	B	I		V7(9)	V		7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
 8	8	0	I[I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-9	9	0	ii	B	I	I	ii	ii						m	0	0	2, -1, 3		2	2
+9	9	0	ii(+4)	B	I	I	ii(+4)	ii			+4			m	0	0	2, -1, 3	1	2	2
 10	10	0	I(94)	B	I	I	I(94)	I			94			M	0	0	0, -1, 1	2	0	0
 10	10	1/2	I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
 11	11	0	V7(9)	B	I	I	V7(9)	V		7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
-11	11	1/2	I]	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-12	12	0	V	B	I		V	V						M	0	0	1, 5, 2		1	1
-13	13	0	V7/II	B	I		V7/II	V		7		II		Mm7	0	0	3, 7, 4, 1		3	3
+11	11	1/2	I]}	B	I	I	I	I					}	M	0	0	0, 4, 1		0	0
+12	12	0	V{	B	I		V	V					{	M	0	0	1, 5, 2		1	1
+13	13	0	V7/V/V	B	I		V7/V/V	V		7		V/V		Mm7	0	0	3, 7, 4, 1		3	3
 13	13	1/2	V/V	B	I		V/V	V				V		M	0	0	2, 6, 3		2	2
 14	14	0	V64/V	B	I		V64/V	V		64		V		M	0	0	3, 2, 6		2	3
-15	15	0	V7/II	B	I		V7/II	V		7		II		Mm7	0	0	3, 7, 4, 1		3	3
-15	15	1/2	V/V	B	I		V/V	V				V		M	0	0	2, 6, 3		2	2
-16	16	0	v[v	B	I	v	v	v						m	0	0	1, -2, 2		1	1
+15	15	0	V7/V/V	B	I		V7/V/V	V		7		V/V		Mm7	0	0	3, 7, 4, 1		3	3
+15	15	1/2	V/V}	B	I		V/V	V				V	}	M	0	0	2, 6, 3		2	2
+16	16	0	v[v{	B	I	v	v	v					{	m	0	0	1, -2, 2		1	1
 17	17	0	#viio2/v	B	I	v	#viio2/v	#vii	o	2		v		o7	0	0	-3, 6, 3, 0		6	-3
 17	17	1/2	v	B	I	v	v	v						m	0	0	1, -2, 2		1	1
 19	19	0	V43/IV]	B	I	v	V43/IV	V		43		IV		Mm7	0	0	1, -2, 0, 4		0	1
-19	19	1/2	IV	B	I		IV	IV						M	0	0	-1, 3, 0		-1	-1
-20	20	0	iv[iv	B	I	iv	iv	iv						m	0	0	-1, -4, 0		-1	-1
+19	19	1/2	IV}	B	I		IV	IV					}	M	0	0	-1, 3, 0		-1	-1
+20	20	0	iv[iv{	B	I	iv	iv	iv					{	m	0	0	-1, -4, 0		-1	-1
 21	21	0	#viio2/iv	B	I	iv	#viio2/iv	#vii	o	2		iv		o7	0	0	-5, 4, 1, -2		4	-5
 21	21	1/2	iv	B	I	iv	iv	iv						m	0	0	-1, -4, 0		-1	-1
 23	23	0	V43/bIII]	B	I	iv	V43/bIII	V		43		bIII		Mm7	0	0	-1, -4, -2, 2		-2	-1
-23	23	1/2	.bIII	B	I		bIII	bIII						M	0	0	-3, 1, -2		-3	-3
-24	24	0	.biii	B	I		biii	biii						m	0	0	-3, -6, -2		-3	-3
+23	23	1/2	.bIII}	B	I		bIII	bIII					}	M	0	0	-3, 1, -2		-3	-3
+24	24	0	.biii{	B	I		biii	biii					{	m	0	0	-3, -6, -2		-3	-3
 25	25	0	V43/bII	B	I		V43/bII	V		43		bII		Mm7	0	0	-3, -6, -4, 0		-4	-3
 26	26	0	V7/V	B	I		V7/V	V		7		V		Mm7	0	0	2, 6, 3, 0		2	2
 27	27	0	V43(9)	B	I		V43(9)	V		43	9			Mm7	0	0	2, -1, 1, 5	3	1	2
-31	31	0	V7(6)\\	B	I		V7(6)	V		7	6		\\	Mm7	0	0	1, 5, 4, -1		1	1
-35	35	1/4	ii	B	I		ii	ii						m	0	0	2, -1, 3		2	2
+31	31	0	V7(6)}	B	I		V7(6)	V		7	6		}	Mm7	0	0	1, 5, 4, -1		1	1
+35	35	1/4	ii{	B	I		ii	ii					{	m	0	0	2, -1, 3		2	2
 36	36	1/4	V	B	I		V	V						M	0	0	1, 5, 2		1	1
 37	37	0	I[I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-39	39	0	ii	B	I	I	ii	ii						m	0	0	2, -1, 3		2	2
+39	39	0	ii(+4)	B	I	I	ii(+4)	ii			+4			m	0	0	2, -1, 3	1	2	2
 40	40	0	I(94)	B	I	I	I(94)	I			94			M	0	0	0, -1, 1	2	0	0
 40	40	1/2	I]	B	I	I	I	I						M	0	0	0, 4, 1		0	0
 41	41	0	V43/V	B	I		V43/V	V		43		V		Mm7	0	0	3, 0, 2, 6		2	3
 41	41	1/2	V7(9)	B	I		V7(9)	V		7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
 42	42	0	I[I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-43	43	0	ii	B	I	I	ii	ii						m	0	0	2, -1, 3		2	2
+43	43	0	ii(+4)	B	I	I	ii(+4)	ii			+4			m	0	0	2, -1, 3	1	2	2
 44	44	0	I(94)	B	I	I	I(94)	I			94			M	0	0	0, -1, 1	2	0	0
 44	44	1/2	I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
 45	45	0	V7(9)]	B	I	I	V7(9)	V		7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
@@ -59,15 +59,15 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 55	55	0	V7(9)	B	I		V7(9)	V		7	9			Mm7	0	0	1, 5, 2, -1	3	1	1
 55	55	1/2	V7(96)	B	I		V7(96)	V		7	96			Mm7	0	0	1, 5, 4, -1	3	1	1
 55	55	3/4	V7	B	I		V7	V		7				Mm7	0	0	1, 5, 2, -1		1	1
-56	56	0	I[I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-57	57	0	V7/IV	B	I	I	V7/IV	V		7		IV		Mm7	0	0	0, 4, 1, -2		0	0
+56	56	0	I[I}	B	I	I	I	I					}	M	0	0	0, 4, 1		0	0
+57	57	0	V7/IV{	B	I	I	V7/IV	V		7		IV	{	Mm7	0	0	0, 4, 1, -2		0	0
 58	58	0	v7	B	I	I	v7	v		7				mm7	0	0	1, -2, 2, -1		1	1
 59	59	0	V7/IV	B	I	I	V7/IV	V		7		IV		Mm7	0	0	0, 4, 1, -2		0	0
 60	60	0	v7	B	I	I	v7	v		7				mm7	0	0	1, -2, 2, -1		1	1
 61	61	0	I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
 62	62	0	v7(9)	B	I	I	v7(9)	v		7	9			mm7	0	0	1, -2, 2, -1	3	1	1
 63	63	0	I	B	I	I	I	I						M	0	0	0, 4, 1		0	0
-64	64	0	v7(9)	B	I	I	v7(9)	v		7	9			mm7	0	0	1, -2, 2, -1	3	1	1
+64	64	0	v%7(9)	B	I	I	v%7(9)	v	%	7	9			%7	0	0	1, 0, 7, -1	3	1	1
 65	65	0	I]	B	I	I	I	I						M	0	0	0, 4, 1		0	0
 67	67	1/2	vi	B	I		vi	vi						m	0	0	3, 0, 4		3	3
 68	68	0	V7/vi	B	I		V7/vi	V		7		vi		Mm7	0	0	4, 8, 5, 2		4	4
@@ -78,4 +78,4 @@ mc	mn	onset	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	re
 72	72	0	v	B	I		v	v						m	0	0	1, -2, 2		1	1
 73	73	0	I	B	I		I	I						M	0	0	0, 4, 1		0	0
 74	74	0	.bV	B	I		bV	bV						M	0	0	-6, -2, -5		-6	-6
-75	75	0	I\\	B	I		I	I					\\	M	0	0	0, 4, 1		0	0
+75	75	0	I}	B	I		I	I					}	M	0	0	0, 4, 1		0	0
