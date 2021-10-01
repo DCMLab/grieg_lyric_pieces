@@ -48,6 +48,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
@@ -2630,7 +2632,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iv%65</name>
+            <name>iii.ii%65</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2689,7 +2691,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6(+6)</name>
+            <name>i6(+6)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2767,7 +2769,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iv%7</name>
+            <name>ii%7</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2824,7 +2826,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM2</name>
+            <name>VIM2-V64(+6)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2905,7 +2907,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iv%65</name>
+            <name>ii%65</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2965,7 +2967,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6(+6)</name>
+            <name>i6(+6)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3044,7 +3046,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iv%7</name>
+            <name>ii%7</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3101,7 +3103,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM2</name>
+            <name>VIM2-V64(+6)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3183,7 +3185,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iv%65</name>
+            <name>ii%65</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -3229,10 +3231,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi7</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
