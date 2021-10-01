@@ -201,7 +201,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -3626,22 +3625,11 @@
           </voice>
         </Measure>
       <Measure>
-        <Marker>
-          <track>4</track>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <Marker>
-          <track>4</track>
           <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
           <text>Fine</text>
           <label>fine</label>
           </Marker>
@@ -5849,13 +5837,14 @@
           </voice>
         </Measure>
       <Measure>
+        <Jump>
+          <style>Repeat Text Right</style>
+          <text>Minore Da Capo al Fine</text>
+          <jumpTo>start</jumpTo>
+          <playUntil>fine</playUntil>
+          <continueAt></continueAt>
+          </Jump>
         <voice>
-          <StaffText>
-            <style>Repeat Text Right</style>
-            <minDistance>-999</minDistance>
-            <offset x="13.9597" y="-5.76395"/>
-            <text>Minore Da Capo al Fine</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -6877,14 +6866,14 @@
           <location>
             <fractions>1/8</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -7014,14 +7003,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65/iv{</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio65/iv{</name>
+            </Harmony>
           <StaffText>
             <family>FreeSerif</family>
             <text><font size="9.8903"></font><font face="Plantin MT Std"></font>cresc. e stretto</text>
@@ -7048,14 +7037,14 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7/iv</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -7745,14 +7734,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/iv</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -8493,20 +8482,6 @@
           </voice>
         </Measure>
       <Measure>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
-        <Marker>
-          <style>Repeat Text Right</style>
-          <placement>below</placement>
-          <offset x="-6.63656" y="3.00134"/>
-          <text>Fine</text>
-          <label>fine</label>
-          </Marker>
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
