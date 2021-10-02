@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -1724,24 +1723,20 @@
           <KeySig>
             <accidental>1</accidental>
             </KeySig>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="13"></font><font face="Times New Roman"></font><b>Intermezzo</b></text>
-            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        <voice>
           <StaffText>
             <family>FreeSerif</family>
             <text><font size="9"></font><font face="Times New Roman"></font><b>(Geister der Nacht)</b></text>
             </StaffText>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        <voice>
+          <StaffText>
+            <family>FreeSerif</family>
+            <text><font size="13"></font><font face="Times New Roman"></font><b>Intermezzo</b></text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -1976,12 +1971,8 @@
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         <voice>
@@ -2247,22 +2238,8 @@
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2320,7 +2297,10 @@
           </voice>
         <voice>
           <location>
-            <fractions>3/4</fractions>
+            <fractions>1/2</fractions>
+            </location>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -2490,12 +2470,8 @@
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         <voice>
@@ -4906,10 +4882,6 @@
           <KeySig>
             <accidental>1</accidental>
             </KeySig>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>60</velocity>
-            </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.i{</name>
@@ -4924,111 +4896,9 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>7</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>7</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>103/960</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>1/4480</fractions>
-            </location>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-103/960</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <location>
-            <fractions>-1/6720</fractions>
-            </location>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          <location>
-            <fractions>-6719/6720</fractions>
-            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5067,9 +4937,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5077,10 +4944,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5102,9 +4965,87 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/28</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>7</actualNotes>
+            <baseNote>32nd</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>7</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/28</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
@@ -5122,6 +5063,10 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>60</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -5140,6 +5085,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -5148,14 +5100,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -5212,10 +5156,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>60</velocity>
-            </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bII</name>
@@ -5230,7 +5170,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -5256,7 +5195,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>103/960</fractions>
+                  <fractions>3/28</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -5275,9 +5214,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/4480</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5285,10 +5221,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5310,15 +5242,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-103/960</fractions>
+                  <fractions>-3/28</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -5328,16 +5257,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <location>
-            <fractions>-1/6720</fractions>
-            </location>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          <location>
-            <fractions>-6719/6720</fractions>
-            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5376,9 +5295,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5386,10 +5302,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5411,9 +5323,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
@@ -5431,6 +5340,10 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>60</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -5452,6 +5365,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -5463,14 +5383,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -5517,10 +5429,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>60</velocity>
-            </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i{</name>
@@ -5535,111 +5443,9 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>7</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>7</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>103/960</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>1/4480</fractions>
-            </location>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-103/960</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <location>
-            <fractions>-1/6720</fractions>
-            </location>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          <location>
-            <fractions>-6719/6720</fractions>
-            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5678,9 +5484,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5688,10 +5491,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5713,9 +5512,87 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/28</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>7</actualNotes>
+            <baseNote>32nd</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>7</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/28</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
@@ -5733,6 +5610,10 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>60</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -5751,6 +5632,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -5759,14 +5647,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -5823,10 +5703,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>60</velocity>
-            </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bII</name>
@@ -5841,7 +5717,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -5867,7 +5742,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>103/960</fractions>
+                  <fractions>3/28</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -5886,9 +5761,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/4480</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5896,10 +5768,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5921,15 +5789,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-103/960</fractions>
+                  <fractions>-3/28</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -5939,16 +5804,6 @@
               </Note>
             </Chord>
           <endTuplet/>
-          <location>
-            <fractions>-1/6720</fractions>
-            </location>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          <location>
-            <fractions>-6719/6720</fractions>
-            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -5987,9 +5842,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5997,10 +5849,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>FreeSerif</family>
-            <text><font size="10"></font><font face="Times New Roman"></font><b>7</b></text>
-            </StaffText>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -6022,9 +5870,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/13440</fractions>
-            </location>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
@@ -6042,6 +5887,10 @@
           <endTuplet/>
           </voice>
         <voice>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>60</velocity>
+            </Dynamic>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -6063,6 +5912,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -6074,14 +5930,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -6122,7 +5970,7 @@
             </KeySig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.V|HC}</name>
+            <name>I.V}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
