@@ -150,7 +150,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -543,14 +542,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  </location>
-                </next>
-              </Spanner>
             <acciaccatura/>
             <Note>
               <pitch>78</pitch>
@@ -558,7 +549,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -573,7 +564,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -584,7 +575,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -595,7 +586,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>78</pitch>
@@ -3053,7 +3044,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3068,7 +3059,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -3079,7 +3070,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -3090,7 +3081,7 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>78</pitch>
