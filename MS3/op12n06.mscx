@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -291,6 +290,7 @@
           <Tempo>
             <tempo>2.5</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <minDistance>-6.79754</minDistance>
             <offset x="0.456096" y="-4.6721"/>
             <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 50</b></text>
@@ -1772,10 +1772,6 @@
           <KeySig>
             <accidental>-1</accidental>
             </KeySig>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
@@ -3382,7 +3378,7 @@
         <voice>
           <SystemText>
             <style>Tempo</style>
-            <offset x="-0.690372" y="-1.46864"/>
+            <offset x="0.814669" y="-2.56228"/>
             <text>sempre ritard.</text>
             </SystemText>
           <Dynamic>
