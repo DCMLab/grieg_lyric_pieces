@@ -948,6 +948,12 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-1.84797</y1>
+              <y2>-2.09797</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16after/>
@@ -1011,6 +1017,12 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-1.07602</y1>
+              <y2>-1.32602</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16after/>
@@ -1071,6 +1083,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-2.65534e-17</y1>
+              <y2>-0.25</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16after/>
@@ -1175,6 +1193,12 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-0.771952</y1>
+              <y2>-1.02195</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16after/>
@@ -1254,6 +1278,12 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-0.543904</y1>
+              <y2>-0.793904</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16after/>
@@ -1333,6 +1363,12 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>0</y1>
+              <y2>-0.25</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -3988,7 +4024,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>III.IV6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4013,7 +4049,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43(+4)/VI</name>
+            <name>V43(+4)/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4032,7 +4068,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>IV6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4059,7 +4095,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4084,7 +4120,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43(+4)/III</name>
+            <name>V43(+4)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4100,7 +4136,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IIIM65</name>
+            <name>IM65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4127,7 +4163,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)/III</name>
+            <name>V7(9)</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -4160,7 +4196,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>III|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -4201,7 +4237,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>VI6{</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
