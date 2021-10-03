@@ -2885,6 +2885,12 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Beam>
+            <Fragment>
+              <y1>-1.22805</y1>
+              <y2>-1.47805</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -5980,7 +5986,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>#viio7(2)</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -6289,7 +6295,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>iv64-i(64)</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -6323,7 +6329,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>iv64-i(64)</name>
             </Harmony>
           </voice>
         <voice>
