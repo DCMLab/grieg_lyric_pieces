@@ -1391,8 +1391,14 @@
           <StaffText>
             <family>FreeSerif</family>
             <offset x="-4.46396" y="-8.82766"/>
-            <text><b><font size="11"></font><font face="Times New Roman"></font>Presto   <sym>unicodeNoteHalfUp</sym>. = 108</b></text>
+            <text><b><font size="11"/><font face="Times New Roman"/>Presto</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>5.4000000000000004</tempo>
+            <followText>1</followText>
+            <offset x="2.46672" y="-7.7422"/>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 108</b></text>
+            </Tempo>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -2455,12 +2461,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Tempo>
-            <tempo>2</tempo>
-            <followText>1</followText>
-            <offset x="7.42902" y="-5.73592"/>
-            <text><sym>metNoteQuarterUp</sym> = 120</text>
-            </Tempo>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
@@ -2471,6 +2471,11 @@
             <offset x="-1.98437" y="-6.88948"/>
             <text><font size="11"></font><font face="Times New Roman"></font><b>Tempo I.</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 60</b></text>
+            </Tempo>
           <Beam>
             </Beam>
           <Chord>
