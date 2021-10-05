@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -3777,6 +3776,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65(9)</name>
+            <minDistance>-1.85381</minDistance>
+            <offset x="0.453048" y="4.28504"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3820,6 +3821,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43(94)-ii7(+4)</name>
+            <minDistance>0.046952</minDistance>
+            <offset x="-1.17792" y="6.23148"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3876,6 +3879,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <minDistance>-1.22158</minDistance>
+            <offset x="0.724877" y="7.52921"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -4137,6 +4142,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65(94)-IV64(9)</name>
+            <offset x="-0.724877" y="3.95038"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
