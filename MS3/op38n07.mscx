@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>system</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -1390,13 +1389,13 @@
             </Dynamic>
           <StaffText>
             <family>FreeSerif</family>
-            <offset x="-4.46396" y="-8.82766"/>
+            <offset x="-4.78109" y="-3.91209"/>
             <text><b><font size="11"/><font face="Times New Roman"/>Presto</b></text>
             </StaffText>
           <Tempo>
             <tempo>5.4000000000000004</tempo>
             <followText>1</followText>
-            <offset x="2.46672" y="-7.7422"/>
+            <offset x="2.0703" y="-3.14377"/>
             <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 108</b></text>
             </Tempo>
           <Rest>
@@ -3816,7 +3815,7 @@
         <voice>
           <StaffText>
             <family>FreeSerif</family>
-            <offset x="-2.06036" y="-7.46998"/>
+            <offset x="-2.06036" y="-3.90223"/>
             <text><font size="12"></font><font face="Times New Roman"></font><b>Lento</b></text>
             </StaffText>
           <Spanner type="HairPin">
@@ -4181,6 +4180,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2/iv-iv(#7642)</name>
+            <minDistance>0.420717</minDistance>
+            <offset x="-2.45779" y="7.42419"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -4226,7 +4227,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2(4)/iv-iv(#76+4)</name>
-            <offset x="-0.254743" y="-5.40831"/>
+            <offset x="-6.75598" y="7.18542"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4246,6 +4247,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv]</name>
+            <offset x="0.554984" y="7.2913"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -5870,6 +5872,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2/iv-iv(#7642)</name>
+            <offset x="-1.9028" y="7.58276"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -5915,7 +5918,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2(4)/iv-iv(#76+4)</name>
-            <offset x="0" y="-9"/>
+            <offset x="-7.53192" y="7.50256"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5935,6 +5938,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv]</name>
+            <offset x="0.317134" y="7.52883"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
