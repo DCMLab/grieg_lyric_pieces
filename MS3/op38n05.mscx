@@ -969,6 +969,12 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-1.63756</y1>
+              <y2>-1.88756</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1473,6 +1479,12 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-1.54695</y1>
+              <y2>-1.79695</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -3502,7 +3514,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(42)</name>
+            <name>V7(42)-IV6(9)</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
