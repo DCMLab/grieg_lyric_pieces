@@ -2991,6 +2991,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-0.107503</y1>
+              <y2>-0.357503</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -3781,6 +3787,12 @@
             <offset x="1.55606" y="2.10895"/>
             <text><font size="10"></font><font face="Times New Roman"></font><i>ritard.</i></text>
             </StaffText>
+          <Beam>
+            <Fragment>
+              <y1>-0.408735</y1>
+              <y2>-0.658735</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -8771,7 +8783,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IIIM65</name>
+            <name>IIIM65-v(6)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
