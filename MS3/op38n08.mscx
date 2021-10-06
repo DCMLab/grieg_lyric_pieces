@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -5848,7 +5847,16 @@
       <Measure>
         <Jump>
           <style>Repeat Text Right</style>
-          <text>Minore Da Capo al Fine</text>
+          <offset x="-13.6529" y="-6.32426"/>
+          <text>Minore</text>
+          <jumpTo>start</jumpTo>
+          <playUntil>fine</playUntil>
+          <continueAt></continueAt>
+          </Jump>
+        <Jump>
+          <style>Repeat Text Right</style>
+          <offset x="0" y="-6.21675"/>
+          <text>D.C. al Fine</text>
           <jumpTo>start</jumpTo>
           <playUntil>fine</playUntil>
           <continueAt></continueAt>
@@ -5878,6 +5886,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bb.i6{-III{</name>
+            <minDistance>-11.1103</minDistance>
+            <offset x="-0.322509" y="3.40951"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -5885,6 +5895,11 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.537515" y="8.50851"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </Pedal>
             <next>
               <location>
@@ -5919,6 +5934,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(9#64)-ii6</name>
+            <offset x="-2.15006" y="4.03751"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -5926,6 +5942,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(#7)-V(6)</name>
+            <minDistance>-0.0375146</minDistance>
+            <offset x="-1.72005" y="3.97911"/>
             </Harmony>
           </voice>
         </Measure>
@@ -5938,6 +5956,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <offset x="0.75252" y="5.09037"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -6008,7 +6027,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(4#7)-V65</name>
-            <offset x="-1.11968" y="-2.2617"/>
+            <offset x="-2.19471" y="6.80456"/>
             </Harmony>
           <Spanner type="HairPin">
             <prev>
@@ -6056,6 +6075,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <offset x="0.967526" y="6.84078"/>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -6365,6 +6385,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III64(b6)-V6(6)</name>
+            <offset x="-1.50504" y="5.07101"/>
             </Harmony>
           </voice>
         <voice>
@@ -6392,6 +6413,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III64</name>
+            <minDistance>-2.18757</minDistance>
+            <offset x="0.322509" y="5.03598"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6471,6 +6494,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="-1.93505"/>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -6538,7 +6562,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)/III]</name>
-            <offset x="-0.863923" y="-6.12026"/>
+            <offset x="-1.07893" y="3.54936"/>
             </Harmony>
           </voice>
         </Measure>
@@ -6623,6 +6647,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="-1.50504"/>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -6647,6 +6672,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III64</name>
+            <offset x="0.322509" y="4.25252"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6674,10 +6700,15 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
+            <placement>above</placement>
+            <minDistance>-999</minDistance>
+            <offset x="0" y="-5.22286"/>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(9){</name>
+            <minDistance>-9.71278</minDistance>
+            <offset x="-0.75252" y="3.71921"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -6685,6 +6716,11 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.215006" y="6.77566"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </Pedal>
             <next>
               <location>
@@ -7020,6 +7056,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio65/iv{</name>
+            <minDistance>-7.34771</minDistance>
+            <offset x="-0.107503" y="5.65427"/>
             </Harmony>
           <StaffText>
             <family>FreeSerif</family>
@@ -7031,6 +7069,16 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0.107503" y="10.6458"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="-0.215006" y="7.1745"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </Pedal>
             <next>
               <location>
@@ -7301,6 +7349,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/iv</name>
+            <minDistance>-5.84267</minDistance>
+            <offset x="-1.82755" y="3.44887"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7739,6 +7789,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio(9)/iv</name>
+            <offset x="-1.82755" y="3.5"/>
             </Harmony>
           </voice>
         </Measure>
@@ -8767,7 +8818,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I64(+6)-ii2/V</name>
-            <offset x="0.215006" y="10.4588"/>
+            <minDistance>-2.75616</minDistance>
+            <offset x="-1.61254" y="4.65364"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9163,6 +9215,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii</name>
+            <minDistance>-5.95017</minDistance>
+            <offset x="0.75252" y="2.7157"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -9170,6 +9224,11 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.430012" y="7.58823"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </Pedal>
             <next>
               <location>
@@ -9222,7 +9281,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii64(+6)-ii%2/vi</name>
-            <offset x="0.215006" y="10.2438"/>
+            <minDistance>-5.75645</minDistance>
+            <offset x="-0.537515" y="4.00862"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9512,12 +9572,16 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(b94)/V</name>
+            <minDistance>-5.2627</minDistance>
+            <offset x="-0.107503" y="6.72003"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0.430012" y="-0.093478"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -9540,6 +9604,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/V</name>
+            <minDistance>-4.98265</minDistance>
+            <offset x="0.215006" y="4.70111"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -9596,12 +9662,16 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%7</name>
+            <minDistance>-6.8102</minDistance>
+            <offset x="0.322509" y="6.31357"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0.215006" y="0.444037"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -9674,12 +9744,16 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(b94)</name>
+            <minDistance>-5.30516</minDistance>
+            <offset x="0" y="5.17757"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0.107503" y="0.336534"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -9758,6 +9832,9 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <placement>above</placement>
+            <minDistance>-999</minDistance>
+            <offset x="-0.645017" y="-5.39498"/>
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -10468,18 +10545,22 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(b94)</name>
+            <minDistance>-6.16518</minDistance>
+            <offset x="0" y="6.57511"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0.107503" y="0.444037"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <Symbol>
                 <name>keyboardPedalPed</name>
-                <offset x="-0.495837" y="7.68547"/>
+                <offset x="-0.388334" y="9.94303"/>
                 </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -10552,6 +10633,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I64{</name>
+            <minDistance>-11.0679</minDistance>
+            <offset x="-0.322509" y="6.16339"/>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -10574,12 +10657,14 @@
             <durationType>half</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
+              <minDistance>-999</minDistance>
+              <offset x="0.107503" y="0.336534"/>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <Symbol>
                 <name>keyboardPedalPed</name>
-                <offset x="-0.495837" y="7.68547"/>
+                <offset x="-1.35586" y="10.4805"/>
                 </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
