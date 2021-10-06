@@ -331,7 +331,7 @@
             <tempo>1.3333333333333333</tempo>
             <followText>1</followText>
             <offset x="-1.45093" y="-4.649"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 80</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 80</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -3688,7 +3688,7 @@
             <tempo>2.1000000000000001</tempo>
             <followText>1</followText>
             <offset x="22.4112" y="-7.6975"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 126</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 126</b></text>
             </Tempo>
           <Chord>
             <durationType>half</durationType>
@@ -8493,13 +8493,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
             </Harmony>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -8597,7 +8597,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi6</name>
+            <name>vi6-I(6)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
