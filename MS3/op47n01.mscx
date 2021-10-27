@@ -2524,6 +2524,12 @@
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o1 x="0.836176" y="1.67235"/>
+                  <o2 x="-0.152032" y="3.42072"/>
+                  <o3 x="-0.152032" y="3.42072"/>
+                  <o4 x="0.228048" y="2.28048"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -13051,7 +13057,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6</name>
+            <name>iv6/VII</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -13071,6 +13077,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(+b6)/VII-bIIM43/VII</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
