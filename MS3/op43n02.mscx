@@ -1752,6 +1752,11 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.12878" y="3.33875"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -5936,7 +5941,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65(#5)</name>
+            <name>#viio43(#5)</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -5952,7 +5957,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65</name>
+            <name>#viio43</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -5973,6 +5978,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio65</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
