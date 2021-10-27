@@ -59,6 +59,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <smallStaffMag>0.663</smallStaffMag>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
@@ -514,6 +516,12 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-0.543904</y1>
+              <y2>-0.793904</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -11522,6 +11530,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(+#4)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -11534,6 +11546,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -11552,7 +11568,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iM65</name>
+            <name>i6(#7)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11608,7 +11624,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6(#6)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -11622,6 +11638,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
