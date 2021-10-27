@@ -3819,6 +3819,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-1.31999</y1>
+              <y2>-1.56999</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -7490,7 +7496,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[I64</name>
+            <name>I64</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -7522,7 +7528,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV]</name>
+            <name>I64(64)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
