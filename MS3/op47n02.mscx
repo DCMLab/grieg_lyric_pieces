@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -58,6 +59,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <smallStaffMag>0.663</smallStaffMag>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
@@ -201,20 +204,19 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1901</metaTag>
     <metaTag name="composed_start">1867</metaTag>
     <metaTag name="composer">Edvard H. Grieg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2017-02-28</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -657,10 +659,6 @@
                   <o3 x="0" y="0.611122"/>
                   <o4 x="-0.305561" y="0.814829"/>
                   <offset x="0" y="0.5"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o4 x="-0.203707" y="-0.101854"/>
-                  <offset x="-0.101854" y="1.31483"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -1246,9 +1244,6 @@
                   <o3 x="0.101854" y="0.611122"/>
                   <o4 x="0" y="1.12039"/>
                   <offset x="0" y="0.5"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o4 x="-0.305561" y="2.24078"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -4854,13 +4849,7 @@
               <subtype>1</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="3.5"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -8671,14 +8660,9 @@
             <HairPin>
               <subtype>0</subtype>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="2.14245"/>
                 <off2 x="-2.06768" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="2.14245"/>
-                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -10673,13 +10657,7 @@
               <subtype>1</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="3.5"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="3.5"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -16009,10 +15987,6 @@
                   <o1 x="0" y="0.407414"/>
                   <o4 x="0" y="-0.611122"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="-0.101854" y="-1.3241"/>
-                  <o4 x="-0.305561" y="0.305561"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -16104,14 +16078,14 @@
               <velocity>80</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV64</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -16375,9 +16349,6 @@
                   <o1 x="0" y="0.712975"/>
                   <o4 x="0.203707" y="-1.01854"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0.203707" y="-1.22224"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -16479,14 +16450,14 @@
               <velocity>80</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv64</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv64</name>
+            </Harmony>
           <Chord>
             <offset x="-0.74741" y="0"/>
             <durationType>eighth</durationType>
@@ -16713,14 +16684,14 @@
               <velocity>80</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6(b6)</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(b6)</name>
+            </Harmony>
           <StaffText>
             <offset x="0.114871" y="-6.94614"/>
             <text><i><font size="9"></font>ten.</i></text>
@@ -16860,13 +16831,8 @@
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="5.14871"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -16885,9 +16851,6 @@
                 <SlurSegment no="0">
                   <o4 x="-0.344614" y="0.574356"/>
                   <offset x="0" y="1"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <offset x="0" y="0.91897"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -20050,10 +20013,6 @@
                   <o1 x="0" y="0.407414"/>
                   <o4 x="0" y="-0.611122"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="-0.101854" y="-1.3241"/>
-                  <o4 x="-0.305561" y="0.305561"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -20145,14 +20104,14 @@
               <velocity>80</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV64</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -20425,9 +20384,6 @@
                   <o1 x="0" y="0.712975"/>
                   <o4 x="0.203707" y="-1.01854"/>
                   </SlurSegment>
-                <SlurSegment no="1">
-                  <o1 x="0.203707" y="-1.22224"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -20536,14 +20492,14 @@
               <velocity>80</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv64</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv64</name>
+            </Harmony>
           <Chord>
             <offset x="-0.74741" y="0"/>
             <durationType>eighth</durationType>
@@ -20770,14 +20726,14 @@
               <velocity>80</velocity>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6(b6)</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(b6)</name>
+            </Harmony>
           <StaffText>
             <offset x="0.114871" y="-6.94614"/>
             <text><i><font size="9"></font>ten.</i></text>
@@ -20917,13 +20873,8 @@
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="5.14871"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -20942,9 +20893,6 @@
                 <SlurSegment no="0">
                   <o4 x="-0.344614" y="0.574356"/>
                   <offset x="0" y="1"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <offset x="0" y="0.91897"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -21565,13 +21513,8 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="3.42564"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="2.04719"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
