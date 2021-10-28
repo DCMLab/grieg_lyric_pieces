@@ -5062,6 +5062,12 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-2.5557</y1>
+              <y2>-2.8057</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -5164,6 +5170,12 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-2.39187</y1>
+              <y2>-2.64187</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -5380,6 +5392,12 @@
             <velocity>112</velocity>
             <offset x="0.329141" y="3.04211"/>
             </Dynamic>
+          <Beam>
+            <Fragment>
+              <y1>-0.565856</y1>
+              <y2>-1.31586</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -5477,6 +5495,12 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-2.39187</y1>
+              <y2>-2.64187</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -14980,7 +15004,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>{</name>
+            <name>iv/v{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15034,6 +15058,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(+#4)/v</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15046,6 +15074,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV/v</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15064,7 +15096,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vM65</name>
+            <name>i6(#7)/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15120,7 +15152,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>i6/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15242,7 +15274,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>I/V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
