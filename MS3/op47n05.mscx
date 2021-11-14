@@ -2895,6 +2895,12 @@
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <Beam>
+            <Fragment>
+              <y1>-0.0878075</y1>
+              <y2>-0.337808</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -3129,6 +3135,12 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-0.152032</y1>
+              <y2>-0.402032</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -7570,7 +7582,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio2(b64)</name>
+            <name>#viio43(b64)</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
