@@ -1127,6 +1127,12 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>-0.23984</y1>
+              <y2>-0.48984</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1194,9 +1200,9 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -1351,6 +1357,12 @@
                 </location>
               </prev>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>0.532112</y1>
+              <y2>0.282112</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1431,9 +1443,9 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -1609,6 +1621,12 @@
                 </location>
               </prev>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>1.53211</y1>
+              <y2>1.28211</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1683,9 +1701,9 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -1804,6 +1822,12 @@
             <offset x="0.570555" y="-5.1313"/>
             <text><font size="8"></font><font face="Times New Roman"></font><i>ten.</i></text>
             </StaffText>
+          <Beam>
+            <Fragment>
+              <y1>-2.39187</y1>
+              <y2>-2.64187</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1887,9 +1911,9 @@
             </Clef>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -6206,7 +6230,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i]}</name>
+            <name>i|IAC]}</name>
             </Harmony>
           </voice>
         <voice>
