@@ -4678,6 +4678,12 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>0.76016</y1>
+              <y2>0.51016</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -4757,9 +4763,9 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -4870,10 +4876,9 @@
             </Clef>
           </voice>
         <voice>
-          <Rest>
-            <offset x="0" y="6"/>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -4885,10 +4890,9 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <offset x="0" y="6"/>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4993,10 +4997,9 @@
             </Clef>
           </voice>
         <voice>
-          <Rest>
-            <offset x="0" y="-6"/>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -9744,7 +9747,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>v7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
