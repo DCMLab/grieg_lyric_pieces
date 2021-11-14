@@ -7355,6 +7355,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv/iii</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -7365,7 +7369,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii64</name>
+            <name>iv64/iii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7377,7 +7381,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#ii%2</name>
+            <name>#viio7(2)/iii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7433,7 +7437,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>i(6)/iii</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7445,7 +7449,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iv7(94)</name>
+            <name>V7(94)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7493,7 +7497,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii}</name>
+            <name>i/iii}</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
