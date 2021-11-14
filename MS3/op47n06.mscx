@@ -10112,8 +10112,11 @@
               </Spanner>
             <acciaccatura/>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10137,11 +10140,8 @@
               <tpc>15</tpc>
               </Note>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
