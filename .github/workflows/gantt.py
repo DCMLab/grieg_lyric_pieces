@@ -265,11 +265,7 @@ def write_gantt_charts(args):
         metadata = score_obj.mscx.metadata
         logger = score_obj.mscx.logger
         last_mn = metadata["last_mn"]
-        try:
-            globalkey = metadata["annotated_key"]
-        except:
-            logger.warning('Global key is missing in the metadata.')
-            globalkey = '?'
+        globalkey = metadata["annotated_key"]
         logger.debug(f"Creating Gantt data for {fname}...")
         data = make_gantt_data(at)
         phrases = get_phraseends(at)
