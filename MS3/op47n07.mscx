@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -1211,9 +1210,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -1448,9 +1444,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -4560,6 +4553,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(#7){</name>
+            <minDistance>-3.15517</minDistance>
+            <offset x="0.537515" y="7.23627"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -4626,9 +4621,9 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -5828,9 +5823,6 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o1 x="-1.24548e-17" y="9.88497"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -6474,7 +6466,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>V(6)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6603,6 +6595,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i{</name>
+            <offset x="1.07503" y="7.58912"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
