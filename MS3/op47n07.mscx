@@ -7825,7 +7825,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iii%7(#7)</name>
+            <name>#iii(#7)</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7856,7 +7856,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#iii%7</name>
+            <name>#iii(7)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7871,7 +7871,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/ii</name>
+            <name>#iii(#6)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7917,7 +7917,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#ii%7</name>
+            <name>V6(#9)/#iii</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7948,7 +7948,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6</name>
+            <name>V6(9)/#iii</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7961,6 +7961,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/#iii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -8008,7 +8012,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#ii%7</name>
+            <name>#iii(#7)</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -8039,7 +8043,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6</name>
+            <name>#iii(7)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -8052,6 +8056,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#iii(#6)</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -8099,7 +8107,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#ii%7</name>
+            <name>V6(#9)/#iii</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -8130,7 +8138,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6</name>
+            <name>V6(9)/#iii</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -8143,6 +8151,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/#iii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -8166,10 +8178,9 @@
             </Clef>
           </voice>
         <voice>
-          <Rest>
-            <offset x="0" y="6"/>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
