@@ -814,6 +814,12 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>1.98821</y1>
+              <y2>1.73821</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -915,8 +921,9 @@
               <subtype>1</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
+                <offset x="0" y="4.03618"/>
                 <off2 x="0" y="0"/>
+                <minDistance>5.31067e-16</minDistance>
                 </Segment>
               </HairPin>
             <next>
@@ -943,6 +950,12 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>2.08618</y1>
+              <y2>1.83618</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -996,6 +1009,7 @@
               </Note>
             </Chord>
           <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1003,10 +1017,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>eighth</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -13451,7 +13461,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV64</name>
+            <name>IV64-I(64)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13495,7 +13505,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii65</name>
+            <name>ii65-I(964)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13508,7 +13518,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM7</name>
+            <name>IM7-I(7)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13565,7 +13575,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]</name>
+            <name>I(6)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13576,6 +13586,13 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
