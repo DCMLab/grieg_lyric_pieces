@@ -2048,14 +2048,6 @@
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <location>
-            <fractions>5/8</fractions>
-            </location>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <LayoutBreak>
@@ -2235,6 +2227,12 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-0.75</y1>
+              <y2>-1</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -14357,8 +14355,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>-4.39187</y1>
-              <y2>-4.64187</y2>
+              <y1>-3.78374</y1>
+              <y2>-4.03374</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -14485,7 +14483,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VM43/vi</name>
+            <name>V(6+4)/V/vi</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -14687,8 +14685,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>1.01016</y1>
-              <y2>0.76016</y2>
+              <y1>0.858128</y1>
+              <y2>0.608128</y2>
               </Fragment>
             </Beam>
           <Chord>
