@@ -1210,8 +1210,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>0.38008</y1>
-              <y2>0.13008</y2>
+              <y1>0.304064</y1>
+              <y2>0.0540642</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -1253,6 +1253,7 @@
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <offset x="-0.076016" y="1.06422"/>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
@@ -1415,6 +1416,12 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>0.608128</y1>
+              <y2>0.358128</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -7810,7 +7817,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
