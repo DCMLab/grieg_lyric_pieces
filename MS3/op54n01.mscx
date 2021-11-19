@@ -1208,6 +1208,12 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>0.38008</y1>
+              <y2>0.13008</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -7606,7 +7612,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i2</name>
+            <name>V64(6)/VI</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7620,13 +7626,20 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64/VI</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>biiM43</name>
+            <name>ii%2(9)/VI</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7666,6 +7679,13 @@
               <userLen1>13.7253</userLen1>
               </Arpeggio>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%2/VI</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
