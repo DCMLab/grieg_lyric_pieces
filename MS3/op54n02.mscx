@@ -24409,11 +24409,11 @@
         <voice>
           <Rest>
             <visible>0</visible>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>eighth</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
           <Chord>
             <dots>1</dots>
@@ -24464,6 +24464,13 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
