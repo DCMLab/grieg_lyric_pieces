@@ -324,7 +324,7 @@
             <tempo>3.6666666666666665</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 220</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 220</b></text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -6208,6 +6208,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-2.71268</y1>
+              <y2>-2.96268</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -16012,7 +16018,7 @@
             </StaffText>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIII{</name>
+            <name>I/bIII{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -16090,7 +16096,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIIIM2</name>
+            <name>IM2/bIII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -16150,7 +16156,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>vi/bIII-I64(6)/bIII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -16217,7 +16223,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIIIM2</name>
+            <name>IM2/bIII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -16277,7 +16283,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>vi6/bIII-ii6/V/bIII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -16312,7 +16318,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>V7/V/bVII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
