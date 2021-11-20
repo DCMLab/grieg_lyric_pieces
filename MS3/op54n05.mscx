@@ -15944,10 +15944,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2]}</name>
@@ -15964,12 +15960,12 @@
               </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
               </Note>
             <Note>
-              <pitch>87</pitch>
-              <tpc>23</tpc>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           </voice>
@@ -16005,6 +16001,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <StaffText>
             <placement>below</placement>
             <offset x="-0.475463" y="3.43564"/>
