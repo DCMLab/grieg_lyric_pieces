@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -58,6 +59,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <smallStaffMag>0.663</smallStaffMag>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
@@ -201,20 +204,19 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1901</metaTag>
     <metaTag name="composed_start">1867</metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-10-11</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -286,6 +288,12 @@
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <Tempo>
+            <tempo>1.5</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 60</b></text>
+            </Tempo>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -3621,13 +3629,8 @@
               <subtype>2</subtype>
               <endText></endText>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="4.80543"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -5316,13 +5319,8 @@
               <subtype>2</subtype>
               <endText></endText>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="6.1862"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -10730,14 +10728,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -11768,14 +11766,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vii%7</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%7</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -13452,14 +13450,14 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(#9)/vi}{</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(#9)/vi}{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -14154,14 +14152,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(9)/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(9)/V</name>
+            </Harmony>
           <StaffText>
             <placement>below</placement>
             <family>Times New Roman</family>
@@ -14409,13 +14407,8 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="8.2573"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -14725,14 +14718,14 @@
             <sigN>9</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I{</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I{</name>
+            </Harmony>
           <StaffText>
             <family>Times New Roman</family>
             <bold>1</bold>
@@ -15462,14 +15455,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -16816,14 +16809,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -18720,13 +18713,8 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="6.4504"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -19231,13 +19219,8 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="6.0004"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -19736,14 +19719,14 @@
             <sigN>9</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
