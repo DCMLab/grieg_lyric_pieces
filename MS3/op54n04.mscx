@@ -2600,6 +2600,12 @@
                 </location>
               </prev>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>-4.23984</y1>
+              <y2>-4.48984</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -13421,6 +13427,7 @@
               </Note>
             </Chord>
           <StaffText>
+            <visible>0</visible>
             <placement>below</placement>
             <family>Times New Roman</family>
             <size>9.216</size>
@@ -13457,6 +13464,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(#9)/vi}{</name>
+            <offset x="-0.684144" y="8.50282"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
