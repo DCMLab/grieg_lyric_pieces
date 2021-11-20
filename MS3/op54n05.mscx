@@ -4917,6 +4917,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-1.13803</y1>
+              <y2>-1.38803</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -5318,6 +5324,12 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-2.80845</y1>
+              <y2>-3.05845</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -15388,6 +15400,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/V]}</name>
+            <offset x="-1.72394" y="3.59577"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -15448,6 +15461,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV[V2{</name>
+            <minDistance>-2.21234</minDistance>
+            <offset x="-0.383097" y="3.59577"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -15515,7 +15530,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>I64-V2(64)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -15651,7 +15666,9 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64(+6)</name>
+            <name>I64(+6)-V2(964)</name>
+            <minDistance>0.212677</minDistance>
+            <offset x="-3.54365" y="3.31099"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -15777,7 +15794,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>I64-V2(64)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -15913,7 +15930,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64(+6)</name>
+            <name>I64(+6)-V2(964)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
