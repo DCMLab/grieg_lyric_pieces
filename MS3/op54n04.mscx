@@ -8244,6 +8244,12 @@
                 </location>
               </prev>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>-2.35498</y1>
+              <y2>-2.60498</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -8560,6 +8566,9 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <text>60</text>
+          </MeasureNumber>
         <voice>
           <Clef>
             <concertClefType>G</concertClefType>
@@ -18664,11 +18673,8 @@
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <location>
-            <fractions>1/4</fractions>
+            <fractions>3/8</fractions>
             </location>
           <Chord>
             <dots>1</dots>
@@ -19768,7 +19774,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>V(6)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -19822,7 +19828,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="HairPin">
             <HairPin>
@@ -19840,6 +19846,12 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>-2.38998</y1>
+              <y2>-3.88998</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <appoggiatura/>
