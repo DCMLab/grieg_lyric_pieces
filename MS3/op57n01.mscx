@@ -205,7 +205,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -5274,6 +5274,12 @@
             <velocity>70</velocity>
             <offset x="0.658281" y="4.23854"/>
             </Dynamic>
+          <Tempo>
+            <tempo>0.66666666666666663</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 40</b></text>
+            </Tempo>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -5568,6 +5574,12 @@
             <velocity>70</velocity>
             <offset x="0.329141" y="4.03854"/>
             </Dynamic>
+          <Tempo>
+            <tempo>1.8333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 110</b></text>
+            </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -20976,7 +20988,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Fermata>
             <subtype>fermataAbove</subtype>
