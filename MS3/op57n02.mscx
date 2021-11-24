@@ -20556,10 +20556,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii6</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -20584,7 +20580,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii64</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -20607,15 +20603,11 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>V(64)</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -20637,10 +20629,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I64</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -20659,18 +20647,18 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bI+64</name>
+            <name>V(b6)</name>
             </Harmony>
           <location>
-            <fractions>3/8</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bI64</name>
+            <name>V(64)/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -20754,7 +20742,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bV+(+b4)</name>
+            <name>V(b6+4)/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -20832,18 +20820,18 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/2</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bV+</name>
+            <name>V(b6)/III</name>
             </Harmony>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVII64</name>
+            <name>V(64)/bIII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -20923,7 +20911,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bbVII+64(+#8)</name>
+            <name>V(b6+4)/bIII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -20996,19 +20984,18 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/2</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bbVII+64</name>
-            <offset x="0" y="-3.86681"/>
+            <name>V(b6)/III</name>
             </Harmony>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bbVII64</name>
+            <name>V(64)/II</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21096,7 +21083,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIV+(+b4)</name>
+            <name>V(b6+4)/II</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21179,18 +21166,18 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/2</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bIV+</name>
+            <name>V(b6)/II</name>
             </Harmony>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVI64</name>
+            <name>V(64)/bII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21287,10 +21274,6 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bVI</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -21335,10 +21318,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bVI64</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -21363,10 +21342,6 @@
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bVI64</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -21409,7 +21384,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVI</name>
+            <name>V/bII-bVI</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -21614,7 +21589,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii%7}</name>
+            <name>vii%7-V7(9)|HC}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
