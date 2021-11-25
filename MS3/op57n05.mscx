@@ -308,9 +308,15 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <offset x="-6.57471" y="-9.88587"/>
+            <offset x="-6.46721" y="-4.94074"/>
             <text><font size="12"></font><font face="Times New Roman"></font><b>Tempo di Valse</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 180</b></text>
+            </Tempo>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -15027,12 +15033,16 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>C.V[V{</name>
+            <name>C.V{</name>
             </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[ii7(9)</name>
+            </Harmony>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
@@ -15056,10 +15066,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii7(9)</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
