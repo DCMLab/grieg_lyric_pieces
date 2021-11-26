@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -315,7 +314,7 @@
             <tempo>1</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -8721,7 +8720,7 @@
             </Dynamic>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64/VI{-I64/III</name>
+            <name>V64/VI{-I64/III{</name>
             <offset x="-0.737648" y="-2.64909"/>
             </Harmony>
           <Chord>
