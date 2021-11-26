@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -205,7 +204,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -16515,7 +16514,7 @@
             <tempo>0.66666666666666663</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 40</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 40</b></text>
             </Tempo>
           <Spanner type="HairPin">
             <HairPin>
@@ -20465,7 +20464,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(b9)</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
