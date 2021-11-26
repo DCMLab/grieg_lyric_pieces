@@ -2622,6 +2622,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -2901,6 +2904,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -2934,6 +2940,11 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4149,8 +4160,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(94)|HC}</name>
-            <minDistance>0.2</minDistance>
             <color r="0" g="85" b="0" a="255"/>
+            <minDistance>0.2</minDistance>
             <offset x="0" y="7.53184"/>
             </Harmony>
           <location>
@@ -4671,8 +4682,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i(#7){</name>
-            <minDistance>-3.15517</minDistance>
             <color r="0" g="85" b="0" a="255"/>
+            <minDistance>-3.15517</minDistance>
             <offset x="0.537515" y="7.23627"/>
             </Harmony>
           <Rest>
@@ -8885,6 +8896,12 @@
             <HairPin>
               <subtype>0</subtype>
               <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="0.910089"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -9274,6 +9291,11 @@
             <HairPin>
               <subtype>1</subtype>
               <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-2.5"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -9608,6 +9630,9 @@
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o4 x="0.104602" y="0.104602"/>
+                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -10398,6 +10423,11 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="9.9623"/>
+                <off2 x="7.74053" y="0"/>
+                </Segment>
               </Pedal>
             <next>
               <location>
