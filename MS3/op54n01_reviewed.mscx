@@ -7803,34 +7803,10 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  <TieSegment no="0">
-                    <o4 x="-7.44572" y="-0.297829"/>
-                    <offset x="-1.0424" y="-0.297829"/>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <notes>1</notes>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -7843,14 +7819,10 @@
             <name>V7/V</name>
             <color r="170" g="0" b="0" a="255"/>
             </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(b5)/V</name>
             <color r="0" g="85" b="0" a="255"/>
-            <offset x="0" y="7.24051"/>
             </Harmony>
           </voice>
         </Measure>
@@ -7868,14 +7840,6 @@
               <tpc>16</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -7903,14 +7867,6 @@
               <tpc>16</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <notes>-1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
@@ -8264,9 +8220,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7(b5)/V</name>
-            <minDistance>0.5</minDistance>
             <color r="0" g="85" b="0" a="255"/>
-            <offset x="0" y="10.3786"/>
             </Harmony>
           </voice>
         <voice>
