@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -7775,40 +7774,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  <TieSegment no="0">
-                    <o4 x="-7.44572" y="-0.297829"/>
-                    <offset x="-1.0424" y="-0.297829"/>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <notes>1</notes>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -7830,14 +7805,6 @@
               <tpc>16</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -7859,14 +7826,6 @@
               <tpc>16</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <notes>-1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
