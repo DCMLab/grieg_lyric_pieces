@@ -24398,7 +24398,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2(+6)/IV{</name>
+            <name>V2/IV{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -24475,13 +24475,15 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio65(2)/V</name>
+            <minDistance>-7.88523</minDistance>
+            <offset x="-1.29003" y="4.16941"/>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi%7</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -24499,7 +24501,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vio7</name>
+            <name>viio65/V</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
