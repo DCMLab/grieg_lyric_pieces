@@ -11166,13 +11166,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
             </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -11190,7 +11190,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i%43</name>
+            <name>ii%43/VII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -11215,13 +11215,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/VII-IV</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -11303,13 +11303,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/V</name>
             </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
