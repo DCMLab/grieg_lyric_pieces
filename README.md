@@ -112,7 +112,7 @@ files conversion to mscx via the command
 |op12n06  |      56|   123|2.1.1   |Adrian Nagel                             |Adrian Nagel|
 |op12n07  |      56|    90|2.1.1   |Adrian Nagel                             |Adrian Nagel|
 |op12n08  |      32|    78|2.1.1   |Adrian Nagel                             |Adrian Nagel|
-|op38n01  |      86|   123|2.1.1   |Adrian Nagel                             |Adrian Nagel|
+|op38n01  |      86|   141|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op38n02  |      41|    47|2.1.1   |Adrian Nagel                             |Adrian Nagel|
 |op38n03  |      48|   100|2.1.1   |Adrian Nagel                             |Adrian Nagel|
 |op38n04  |      36|    66|2.1.1   |Adrian Nagel                             |Adrian Nagel|
