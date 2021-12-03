@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -58,6 +59,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <smallStaffMag>0.663</smallStaffMag>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
@@ -201,20 +204,19 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1901</metaTag>
     <metaTag name="composed_start">1867</metaTag>
     <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-10-11</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">6</metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -10386,7 +10388,7 @@ op. 62 N° 6</text>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0" y="11"/>
+            <offset x="0.076016" y="13.4325"/>
             </Symbol>
           <Dynamic>
             <subtype>p</subtype>
@@ -10496,7 +10498,7 @@ op. 62 N° 6</text>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0" y="11"/>
+            <offset x="0.152032" y="12.9764"/>
             </Symbol>
           <Rest>
             <durationType>eighth</durationType>
@@ -10536,7 +10538,7 @@ op. 62 N° 6</text>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0" y="11"/>
+            <offset x="0.228048" y="13.1284"/>
             </Symbol>
           <Rest>
             <durationType>eighth</durationType>
@@ -10576,7 +10578,7 @@ op. 62 N° 6</text>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0" y="11"/>
+            <offset x="-0.152032" y="13.0524"/>
             </Symbol>
           <Rest>
             <durationType>eighth</durationType>
@@ -10652,7 +10654,7 @@ op. 62 N° 6</text>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0" y="11"/>
+            <offset x="-0.076016" y="13.2805"/>
             </Symbol>
           <Rest>
             <durationType>eighth</durationType>
@@ -10692,7 +10694,7 @@ op. 62 N° 6</text>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0.224223" y="11"/>
+            <offset x="0.300239" y="13.2045"/>
             </Symbol>
           <Rest>
             <durationType>eighth</durationType>
@@ -10728,11 +10730,11 @@ op. 62 N° 6</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]}</name>
+            <name>I]|PAC}</name>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
-            <offset x="0" y="11"/>
+            <offset x="-0.228048" y="13.4325"/>
             </Symbol>
           <Rest>
             <durationType>eighth</durationType>
@@ -13104,13 +13106,8 @@ op. 62 N° 6</text>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="8.4874"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="6.1862"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -13970,9 +13967,6 @@ op. 62 N° 6</text>
                   <o2 x="-3.87027" y="-3.76566"/>
                   <o3 x="-3.87027" y="-3.76566"/>
                   <o4 x="-1.56903" y="-13.912"/>
-                  </SlurSegment>
-                <SlurSegment no="1">
-                  <o4 x="-0.418407" y="0.313805"/>
                   </SlurSegment>
                 <up>up</up>
                 </Slur>
@@ -18501,13 +18495,8 @@ op. 62 N° 6</text>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="10.1525"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="5.46442"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
