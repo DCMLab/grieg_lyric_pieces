@@ -11218,7 +11218,7 @@ op. 62 N° 6</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVII64</name>
+            <name>V/bIII</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -11279,6 +11279,10 @@ op. 62 N° 6</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64/bIII</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -11299,6 +11303,10 @@ op. 62 N° 6</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/bIII</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -11373,10 +11381,21 @@ op. 62 N° 6</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/bIII</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64/bIII</name>
+            </Harmony>
           </voice>
         <voice>
           <Rest>
