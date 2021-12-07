@@ -10301,8 +10301,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>-4.04829</y1>
-              <y2>-4.06081</y2>
+              <y1>-3.69158</y1>
+              <y2>-3.66081</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -10326,15 +10326,7 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Tempo>
-            <tempo>0.86666699999999997</tempo>
-            <visible>0</visible>
-            <family>FreeSerif</family>
-            <offset x="-0.599963" y="-4.29998"/>
-            <text><font size="9.99937"></font><font face="Times New Roman"></font><i>52</i></text>
-            </Tempo>
           <Tuplet>
-            <offset x="-0.0999937" y="-1.69989"/>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
@@ -10342,7 +10334,6 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
-            <direction>down</direction>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>
@@ -10358,23 +10349,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <diagonal>1</diagonal>
-              <lineWidth>0.46</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4.0619"/>
-                <off2 x="-0.00937441" y="-0.00937441"/>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-11/24</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -10407,14 +10381,6 @@
             <offset x="-2.39985" y="-4.09999"/>
             <text><font size="9.99937"></font><font face="Times New Roman"></font><i>82</i></text>
             </Tempo>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>11/24</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -29242,20 +29208,6 @@
             <noStem>1</noStem>
             <Note>
               <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               <velocity>105</velocity>
@@ -29285,7 +29237,7 @@
               <lineVisible>0</lineVisible>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="8.0375"/>
+                <offset x="0" y="8.7546"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -29304,10 +29256,6 @@
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
-            <Arpeggio>
-              <subtype>0</subtype>
-              <userLen2>8.69945</userLen2>
-              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
@@ -29332,14 +29280,6 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
