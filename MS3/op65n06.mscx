@@ -8973,29 +8973,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Tempo>
-            <tempo>0.86666699999999997</tempo>
-            <visible>0</visible>
-            <family>FreeSerif</family>
-            <offset x="-0.599963" y="-4.29998"/>
-            <text><font size="9.99937"></font><font face="Times New Roman"></font><i>52</i></text>
-            </Tempo>
-          <Spanner type="TextLine">
-            <TextLine>
-              <diagonal>1</diagonal>
-              <lineWidth>0.48</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3.65818"/>
-                <off2 x="1" y="0"/>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/24</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -9012,13 +8989,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/24</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -22825,6 +22795,14 @@
             <name>V+6-I64(b6)/bIII</name>
             </Harmony>
           <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
@@ -22836,14 +22814,6 @@
                 <measures>1</measures>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
@@ -27409,20 +27379,6 @@
             <noStem>1</noStem>
             <Note>
               <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               <velocity>105</velocity>
@@ -27495,14 +27451,6 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
