@@ -3557,6 +3557,10 @@
       <Measure>
         <voice>
           <Beam>
+            <Fragment>
+              <y1>-1.46249</y1>
+              <y2>-1.71249</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
@@ -22361,7 +22365,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/bVII</name>
+            <name>bIII/V.V(64)-I64</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -22441,7 +22445,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/bVII</name>
+            <name>V7</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -22510,7 +22514,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVII[bVII}</name>
+            <name>I(9)}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -22552,6 +22556,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -22593,7 +22601,7 @@
           <StaffText>
             <placement>below</placement>
             <family>FreeSerif</family>
-            <offset x="0.104602" y="5.05221"/>
+            <offset x="0.319608" y="7.78195"/>
             <text><font size="11.9992"></font><font face="Times New Roman"></font><i>tre corde</i></text>
             </StaffText>
           <Dynamic>
