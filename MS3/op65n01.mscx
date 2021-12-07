@@ -20550,7 +20550,7 @@
             </KeySig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V{</name>
+            <name>i.i{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -20563,10 +20563,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i64</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -20594,10 +20590,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -20613,6 +20605,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -20624,10 +20620,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -20655,10 +20647,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
@@ -20674,6 +20662,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#vi%2</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -20685,10 +20677,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#vi%2</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -20723,13 +20711,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VIM2</name>
             </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -20765,13 +20753,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v}</name>
             </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
