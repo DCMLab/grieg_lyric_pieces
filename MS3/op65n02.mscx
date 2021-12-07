@@ -736,6 +736,7 @@
               </prev>
             </Spanner>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -935,6 +936,12 @@
                 </location>
               </next>
             </Spanner>
+          <Beam>
+            <Fragment>
+              <y1>-0.104983</y1>
+              <y2>-0.354983</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -4012,7 +4019,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>V6(13)</name>
             </Harmony>
           </voice>
         <voice>
