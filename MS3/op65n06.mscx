@@ -13761,6 +13761,10 @@
       <Measure>
         <voice>
           <Beam>
+            <Fragment>
+              <y1>-1.35498</y1>
+              <y2>-1.60498</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
@@ -31412,6 +31416,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%7</name>
+            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
@@ -31425,18 +31433,11 @@
             <duration>4/4</duration>
             </Rest>
           <location>
-            <fractions>-7/8</fractions>
+            <fractions>-3/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii%7/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>I</name>
             </Harmony>
           </voice>
         </Measure>
@@ -31444,7 +31445,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bV+</name>
+            <name>V+6-I64(b6)/bIII</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -31484,10 +31485,6 @@
             <offset x="2.64527" y="6.00482"/>
             <text><font size="11.9992"></font><font face="Times New Roman"></font><i>una corda</i></text>
             </StaffText>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bVII</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -31497,7 +31494,9 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/bVII</name>
+            <name>bIII/V.V(64)-I64</name>
+            <minDistance>0.177491</minDistance>
+            <offset x="0.107503" y="8.61687"/>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -31589,7 +31588,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/bVII</name>
+            <name>V7</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -31672,7 +31671,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bVII[bVII}</name>
+            <name>I(9)}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -31709,6 +31708,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
