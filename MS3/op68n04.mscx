@@ -807,6 +807,12 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-1.03499</y1>
+              <y2>-0.784994</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -1215,6 +1221,12 @@
               <text>3</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <Fragment>
+              <y1>-0.892497</y1>
+              <y2>-1.1425</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -7091,7 +7103,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vio</name>
+            <name>IV6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -7110,7 +7122,14 @@
             <duration>1/2</duration>
             </Rest>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -7142,7 +7161,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%43-Fr6</name>
+            <name>V43(b5)/V-Fr6</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
