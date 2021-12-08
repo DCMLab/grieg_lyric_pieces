@@ -495,6 +495,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>0.532112</y1>
+              <y2>0.282112</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -645,6 +651,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>1.60813</y1>
+              <y2>1.35813</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6813,7 +6825,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>vi-ii/V</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
