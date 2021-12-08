@@ -7822,6 +7822,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-2.39187</y1>
+              <y2>-2.64187</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -8000,7 +8006,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>IV64-ii2</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -8027,6 +8033,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -8053,7 +8063,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -8077,6 +8087,10 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
