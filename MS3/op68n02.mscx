@@ -747,6 +747,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>1.76016</y1>
+              <y2>1.51016</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -837,6 +843,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>1.83618</y1>
+              <y2>1.58618</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -971,17 +983,23 @@
             <velocity>60</velocity>
             <offset x="0.658281" y="2.83854"/>
             </Dynamic>
+          <Beam>
+            <Fragment>
+              <y1>-2.39187</y1>
+              <y2>-2.64187</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-6.46629" y="-0.0950925"/>
+                  <o4 x="1.21626" y="0.076016"/>
                   </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <grace>1</grace>
                   </location>
                 </next>
               </Spanner>
@@ -993,6 +1011,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
             <grace16/>
             <Note>
               <pitch>81</pitch>
@@ -1020,14 +1045,6 @@
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  <grace>0</grace>
-                  </location>
-                </prev>
-              </Spanner>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
@@ -7100,7 +7117,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
