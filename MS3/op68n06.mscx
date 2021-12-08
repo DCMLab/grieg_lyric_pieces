@@ -9527,6 +9527,12 @@
             <subtype>pp</subtype>
             <velocity>60</velocity>
             </Dynamic>
+          <Beam>
+            <Fragment>
+              <y1>2.91003</y1>
+              <y2>1.91003</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -21189,6 +21195,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio65(9)/vii</name>
+            <offset x="0.160034" y="4.64672"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -21211,6 +21218,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio65/vii}-viio2/V/#VI</name>
+            <offset x="-4.64098" y="4.90161"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21315,7 +21323,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VI6{</name>
+            <name>I6/#VI{</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -21499,7 +21507,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VI6(6)</name>
+            <name>I6(6)/#VI</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -21523,7 +21531,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VI6</name>
+            <name>I6/#VI</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21583,7 +21591,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/#VII</name>
+            <name>viio43/#VII-#viio43/ii/#VI</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -21679,7 +21687,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6(b6)</name>
+            <name>I6(b6)/#VII</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -21703,7 +21711,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6</name>
+            <name>I6/#VII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21869,7 +21877,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6(6)</name>
+            <name>I6(6)/#VII</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -21893,7 +21901,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#VII6</name>
+            <name>I6/#VII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -21953,7 +21961,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/bII</name>
+            <name>viio43/bII-#viio43/ii/#VII</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -22048,7 +22056,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6(b6)</name>
+            <name>I6(b6)/bII</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -22087,7 +22095,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6</name>
+            <name>I6/bII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -22114,7 +22122,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6(6)</name>
+            <name>I6(6)/bII</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -22135,7 +22143,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6</name>
+            <name>I6/bII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -22162,7 +22170,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6(6)</name>
+            <name>I6(6)/bII</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -22183,7 +22191,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>bII6}</name>
+            <name>I6/bII}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
