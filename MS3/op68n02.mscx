@@ -5628,6 +5628,12 @@
             <velocity>60</velocity>
             <offset x="0.658281" y="2.63854"/>
             </Dynamic>
+          <Beam>
+            <Fragment>
+              <y1>0.836176</y1>
+              <y2>0.586176</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -5799,6 +5805,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>0.76016</y1>
+              <y2>0.51016</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6042,6 +6054,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>1.68414</y1>
+              <y2>1.43414</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6132,6 +6150,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>1.76016</y1>
+              <y2>1.51016</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6269,6 +6293,12 @@
             <velocity>60</velocity>
             <offset x="0.329141" y="3.73854"/>
             </Dynamic>
+          <Beam>
+            <Fragment>
+              <y1>-1.5439</y1>
+              <y2>-1.7939</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6367,6 +6397,12 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-1.23984</y1>
+              <y2>-1.48984</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6457,6 +6493,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-1.5439</y1>
+              <y2>-1.7939</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -6583,6 +6625,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-5.01179</y1>
+              <y2>-5.26179</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -6696,6 +6744,12 @@
             <offset x="-0.173959" y="3.10706"/>
             <text><i><font size="9"></font><font face="Times New Roman"></font>ritard.</i></text>
             </StaffText>
+          <Beam>
+            <Fragment>
+              <y1>1.76016</y1>
+              <y2>1.51016</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -11383,7 +11437,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>vi-ii/V</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -11490,7 +11544,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>vi-ii/V</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -11762,7 +11816,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
@@ -12184,7 +12238,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Spanner type="Pedal">
             <Pedal>
