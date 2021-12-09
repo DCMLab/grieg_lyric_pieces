@@ -2476,6 +2476,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-5.28455</y1>
+              <y2>-5.53455</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2867,6 +2873,12 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>-3.10569</y1>
+              <y2>-3.35569</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -7194,7 +7206,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi7</name>
+            <name>vi7-ii7/V</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7256,10 +7268,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(6)/V</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -7271,6 +7279,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(6)/V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -7281,7 +7293,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}</name>
+            <name>V|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
