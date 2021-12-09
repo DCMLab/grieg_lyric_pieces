@@ -6722,7 +6722,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio43</name>
+            <name>#viio2-#viio43/iii</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -6851,10 +6851,6 @@
               <tpc>7</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio7</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -6867,7 +6863,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>V/iii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6891,7 +6887,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vii%7</name>
+            <name>vi%7/iii-#viio2(#5)/iii</name>
+            <offset x="-4.10487" y="3.88008"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6923,13 +6920,13 @@
               <tpc>4</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7-#viio2/iii</name>
+            </Harmony>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -6938,7 +6935,9 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ivo7</name>
+            <name>#viio7-#viio43/bv</name>
+            <minDistance>-2.07653</minDistance>
+            <offset x="-1.14024" y="3.57602"/>
             </Harmony>
           </voice>
         </Measure>
@@ -6949,7 +6948,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#I</name>
+            <name>V/bv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6976,7 +6975,9 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7</name>
+            <name>vi%7/bv-#viio2(#5)/bv</name>
+            <minDistance>0.304307</minDistance>
+            <offset x="-8.96989" y="3.19594"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7004,7 +7005,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ivo</name>
+            <name>#viio65-#viio2/bv</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -7017,7 +7018,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vo7</name>
+            <name>#viio65-#viio43/#vi</name>
             </Harmony>
           </voice>
         </Measure>
@@ -7028,7 +7029,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#III</name>
+            <name>V/#vi</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7055,7 +7056,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv%7</name>
+            <name>vi%7/#vi-#viio2(#5)/#vi</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7083,7 +7084,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vo</name>
+            <name>#viio43-#viio2/#vi</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
