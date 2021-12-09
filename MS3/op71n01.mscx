@@ -328,6 +328,12 @@
             <velocity>70</velocity>
             <offset x="0.329141" y="2.33854"/>
             </Dynamic>
+          <Tempo>
+            <tempo>1.3333299999999999</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><sym>metNoteQuarterUp</sym> = 80</text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -6068,6 +6074,14 @@ tranquillo</i></text>
             <offset x="-3.66663" y="-9.47865"/>
             <text><font size="10"></font><font face="Times New Roman"></font><b>Andante</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>1.3333299999999999</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <minDistance>-7.94623</minDistance>
+            <offset x="0" y="-4.42724"/>
+            <text><sym>metNoteQuarterUp</sym> = 80</text>
+            </Tempo>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
