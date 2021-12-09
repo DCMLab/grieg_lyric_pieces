@@ -13904,6 +13904,12 @@
             <harmonyType>1</harmonyType>
             <name>I}</name>
             </Harmony>
+          <Beam>
+            <Fragment>
+              <y1>-0.756774</y1>
+              <y2>-2.25677</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -14018,6 +14024,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Dynamic>
             <subtype>ppp</subtype>
             <velocity>50</velocity>
@@ -14028,40 +14038,40 @@
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <pitch>75</pitch>
+              <pitch>51</pitch>
               <tpc>23</tpc>
               </Note>
             <Note>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>83</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <pitch>75</pitch>
+              <pitch>51</pitch>
               <tpc>23</tpc>
               </Note>
             <Note>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>83</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           </voice>
@@ -14070,32 +14080,32 @@
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>68</pitch>
-              <tpc>22</tpc>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>68</pitch>
-              <tpc>22</tpc>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           </voice>
@@ -14109,24 +14119,24 @@
             <durationType>whole</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>68</pitch>
-              <tpc>22</tpc>
-              </Note>
-            <Note>
-              <pitch>71</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>75</pitch>
+              <pitch>51</pitch>
               <tpc>23</tpc>
               </Note>
             <Note>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>83</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <BarLine>
@@ -14141,12 +14151,12 @@
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
+              <pitch>35</pitch>
+              <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           </voice>
