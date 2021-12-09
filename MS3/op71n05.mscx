@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -58,6 +59,8 @@
       <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
       <chordSymbolBFontSize>11</chordSymbolBFontSize>
       <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <smallStaffMag>0.663</smallStaffMag>
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
@@ -201,20 +204,19 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.18</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Adrian Nagel</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1901</metaTag>
     <metaTag name="composed_start">1867</metaTag>
     <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-10-11</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">5</metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -306,9 +308,15 @@
             </TimeSig>
           <StaffText>
             <family>FreeSerif</family>
-            <offset x="5.64468e-8" y="-4.15861"/>
-            <text><b><font size="14"></font><font face="Times New Roman"></font>Allegro molto <sym>unicodeNoteQuarterUp</sym> = 184</b></text>
+            <offset x="-6.6134" y="-4.57504"/>
+            <text><b><font size="14"/><font face="Times New Roman"/>Allegro molto</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>3.0666666666666664</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 184</b></text>
+            </Tempo>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -326,8 +334,10 @@
             <duration>1/2</duration>
             </Rest>
           <StaffText>
+            <minDistance>-1.55817</minDistance>
             <family>FreeSerif</family>
-            <text><b><font size="13"></font><font face="Times New Roman"></font>Allegro moderato e marcato <sym>unicodeNoteQuarterUp</sym> = 116</b></text>
+            <offset x="5.01706" y="-3.22608"/>
+            <text><b><font size="13"/><font face="Times New Roman"/>Allegro moderato e marcato</b></text>
             </StaffText>
           <BarLine>
             <subtype>double</subtype>
@@ -336,6 +346,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>1.9333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 116</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
@@ -6976,14 +6992,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I{</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I{</name>
+            </Harmony>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>70</velocity>
@@ -7903,14 +7919,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/V{</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/V{</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -8095,14 +8111,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/V</name>
+            </Harmony>
           <Spanner type="Pedal">
             <prev>
               <location>
