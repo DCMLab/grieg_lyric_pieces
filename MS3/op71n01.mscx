@@ -2467,6 +2467,12 @@ tranquillo</i></text>
             <family>FreeSerif</family>
             <text><font size="11"></font><font face="Times New Roman"></font><b>Allegro brioso</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>4</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><sym>metNoteHalfUp</sym><sym>space</sym><sym>metAugmentationDot</sym> = 80</text>
+            </Tempo>
           <Spanner type="Volta">
             <prev>
               <location>
