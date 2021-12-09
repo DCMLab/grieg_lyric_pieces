@@ -5929,10 +5929,6 @@
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio-VII6</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -5978,6 +5974,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio-VII6</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -6201,8 +6201,11 @@
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>47</pitch>
-              <tpc>7</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
@@ -6267,8 +6270,11 @@
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>35</pitch>
-              <tpc>7</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
