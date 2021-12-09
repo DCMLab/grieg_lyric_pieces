@@ -8941,10 +8941,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(6)/V</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -8956,6 +8952,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(6)/V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -8967,6 +8967,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I/V|PAC}</name>
+            <minDistance>-1.96803</minDistance>
+            <offset x="-1.07317" y="7.47703"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9027,6 +9029,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV{</name>
+            <minDistance>-2.93439</minDistance>
+            <offset x="-0.536584" y="7.20315"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
