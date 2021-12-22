@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -316,13 +315,13 @@
             <minDistance>0.403865</minDistance>
             <family>FreeSerif</family>
             <offset x="-6.74267" y="-3.85421"/>
-            <text><b><font size="12"/><font face="Times New Roman"/>Lento</b></text>
+            <text><b><font size="12"></font><font face="Times New Roman"></font>Lento</b></text>
             </StaffText>
           <Tempo>
             <tempo>1.1666666666666667</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 70</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 70</b></text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -11270,8 +11269,13 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="6.7863"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -12160,10 +12164,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>|EC</name>
-            </Harmony>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -12447,10 +12447,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>|EC</name>
-            </Harmony>
           <Rest>
             <durationType>half</durationType>
             </Rest>
