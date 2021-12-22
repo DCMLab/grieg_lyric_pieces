@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -3721,8 +3720,13 @@ tranquillo</i></text>
             <Ottava>
               <subtype>8va</subtype>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-3.85583"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="-3"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Ottava>
@@ -11410,7 +11414,7 @@ tranquillo</i></text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]}</name>
+            <name>V]|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -11443,10 +11447,6 @@ tranquillo</i></text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>|HC</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
