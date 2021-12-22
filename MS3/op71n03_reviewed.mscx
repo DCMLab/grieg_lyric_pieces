@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -8490,7 +8489,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(b5)</name>
+            <name>I</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -8570,7 +8569,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V}</name>
+            <name>i.V|HC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
@@ -8854,11 +8853,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>|HC</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
