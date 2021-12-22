@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -246,7 +245,7 @@
       <trackName>Piano</trackName>
       <Instrument id="piano">
         <longName>
-          <font face="Times New Roman"/>
+          <font face="Times New Roman"></font>
           </longName>
         <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
@@ -20348,8 +20347,13 @@
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
               <Segment>
-                <subtype>0</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="6.4504"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="4"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </Pedal>
@@ -32249,8 +32253,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bIII/V.V(64)-I64</name>
-            <color r="0" g="85" b="0" a="255"/>
             <minDistance>0.177491</minDistance>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.107503" y="8.61687"/>
             </Harmony>
           <Spanner type="Pedal">
