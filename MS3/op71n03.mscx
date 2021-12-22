@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -316,13 +315,13 @@
             <minDistance>-0.0381823</minDistance>
             <family>FreeSerif</family>
             <offset x="-5.83099" y="-3.60561"/>
-            <text><b><font size="13"/><font face="Times New Roman"/>Allegro molto</b></text>
+            <text><b><font size="13"></font><font face="Times New Roman"></font>Allegro molto</b></text>
             </StaffText>
           <Tempo>
             <tempo>5.8666666666666663</tempo>
             <followText>1</followText>
             <offset x="14.5951" y="-1.82003"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 176</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 176</b></text>
             </Tempo>
           <Rest>
             <durationType>whole</durationType>
@@ -8214,7 +8213,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(b5)</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
