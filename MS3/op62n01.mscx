@@ -7671,6 +7671,7 @@
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -7755,6 +7756,7 @@
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -7765,8 +7767,9 @@
           </LayoutBreak>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
-            <text><i><font size="9"></font><font face="Times New Roman"></font>più cresc.</i></text>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>più cresc.</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -7802,9 +7805,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -7812,23 +7812,22 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o4 x="11.6305" y="-1.74837"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>1/4</fractions>
+                  <fractions>-5/8</fractions>
                   </location>
                 </next>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         <voice>
           <Chord>
@@ -7869,12 +7868,9 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Rest>
             <visible>0</visible>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -7883,6 +7879,14 @@
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <bracket>1</bracket>
@@ -7937,14 +7941,6 @@
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -13529,10 +13525,16 @@
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <endText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</endText>
               <lineVisible>0</lineVisible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.21626" y="4.85203"/>
+                <off2 x="-0.475303" y="0"/>
+                <minDistance>0</minDistance>
+                </Segment>
               </Pedal>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -13567,13 +13569,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -13585,6 +13580,13 @@
             <harmonyType>1</harmonyType>
             <name>V43/bV-Ger6/iv</name>
             </Harmony>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Pedal">
             <Pedal>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
