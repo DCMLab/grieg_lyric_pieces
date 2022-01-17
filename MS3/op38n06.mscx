@@ -3,6 +3,7 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
+    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -315,15 +316,15 @@
             <velocity>96</velocity>
             <offset x="0.400585" y="3.86743"/>
             </Dynamic>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Tempo>
             <tempo>1.3333299999999999</tempo>
             <followText>1</followText>
             <offset x="15.2032" y="-5.46299"/>
             <text><sym>metNoteQuarterUp</sym> = 80</text>
             </Tempo>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -7930,7 +7931,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7}</name>
+            <name>V7|HC}</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
