@@ -72,5 +72,5 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op71n03  |      79|    72|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op71n04  |      77|    87|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op71n05  |      98|   155|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
-|op71n06  |      32|   131|2.1.1   |Adrian Nagel                             |Adrian Nagel|
+|op71n06  |      32|   133|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op71n07  |      74|    74|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
