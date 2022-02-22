@@ -61,7 +61,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op65n04  |      71|   112|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op65n05  |      48|   128|2.1.1   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op65n06  |     179|   222|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
-|op68n01  |      56|   158|2.1.1   |Adrian Nagel                             |Adrian Nagel|
+|op68n01  |      56|   156|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op68n02  |      88|   172|2.1.1   |Adrian Nagel                             |Adrian Nagel|
 |op68n03  |     114|   134|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op68n04  |      90|    85|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
