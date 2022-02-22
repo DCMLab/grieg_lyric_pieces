@@ -44,7 +44,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op54n05  |     204|   118|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op54n06  |      90|   171|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op57n01  |     146|   313|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
-|op57n02  |     125|   214|2.1.1   |Adrian Nagel                             |Adrian Nagel|
+|op57n02  |     125|   183|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op57n03  |      67|   186|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op57n04  |      92|   116|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op57n05  |     169|   230|2.1.1   |Adrian Nagel                             |Adrian Nagel|
