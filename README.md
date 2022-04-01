@@ -37,7 +37,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op47n05  |      41|   109|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op47n06  |      74|    83|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op47n07  |      97|   134|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
-|op54n01  |      61|   110|2.1.1   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
+|op54n01  |      61|   110|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op54n02  |     159|   286|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op54n03  |     194|   267|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op54n04  |      63|    91|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
@@ -59,7 +59,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op65n02  |      26|   128|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op65n03  |      58|    87|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op65n04  |      71|   112|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
-|op65n05  |      48|   128|2.1.1   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
+|op65n05  |      48|   128|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op65n06  |     179|   222|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op68n01  |      56|   156|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 |op68n02  |      88|   186|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
