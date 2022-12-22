@@ -1,105 +1,180 @@
-The basis for all corrections was the complete edition vol. 1 by Dag Schjelderup-Ebbe (*Samlede verker, Band 1: Lyriske stykker, Frankfurt: C.F. Peters, 1977. Plate 31071.*) https://imslp.org/wiki/Samlede_verker_(Grieg,_Edvard)
+<!-- TOC -->
+* [Edvard Grieg - Lyric Pieces](#edvard-grieg---lyric-pieces)
+  * [Getting the data](#getting-the-data)
+    * [With full version history](#with-full-version-history)
+    * [Without full version history](#without-full-version-history)
+  * [Data Formats](#data-formats)
+    * [Opening Scores](#opening-scores)
+    * [Opening TSV files in a spreadsheet](#opening-tsv-files-in-a-spreadsheet)
+    * [Loading TSV files in Python](#loading-tsv-files-in-python)
+  * [How to read `metadata.tsv`](#how-to-read-metadatatsv)
+    * [File information](#file-information)
+    * [Composition information](#composition-information)
+    * [Score information](#score-information)
+    * [Identifiers](#identifiers)
+  * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
+  * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
+  * [License](#license)
+  * [Naming convention](#naming-convention)
+* [Overview](#overview)
+<!-- TOC -->
 
-| Letter | Origin |
-|--------|--------|
-| A | https://musicalion.com |
-| B  | http://kern.humdrum.org  |
-| C  | Transcribed by Tom Schreyer  |
-| D | https://musescore.com/sheetmusic |
-| E | scanned PDF with PhotoScore 8 and corrected manually |
-
-**A**: Downloaded with our lab account. Don't distribute.\
-Most of the files have been engraved in Capella 7 or 8 and exported to XML by the original transcriber. The XML files, when opened in MuseScore showed the following mistakes which had to be corrected manually:
-* missing arpeggios (not corrected)
-* missing 8va-lines (partially corrected)
-* missing trills
-* missing voltas
-* missing fermatas on bar lines (not corrected)
-* too little spacing ( Style -> General -> Page -> Min. system distance --> set to aroung 8sp)
-
-**B**: Original krn-files from http://kern.humdrum.org/search?s=t&keyword=lyric%20p and converted with hum2xml\
-files conversion to mscx via the command
-"mscore" -o mscx/op12-1.mscx op12-1.mscz 
+# Edvard Grieg - Lyric Pieces
 
 
-| File | Origin | Comment |
-|------|--------|---------|
-| op12n01.mscx | A | CAP-file, MSCZ available|
-| op12n02.mscx | A | CAP-file|
-| op12n03.mscx | A | |
-| op12n04.mscx | D | |
-| op12n05 | E | scanned from http://hz.imslp.info/files/imglnks/usimg/f/fe/IMSLP203702-WIMA.c9a6-volksweise.pdf |
-| op12n06.mscx | A | CAP-file|
-| op12n07.mscx | A | |
-| op12n08.mscx | A | |
-| | | |
-| op38n01.mscx | A | |
-| op38n02.mscx | A | |
-| op38n03.mscx | A | fermatas missing in score |
-| op38n04.mscx | A | |
-| op38n05.mscx | A | opted for CAP "fruhlingstanz" rather than XML "springtanz"|
-| op38n06.mscx | A | |
-| op38n07.mscx | A | |
-| op38n08.mscx | C | |
-|   |   |   |
-| op43n01.mscx | B | |
-| op43n02.mscx | B | |
-| op43n03.mscx | B | |
-| op43n04.mscx | B | |
-| op43n05.mscx | B | |
-| op43n06.mscx | B | |
-| | | |
-| op47n01.mscx | A | Capella 8 produced corrupted XML file --> opened with Finale and exported to XML again, then corrected manually |
-| op47n02.mscx | D | preferred over A version |
-| op47n03.mscx | C | |
-| op47n04.mscx | A | CAP|
-| op47n05.mscx | A | |
-| op47n06.mscx | A | |
-| op47n07.mscx | A | preferred over D version although pedal marks are missing |
-| | | |
-| op54n01.mscx | A | |
-| op54n02.mscx | A | |
-| op54n03.mscx | D | preferred over A version |
-| op54n04.mscx | A | CAP, Arpeggios not going over both staves |
-| op54n05.mscx | A | |
-| op54n06.mscx  | A | |
-| | | |
-| op57n01.mscx | A | |
-| op57n02.mscx | A | |
-| op57n03.mscx | A | |
-| op57n04.mscx | A | |
-| op57n05.mscx | A | |
-| op57n06.mscx | A | |
-| | | |
-| op62n01.mscx | A | |
-| op62n02.mscx | A | |
-| op62n03.mscx | A | CAP|
-| op62n04.mscx | A | |
-| op62n05.mscx | A | Arpeggios missing |
-| op62n06.mscx | A | |
-| | | |
-| op65n01.mscx | D | |
-| op65n02.mscx | C | |
-| op65n03.mscx | C | |
-| op65n04.mscx | A | |
-| op65n05.mscx | C | |
-| op65n06.mscx | D | preferred over both A versions (1 CAP, 1 XML)|
-| | | |
-| op68n01.mscx | A | MSCZ available |
-| op68n02.mscx | A | |
-| op68n03.mscx | A | |
-| op68n04.mscx | A | |
-| op68n05.mscx | A | |
-| op68n06.mscx | A | |
-| | | |
-| op71n01.mscx | A | |
-| op71n02.mscx | A | |
-| op71n03.mscx | A | |
-| op71n04.mscx | A | |
-| op71n05.mscx | A | |
-| op71n06.mscx | A | |
-| op71n07.mscx | A | |
+This corpus has been created within the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards).
 
+It is part of a larger dataset that has been submitted for publication as 
+`Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). 
+An Annotated Corpus of Tonal Piano Music from the Long 19th Century`.
+
+## Getting the data
+
+### With full version history
+
+The dataset is version-controlled via [git](https://git-scm.com/). In order to download the files with all
+revisions they have gone through, git needs to be installed on your machine. Then you can clone this 
+repository using the command
+
+```bash
+git clone https://github.com/DCMLab/debussy_suite_bergamasque.git
+```
+
+### Without full version history
+
+If you are only interested in the current version of the corpus, you can simply download and unpack
+[this ZIP file](https://github.com/DCMLab/debussy_suite_bergamasque/archive/refs/heads/main.zip).
+
+
+## Data Formats
+
+Every sonata movement is represented by four files with identical names, each in its own folder. For example, 
+the first movement has the following files:
+
+* `MS3/op08n01.mscx`: Uncompressed MuseScore file including the music and annotation labels.
+* `notes/op08n01.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/op08n01.tsv`: A table with relevant information about the measures in the score.
+* `harmonies/op08n01.tsv`: A list of the included harmony labels (including cadences and phrases) with their positions in
+  the score.
+
+### Opening Scores
+
+After navigating to your local copy, you can open the scores in the folder `MS3` with the free and open source score
+editor [MuseScore](https://musescore.org). Please note that the scores have been edited, annotated and tested with
+[MuseScore 3.6.2](https://github.com/musescore/MuseScore/releases/tag/v3.6.2). 
+MuseScore 4 has since been released and preliminary tests suggest that it renders them correctly.
+
+### Opening TSV files in a spreadsheet
+
+Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
+editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
+favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
+dates. This can be circumvented by using `Data --> From Text/CSV` or the free alternative
+[LibreOffice Calc](https://www.libreoffice.org/download/download/). Other than that, TSV data can be loaded with
+every modern programming language.
+
+### Loading TSV files in Python
+
+Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
+to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
+`pip install -U ms3` (requires Python 3.10) you'll be able to load any TSV like this:
+
+```python
+import ms3
+
+labels = ms3.load_tsv('harmonies/op08n01.tsv')
+notes = ms3.load_tsv('notes/op08n01.tsv')
+```
+
+## How to read `metadata.tsv`
+
+This section explains the meaning of the columns contained in `metadata.tsv`.
+
+### File information
+
+| column                 | content                                                    |
+|------------------------|------------------------------------------------------------|
+| **fname**              | name without extension (for referencing related files)     |
+| **rel_path**           | relative file path of the score, including extension       |
+| **subdirectory**       | folder where the score is located                          |    
+| **last_mn**            | last measure number                                        |
+| **last_mn_unfolded**   | number of measures when playing all repeats                |
+| **length_qb**          | length of the piece, measured in quarter notes             |
+| **length_qb_unfolded** | length of the piece when playing all repeats               |
+| **volta_mcs**          | measure counts of first and second endings                 |
+| **all_notes_qb**       | summed up duration of all notes, measured in quarter notes |
+| **n_onsets**           | number of note onsets                                      |
+| **n_onset_positions**  | number of unique not onsets ("slices")                     |
+
+
+### Composition information
+
+| column             | content                   |
+|--------------------|---------------------------|
+| **composer**       | composer name             |
+| **workTitle**      | work title                |
+| **composed_start** | earliest composition date |
+| **composed_end**   | latest composition date   |
+| **workNumber**     | Catalogue number(s)       |
+| **movementNumber** | 1, 2, or 3                |
+| **movementTitle**  | title of the movement     |
+
+### Score information
+
+| column          | content                                                |
+|-----------------|--------------------------------------------------------|
+| **label_count** | number of chord labels                                 |
+| **KeySig**      | key signature(s) (negative = flats, positive = sharps) |
+| **TimeSig**     | time signature(s)                                      |
+| **musescore**   | MuseScore version                                      |
+| **source**      | URL to the first typesetter's file                     |
+| **typesetter**  | first typesetter                                       |
+| **annotators**  | creator(s) of the chord labels                         |
+| **reviewers**   | reviewer(s) of the chord labels                        |
+
+### Identifiers
+
+These columns provide a mapping between multiple identifiers for the sonatas (not for individual movements).
+
+| column          | content                                                                                                 |
+|-----------------|---------------------------------------------------------------------------------------------------------|
+| **wikidata**    | URL of the [WikiData](https://www.wikidata.org/) item                                                   |
+| **viaf**        | URL of the Virtual International Authority File ([VIAF](http://viaf.org/)) entry                        |
+| **musicbrainz** | [MusicBrainz](https://musicbrainz.org/) identifier                                                      |
+| **imslp**       | URL to the wiki page within the International Music Score Library Project ([IMSLP](https://imslp.org/)) |
+
+
+## Generating all TSV files from the scores
+
+When you have made changes to the scores and want to update the TSV files accordingly, you can use the following
+command (provided you have pip-installed [ms3](https://github.com/johentsch/ms3)):
+
+```python
+ms3 extract -M -N -X -D # for measures, notes, expanded annotations, and metadata
+```
+
+If, in addition, you want to generate the reviewed scores with out-of-label notes colored in red, you can do
+
+```python
+ms3 review -M -N -X -D # for extracting measures, notes, expanded annotations, and metadata
+```
+
+By adding the flag `-c` to the review command, it will additionally compare the (potentially modified) annotations in the score
+with the ones currently present in the harmonies TSV files and reflect the comparison in the reviewed scores.
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
+
+## License
+
+ Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+
+## Naming convention
+
+The file names listed in the [Overview](#overview) below refer to the 
+[opus numbers](https://en.wikipedia.org/wiki/List_of_compositions_by_Edvard_Grieg) of the 10 books.
 
 # Overview
 |file_name|measures|labels|standard|               annotators                | reviewers  |
