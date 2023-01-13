@@ -155,16 +155,19 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.30)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1901</metaTag>
-    <metaTag name="composed_start">1867</metaTag>
-    <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
+    <metaTag name="composed_end">1867</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1864</metaTag>
+    <metaTag name="composer">Edvard Grieg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-10-11</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Lyric_Pieces,_Op.12_(Grieg,_Edvard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">1</metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Arietta</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/b6115546-141a-3366-9e3c-77c1459d21f8</metaTag>
     <metaTag name="originalFormat">mxl</metaTag>
     <metaTag name="pdf">https://imslp.eu/files/imglnks/euimg/8/8e/IMSLP186423-PMLP01776-Grieg,_Edvard-Samlede_Verker_Peters_Band_1_01_Op_12_scan.pdf#page=1</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
@@ -173,8 +176,9 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q2304758</metaTag>
     <metaTag name="workNumber">Op. 12</metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="workTitle">Lyric Pieces</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -237,15 +241,16 @@
         <height>11.951</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>1. Arietta</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <size>12</size>
-          <text><font size="12"></font>Edvard Grieg</text>
+          <text>Edvard Grieg</text>
           </Text>
         <Text>
           <style>Title</style>
-          <size>24</size>
-          <offset x="-0.15119" y="1.96429"/>
-          <text><font size="27"></font>Arietta</text>
+          <text>Lyric Pieces, Op. 12</text>
           </Text>
         </VBox>
       <Measure>
@@ -273,7 +278,7 @@
             <visible>0</visible>
             <minDistance>-5.54827</minDistance>
             <offset x="0.102513" y="-5.18108"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Beam>
             <StemDirection>up</StemDirection>

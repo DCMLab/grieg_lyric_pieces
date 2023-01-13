@@ -211,16 +211,19 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1901</metaTag>
-    <metaTag name="composed_start">1867</metaTag>
-    <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
+    <metaTag name="composed_end">1896</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1896</metaTag>
+    <metaTag name="composer">Edvard Grieg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-12-04</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Lyric_Pieces,_Op.65_(Grieg,_Edvard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">3</metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Tungsinn</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/7be0884b-a11f-3d34-bcc7-ebcbe3f1e166</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="pdf">https://imslp.eu/files/imglnks/euimg/4/46/IMSLP211952-PMLP01783-Grieg,_Edvard-Samlede_Verker_Peters_Band_1_08_Op_65_scan.pdf#page=11</metaTag>
     <metaTag name="platform">Linux</metaTag>
@@ -229,8 +232,9 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q2304758</metaTag>
     <metaTag name="workNumber">Op. 65</metaTag>
-    <metaTag name="workTitle">3. Tungsinn</metaTag>
+    <metaTag name="workTitle">Lyric Pieces</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -300,18 +304,16 @@
         <height>10.3</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>3. Tungsinn</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <offset x="0.127879" y="-8.31215"/>
-          <text><font size="11.0064"></font><font face="Plantin MT Std"></font>Grieg Op.:65-3</text>
+          <text>Edvard Grieg</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="-0.383638" y="-6.05972"/>
-          <text><font size="22.0128"></font><font face="Plantin MT Std"></font>3. Tungsinn</text>
+          <text>Lyric Pieces, Op. 65</text>
           </Text>
         </VBox>
       <Measure>
@@ -336,7 +338,7 @@
             <visible>0</visible>
             <minDistance>-8.92599</minDistance>
             <offset x="1.06422" y="-2.37228"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 50</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 50</b></text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>

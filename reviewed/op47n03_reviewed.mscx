@@ -211,16 +211,19 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1901</metaTag>
-    <metaTag name="composed_start">1867</metaTag>
-    <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
+    <metaTag name="composed_end">1888</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1886</metaTag>
+    <metaTag name="composer">Edvard Grieg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-12-04</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Lyric_Pieces,_Op.47_(Grieg,_Edvard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">3</metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Melodi</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/ad51aa9e-28c1-3ab6-8c99-b67b7546ea42</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="pdf">https://imslp.eu/files/imglnks/euimg/4/42/IMSLP211192-PMLP01779-Grieg,_Edvard-Samlede_Verker_Peters_Band_1_04_Op_47_scan.pdf#page=9</metaTag>
     <metaTag name="platform">Linux</metaTag>
@@ -229,8 +232,9 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q2304758</metaTag>
     <metaTag name="workNumber">Op. 47</metaTag>
-    <metaTag name="workTitle">Melodi</metaTag>
+    <metaTag name="workTitle">Lyric Pieces</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -299,18 +303,16 @@
         <height>8.2</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>3. Melodi</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <offset x="-0.850012" y="-1.12515"/>
-          <text><font size="10.3775"></font><font face="Plantin MT Std"></font>Grieg Op.: 47-3</text>
+          <text>Edvard Grieg</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="0" y="1.84264"/>
-          <text><font size="20.7549"></font><font face="Plantin MT Std"></font>Melodi</text>
+          <text>Lyric Pieces, Op. 47</text>
           </Text>
         </VBox>
       <Measure>

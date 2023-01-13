@@ -210,16 +210,19 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1901</metaTag>
-    <metaTag name="composed_start">1867</metaTag>
-    <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
+    <metaTag name="composed_end">1878</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1877</metaTag>
+    <metaTag name="composer">Edvard Grieg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-12-04</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Lyric_Pieces,_Op.38_(Grieg,_Edvard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">8</metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Kanon</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/ebdb5419-8851-3cc2-93aa-9dc8b1a8f38f</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="pdf">https://imslp.eu/files/imglnks/euimg/5/56/IMSLP211169-PMLP01777-Grieg,_Edvard-Samlede_Verker_Peters_Band_1_02_Op_38_scan.pdf#page=16</metaTag>
     <metaTag name="platform">Linux</metaTag>
@@ -228,8 +231,9 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q2304758</metaTag>
     <metaTag name="workNumber">Op. 38</metaTag>
-    <metaTag name="workTitle">Kanon</metaTag>
+    <metaTag name="workTitle">Lyric Pieces</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -299,18 +303,16 @@
         <height>7.5</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
+          <style>Subtitle</style>
+          <text>8. Kanon</text>
+          </Text>
+        <Text>
           <style>Composer</style>
-          <family>FreeSerif</family>
-          <size>12</size>
-          <offset x="-1.48517" y="-1.73125"/>
-          <text><font size="9.1196"></font><font face="Plantin MT Std"></font>Grieg Op.: 38-8</text>
+          <text>Edvard Grieg</text>
           </Text>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="-0.0699162" y="-0.049079"/>
-          <text><font size="18.2392"></font><font face="Plantin MT Std"></font>Kanon</text>
+          <text>Lyric Pieces, Op. 38</text>
           </Text>
         </VBox>
       <Measure>
