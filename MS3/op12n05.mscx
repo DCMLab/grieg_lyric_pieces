@@ -210,16 +210,19 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel (2.1.1), John Heilig (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composed_end">1901</metaTag>
-    <metaTag name="composed_start">1867</metaTag>
-    <metaTag name="composer">Edvard H. Grieg (1843-1907)</metaTag>
+    <metaTag name="composed_end">1867</metaTag>
+    <metaTag name="composed_source">OxfordMusicOnline</metaTag>
+    <metaTag name="composed_start">1864</metaTag>
+    <metaTag name="composer">Edvard Grieg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-12-07</metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Lyric_Pieces,_Op.12_(Grieg,_Edvard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">5</metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Folkevise</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/ce4b0bb1-7bd8-3290-b0d8-b69c841d40fc</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="pdf">https://imslp.eu/files/imglnks/euimg/8/8e/IMSLP186423-PMLP01776-Grieg,_Edvard-Samlede_Verker_Peters_Band_1_01_Op_12_scan.pdf#page=8</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
@@ -228,8 +231,9 @@
     <metaTag name="score_integrity">Tom Schreyer</metaTag>
     <metaTag name="source">Scanned sheet music</metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q2304758</metaTag>
     <metaTag name="workNumber">Op. 12</metaTag>
-    <metaTag name="workTitle">Volksweise</metaTag>
+    <metaTag name="workTitle">Lyric Pieces</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -340,13 +344,15 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <offset x="2.4297" y="-2.99062"/>
-          <text>Volksweise</text>
+          <text>Lyric Pieces, Op. 12</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>5. Folkevise</text>
           </Text>
         <Text>
           <style>Composer</style>
-          <offset x="-0.769014" y="0.626982"/>
-          <text>Grieg (1843-1907)</text>
+          <text>Edvard Grieg</text>
           </Text>
         </VBox>
       <Measure len="1/4">
