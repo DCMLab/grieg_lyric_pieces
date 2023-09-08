@@ -1,0 +1,189 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.grieg_lyric_pieces.op65n06
+	propagate_pedal() failed with
+	3 organ points started, 5 ended:
+	     mc pedal   mc pedalend
+	0    57     I   39        ]
+	1    91     I   63        ]
+	2   163     V   95        ]
+	3  <NA>   NaN  145        ]
+	4  <NA>   NaN  173        ]
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.grieg_lyric_pieces.op65n06
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             6a         }
+	            6a         {            10a         }
+	           10a         {            16a         }
+	           21a         {            20a         }
+	           26a         {            26a         }
+	           31a         {            31a         }
+	           48a         {            48a         }
+	           52a         {            52a         }
+	           57a         {            56a         }
+	           67a         {            66a         }
+	           75a         {            74a         }
+	           83a         {            82a         }
+	           91a         {            89a         }
+	           99a         {            98a         }
+	           75b         {           106a         }
+	           83b         {            82b         }
+	           91b         {            89b         }
+	           99b         {            98b         }
+	          107a         {           106b         }
+	          112a         {           112a         }
+	          116a         {           116a         }
+	          122a         {           122a         }
+	          127a         {           126a         }
+	          132a         {           132a         }
+	          137a         {           137a         }
+	          154a         {           154a         }
+	          163a         {           158a         }
+	           NaN       NaN           162a         }
+	           NaN       NaN           179a         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.grieg_lyric_pieces.op65n06
+	propagate_pedal() failed with
+	3 organ points started, 5 ended:
+	     mc pedal   mc pedalend
+	0    57     I   39        ]
+	1    91     I   63        ]
+	2   163     V   95        ]
+	3  <NA>   NaN  145        ]
+	4  <NA>   NaN  173        ]
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 24, '0', 'V+6') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V+6' in m. 24, onset 0 (MC 24, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.V, it expresses the scale degrees
+	('7', '#2', '5') [('G#', 'B#', 'E')].
+	The corresponding score segment has 7 within-label and 11 out-of-label note onsets,
+	a ratio of 0.6111111111111112 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 79, '0', 'V43/ii') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V43/ii' in m. 79, onset 0 (MC 79, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.III, it expresses the scale degrees
+	('3', '5', '6', '#1') [('A#', 'C#', 'D#', 'F##')].
+	The corresponding score segment has 1 within-label and 5 out-of-label note onsets,
+	a ratio of 0.8333333333333334 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 80, '0', 'V/V') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V/V' in m. 80, onset 0 (MC 80, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.III, it expresses the scale degrees
+	('2', '#4', '6') [('G#', 'B#', 'D#')].
+	The corresponding score segment has 1 within-label and 4 out-of-label note onsets,
+	a ratio of 0.8 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 81, '0', 'V7(13)') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V7(13)' in m. 81, onset 0 (MC 81, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.III, it expresses the scale degrees
+	('5', '7', '2', '4') [('C#', 'E#', 'G#', 'B')] plus the added ('3',) [('A#',)].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 82, '1/8', 'I|PAC') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'I|PAC' in m. 82, onset 1/8 (MC 82, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.III, it expresses the scale degrees
+	('1', '3', '5') [('F#', 'A#', 'C#')].
+	The corresponding score segment has 0 within-label and 1 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 87, '0', 'V43/ii') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V43/ii' in m. 87, onset 0 (MC 87, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('3', '5', '6', '#1') [('F#', 'A', 'B', 'D#')].
+	The corresponding score segment has 2 within-label and 4 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 96, '0', 'vi7') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'vi7' in m. 96, onset 0 (MC 96, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('6', '1', '3', '5') [('B', 'D', 'F#', 'A')].
+	The corresponding score segment has 2 within-label and 5 out-of-label note onsets,
+	a ratio of 0.7142857142857143 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 97, '0', 'V7(13)/V') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V7(13)/V' in m. 97, onset 0 (MC 97, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('2', '#4', '6', '1') [('E', 'G#', 'B', 'D')] plus the added ('7',) [('C#',)].
+	The corresponding score segment has 2 within-label and 6 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 98, '0', 'V|HC}') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V|HC}' in m. 98, onset 0 (MC 98, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('5', '7', '2') [('A', 'C#', 'E')].
+	The corresponding score segment has 3 within-label and 5 out-of-label note onsets,
+	a ratio of 0.625 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 100, '3/8', 'IVM7') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'IVM7' in m. 100, onset 3/8 (MC 100, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('4', '6', '1', '3') [('G', 'B', 'D', 'F#')].
+	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 101, '0', 'iii7') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'iii7' in m. 101, onset 0 (MC 101, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('3', '5', '7', '2') [('F#', 'A', 'C#', 'E')].
+	The corresponding score segment has 3 within-label and 6 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 102, '0', 'iii65') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'iii65' in m. 102, onset 0 (MC 102, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('5', '7', '2', '3') [('A', 'C#', 'E', 'F#')].
+	The corresponding score segment has 3 within-label and 5 out-of-label note onsets,
+	a ratio of 0.625 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 102, '3/8', 'iii7') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'iii7' in m. 102, onset 3/8 (MC 102, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('3', '5', '7', '2') [('F#', 'A', 'C#', 'E')].
+	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 104, '0', 'ii7(6)') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'ii7(6)' in m. 104, onset 0 (MC 104, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('2', '4', '7', '1') [('E', 'G', 'C#', 'D')].
+	The corresponding score segment has 1 within-label and 7 out-of-label note onsets,
+	a ratio of 0.875 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 105, '0', 'V7(13)') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V7(13)' in m. 105, onset 0 (MC 105, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('5', '7', '2', '4') [('A', 'C#', 'E', 'G')] plus the added ('3',) [('F#',)].
+	The corresponding score segment has 2 within-label and 6 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 106, '1/8', 'I|PAC') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'I|PAC' in m. 106, onset 1/8 (MC 106, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.I, it expresses the scale degrees
+	('1', '3', '5') [('D', 'F#', 'A')].
+	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 130, '0', 'V+6') ms3.Parse.grieg_lyric_pieces.op65n06
+	The label 'V+6' in m. 130, onset 0 (MC 130, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of D.V, it expresses the scale degrees
+	('7', '#2', '5') [('G#', 'B#', 'E')].
+	The corresponding score segment has 7 within-label and 11 out-of-label note onsets,
+	a ratio of 0.6111111111111112 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
