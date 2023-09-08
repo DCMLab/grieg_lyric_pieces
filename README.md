@@ -190,7 +190,7 @@ Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0
 The file names listed in the [Overview](#overview) below refer to the 
 [opus numbers](https://en.wikipedia.org/wiki/List_of_compositions_by_Edvard_Grieg) of the 10 books.
 
-# Overview
+## Overview
 |file_name|measures|labels|standard|               annotators                | reviewers  |
 |---------|-------:|-----:|--------|-----------------------------------------|------------|
 |op12n01  |      23|    43|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.30) |Adrian Nagel|
@@ -261,4 +261,4 @@ The file names listed in the [Overview](#overview) below refer to the
 |op71n07  |      74|    74|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)|Adrian Nagel|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
