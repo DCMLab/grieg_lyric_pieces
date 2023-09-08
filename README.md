@@ -6,10 +6,10 @@
 This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
 and serves as welcome page for both 
 
-* the GitHub repo [https://github.com/DCMLab/beethoven_piano_sonatas](https://github.com/DCMLab/beethoven_piano_sonatas) and the corresponding
-* documentation page [https://dcmlab.github.io/beethoven_piano_sonatas](https://dcmlab.github.io/beethoven_piano_sonatas)
+* the GitHub repo [https://github.com/DCMLab/grieg_lyric_pieces](https://github.com/DCMLab/grieg_lyric_pieces) and the corresponding
+* documentation page [https://dcmlab.github.io/grieg_lyric_pieces](https://dcmlab.github.io/grieg_lyric_pieces)
 
-For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/beethoven_piano_sonatas/introduction).
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/grieg_lyric_pieces/introduction).
 
 <!-- TOC -->
 * [Edvard Grieg - Lyric Pieces (A corpus of annotated scores)](#edvard-grieg---lyric-pieces-a-corpus-of-annotated-scores)
@@ -44,7 +44,7 @@ which comes with a data report that is currently in press at Empirical Musicolog
 
 ## Version history
 
-See the [GitHub releases](https://github.com/DCMLab/beethoven_piano_sonatas/releases).
+See the [GitHub releases](https://github.com/DCMLab/grieg_lyric_pieces/releases).
 
 ## Getting the data
 
