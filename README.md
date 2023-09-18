@@ -69,10 +69,10 @@ If you are only interested in the current version of the corpus, you can simply 
 Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, 
 the first movement has the following files:
 
-* `MS3/op08n01.mscx`: Uncompressed MuseScore file including the music and annotation labels.
-* `notes/op08n01.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
-* `measures/op08n01.tsv`: A table with relevant information about the measures in the score.
-* `harmonies/op08n01.tsv`: A list of the included harmony labels (including cadences and phrases) with their positions in
+* `MS3/op12n01.mscx`: Uncompressed MuseScore file including the music and annotation labels.
+* `notes/op12n01.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/op12n01.tsv`: A table with relevant information about the measures in the score.
+* `harmonies/op12n01.tsv`: A list of the included harmony labels (including cadences and phrases) with their positions in
   the score.
 
 ### Opening Scores
@@ -100,8 +100,8 @@ to use this code to load any TSV files related to this repository (provided you'
 ```python
 import ms3
 
-labels = ms3.load_tsv('harmonies/op08n01.tsv')
-notes = ms3.load_tsv('notes/op08n01.tsv')
+labels = ms3.load_tsv('harmonies/op12n01.tsv')
+notes = ms3.load_tsv('notes/op12n01.tsv')
 ```
 
 ## How to read `metadata.tsv`
