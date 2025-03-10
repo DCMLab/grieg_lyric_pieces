@@ -170,6 +170,14 @@
         "type": "string"
       },
       {
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
+        "type": "string"
+      },
+      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -178,19 +186,11 @@
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
         "type": "string"
-      },
-      {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
-        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "GC0qV5cngD1n4g",
-    "filepath": "chords/GC0qV5cngD1n4g.schema.yaml",
+    "identifier": "RKJYUwcMGjvIkg",
+    "filepath": "chords/RKJYUwcMGjvIkg.schema.yaml",
     "used_in": "op38n03"
   },
   "creator": {
@@ -205,6 +205,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "dcd90cfc569ed55e003807db4bdb6e50dca3a021",
-  "git_tag": "v2.1"
+  "git_revision": "350f49d7ed4cbef7b1decc1eecd3e4abbb359da1",
+  "git_tag": "v2.1-26-g350f49d"
 }

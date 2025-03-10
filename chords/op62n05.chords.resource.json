@@ -150,7 +150,11 @@
         "type": "string"
       },
       {
-        "name": "Trill:trill",
+        "name": "decrescendo_hairpin",
+        "type": "string"
+      },
+      {
+        "name": "crescendo_hairpin",
         "type": "string"
       },
       {
@@ -164,17 +168,13 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
-        "type": "string"
-      },
-      {
-        "name": "crescendo_hairpin",
+        "name": "Trill:trill",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "9TLzISL5dFRRKA",
-    "filepath": "chords/9TLzISL5dFRRKA.schema.yaml",
+    "identifier": "_zrvXuLZiN5pgw",
+    "filepath": "chords/_zrvXuLZiN5pgw.schema.yaml",
     "used_in": "op62n05"
   },
   "creator": {
@@ -189,6 +189,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "dcd90cfc569ed55e003807db4bdb6e50dca3a021",
-  "git_tag": "v2.1"
+  "git_revision": "350f49d7ed4cbef7b1decc1eecd3e4abbb359da1",
+  "git_tag": "v2.1-26-g350f49d"
 }

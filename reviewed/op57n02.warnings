@@ -3,10 +3,6 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.grieg_lyric_pieces.op57n02
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 64: ') ms3.Parse.grieg_lyric_pieces.op57n02
-	MC 64: #vii in major context corrected to vii.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 15: ') ms3.Parse.grieg_lyric_pieces.op57n02
-	MC 15: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 60: ') ms3.Parse.grieg_lyric_pieces.op57n02
 	MC 60: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 11: ') ms3.Parse.grieg_lyric_pieces.op57n02
@@ -19,6 +15,10 @@ DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 60: ') ms3.Parse.grieg_lyric_pieces.op5
 	MC 60: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 11: ') ms3.Parse.grieg_lyric_pieces.op57n02
 	MC 11: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 64: ') ms3.Parse.grieg_lyric_pieces.op57n02
+	MC 64: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 15: ') ms3.Parse.grieg_lyric_pieces.op57n02
+	MC 15: #vii in major context corrected to vii.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 33, '1/2', 'V(b6)') ms3.Parse.grieg_lyric_pieces.op57n02
 	The label 'V(b6)' in m. 33, onset 1/2 (MC 33, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of A.I, it expresses the scale degrees

@@ -150,10 +150,6 @@
         "type": "string"
       },
       {
-        "name": "Ottava:8va",
-        "type": "string"
-      },
-      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
@@ -170,11 +166,15 @@
       {
         "name": "crescendo_hairpin",
         "type": "string"
+      },
+      {
+        "name": "Ottava:8va",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "7xDBbVMqKwRQCw",
-    "filepath": "chords/7xDBbVMqKwRQCw.schema.yaml",
+    "identifier": "C98Uzo7VXAJD8w",
+    "filepath": "chords/C98Uzo7VXAJD8w.schema.yaml",
     "used_in": "op38n04"
   },
   "creator": {
@@ -189,6 +189,6 @@
     },
     "softwareVersion": "2.5.4"
   },
-  "git_revision": "dcd90cfc569ed55e003807db4bdb6e50dca3a021",
-  "git_tag": "v2.1"
+  "git_revision": "350f49d7ed4cbef7b1decc1eecd3e4abbb359da1",
+  "git_tag": "v2.1-26-g350f49d"
 }
