@@ -3,36 +3,3 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.grieg_lyric_pieces.op65n01
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.grieg_lyric_pieces.op65n01
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             8a         }
-	            9a         {            16a         }
-	           17a         {            32a         }
-	           33a         {            40a         }
-	           41a         {            48a         }
-	           50a         {            57a         }
-	           59a         {            64a         }
-	           65a         {            68a         }
-	           69a         {            72a         }
-	           73a         {            76a         }
-	           77a         {            82a         }
-	           83a         {            88a         }
-	           89a         {            94a         }
-	           95a         {           100a         }
-	           65b         {            64b         }
-	           69b         {            68b         }
-	           73b         {            72b         }
-	           77b         {            76b         }
-	           83b         {            82b         }
-	           89b         {            88b         }
-	           95b         {            94b         }
-	          101a         {           100b         }
-	          107a         {           105a         }
-	          115a         {           114a         }
-	          123a         {           122a         }
-	          139a         {           138a         }
-	          147a         {           146a         }
-	          156a         {           154a         }
-	          170a         {           166a         }
-	           NaN       NaN           173a         }

@@ -249,7 +249,7 @@
       <trackName>Piano</trackName>
       <Instrument id="piano">
         <longName>
-          <font face="Times New Roman"/>
+          <font face="Times New Roman"></font>
           </longName>
         <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
@@ -21576,6 +21576,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -22983,7 +22987,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(9)}</name>
+            <name>I[I(9)}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -32204,7 +32208,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(9)}</name>
+            <name>I[I(9)}</name>
             </Harmony>
           <Spanner type="Pedal">
             <prev>
@@ -35295,6 +35299,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
