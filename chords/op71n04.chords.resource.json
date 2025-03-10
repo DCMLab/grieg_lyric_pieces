@@ -31,7 +31,7 @@
       {
         "name": "quarterbeats",
         "type": "string",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -40,7 +40,7 @@
       {
         "name": "quarterbeats_all_endings",
         "type": "string",
-        "title": "Offset from Beginning (Including Endings)",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -170,6 +170,10 @@
         "description": "IDs of active slurs that a chord falls under, as a tuple of integers."
       },
       {
+        "name": "Ottava:8va",
+        "type": "string"
+      },
+      {
         "name": "pedal",
         "type": "string",
         "title": "Pedal Point",
@@ -177,10 +181,6 @@
       },
       {
         "name": "Pedal_<sym>keyboardPedalPed</sym>",
-        "type": "string"
-      },
-      {
-        "name": "Ottava:8va",
         "type": "string"
       },
       {
@@ -193,8 +193,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "BnO3jhp_nFzhPg",
-    "filepath": "chords/BnO3jhp_nFzhPg.schema.yaml",
+    "identifier": "iMKYP7b-9CC2_Q",
+    "filepath": "chords/iMKYP7b-9CC2_Q.schema.yaml",
     "used_in": "op54n05"
   },
   "creator": {
@@ -207,8 +207,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.1"
+    "softwareVersion": "2.5.4"
   },
-  "git_revision": "18f9c9c1877c2a6172dd44ea42acdbee6e3ea85f",
-  "git_tag": "v2.0"
+  "git_revision": "dcd90cfc569ed55e003807db4bdb6e50dca3a021",
+  "git_tag": "v2.1"
 }
