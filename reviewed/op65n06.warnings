@@ -3,12 +3,12 @@ Warnings encountered during the last execution of ms3 review
 
 DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.grieg_lyric_pieces.op65n06
 	propagate_pedal() failed with
-	3 organ points started, 5 ended:
+	4 organ points started, 5 ended:
 	     mc pedal   mc pedalend
 	0    57     I   39        ]
 	1    91     I   63        ]
-	2   163     V   95        ]
-	3  <NA>   NaN  145        ]
+	2   137     I   95        ]
+	3   163     V  145        ]
 	4  <NA>   NaN  173        ]
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.grieg_lyric_pieces.op65n06
 	Phrase beginning and endings don't match:
@@ -44,12 +44,12 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.grieg_lyric_pieces.op65n06
 	           NaN       NaN           179a         }
 DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.grieg_lyric_pieces.op65n06
 	propagate_pedal() failed with
-	3 organ points started, 5 ended:
+	4 organ points started, 5 ended:
 	     mc pedal   mc pedalend
 	0    57     I   39        ]
 	1    91     I   63        ]
-	2   163     V   95        ]
-	3  <NA>   NaN  145        ]
+	2   137     I   95        ]
+	3   163     V  145        ]
 	4  <NA>   NaN  173        ]
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 24, '0', 'V+6') ms3.Parse.grieg_lyric_pieces.op65n06
 	The label 'V+6' in m. 24, onset 0 (MC 24, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
